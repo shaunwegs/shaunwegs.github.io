@@ -566,14 +566,61 @@ var questions = [
 "using -",
 "e", "e", "a" ],
 	[
-"How would you indicate bold text in Markdown?",
+"How would you add emphasis to text in Markdown?",
 "using #",
 "using *",
 "using +",
 "using ~",
 "using -",
 "e", "e", "b" ],
-
+	[
+"How would you indicate an h1 heading in Markdown?",
+"using #",
+"using *",
+"using ##",
+"using **",
+"using ~",
+"e", "e", "a" ],
+	[
+"How would you indicate an h2 heading in Markdown?",
+"using #",
+"using *",
+"using ##",
+"using **",
+"using ~",
+"e", "e", "c" ],
+	[
+"You've designed a program to help people learn to make authentic tacos. You'd like to include the sentence:<br><br> Authentic tacos do NOT come from Tacos Dona Lena.<br><br>However, Dona Lena does have pretty authentic tacos, so you'd like NOT to be struckthrough. How would you do this in markdown?",
+"Authentic tacos do /-NOT-/ come from Taco Bell.",
+"Authentic tacos do *NOT* come from Taco Bell.",
+"Authentic tacos do -NOT- come from Taco Bell.",
+"Authentic tacos do ~~NOT~~ come from Taco Bell.",
+"Authentic tacos do /NOT/ come from Taco Bell.",
+"e", "e", "d" ],
+	[
+"You've designed a program to help people learn to make authentic tacos. You'd like to include the sentence:<br><br> Authentic tacos do NOT come from Taco Bell.<br><br>You'd like the word NOT to be bolded. How would you do this in markdown?",
+"Authentic tacos do **NOT** come from Taco Bell.",
+"Authentic tacos do *NOT* come from Taco Bell.",
+"Authentic tacos do ##NOT## come from Taco Bell.",
+"Authentic tacos do ~NOT~ come from Taco Bell.",
+"Authentic tacos do bNOT/b come from Taco Bell.",
+"e", "e", "a" ],
+	[
+"You've designed a program to help people learn to make authentic lo mein. You'd like to include the sentence:<br><br> Authentic lo mein does NOT come from Panda Express.<br><br>You'd like the word NOT to be italicized. How would you do this in markdown?",
+"Authentic lo mein does **NOT** come from Panda Express.",
+"Authentic lo mein does *NOT* come from Panda Express.",
+"Authentic lo mein does ##NOT## come from Panda Express.",
+"Authentic lo mein does ~NOT~ come from Panda Express.",
+"Authentic lo mein does bNOT/b come from Panda Express.",
+"e", "e", "b" ],
+	[
+"You've designed a program to help people learn to make authentic gelato. You'd like to include the sentence:<br><br> Authentic gelato does NOT come from Fazoli's.<br><br>You'd like the word NOT to be italicized AND bolded. How would you do this in markdown?",
+"Authentic gelato does ***NOT*** come from Fazoli's.",
+"Authentic gelato does ##NOT## come from Fazoli's.",
+"Authentic gelato does #*NOT*# come from Fazoli's.",
+"Authentic gelato does */NOT/* come from Fazoli's.",
+"Authentic gelato does ~#NOT#~ come from Fazoli's.",
+"e", "e", "a" ],
 ];
 
 function now() {
