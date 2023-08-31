@@ -1,2 +1,0 @@
-# shaunwegs.github.io
-stuff
