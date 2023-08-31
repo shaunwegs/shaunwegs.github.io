@@ -630,7 +630,7 @@ var questions = [
 "using -",
 "e", "e", "a" ],
 	[
-"How would you indicate bold text in Markdown?",
+"How would you add emphasis to text in Markdown?",
 "using #",
 "using *",
 "using +",
