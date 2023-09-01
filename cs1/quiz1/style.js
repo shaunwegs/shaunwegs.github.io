@@ -612,7 +612,7 @@ var questions = [
 "competing computer languages to design web pages",
 "old languages created by Microsoft that are no longer in use",
 "the original languages to create iPhone apps; now replaced with Swift",
-"e", "e", "c" ],
+"e", "e", "a" ],
 	[
 "Markdown is",
 "a software tool that outputs to HTML, and used by GitHub",
