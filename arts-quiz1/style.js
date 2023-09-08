@@ -70,6 +70,14 @@ if (userLastName === null) {
 var questions = [
 
 	[
+"Related to cinematography, Wes Anderon's shots are often known for their",
+"symmetry",
+"rule of thirds",
+"frame within a frame",
+"dutch tilt",
+"use of worms-eye-view",
+"d", "d", "a" ],
+	[
 "Wes Anderon's films are well known for their specific...",
 "style",
 "animation",
