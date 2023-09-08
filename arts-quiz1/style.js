@@ -70,6 +70,14 @@ if (userLastName === null) {
 var questions = [
 
 	[
+"Majority of Wes Anderon's films are in what style?",
+"Live Action",
+"3D Animation",
+"Traditional Animation",
+"Stop-motion Animation",
+"Cut-paper Animation",
+"d", "d", "a" ],
+	[
 "Which director attended Westchester High School in the 1980's?",
 "Wes Anderson",
 "Tim Burton",
