@@ -70,6 +70,14 @@ if (userLastName === null) {
 var questions = [
 
 	[
+"Wes Anderon's films are well known for their specific...",
+"style",
+"animation",
+"sound",
+"special effects",
+"extremely high budgets",
+"d", "d", "a" ],
+	[
 "Majority of Wes Anderon's films are in what style?",
 "Live Action",
 "3D Animation",
