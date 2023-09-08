@@ -70,6 +70,14 @@ if (userLastName === null) {
 var questions = [
 
 	[
+"Which director attended Westchester High School in the 1980's?",
+"Wes Anderson",
+"Tim Burton",
+"Sam Raimi",
+"Brian De Palma",
+"Martin Scorsese",
+"d", "d", "a" ],
+	[
 "As per district policy, which of the following is true inside computer labs?",
 "students may have water, in a resealable bottle/container",
 "students may have any clear beverage, in a resealable bottle/container",
