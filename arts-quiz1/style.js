@@ -284,7 +284,7 @@ var questions = [
 "the Atari ST-PAD Stylus by Atari",
 "the PenMaster by Samsung",
 "EO Personal Communicator by AT&T",
-"c", "c", "a" ],
+"d", "d", "a" ],
 	[
 "The computers in our room run what operating system?",
 "macOS",
@@ -292,7 +292,7 @@ var questions = [
 "Chrome OS",
 "Linux",
 "iOS",
-"c", "c", "a" ],
+"b", "b", "a" ],
 	[
 "What Apple program can you create movies with?",
 "iMovie",
@@ -300,7 +300,7 @@ var questions = [
 "After Effects",
 "Movie Maker",
 "DaVinci Resolve",
-"d", "d", "a" ],
+"b", "b", "a" ],
 	[
 "What is Inkscape?",
 "a vector graphics program",
@@ -308,7 +308,7 @@ var questions = [
 "a software that helps monitor ink levels in older printers",
 "an iPad app that simulates drawing with wet ink",
 "a 3D graphics software that simulates a hand drawn appearance",
-"c", "c", "a" ],
+"b", "b", "a" ],
 	[
 "What is Adobe Max?",
 "an annual creativity conference held by Adobe",
@@ -316,7 +316,7 @@ var questions = [
 "a video editor purchased and now developed by Adobe",
 "a web technology that allows interactive media, like games, to run on websites",
 "Power Point",
-"b", "b", "a" ],
+"e", "e", "a" ],
 	[
 "What does Affinity make?",
 "creative software includes vecto and photo-editting software",
@@ -348,7 +348,7 @@ var questions = [
 "an event where participants collage multiple elements from different games together to create multimedia art",
 "an event where participants compete in several different games, with the winner based on the combined score",
 "an event where participants hack together different parts of different games to create a 'frankenstein'ed new game",
-"d", "d", "a" ],
+"e", "e", "a" ],
 	[
 "The third industrial revolution is sometimes called the",
 "digital revolution",
@@ -356,7 +356,7 @@ var questions = [
 "communication revolution",
 "ai revolution",
 "scientific revolution",
-"b", "b", "a" ],
+"d", "d", "a" ],
 	[
 "A concern about the fourth industrial revolution is that it may",
 "increase overall business costs",
@@ -380,7 +380,7 @@ var questions = [
 "third",
 "fourth",
 "fifth",
-"b", "b", "d" ],
+"d", "d", "d" ],
 	[
 "Adobe's first product was",
 "PostScript",
@@ -388,7 +388,7 @@ var questions = [
 "Premiere Pro",
 "Illustrator",
 "Dreamweaver",
-"b", "b", "a" ],
+"d", "d", "a" ],
 	[
 "In contrast to fine arts, the creative industries are about the development and leveraging of unique __________ properties.",
 "intellectual",
@@ -396,7 +396,7 @@ var questions = [
 "mechanical",
 "industrialized",
 "digital",
-"d", "d", "a" ],
+"e", "e", "a" ],
 	[
 "In the 1980's, most printers were what type?",
 "dot matrix",
@@ -404,7 +404,7 @@ var questions = [
 "ink jet",
 "laser",
 "offset",
-"c", "c", "a" ],
+"d", "d", "a" ],
 	[
 "Adobe acquired what would become Adove After Effects & Adobe InDesign from...",
 "Aldus",
@@ -412,7 +412,7 @@ var questions = [
 "Google",
 "Apple",
 "Sony",
-"b", "b", "a" ],
+"d", "d", "a" ],
 	[
 "In 2021, Adobe reported a record of 15.79 __________ dollars in revenue",
 "billion",
@@ -420,7 +420,7 @@ var questions = [
 "trillion",
 "thousand",
 "none of the above",
-"b", "b", "a" ],
+"d", "d", "a" ],
 	[
 "Before creating Adobe, its founders worked for",
 "Xerox",
@@ -452,7 +452,7 @@ var questions = [
 "oil",
 "electricity",
 "none of these",
-"b", "b", "a" ],
+"d", "d", "a" ],
 	[
 "A major invention during the second industrial revolution was the",
 "all of these",
@@ -460,7 +460,7 @@ var questions = [
 "telephone",
 "internal combustion engine",
 "none of these",
-"b", "b", "a" ],
+"d", "d", "a" ],
 	[
 "When did the third industrial revolution occur?",
 "late 1800s",
@@ -468,7 +468,7 @@ var questions = [
 "mid-to-late 1900s",
 "early 2000s",
 "early-to-mid 1800s",
-"e", "e", "c" ],
+"d", "d", "c" ],
 	[
 "As 'every company becomes a tech company', a growing concern is",
 "the effects on profit",
@@ -476,7 +476,7 @@ var questions = [
 "the reliance on new technology",
 "the costs of new technology",
 "the loss of potential customers",
-"b", "b", "b" ],
+"a", "a", "b" ],
 	[
 "A career in the creative industries requires",
 "developing a portfolio of skills",
@@ -484,7 +484,7 @@ var questions = [
 "always learning and knowing the newest tech or software",
 "learning and working in all creative areas",
 "working with companies",
-"b", "b", "a" ],
+"e", "e", "a" ],
 	[
 "Qualities needed to succeed and work in the creative industries includes",
 "all of these",
@@ -492,7 +492,7 @@ var questions = [
 "creativity",
 "collaboration",
 "none of these",
-"b", "b", "a" ],
+"e", "e", "a" ],
 	[
 "Dr. Andy Ward, from the University of the Sunshine Coast, recommends what for people in the creative industries?",
 "all of these",
@@ -500,7 +500,7 @@ var questions = [
 "be energetic",
 "be friendly",
 "be willing to go above and beyond",
-"b", "b", "a" ],
+"e", "e", "a" ],
 	[
 "When was Adobe founded?",
 "1982",
@@ -508,15 +508,15 @@ var questions = [
 "1942",
 "2002",
 "2022",
-"b", "b", "a" ],
+"d", "d", "a" ],
 	[
-"Which of these is not created by Adobe?",
+"Which of these is not developed by Adobe?",
 "macOS / OSX",
 "Acrobat",
 "Photoshop",
 "Illustrator",
 "Dreamweaver",
-"b", "b", "a" ],
+"d", "d", "a" ],
 	[
 "Dreamweaver and Flash were originally developed by",
 "Apple",
@@ -524,7 +524,7 @@ var questions = [
 "Macromedia",
 "Microsoft",
 "Sony",
-"b", "b", "c" ],
+"d", "d", "c" ],
 	[
 "Adobe's business strategy includes acquiring/purchasing creative software by smaller companies. Which of the following is not a smaller company/property Adobe has acquired?",
 "Linux",
@@ -532,7 +532,7 @@ var questions = [
 "Macromedia",
 "Aldus",
 "Adobe has not acquired any of these companies/products",
-"b", "b", "a" ],
+"d", "d", "a" ],
 	[
 "In 2011, Adobe switched to",
 "a 'Software as a Service', or subscription, model",
@@ -540,7 +540,7 @@ var questions = [
 "an entirely free model, paid for by advertisements",
 "a free model (for all US citizens) after being acquired by the US government",
 "a freemium model, where the base software is free, but additional features cost money",
-"b", "b", "a" ],
+"d", "d", "a" ],
 	[
 "According to Adobe, over 90% of creative professionals use which software?",
 "Photoshop",
@@ -548,7 +548,7 @@ var questions = [
 "Animate/Flash Professional",
 "Dreamweaver",
 "InDesign",
-"b", "b", "a" ],
+"e", "e", "a" ],
 	[
 "What is the icon for Adobe's Creative Cloud?",
 "a capital A",
@@ -564,7 +564,7 @@ var questions = [
 "comics",
 "websites",
 "all of these",
-"b", "b", "e" ],
+"e", "e", "e" ],
 	[
 "Medical illustrators require knowledge and ability in",
 "science",
@@ -572,7 +572,7 @@ var questions = [
 "digital applications like photoshop",
 "research",
 "all of these",
-"b", "b", "e" ],
+"e", "e", "e" ],
 	[
 "US Army Corps of Engineers widely use",
 "Adobe Acrobat",
@@ -660,7 +660,7 @@ var questions = [
 "A multi-page document that includes all your experiences and skills",
 "a mutli-page document that focuses on documentation of your projects and work",
 "none of the above",
-"d", "d", "b" ],
+"e", "e", "b" ],
 	[
 "A CV should be",
 "A generic 1-2 page document about your work history & skills",
@@ -668,7 +668,7 @@ var questions = [
 "A multi-page document that includes all your experiences and skills",
 "a mutli-page document that focuses on documentation of your projects and work",
 "none of the above",
-"d", "d", "c" ],
+"e", "e", "c" ],
 	[
 "A portfolio should be",
 "A generic 1-2 page document about your work history & skills",
@@ -676,7 +676,7 @@ var questions = [
 "A multi-page document that includes all your experiences and skills",
 "a mutli-page document that focuses on documentation of your projects and work",
 "none of the above",
-"d", "d", "d" ],
+"e", "e", "d" ],
 	[
 "Majority of websites use which computer language?",
 "HTML",
@@ -684,7 +684,7 @@ var questions = [
 "JavaScript",
 "All of these",
 "None of These",
-"e", "e", "d" ], 
+"b", "b", "d" ], 
 	[
 "To make a website look nice, the most appropriate computer language to use is",
 "HTML",
@@ -692,7 +692,7 @@ var questions = [
 "JavaScript",
 "All of these",
 "None of These",
-"e", "e", "b" ], 
+"b", "b", "b" ], 
 	[
 "To create the content of a website, the most appropriate computer language to use is",
 "HTML",
@@ -700,7 +700,7 @@ var questions = [
 "JavaScript",
 "All of these",
 "None of These",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "To make a website interactive, the most appropriate computer language to use is",
 "HTML",
@@ -708,7 +708,7 @@ var questions = [
 "JavaScript",
 "All of these",
 "None of These",
-"e", "e", "c" ],
+"b", "b", "c" ],
 	[
 "HTML, CSSS, & Javascript are",
 "the primary languages for frontend web development",
@@ -716,7 +716,7 @@ var questions = [
 "competing computer languages to design web pages",
 "old languages created by Microsoft that are no longer in use",
 "the original languages to create iPhone apps; now replaced with Swift",
-"e", "e", "c" ],
+"b", "b", "c" ],
 	[
 "Markdown is",
 "a software tool that outputs to HTML, and used by GitHub",
@@ -724,7 +724,7 @@ var questions = [
 "a programming language used to create Android apps",
 "a web language designed to create interactivity on websites",
 "a commercial tool allowing financial transactions online",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "How would you indicate a heading in Markdown?",
 "using #",
@@ -732,7 +732,7 @@ var questions = [
 "using +",
 "using ~",
 "using -",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "The Adobe software Dreamweaver is used to create",
 "websites",
@@ -740,7 +740,7 @@ var questions = [
 "graphics",
 "3D models",
 "books, magazines, and other print material",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "The web became public, with lots of people creating personal websites, during",
 "the 1990s",
@@ -748,7 +748,7 @@ var questions = [
 "the 2000s",
 "the 1970s",
 "the 2010s",
-"e", "e", "a" ],
+"d", "d", "a" ],
 	[
 "Companies like GeoCities, Angelfire, and Tripod let people create free websites with the stipulation that their websites",
 "included advertisements",
@@ -756,7 +756,7 @@ var questions = [
 "did not make more than $10,000 revenue per year",
 "did not include any copyrighted material",
 "were created and designed by professionals",
-"e", "e", "a" ],
+"d", "d", "a" ],
 	[
 "Companies like GeoCities, Angelfire, and Tripod let people create free websites with the stipulation that their websites",
 "included advertisements",
@@ -764,7 +764,7 @@ var questions = [
 "did not make more than $10,000 revenue per year",
 "did not include any copyrighted material",
 "were created and designed by professionals",
-"e", "e", "a" ],
+"d", "d", "a" ],
 	[
 "Many creatives on the early web learned how to create websites by",
 "using view source and tinkering with the code",
@@ -772,7 +772,7 @@ var questions = [
 "college and university level classes",
 "professional level training from Apple and Microsoft",
 "manuals that came with every new computer",
-"e", "e", "a" ],
+"d", "d", "a" ],
 	[
 "The first time you open a software on our iMacs, it will usually take a bit longer because",
 "Apple wants to verify the sofware installation is from a trusted source",
@@ -780,15 +780,7 @@ var questions = [
 "the software is still installing",
 "the software hasn't been installed yet",
 "the computer hasn't 'learned' how to run the software yet",
-"e", "e", "a" ],
-	[
-"The first time you open a software on our iMacs, it will usually take a bit longer because",
-"Apple wants to verify the sofware installation is from a trusted source",
-"the software is still downloading",
-"the software is still installing",
-"the software hasn't been installed yet",
-"the computer hasn't 'learned' how to run the software yet",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "Currently, Dreamweaver is developed and maintained by",
 "Apple",
@@ -796,7 +788,7 @@ var questions = [
 "Microsoft",
 "Google",
 "Sony",
-"e", "e", "b" ],
+"b", "b", "b" ],
 	[
 "In Adobe Dreamweaver, to view both the code and the page at the same time, choose which setting?",
 "Split",
@@ -804,7 +796,7 @@ var questions = [
 "Design",
 "Live",
 "Developer",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "In Adobe Dreamweaver, to view both the code and the page at the same time, choose which setting?",
 "Split",
@@ -812,7 +804,7 @@ var questions = [
 "Design",
 "Live",
 "Developer",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "HTML can be written in...",
 "a plain text editor like TextEdit or Notepad",
@@ -820,7 +812,7 @@ var questions = [
 "vector-based graphics software like Illustrator",
 "3D software like Blender",
 "presentation software like Power Point of Google Slides",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "HTML can be written in...",
 "a code editor or IDE (integrated develope environment) like Dreamweaver",
@@ -828,7 +820,7 @@ var questions = [
 "vector-based graphics software like Illustrator",
 "3D software like Blender",
 "presentation software like Power Point of Google Slides",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "HTML can be written in...",
 "a code editor or IDE (integrated develope environment) like Dreamweaver",
@@ -836,7 +828,7 @@ var questions = [
 "vector-based graphics software like Illustrator",
 "3D software like Blender",
 "presentation software like Power Point of Google Slides",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "An advantage to writing HTML or other code in a software like Dreamweaver instead of a plain-text program  like TextEdit is that...",
 "the code editor typically includes color-coding and highlighting",
@@ -844,7 +836,7 @@ var questions = [
 "the code will load more efficiently",
 "the browser will load the code in a nicer format",
 "the browser was specifically designed to work with Dreamweaver",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "An advantage to writing HTML or other code in a software like Dreamweaver instead of a plain-text program  like TextEdit is that...",
 "the code includes color-coding and highlighting",
@@ -852,7 +844,7 @@ var questions = [
 "the code will load more efficiently",
 "the browser will load the code in a nicer format",
 "the browser was specifically designed to work with Dreamweaver",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "In an HTML table, we refer to an individual cell as",
 "TD, or table data",
@@ -860,7 +852,7 @@ var questions = [
 "TR, or table row",
 "TH, or table header",
 "TBODY, or table body",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "Multiple cells in an HTML table that are all in the same horizontal group would all be in the same",
 "TD, or table data",
@@ -868,7 +860,7 @@ var questions = [
 "TR, or table row",
 "TH, or table header",
 "TBODY, or table body",
-"e", "e", "c" ],
+"b", "b", "c" ],
 	[
 "If you want a single cell to span across multiple columns, what attribute should you include in the TD tag?",
 "colspan",
@@ -876,7 +868,7 @@ var questions = [
 "cellmerge",
 "tdmerge",
 "colcombine",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "A common way to create layouts for websites during the early web was through the use of",
 "tables",
@@ -884,7 +876,7 @@ var questions = [
 "3d software",
 "video formats",
 "presentation software",
-"e", "e", "a" ],
+"b", "b", "a" ],
 	[
 "If I want to create a title at the top of my layout, which HTML elements/tags might I use?",
 "center & h1",
@@ -892,7 +884,7 @@ var questions = [
 "header & important",
 "top & emphasis",
 "bold & name",
-"e", "e", "a" ],
+"b", "b", "a" ],
 ];
 
 function now() {
