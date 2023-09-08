@@ -196,7 +196,7 @@ var questions = [
 "Multidisciplinary",
 "Arts & Humanities",
 "Public Service",
-"b", "b", "b" ],
+"a", "a", "b" ],
 	[
 "This course is part of which CTE pathway",
 "Programming & Software Development",
@@ -204,7 +204,7 @@ var questions = [
 "Architectural Design",
 "Engineering",
 "IT Support & Services",
-"b", "b", "b" ],
+"a", "a", "b" ],
 	[
 "What CTE course at Guthrie might you take next in our pathway?",
 "3D Animation",
@@ -212,7 +212,7 @@ var questions = [
 "Pharmacy Tech",
 "Engineering",
 "Principles of IT",
-"b", "b", "a" ],
+"a", "a", "a" ],
 	[
 "What CTE course at Guthrie might you take next in our pathway?",
 "Commercial Photography",
@@ -220,7 +220,7 @@ var questions = [
 "Principles of Business, Marketing, & Finance",
 "Engineering",
 "Principles of IT",
-"b", "b", "a" ],
+"a", "a", "a" ],
 	[
 "What CTE course at Guthrie might you take next in our pathway?",
 "Filmmaking",
@@ -228,7 +228,7 @@ var questions = [
 "Principles of Business, Marketing, & Finance",
 "Entrepreneurship",
 "Business Information Management",
-"b", "b", "a" ],
+"a", "a", "a" ],
 	[
 "What CTE course at Guthrie might you take next in our pathway?",
 "Graphic Design",
@@ -236,7 +236,7 @@ var questions = [
 "Computer Science",
 "Entrepreneurship",
 "Business Information Management",
-"b", "b", "a" ],
+"a", "a", "a" ],
 	[
 "How many USB ports are on the lab computers?",
 "1",
@@ -869,6 +869,30 @@ var questions = [
 "TH, or table header",
 "TBODY, or table body",
 "e", "e", "c" ],
+	[
+"If you want a single cell to span across multiple columns, what attribute should you include in the TD tag?",
+"colspan",
+"rowspan",
+"cellmerge",
+"tdmerge",
+"colcombine",
+"e", "e", "a" ],
+	[
+"A common way to create layouts for websites during the early web was through the use of",
+"tables",
+"css",
+"3d software",
+"video formats",
+"presentation software",
+"e", "e", "a" ],
+	[
+"If I want to create a title at the top of my layout, which HTML elements/tags might I use?",
+"center & h1",
+"title & middle",
+"header & important",
+"top & emphasis",
+"bold & name",
+"e", "e", "a" ],
 ];
 
 function now() {
