@@ -773,6 +773,14 @@ var questions = [
 "professional level training from Apple and Microsoft",
 "manuals that came with every new computer",
 "e", "e", "a" ],
+	[
+"The first time you open a software on our iMacs, it will usually take a bit longer because",
+"Apple wants to verify the sofware installation is from a trusted source",
+"the software is still downloading",
+"the software is still installing",
+"the software hasn't been installed yet",
+"the computer hasn't 'learned' how to run the software yet",
+"e", "e", "a" ],
 ];
 
 function now() {
