@@ -524,7 +524,7 @@ var questions = [
 "HTML",
 "CSS",
 "Markdown",
-"All of these are programming languages",
+"All of these are computer languages",
 "e", "e", "e" ],
 	[
 "Which of the following is a computer language?",
@@ -532,7 +532,7 @@ var questions = [
 "HTML",
 "CSS",
 "Markdown",
-"All of these are programming languages",
+"All of these are computer languages",
 "e", "e", "e" ],
 	[
 "You should not do extensive work in HTML & CSS for your IA because",
