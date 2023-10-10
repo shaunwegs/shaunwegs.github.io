@@ -4,31 +4,36 @@
     <title>RESUME: SHAWN UUEG</title>
   </head>
   
-  <body bgcolor="#333" text="white" topmargin="0" leftmargin="0">
-    <br><br>
-    
+  <body bgcolor="#777" text="#000" topmargin="0" leftmargin="0">
+    <center>
+      <br><br>
 
+      
 
       <! -- This is a Comment; you can see it in the code, but not on the page.
       
-      I was able to center the content of the page by containing it all inside of a table, 
-      provided with a specific width (850), and wrapping a center tag around it. The size of
-      the table will not constrain the images. Notice, my images are 300 and 500 wide. My table
-      needs to be more than 800 for them to load side by side- but if an image was greater
-      than 800, the table's width would become large enough to fit the image inside.
-
-      The align=left attribute on the code-left.png is what causes the image to load to
-      the left of all the other content.
+      In the 8th grade resume, I used align=left to make the image load to
+      the left of all the other content. I don't prefer doing it that way because if 
+      content goes on too long, it'll reflow under the image. In this example
+      I used tables to make sure the image stays on the left, and if the content gets
+      too long, it won't drop below it. Instead, the content on the right will stay
+      contained in its td cell.
       -->
-    
-      <center>
-      <table border=0 width="850"> 
-      <tr>
-        <td>
-        <img src="img/code-left.png" align="left" width="300" hspace="10"/>
-        <img src="img/draw-lighthouse.png" width="500" />
-        <br><br>
-        <p> 
+      
+      <table width="800" bgcolor="#ccc" border="2" cellspacing="5">
+        
+        <tr>
+          <td width="300">
+            <img src="img/draw-mountain.jpg" align="left" width="303"/>
+          </td>
+          
+          <td valign="top">
+            <img src="img/code-top.png" width="500" />
+            <center>
+            <table border="0" width="450">
+            <tr><td>
+              
+            <p>
           <font size="+2" color="#cc9">SHAWN UUEG</font><br>
           <font size="+1">W. Houston Charter</font>
         </p>
@@ -61,12 +66,18 @@
           ¬ Microsoft Office (PC)<br>
           ¬ Claris Works (Mac)<br>
           ¬ Scenario/Map Editing (Age of Empires)<br>
-        </p>
-        </td>
-      </tr>
+            </p>
+            </td></tr>
+            </table>
+            </center>
+          </td>
+        </tr>
+        
       </table>
       
     </center>
+    <br><br>
     
+
   </body>
 </html>
