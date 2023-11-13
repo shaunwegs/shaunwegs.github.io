@@ -6,7 +6,7 @@
   <center>
     <h1>Play Light-Bot</h1>
     Light-bot is a strategy/puzzle game where you program a robot to light up tiles on a map.
-    <p>.550 .x. 800.</p>
+    <p>.550 x 800.</p>
     <div id='ruffle'></div>
         <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
         <script>
@@ -19,13 +19,13 @@ swfobject.embedSWF = function(url, cont, width, height){
             height: height,
             style: 'width: ' + width + 'px; height: ' + height + 'px',
         });
-  window.RufflePlayer.config = {
+    window.RufflePlayer.config = {
     // Options affecting the whole page
     "publicPath": undefined,
     "polyfills": true,
 
     // Options affecting files only
-    "allowScriptAccess": deny, // Polyfill elements have a different default value, see the allowScriptAccess section
+    "allowScriptAccess": false, // Polyfill elements have a different default value, see the allowScriptAccess section
     "autoplay": "auto",
     "unmuteOverlay": "visible",
     "backgroundColor": null,
@@ -45,10 +45,10 @@ swfobject.embedSWF = function(url, cont, width, height){
     "forceScale": false,
     "frameRate": null,
     "quality": "high",
-    "splashScreen": false,
+    "splashScreen": true,
     "preferredRenderer": null,
-    "openUrlMode": "false",
-    "allowNetworking": "false",
+    "openUrlMode": "allow",
+    "allowNetworking": "all",
     "favorFlash": true,
     "credentialAllowList": [],
 };
