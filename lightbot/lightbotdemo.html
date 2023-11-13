@@ -1,0 +1,64 @@
+<head>
+  <title>Play Light-Bot</title>
+</head>
+<body>
+
+  <center>
+    <h1>About Light-Bot</h1>
+    Light-bot is a strategy/puzzle game where you program a robot to light up tiles on a map.
+    <br>
+    <p>Play Light-Bot 1 | Play Light-Bot 2 | Play the New Light-Bot Demo</p>
+    <p>.450.. x ..800.</p>
+    <div id='ruffle'></div>
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script>
+var swfobject = {};
+
+swfobject.embedSWF = function(url, cont, width, height){
+    var ruffle = window.RufflePlayer.newest(),
+        player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
+            width: width,
+            height: height,
+            style: 'width: ' + width + 'px; height: ' + height + 'px',
+        });
+    window.RufflePlayer.config = {
+    // Options affecting the whole page
+    "publicPath": undefined,
+    "polyfills": true,
+
+    // Options affecting files only
+    "allowScriptAccess": false, // Polyfill elements have a different default value, see the allowScriptAccess section
+    "autoplay": "auto",
+    "unmuteOverlay": "visible",
+    "backgroundColor": null,
+    "wmode": "window",
+    "letterbox": "fullscreen",
+    "warnOnUnsupportedContent": true,
+    "contextMenu": "on",
+    "showSwfDownload": false,
+    "upgradeToHttps": window.location.protocol === "https:",
+    "maxExecutionDuration": 15,
+    "logLevel": "error",
+    "base": null,
+    "menu": true,
+    "salign": "",
+    "forceAlign": false,
+    "scale": "showAll",
+    "forceScale": false,
+    "frameRate": null,
+    "quality": "high",
+    "splashScreen": true,
+    "preferredRenderer": null,
+    "openUrlMode": "deny",
+    "allowNetworking": "none",
+    "favorFlash": true,
+    "credentialAllowList": [],
+};
+    
+    player.load({ url: url });
+}
+
+swfobject.embedSWF('https://shaunwegs.github.io/lightbot/lightbotdemo.swf', 'ruffle', 800, 450);
+        </script>
+  </center>
+</body>
