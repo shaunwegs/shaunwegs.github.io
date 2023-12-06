@@ -33,9 +33,9 @@ div.player #capsule {
 	background-image: -o-gradient(top, rgba(0, 0, 0, 0.5) 1, #333 0);
 	background-image: linear-gradient(top, rgba(0, 0, 0, 0.5) 1, #333 0);
 	overflow: hidden;
-	width: 150px;
+	width: 80px;
 	display: inline-block;
-	height: 70px;
+	height: 30px;
 }
 div.player #capsule #cursor {
 	background: #003b96;
@@ -58,7 +58,7 @@ div.player span.time {
 	text-align: right;
 }
 div.player div.time-controls {
-	width: 200px;
+	width: 213px;
 	margin: 5px auto 0;
 }
 input[type="image"]:hover {
