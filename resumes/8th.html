@@ -36,13 +36,13 @@
         
         <td>
           <!-- Left Column -->
-          <img src="img/code-left.png" align="left" width="300"/>
+          <img src="img/code-left.png" width="300"/>
           <br>
           <table>
             <tr><td>
             <!-- Retro Music Box -->
-            <div class="player" style="height: 42px; box-shadow: 0 -1px #000; margin-bottom: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
-        			<div style="margin: 0 auto; width: 110px; float: right;">
+            <div class="player" style="height: 50px; box-shadow: 0 -1px #000; margin-bottom: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
+        			<div style="margin: 0 auto; width: 70px; float: right;">
         				<input type="image" src="img/pause.png" align="absmiddle" value="pause" onclick="pausePlayStop()" id="pausePlayStop">
         				<input type="image" src="img/stop.png" align="absmiddle" value="stop" onclick="pausePlayStop(true)"><br>
         				<input type="image" src="img/backward.png" align="absmiddle" value="stop" onclick="player.getNextSong(-1);">
@@ -139,15 +139,7 @@
 		link.type = "text/css";
 		document.body.appendChild(link);
 
-		/// load up the piano keys
-		var colors = document.getElementById("colors");
-		var colorElements = [];
-		for (var n = 0; n < 88; n++) {
-			var d = document.createElement("div");
-			d.innerHTML = MIDI.noteToKey[n + 21];
-			colorElements.push(d);
-			colors.appendChild(d);
-		}
+		
 		///
 		MIDI.loader = new sketch.ui.Timer;
 		MIDI.loadPlugin({
