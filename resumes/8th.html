@@ -42,7 +42,7 @@
             <tr><td>
             <!-- Retro Music Box -->
             <div class="player" style="height: 42px; box-shadow: 0 -1px #000; margin-bottom: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
-        			<div style="margin: 0 auto; width: 160px; float: right;">
+        			<div style="margin: 0 auto; width: 100px; float: right;">
         				<input type="image" src="img/pause.png" align="absmiddle" value="pause" onclick="pausePlayStop()" id="pausePlayStop">
         				<input type="image" src="img/stop.png" align="absmiddle" value="stop" onclick="pausePlayStop(true)"><br>
         				<input type="image" src="img/backward.png" align="absmiddle" value="stop" onclick="player.getNextSong(-1);">
@@ -232,90 +232,6 @@
 		});
 	};
 
-	var ColorSphereBackground = function() {
-		var d = document;
-		var canvas = document.createElement("canvas");
-		var ctx = canvas.getContext("2d");
-		canvas.style.cssText = "position: fixed; left: 0; top: 0; opacity: 1";
-		canvas.style.width = window.innerWidth + "px";
-		canvas.style.height = window.innerHeight + "px";
-		document.body.appendChild(canvas);
-		//
-		eventjs.add(window, "resize", function() {
-			canvas.style.width = window.innerWidth + "px";
-			canvas.style.height = window.innerHeight + "px";
-			ctx.drawImage(theSphere = sphere(percent), 0, 0)
-		});
-		eventjs.add(d, "scroll", function(e) {
-			var percent = 1 - document.body.scrollTop / document.body.scrollHeight;
-			ctx.drawImage(theSphere = sphere(percent), 0, 0);
-			onMouseMove();
-		});
-		var theSphere;
-		var px = window.innerWidth / 2;
-		var py = window.innerHeight / 2;
-		var onMouseMove = function(event) {
-			ctx.drawImage(theSphere, 0, 0);
-			if (event) {
-				var coords = eventjs.proxy.getCoord(event);
-				coords.x -= document.body.scrollLeft;
-				coords.y -= document.body.scrollTop;
-				px = coords.x;
-				py = coords.y;
-			} else { //
-				var coords = {
-					x: px,
-					y: py
-				};
-			}
-			//
-			var x = (coords.x / window.innerWidth) * 255 - 127; // grab mouse pixel coords, center at midpoint
-			var y = (coords.y / window.innerHeight) * 255 - 127;
-			var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height); // get image data
-			var data = imageData.data;
-			for (var n = 0, length = data.length; n < length; n += 4) {
-				data[n] = data[n] + x - y; // red (control left)
-				data[n + 1] = data[n + 1] - x - y; // green (control right)
-				data[n + 2] = data[n + 2] + y + y; // blue (control down)
-			}
-			ctx.putImageData(imageData, 0, 0);
-		};
-		eventjs.add(d, "mousemove", onMouseMove);
-		///
-		function sphere(top) { // create Sphere image, and apply to <canvas>
-			var canvas1 = document.createElement("canvas");
-			var ctx = canvas1.getContext("2d");
-			var w = 75;
-			var left = -20;
-			var top = top * -50;
-			canvas.width = canvas1.width = w * window.innerWidth / window.innerHeight;
-			canvas.height = canvas1.height = w;
-			ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
-			n = 360;
-			while (n--) { // go through hues
-				var x = left + w;
-				var y = top + w;
-				var g = ctx.createLinearGradient(x, top, x, y);
-				g.addColorStop(0, "#000");
-				g.addColorStop(.5, "hsl(" + ((n + 60) % 360) + ",100%,50%)");
-				g.addColorStop(1, "#FFF");
-				ctx.beginPath(); // draw triangle
-				ctx.moveTo(x, top);
-				ctx.lineTo(x, y);
-				ctx.lineTo(x + 2, y);
-				ctx.lineTo(x + 5, top);
-				ctx.fillStyle = g; // apply gradient
-				ctx.fill();
-				ctx.translate(x, y); // rotate + translate into position
-				ctx.rotate((1 / 360) * Math.PI * 2);
-				ctx.translate(-x, -y);
-			}
-			return canvas1;
-		};
-		//
-		var percent = 1 - document.body.scrollTop / document.body.scrollHeight;
-		ctx.drawImage(theSphere = sphere(percent), 0, 0)
-	};
 
 	// Begin loading indication.
 	var player;
