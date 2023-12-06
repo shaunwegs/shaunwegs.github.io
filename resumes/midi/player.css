@@ -1,6 +1,6 @@
 body {
 	font-family: Andada;
-	margin: 0 50px;
+	margin: 0 10px;
 }
 div.player {
 	background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(66,66,66,1)),to(rgba(22,22,22,1)));
@@ -58,8 +58,8 @@ div.player span.time {
 	text-align: right;
 }
 div.player div.time-controls {
-	width: 300px;
-	margin: 10px auto 0;
+	width: 250px;
+	margin: 5px auto 0;
 }
 input[type="image"]:hover {
 	opacity: 1;
