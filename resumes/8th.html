@@ -118,12 +118,12 @@
 		var d = document.getElementById("pausePlayStop");
 		if (stop) {
 			MIDI.Player.stop();
-			d.src = "./images/play.png";
+			d.src = "img/play.png";
 		} else if (MIDI.Player.playing) {
-			d.src = "./images/play.png";
+			d.src = "img/play.png";
 			MIDI.Player.pause(true);
 		} else {
-			d.src = "./images/pause.png";
+			d.src = "img/pause.png";
 			MIDI.Player.resume();
 		}
 	};
