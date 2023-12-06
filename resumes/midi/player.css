@@ -33,7 +33,7 @@ div.player #capsule {
 	background-image: -o-gradient(top, rgba(0, 0, 0, 0.5) 1, #333 0);
 	background-image: linear-gradient(top, rgba(0, 0, 0, 0.5) 1, #333 0);
 	overflow: hidden;
-	width: 100px;
+	width: 50px;
 	display: inline-block;
 	height: 30px;
 }
@@ -53,12 +53,12 @@ div.player span.time {
 	position: relative;
 	top: -9px;
 	padding: 0 10px;
-	width: 40px;
+	width: 30px;
 	display: inline-block;
 	text-align: right;
 }
 div.player div.time-controls {
-	width: 250px;
+	width: 150px;
 	margin: 5px auto 0;
 }
 input[type="image"]:hover {
@@ -98,7 +98,7 @@ li.indent.square {
 #colors div {
 	-webkit-transition-property: background, color;
 	-webkit-transition-duration: .25s;
-padding: 1px 0 1px 5px; font-family: arial; font-size: 9px; line-height: 9px; color: #aaa; width: 30px; height: 9px; 
+padding: 1px 0 1px 5px; font-family: arial; font-size: 9px; line-height: 9px; color: #aaa; width: 10px; height: 9px; 
 	background: #000;
 	background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(66,66,66,0.75)),to(rgba(0,0,0,1)));
 border-bottom: 1px solid rgba(5,5,5,0.7);
