@@ -34,8 +34,48 @@
           <!-- Left Column -->
           <img src="img/code-left.png" width="300"/>
           <br>
+		<table width="300"><tr>
+			<td> <a href="#" onclick="choosePrior()"><img src="img/backward.png"></a> </td>
+			<td width="250" valign="top"><center><span id="p1">Choose a Song?</span> </center></td>
+			<td><a href="#" onclick="chooseNext()"><img src="img/forward.png"></a> </td>
+			
+		</tr></table>
           <table>
             <tr><td>
+
+		
+
+		<script>
+			var songChoice = [
+				"<a href='#' onclick='pushChoice(0)'>Voyager</a>",
+				"<a href='#' onclick='pushChoice(1)'>Celes</a>",
+				"<a href='#' onclick='pushChoice(2)'>Terra</a>",
+				"<a href='#' onclick='pushChoice(3)'>Samy 2</a>",
+				];
+			var counter = 0;
+
+			function chooseNext() {
+  			   if(counter === songChoice.length -1){
+   			       counter = 0;
+ 			   }
+   			   else {
+  			       counter++;  
+   			   }
+			   document.getElementById("p1").innerHTML = songChoice[counter];
+			}
+
+			function choosePrior() {
+  			   if(counter === 0){
+   			       counter = songChoice.length -1;
+ 			   }
+   			   else {
+  			       counter = counter -1;  
+   			   }
+			   document.getElementById("p1").innerHTML = songChoice[counter];
+			}
+
+
+		</script>
 
    		<div id='cntls'>
 		<p>
@@ -371,6 +411,10 @@
 				startLoad(song);
 			};
 			xmlHttpRequest.send(null);
+		}
+		function pushChoice(choice){
+			var loadSong = ["midi/voyager.mid","midi/ff6celes.mid","midi/ff6terra.mid","midi/samy02.mid"];
+			handleExample(loadSong[choice])
 		}
 		document.getElementById('filesinput').addEventListener('change', handleFileSelect, false);
 	</script>
