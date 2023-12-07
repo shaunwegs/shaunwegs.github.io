@@ -25,10 +25,10 @@
 		<script src="midi/MIDIFile.js"></script>
 		<script>
 			var songChoice = [
-				"<a href='#' onclick='pushChoice(0)'>Load Voyager</a>",
-				"<a href='#' onclick='pushChoice(1)'>Load Celes</a>",
-				"<a href='#' onclick='pushChoice(2)'>Load Terra</a>",
-				"<a href='#' onclick='pushChoice(3)'>Load Samy 2</a>",
+				"<a href='#musicbox' onclick='pushChoice(0)'>Load Voyager</a>",
+				"<a href='#musicbox' onclick='pushChoice(1)'>Load Celes</a>",
+				"<a href='#musicbox' onclick='pushChoice(2)'>Load Terra</a>",
+				"<a href='#musicbox' onclick='pushChoice(3)'>Load Samy 2</a>",
 				];
 			var counter = 0;
 			function chooseNext() {
@@ -61,6 +61,7 @@
 											
 											
 											<!-- Retro Music Box -->
+											<a  name="musicbox"></a>
 											<div class="player" style="height: 80px; box-shadow: 0 -1px #000; margin: auto;">
 												<table width="280">
 													<tbody>
@@ -335,7 +336,7 @@
 				var o = document.getElementById('cntls');
 				var p = document.getElementById('offscreen');
 				var html = '<input id="position" type="range" min="0" max="100" value="0" step="1" />&nbsp;<span id="tmr">&nbsp;</span>';
-				var html2 = '<span>load offscreen please</span>';
+				var html2 = '<span>.</span>';
 	
 	
 				for (var i = 0; i < song.tracks.length; i++) {
