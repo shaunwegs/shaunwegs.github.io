@@ -1,6 +1,7 @@
 body {
 	font-family: Andada;
 	margin: 0 10px;
+	overflow: hidden;
 }
 .plzoffscreen {
   border: 0;
