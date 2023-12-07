@@ -88,7 +88,7 @@
 														<tr>
 															<td>
 																<center>
-																	<div id="cntlsp" style="margin: 100% auto; width: 40px; float: right;">
+																	<div id="cntlsp" style="margin: 0 auto; width: 40px; float: right;">
 																		.
 																	</div>
 																</center>
@@ -337,8 +337,8 @@
 			}
 			function buildControls() {
 				var o = document.getElementById('cntls');
-				var p = document.getElementById('plzoffscreen');
 				var q = document.getElementById('cntlsp');
+				var p = document.getElementById('break');
 				var html = '<input id="position" type="range" min="0" max="100" value="0" step="1" />&nbsp;<span id="tmr">&nbsp;</span>';
 				var html2 = '<span>.</span>';
 				var html3 = '<input type="image" src="img/play.png" align="absmiddle" value="stop" onclick="startPlay()">';
@@ -499,7 +499,7 @@
 		
 		</script>
 
-		<span id="plzoffscreen">
+		<span id="offscreen">
 			<font color="#000000">.</font>
 		</div>
 	</body>
