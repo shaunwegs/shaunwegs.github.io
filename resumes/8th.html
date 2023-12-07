@@ -25,10 +25,13 @@
 		<script src="midi/MIDIFile.js"></script>
 		<script>
 			var songChoice = [
-				"<a href='#musicbox' onclick='pushChoice(0)'>Load Voyager</a>",
-				"<a href='#musicbox' onclick='pushChoice(1)'>Load Celes</a>",
-				"<a href='#musicbox' onclick='pushChoice(2)'>Load Terra</a>",
-				"<a href='#musicbox' onclick='pushChoice(3)'>Load Samy 2</a>",
+				"<a href='#musicbox' onclick='pushChoice(0)'>Load IOG: Ankor Wat</a>",
+				"<a href='#musicbox' onclick='pushChoice(1)'>Load FFVI: Celes</a>",
+				"<a href='#musicbox' onclick='pushChoice(2)'>Load FFVI: Terra</a>",
+				"<a href='#musicbox' onclick='pushChoice(3)'>Load SOE: Ivory Tower</a>",
+				"<a href='#musicbox' onclick='pushChoice(4)'>Load SOE: Hall of Collosia</a>",
+				"<a href='#musicbox' onclick='pushChoice(5)'>Load SOM: Wild Fields</a>",
+				"<a href='#musicbox' onclick='pushChoice(6)'>Load IOG: Wind Melody</a>",
 				];
 			var counter = 0;
 			function chooseNext() {
@@ -475,7 +478,14 @@
 			}
 		  
 		function pushChoice(choice){
-			var loadSong = ["midi/voyager.mid","midi/ff6celes.mid","midi/ff6terra.mid","midi/samy02.mid"];
+			var loadSong = ["midi/ankor_wat.mid",
+					"midi/ff6celes.mid",
+					"midi/ff6terra.mid",
+					"midi/SoE-_Ivor_Tower.mid",
+					"midi/SoE-_The_Hall_of_Collosia.mid",
+					"midi/wildfields.mid",
+					"midi/wind_melody.mid"
+				       ];
 			handleExample(loadSong[choice])
 		}
 			function playKeyNow(key){
