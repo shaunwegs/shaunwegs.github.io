@@ -32,10 +32,9 @@
         
         <td>
           <!-- Left Column -->
-	<center>
           <img src="img/code-left.png" width="300"/>
           <br>
-		<table width="290"><tr>
+		<table width="300"><tr>
 			<td> <a href="#" onclick="choosePrior()"><img src="img/backward.png"></a> </td>
 			<td width="250" valign="top"><center><span id="p1">Choose a Song?</span> </center></td>
 			<td><a href="#" onclick="chooseNext()"><img src="img/forward.png"></a> </td>
@@ -79,24 +78,31 @@
 		</script>
 
    		<div id='cntls'>
-
+		<p>
+			<input type="file" id="filesinput" name="filesarr[]" accept=".mid,.midi,.kar"/>
+			<button type="button" onclick="go();")'>Play</button>
+			<button type="button" onclick="player.pause()">Pause</button>
+			<button type="button" onclick="player.stop()">Stop</button>
+			<input id="position" type="range" min="0" max="100" value="0">
+		</p>
 		</div>
             <!-- Retro Music Box -->
             <div class="player" style="height: 50px; box-shadow: 0 -1px #000; margin-bottom: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
-        			<table width="275"><tr><td><center>
+        			<table width="280"><tr><td><center>
         				<p><input id="position" type="range" min="0" max="100" value="0" step="1" /></p>
         			</center></td><td><center>
 					<div style="margin: 0 auto; width: 150px; float: right;">
         				<a href='#' onclick="go();"><img src="img/play.png" align="absmiddle"></a>
-        				<a href='#' onclick="pause();"><img src="img/pause.png" align="absmiddle"></a>
-        				<a href='#' onclick="stop();"><img src="img/stop.png" align="absmiddle"></a>
+        				<input type="image" src="img/stop.png" align="absmiddle" value="stop" onclick="player.stop()">
+        				<input type="image" src="img/backward.png" align="absmiddle" value="stop" onclick="player.getNextSong(-1);">
+        				<input type="image" src="img/forward.png" align="absmiddle" value="stop" onclick="player.getNextSong(+1);">
 					</center>
         			</td></tr></table>
         			
         		</div>
             </td></tr>
           </table>
-	</center>  
+          
         </td>
         
         <td>
@@ -161,12 +167,12 @@
 		var nextPositionTime = 0;
 		var loadedsong = null;
 		function go() {
-			document.getElementById('cntls').innerHTML = 'starting...';
+			document.getElementById('tmr').innerHTML = 'starting...';
 			try {
 				startPlay(loadedsong);
-				document.getElementById('cntls').innerHTML = 'playing...';
+				document.getElementById('tmr').innerHTML = 'playing...';
 			} catch (expt) {
-				document.getElementById('cntls').innerHTML = 'error ' + expt;
+				document.getElementById('tmr').innerHTML = 'error ' + expt;
 			}
 		}
 		function startPlay(song) {
