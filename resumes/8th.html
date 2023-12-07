@@ -78,15 +78,19 @@
             <!-- Retro Music Box -->
             <div class="player" style="height: 50px; box-shadow: 0 -1px #000; margin-bottom: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
         		<table width="280"><tr>
-			<td> <a href="#" onclick="choosePrior()"><img src="img/backward.png"></a> </td>
-			<td width="250" valign="top" colspan="3"><center><span id="p1">Choose a Song?</span> </center></td>
-			<td><a href="#" onclick="chooseNext()"><img src="img/forward.png"></a> </td>
+			<td width="40"> <a href="#" onclick="choosePrior()"><img src="img/backward.png"></a> </td>
+			<td width="250" valign="top" colspan="2"><center><span id="p1">Choose a Song?</span> </center></td>
+			<td width="40"><a href="#" onclick="chooseNext()"><img src="img/forward.png"></a> </td>
 			
-		</tr><tr><td colspan="3"><center>
+		</tr><tr><td colspan="2"><center>
         				<p><input id="position" type="range" min="0" max="100" value="0" step="1" /></p>
-        			</center></td><td colspan="2"><center>
-					<div style="margin: 0 auto; width: 80px; float: right;">
+        			</center></td><td><center>
+					<div style="margin: 0 auto; width: 40px; float: right;">
         				<input type="image" src="img/play.png" align="absmiddle" value="stop" onclick="startPlay()">
+					</center>
+        			</td>
+		<td><center>
+					<div style="margin: 0 auto; width: 40px; float: right;">
         				<input type="image" src="img/stop.png" align="absmiddle" value="stop" onclick="stopPlay()">
 					</center>
         			</td></tr></table>
