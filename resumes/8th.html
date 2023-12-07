@@ -82,13 +82,6 @@
 															</td>
 														</tr>
 														<tr>
-															<td colspan="2">
-																<center>
-																	<div id="cntls">
-																		<input id="position" type="range" min="0" max="100" value="0" step="1">
-																	</div>
-																</center>
-															</td>
 															<td>
 																<center>
 																	<div style="margin: 0 auto; width: 40px; float: right;">
@@ -96,6 +89,14 @@
 																	</div>
 																</center>
 															</td>
+															<td colspan="2">
+																<center>
+																	<div id="cntls">
+																		<input id="position" type="range" min="0" max="100" value="0" step="1">
+																	</div>
+																</center>
+															</td>
+															
 															
 														</tr>
 													</tbody>
@@ -333,7 +334,7 @@
 			function buildControls() {
 				var o = document.getElementById('cntls');
 				var p = document.getElementById('offscreen');
-				var html = '<span id="tmr">&nbsp;</span>&nbsp;<input id="position" type="range" min="0" max="100" value="0" step="1" />';
+				var html = '<input id="position" type="range" min="0" max="100" value="0" step="1" />&nbsp;<span id="tmr">&nbsp;</span>';
 				var html2 = '<span>load offscreen please</span>';
 	
 	
