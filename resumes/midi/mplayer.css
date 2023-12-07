@@ -35,7 +35,7 @@ div.player #capsule {
 	overflow: hidden;
 	width: 80px;
 	display: inline-block;
-	height: 30px;
+	height: 40px;
 }
 div.player #capsule #cursor {
 	background: #003b96;
