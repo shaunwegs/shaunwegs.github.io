@@ -160,12 +160,12 @@
 		var nextPositionTime = 0;
 		var loadedsong = null;
 		function go() {
-			document.getElementById('tmr').innerHTML = 'starting...';
+			document.getElementById('cntls').innerHTML = 'starting...';
 			try {
 				startPlay(loadedsong);
-				document.getElementById('tmr').innerHTML = 'playing...';
+				document.getElementById('cntls').innerHTML = 'playing...';
 			} catch (expt) {
-				document.getElementById('tmr').innerHTML = 'error ' + expt;
+				document.getElementById('cntls').innerHTML = 'error ' + expt;
 			}
 		}
 		function startPlay(song) {
