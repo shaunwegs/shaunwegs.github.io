@@ -36,7 +36,7 @@
           <br>
 		<table width="300"><tr>
 			<td> <a href="#" onclick="choosePrior()"><img src="img/backward.png"></a> </td>
-			<td width="250" valign="top"><center><span id="p1">Choose a Song?</span> </center></td>
+			<td width="250" valign="top"><center><span id="p1">Choose a song with the back & next buttons below.</span> </center></td>
 			<td><a href="#" onclick="chooseNext()"><img src="img/forward.png"></a> </td>
 			
 		</tr></table>
@@ -78,13 +78,7 @@
 		</script>
 
    		<div id='cntls'>
-		<p>
-			<input type="file" id="filesinput" name="filesarr[]" accept=".mid,.midi,.kar"/>
-			<button type="button" onclick="go();")'>Play</button>
-			<button type="button" onclick="player.pause()">Pause</button>
-			<button type="button" onclick="player.stop()">Stop</button>
-			<input id="position" type="range" min="0" max="100" value="0">
-		</p>
+
 		</div>
             <!-- Retro Music Box -->
             <div class="player" style="height: 50px; box-shadow: 0 -1px #000; margin-bottom: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
@@ -93,9 +87,8 @@
         			</center></td><td><center>
 					<div style="margin: 0 auto; width: 150px; float: right;">
         				<a href='#' onclick="go();"><img src="img/play.png" align="absmiddle"></a>
-        				<input type="image" src="img/stop.png" align="absmiddle" value="stop" onclick="player.stop()">
-        				<input type="image" src="img/backward.png" align="absmiddle" value="stop" onclick="player.getNextSong(-1);">
-        				<input type="image" src="img/forward.png" align="absmiddle" value="stop" onclick="player.getNextSong(+1);">
+        				<input type="image" src="img/backward.png" align="absmiddle" value="stop" onclick="choosePrior();">
+        				<input type="image" src="img/forward.png" align="absmiddle" value="stop" onclick="chooseNext();">
 					</center>
         			</td></tr></table>
         			
