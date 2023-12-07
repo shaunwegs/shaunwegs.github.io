@@ -2,7 +2,7 @@ body {
 	font-family: Andada;
 	margin: 0 10px;
 }
-offscreen {
+.offscreen {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
