@@ -47,10 +47,10 @@
 
 		<script>
 			var songChoice = [
-				"<a href='#' onclick='pushChoice(0)'>Load Voyager</a>",
-				"<a href='#' onclick='pushChoice(1)'>Load Celes</a>",
-				"<a href='#' onclick='pushChoice(2)'>Load Terra</a>",
-				"<a href='#' onclick='pushChoice(3)'>Load Samy 2</a>",
+				"<a href='#' onclick='pushChoice(0)'>Voyager</a>",
+				"<a href='#' onclick='pushChoice(1)'>Celes</a>",
+				"<a href='#' onclick='pushChoice(2)'>Terra</a>",
+				"<a href='#' onclick='pushChoice(3)'>Samy 2</a>",
 				];
 			var counter = 0;
 
@@ -78,11 +78,7 @@
 		</script>
 
    		<div id='cntls'>
-		<p>
-			<input type="file" id="filesinput" name="filesarr[]" accept=".mid,.midi,.kar"/>
-			<button type="button" onclick="pause();")'>Play</button>
-			<input id="position" type="range" min="0" max="100" value="0">
-		</p>
+		controls here
 		</div>
             <!-- Retro Music Box -->
             <div class="player" style="height: 50px; box-shadow: 0 -1px #000; margin-bottom: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
@@ -90,7 +86,7 @@
         				<p><input id="position" type="range" min="0" max="100" value="0" step="1" /></p>
         			</center></td><td><center>
 					<div style="margin: 0 auto; width: 150px; float: right;">
-        				<a href='#' onclick="go();"><img src="img/play.png" align="absmiddle"></a>
+        				<a href='#' onclick="startPlay();"><img src="img/play.png" align="absmiddle"></a>
         				<input type="image" src="img/stop.png" align="absmiddle" value="stop" onclick="player.stop()">
         				<input type="image" src="img/backward.png" align="absmiddle" value="stop" onclick="player.getNextSong(-1);">
         				<input type="image" src="img/forward.png" align="absmiddle" value="stop" onclick="player.getNextSong(+1);">
