@@ -88,8 +88,8 @@
 														<tr>
 															<td>
 																<center>
-																	<div style="margin: 0 auto; width: 40px; float: right;">
-																		<input type="image" src="img/play.png" align="absmiddle" value="stop" onclick="startPlay()">
+																	<div id="cntls-p" style="margin: 0 auto; width: 40px; float: right;">
+																		.
 																	</div>
 																</center>
 															</td>
@@ -338,8 +338,10 @@
 			function buildControls() {
 				var o = document.getElementById('cntls');
 				var p = document.getElementById('offscreen');
+				var q = document.getElementById('cntls-p');
 				var html = '<input id="position" type="range" min="0" max="100" value="0" step="1" />&nbsp;<span id="tmr">&nbsp;</span>';
 				var html2 = '<span>.</span>';
+				var html3 = '<input type="image" src="img/play.png" align="absmiddle" value="stop" onclick="startPlay()">';
 	
 	
 				for (var i = 0; i < song.tracks.length; i++) {
@@ -353,6 +355,7 @@
 				}
 				o.innerHTML = html;
 				p.innerHTML = html2;
+				q.innerHTML = html3;
 				var pos = document.getElementById('position');
 				pos.oninput = function (e) {
 					player.cancelQueue(audioContext);
