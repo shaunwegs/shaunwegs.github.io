@@ -353,7 +353,7 @@
 					var v = 100 * song.beats[i].volume;
 					html2 = html2 + '<p>' + chooserDrum(song.beats[i].id,i) + '<input id="drum' + i + '" type="range" min="0" max="100" value="' + v + '" step="1" /></p>';
 				}
-				o.innerHTML = HTML;
+				o.innerHTML = html;
 				q.innerHTML = html3;
 				p.innerHTML = html2;
 				var pos = document.getElementById('position');
