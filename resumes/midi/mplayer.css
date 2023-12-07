@@ -58,7 +58,7 @@ div.player span.time {
 	text-align: right;
 }
 div.player div.time-controls {
-	width: 213px;
+	width: 150px;
 	margin: 5px auto 0;
 }
 input[type="image"]:hover {
