@@ -80,7 +80,7 @@
    		<div id='cntls'>
 		<p>
 			<input type="file" id="filesinput" name="filesarr[]" accept=".mid,.midi,.kar"/>
-			<button type="button" onclick='handleExample("midi/voyager.mid")'>Play</button>
+			<button type="button" onclick="go();")'>Play</button>
 			<button type="button" onclick="player.pause()">Pause</button>
 			<button type="button" onclick="player.stop()">Stop</button>
 			<input id="position" type="range" min="0" max="100" value="0">
@@ -88,19 +88,17 @@
 		</div>
             <!-- Retro Music Box -->
             <div class="player" style="height: 50px; box-shadow: 0 -1px #000; margin-bottom: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
-        			<div style="margin: 0 auto; width: 70px; float: right;">
+        			<table width="280"><tr><td><center>
+        				<p><input id="position" type="range" min="0" max="100" value="0" step="1" /></p>
+        			</center></td><td><center>
+					<div style="margin: 0 auto; width: 150px; float: right;">
         				<a href='#' onclick='handleExample("midi/voyager.mid")'><img src="img/play.png" align="absmiddle"></a>
-        				<input type="image" src="img/stop.png" align="absmiddle" value="stop" onclick="player.stop()"><br>
+        				<input type="image" src="img/stop.png" align="absmiddle" value="stop" onclick="player.stop()">
         				<input type="image" src="img/backward.png" align="absmiddle" value="stop" onclick="player.getNextSong(-1);">
         				<input type="image" src="img/forward.png" align="absmiddle" value="stop" onclick="player.getNextSong(+1);">
-        			</div>
-        			<div class="time-controls" style="float: left; margin: 0; position: relative; top: 5px;">
-        				<span id="time1" class="time">0:00</span>
-        				<span id="capsule">
-        					<span id="cursor"></span>
-        				</span>
-        				<span id="time2" class="time" style="text-align: left;">-0:00</span>
-        			</div>
+					</center>
+        			</td></tr></table>
+        			
         		</div>
             </td></tr>
           </table>
