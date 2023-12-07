@@ -23,16 +23,7 @@
 		<!-- midi js files -->
 		<script src="midi/WebAudioFontPlayer.js"></script>
 		<script src="midi/MIDIFile.js"></script>
-		<center>
-			<table border="0" width="850" cellpadding="0" cellspacing="0">
-				<tbody>
-					<tr>
-						<td>
-							
-							<!-- Left Column -->
-							<img src="img/code-left.png" width="300">
-							<br>
-							<script>
+		<script>
 			var songChoice = [
 				"<a href='#' onclick='pushChoice(0)'>Load Voyager</a>",
 				"<a href='#' onclick='pushChoice(1)'>Load Celes</a>",
@@ -40,30 +31,29 @@
 				"<a href='#' onclick='pushChoice(3)'>Load Samy 2</a>",
 				];
 			var counter = 0;
-
 			function chooseNext() {
-  			   if(counter === songChoice.length -1){
-   			       counter = 0;
- 			   }
-   			   else {
-  			       counter++;  
-   			   }
-			   document.getElementById("p1").innerHTML = songChoice[counter];
-			}
-
+			   if(counter === songChoice.length -1){
+			       counter = 0;
+			   }else {
+			       counter++;  }
+			   document.getElementById("p1").innerHTML = songChoice[counter]; }
 			function choosePrior() {
-  			   if(counter === 0){
-   			       counter = songChoice.length -1;
- 			   }
-   			   else {
-  			       counter = counter -1;  
-   			   }
-			   document.getElementById("p1").innerHTML = songChoice[counter];
-			}
+			   if(counter === 0){
+			       counter = songChoice.length -1;
+			   }else {
+			       counter = counter -1;  }
+			   document.getElementById("p1").innerHTML = songChoice[counter]; }
+		</script>
 
+		<!--actual page -->
+		<center>
+			<table border="0" width="850" cellpadding="0" cellspacing="0">
+				<tbody><tr><td>
+							
+							<!-- Left Column -->
+							<img src="img/code-left.png" width="300">
+							<br>
 
-		
-							</script>
 							<table>
 								<tbody>
 									<tr>
