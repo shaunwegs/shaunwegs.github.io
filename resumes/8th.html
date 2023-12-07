@@ -203,6 +203,14 @@
 					startPlay();
 				}
 			}
+			function go() {
+			document.getElementById('tmr').innerHTML = 'starting...';
+			try {
+				startPlay(loadedsong);
+				document.getElementById('tmr').innerHTML = 'playing...';
+			} catch (expt) {
+				document.getElementById('tmr').innerHTML = 'error ' + expt;
+			}
 			function startPlay() {
 				currentSongTime = 0;
 				songStart = audioContext.currentTime;
