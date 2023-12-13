@@ -1,0 +1,93 @@
+<head>
+  <title>Codex of Alchemical Engineering</title>
+</head>
+<body>
+
+  <center><table width="600"><tr><td>
+    <h1>The Magnum Opus Challenge</h1>
+    The Magnum Opus Challenge is an expansion for The Codex of Alchemical Engineering, with fifteen new levels inspired 
+    by the winners of a level design contest. If you haven’t beaten The Codex of Alchemical Engineering, you probably 
+    shouldn’t play this yet – it’s much harder!
+    <br><br>
+    note: I don't know what music originally played in Magnum Opus Challenge. I know Zachtronics liked Evan LE NY's work 
+    at this time, so I've used another part of his Rever… Peut-etre… for the page music. 
+    <BR><BR>
+    
+    </td></tr>
+    </table>
+    <figure>
+<figcaption>Listen to Evan LE NY’s “Rever… Peut-etre…”, Part 3:</figcaption>
+  <audio controls src="03.ogg">
+  </audio>
+</figure>
+    <br>
+    <div id='ruffle'></div>
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script>
+var swfobject = {};
+
+swfobject.embedSWF = function(url, cont, width, height){
+    var ruffle = window.RufflePlayer.newest(),
+        player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
+            width: width,
+            height: height,
+            style: 'width: ' + width + 'px; height: ' + height + 'px',
+        });
+    window.RufflePlayer.config = {
+    // Options affecting the whole page
+    "publicPath": undefined,
+    "polyfills": true,
+
+    // Options affecting files only
+    "allowScriptAccess": false, // Polyfill elements have a different default value, see the allowScriptAccess section
+    "autoplay": "auto",
+    "unmuteOverlay": "visible",
+    "backgroundColor": null,
+    "wmode": "window",
+    "letterbox": "fullscreen",
+    "warnOnUnsupportedContent": true,
+    "contextMenu": "on",
+    "showSwfDownload": false,
+    "upgradeToHttps": window.location.protocol === "https:",
+    "maxExecutionDuration": 15,
+    "logLevel": "error",
+    "base": null,
+    "menu": true,
+    "salign": "",
+    "forceAlign": false,
+    "scale": "showAll",
+    "forceScale": false,
+    "frameRate": null,
+    "quality": "high",
+    "splashScreen": true,
+    "preferredRenderer": null,
+    "openUrlMode": "deny",
+    "allowNetworking": "none",
+    "favorFlash": true,
+    "credentialAllowList": [],
+};
+    
+    player.load({ url: url });
+}
+
+swfobject.embedSWF('https://shaunwegs.github.io/lightbot/alchemy2.swf', 'ruffle', 800, 600);
+        </script>
+
+  <br><br>
+<table width="600"><tr><td>
+    <h1>Tutorial</h1>
+  The instructions for this game are not great. Please watch the tutorial below to learn how to play the game. 
+  In this tutorial, I show that you can play it from the main Zachtronics website. This is no longer true, I made 
+  this video before Flash was discontinued. As far as I'm aware, my page here is the only place you can play this currently. 
+    <BR><BR>
+    </td></tr>
+    </table>
+  <iframe src="https://player.vimeo.com/video/86421631?h=fbd48842c9" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+    <br><br>
+    <b>Not enough challenge for you?</b>
+    <br>
+    Play the even harder Magnum Opus Challenge
+    <br><br>
+  </center>
+</body>
