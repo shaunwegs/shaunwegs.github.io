@@ -86,6 +86,14 @@ var questions = [
 "browser",
 "b", "b", "b" ],
 	[
+"Where does SQL run?",
+"on the user's computer",
+"on the web server",
+"between the web server and the user's computer",
+"SQL is not a programming language, so there is nothing to 'run'",
+"SQL doesn't run directly, but due to its relationship with HTML, it 'runs' or is processed on the user's computer",
+"b", "b", "b" ],
+	[
 "Data is sent over the internet in the form of",
 "flops",
 "packets",
