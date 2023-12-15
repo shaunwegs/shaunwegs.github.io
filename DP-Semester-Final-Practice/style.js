@@ -86,6 +86,14 @@ var questions = [
 "browser",
 "b", "b", "b" ],
 	[
+"Data is sent over the internet in the form of",
+"flops",
+"packets",
+"ram",
+"flags",
+"modems",
+"b", "b", "b" ],
+	[
 "http://    www   .     w3    .    org     /    P3P/Overview.html <br><br>Refer to the URL above, 'http://' is the...",
 "top-level domain",
 "protocol identifier",
@@ -212,6 +220,14 @@ var questions = [
 "offloading storage and processing to dedicated servers",
 "utilizing a local network of devices and computers",
 "using hydrogen molecules as a data medium",
+"c", "c", "c" ],
+	[
+"Which of the following is a true statement about cloud computing?",
+"Cloud computing is convenient to implement but has a negative effect on the scalability of systems",
+"Cloud computing is useful for large businesses but is not useful for individuals",
+"Storing data using cloud computing can help ensure that data are not lost if a user’s computer stops functioning",
+"Storing data using cloud computing improves security over storing data on a personal computer",
+"Cloud computing is only a buzz word and is actually no different than regular computing",
 "c", "c", "c" ],
 	[
 "A user enters a Web address in a browser, and a request for a file is sent to a Web server. Which of the following best describes how the file is sent to the user?",
