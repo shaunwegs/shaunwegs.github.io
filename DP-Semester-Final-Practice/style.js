@@ -126,6 +126,14 @@ var questions = [
 "decentralized information system in case of a military attack from Russia",
 "b", "b", "b" ],
 	[
+"www, gopher, and ftp are all examples of",
+"Network Topologies",
+"Protocols",
+"Cable Types",
+"Programming Languages",
+"Ethernet Jacks",
+"b", "b", "b" ],
+	[
 "Which term best matches the following definition?<br><br><i>protocol enabling communication between a client computer and a server</i>",
 "URI/URL",
 "HTTP",
