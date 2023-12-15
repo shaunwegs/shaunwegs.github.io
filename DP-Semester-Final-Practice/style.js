@@ -86,6 +86,14 @@ var questions = [
 "browser",
 "b", "b", "b" ],
 	[
+"Where does HTML run?",
+"on the web server",
+"on the user's computer",
+"between the web server and the user's computer",
+"HTML is not a programming language, so it doesn't 'run', but it is processed on the user's computer",
+"HTML doesn't run directly, but due to its relationship with SQL, it 'runs' or is processed on the web server",
+"b", "b", "b" ],
+	[
 "Where does Javascript run?",
 "on the web server",
 "on the user's computer",
