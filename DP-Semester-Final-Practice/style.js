@@ -158,6 +158,14 @@ var questions = [
 "The efficiency of a central location is advantageous for processing speed, reducing likelihood of data collisions",
 "c", "c", "c" ],
 	[
+"Cloud Computing relates to",
+"computing with wind-powered energy",
+"computing with light-weight and low-energy devices",
+"offloading storage and processing to dedicated servers",
+"utilizing a local network of devices and computers",
+"using hydrogen molecules as a data medium",
+"c", "c", "c" ],
+	[
 "A user enters a Web address in a browser, and a request for a file is sent to a Web server. Which of the following best describes how the file is sent to the user?",
 "The server attempts to connect directly to the user’s computer. If the connection is successful, the entire file is sent. If the connection is unsuccessful, an error message is sent to the user",
 "The server repeatedly attempts to connect directly to the user’s computer until a connection is made. Once the connection is made, the entire file is sent.",
