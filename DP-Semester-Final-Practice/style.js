@@ -222,6 +222,14 @@ var questions = [
 "ring network",
 "c", "c", "c" ],
 	[
+"Which of the following are true related to the importance of protocols in ensuring the successful preparation, transmission and delivery of data using packet switching? <br><br>i. Following protocols related to the construction of packets means that the receiver knows automatically how to decode the contents/does not need further instructions for decoding the packets;<br> ii. Protocols include destination information that means that at each node the packet passes through it is sent to the next node towards the correct destination;<br> iii. Packet switching protocols ensure that no packets will be intercepted by third party groups that may use the contained information for ill-intent;<br> iv. Packet switching protocols ensure that a packet will take the least number of hops needed to get to the destination;<br> ",
+"i only",
+"i & iv only",
+"i & ii only",
+"i, ii, & iii",
+"ii & iii only",
+"c", "c", "c" ],
+	[
 "Related to networking, a router... <br>i. prevents unauthorized access<br> ii. connects networks together<br> iii. repeats and amplifies signal to span long distances<br> iv. repeats and amplifies signal to change directions<br> ",
 "i only",
 "i & iv only",
