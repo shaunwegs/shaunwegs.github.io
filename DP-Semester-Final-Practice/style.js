@@ -518,6 +518,14 @@ var questions = [
 "scanner",
 "c", "c", "a" ],
 	[
+"What is latency",
+"the delay a computer waits before retrying after a message collision",
+"the estimated likelihood a message may fail to deliver",
+"The time it takes for data to transfer",
+"the estimated likelihood data will collide with another message on the network",
+"the estimated time before a message will begin sending",
+"c", "c", "c" ],
+	[
 "Which of the following is an input device on our computers?",
 "mouse",
 "screen",
