@@ -206,6 +206,14 @@ var questions = [
 "The computers can only communicate if they come from the same country of origin",
 "c", "c", "c" ],
 	[
+"How do the term's client and server relate?",
+"the terms are synonyms, client is an older term and not as frequently used today; the role of a client and a server are both to access a service made available by a server by sending a request for service",
+"the role of a client is to fulfill requests from client programs (which can reside in the same or in other computers), while the role of a server is to access a service made available by a server by sending a request for service",
+"the role of a client is to access a service made available by a server by sending a request for service, while the role of a server is to fulfill requests from client programs (which can reside in the same or in other computers)",
+"the terms are synonyms, server is an older term and not as frequently used today; the role of a client and a server are both to fulfill requests from client programs (which can reside in the same or in other computers)",
+"I only made 4 answer choices, don't choose me",
+"c", "c", "c" ],
+	[
 "Which of the following is a characteristic of the fault-tolerant nature of routing on the Internet?",
 "The ability to resolve errors in domain name system (DNS) lookups",
 "The ability to use a hierarchical naming system to avoid naming conflicts",
