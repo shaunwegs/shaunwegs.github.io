@@ -326,7 +326,7 @@ var questions = [
 "outernet",
 "d", "d", "d" ],
 	[
-"Web 1.0 most relates to <br>i. static pages<br> ii. User-generated Content<br> iii. Decentralization and/or Automation?<br> ",
+"Web 1.0 most relates to <br><br>i. static pages<br> ii. User-generated Content<br> iii. Decentralization and/or Automation?<br> ",
 "ii only",
 "i & iii only",
 "i only",
@@ -334,7 +334,7 @@ var questions = [
 "iii only",
 "c", "c", "c" ],
 	[
-"Web 2.0 most relates to <br>i. static pages<br> ii. User-generated Content<br> iii. Decentralization and/or Automation?<br> ",
+"Web 2.0 most relates to <br><br>i. static pages<br> ii. User-generated Content<br> iii. Decentralization and/or Automation?<br> ",
 "i only",
 "i & iii only",
 "ii only",
@@ -342,7 +342,7 @@ var questions = [
 "iii only",
 "c", "c", "c" ],
 	[
-"Web 3.0 most relates to <br>i. static pages<br> ii. User-generated Content<br> iii. Decentralization and/or Automation?<br> ",
+"Web 3.0 most relates to <br><br>i. static pages<br> ii. User-generated Content<br> iii. Decentralization and/or Automation?<br> ",
 "ii only",
 "i & iii only",
 "iii only",
@@ -366,7 +366,7 @@ var questions = [
 "ii & iii only",
 "c", "c", "c" ],
 	[
-"Related to networking, a router... <br>i. prevents unauthorized access<br> ii. connects networks together<br> iii. repeats and amplifies signal to span long distances<br> iv. repeats and amplifies signal to change directions<br> ",
+"Related to networking, a router... <br><br>i. prevents unauthorized access<br> ii. connects networks together<br> iii. repeats and amplifies signal to span long distances<br> iv. repeats and amplifies signal to change directions<br> ",
 "i only",
 "i & iv only",
 "i & ii only",
@@ -374,7 +374,7 @@ var questions = [
 "ii & iii only",
 "c", "c", "c" ],
 	[
-"What strategies are used to reduce data collisions <br>i. switches<br> ii. exponential backoff<br> iii. hubs<br> iv. circuit switching<br> ",
+"What strategies are used to reduce data collisions <br><br>i. switches<br> ii. exponential backoff<br> iii. hubs<br> iv. circuit switching<br> ",
 "ii only",
 "i & iv only",
 "i & ii only",
@@ -382,7 +382,7 @@ var questions = [
 "ii & iii only",
 "c", "c", "c" ],
 	[
-"Which of the following are benefits of using well-named variables in a computer program?... <br>i. the program will run faster<br> ii. the code will be easier to read<br> iii. the program will be easier to modify in the future<br> iv. the program will have a greater data storage capacity<br> ",
+"Which of the following are benefits of using well-named variables in a computer program?... <br><br>i. the program will run faster<br> ii. the code will be easier to read<br> iii. the program will be easier to modify in the future<br> iv. the program will have a greater data storage capacity<br> ",
 "i only",
 "i & iv only",
 "i, ii, iii, & iv",
