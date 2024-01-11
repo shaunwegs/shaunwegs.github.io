@@ -1,30 +1,35 @@
 // define the time limit
-let TIME_LIMIT = 90;
+let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "Hi Hi Hi",
-  "Ada! Ada! Ada!",
-  "Hi Ada!",
-  "sayHi(); sayHi(); sayHi();",
-  "(Ada) (Ada) (Ada)",
-  "sayHi(Ada); sayHi(Ada); sayHi(Ada);",
-  "Ada Ada Ada",
-  "has has has",
-  "salad. salad. salad.",
-  "Ada has salad.",
-  "Ada Ada Ada",
-  "likes likes likes",
-  "salad. salad. salad.",
-  "Ada likes salad.",
-  "Ada Ada Ada",
-  "eats eats eats",
-  "salad. salad. salad.",
-  "Ada eats salad.",
-  "Ada Ada Ada",
-  ".eats(); .eats(); .eats();",
-  "(salad) (salad) (salad)",
-  "Ada.(salad);"
+  "Automation Automation Automation",
+  "Automation is controlled through programming.",
+  "Programming Programming Programming",
+  "A program's design begins with planning the algorithm.",
+  "Algorithm Algorithm Algorithm",
+  "Flowchart Flowchart Flowchart",
+  "We use flowcharts to show the steps of an algorithm",
+  "Flowcharts start with a Begin symbol and",
+  "end with an End symbol.",
+  "In our flowcharts, we put commands in rectangles.",
+  "Linear Algorithm Linear Algorithm Linear Algorithm",
+  "A linear algorithm has only one sequence.",
+  "We connect steps with arrows.",
+  "The arrows indicate the direction we move through the algorithm.",
+  "Conditional Algorithm Conditional Algorithm Conditional Algorithm", 
+  "A conditional algorithm is more complex.",
+  "A conditional algorithm includes a TRUE/FALSE question.",
+  "We put the TRUE/FALSE question inside a rhombus.",
+  "Decomposition Decomposition Decomposition",
+  "Decomposition is breaking down a problem into simple steps.",
+  "Light-Bot Light-Bot Light-Bot",
+  "Light-Bot is an online puzzle game.",
+  "Light-Bot is a little robot that lights up tiles.",
+  "We will program Light-Bot to move to and light up tiles.",
+  "We will program Light-Bot using icons representing commands.",
+  "We place these commands in the Main Method.",
+  "Later, we will use Functions with Light-Bot."
 ];
 
 // selecting required elements
