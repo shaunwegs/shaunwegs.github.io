@@ -9,7 +9,7 @@ let quotes_array = [
   "A program's design begins with planning the algorithm.",
   "Algorithm Algorithm Algorithm",
   "Flowchart Flowchart Flowchart",
-  "We use flowcharts to show the steps of an algorithm",
+  "We use flowcharts to show the steps of an algorithm.",
   "Flowcharts start with a Begin symbol and",
   "end with an End symbol.",
   "In our flowcharts, we put commands in rectangles.",
