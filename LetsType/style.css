@@ -4,6 +4,22 @@ body {
   text-align: center;
 }
 
+a:link {
+  color: #7DE9F5;
+}
+
+a:visited {
+  color: #5bc7d3;
+}
+
+a:hover {
+  color: #9FFBF7;
+}
+
+a:active {
+  color: #FFFFFF;
+}
+
 .container {
   display: flex;
   flex-direction: column;
