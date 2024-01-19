@@ -10,7 +10,7 @@ let quotes_array = [
   "We will program Light-Bot using icons representing commands.",
   "We place these commands in the Main Method.",
   "This is the first level of the original Light-Bot.",
-  "First, we will use Forward command.",
+  "First, we will use the Forward command.",
   "We will place it in the first block of the Main Method.",
   "Next, we will use the Forward command again.",
   "This time it will go in the second block of the Main Method.",
