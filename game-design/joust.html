@@ -1,0 +1,81 @@
+<head>
+  <title>Play Joust</title>
+</head>
+<body>
+
+  <center><br><br><br>
+    <h1>Joust(1982)</h1>
+    Joust is an action game developed by Williams Electronics and released in arcades in 1982. While not the first two-player cooperative video game, Joust's success and polished implementation popularized the concept.
+    <br><br>
+
+    <div id='ruffle'></div>
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script>
+var swfobject = {};
+
+swfobject.embedSWF = function(url, cont, width, height){
+    var ruffle = window.RufflePlayer.newest(),
+        player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
+            width: width,
+            height: height,
+            style: 'width: ' + width + 'px; height: ' + height + 'px',
+        });
+    window.RufflePlayer.config = {
+    // Options affecting the whole page
+    "publicPath": undefined,
+    "polyfills": true,
+
+    // Options affecting files only
+    "allowScriptAccess": false, // Polyfill elements have a different default value, see the allowScriptAccess section
+    "autoplay": "auto",
+    "unmuteOverlay": "visible",
+    "backgroundColor": null,
+    "wmode": "window",
+    "letterbox": "fullscreen",
+    "warnOnUnsupportedContent": true,
+    "contextMenu": "on",
+    "showSwfDownload": false,
+    "upgradeToHttps": window.location.protocol === "https:",
+    "maxExecutionDuration": 15,
+    "logLevel": "error",
+    "base": null,
+    "menu": true,
+    "salign": "",
+    "forceAlign": false,
+    "scale": "showAll",
+    "forceScale": false,
+    "frameRate": null,
+    "quality": "high",
+    "splashScreen": true,
+    "preferredRenderer": null,
+    "openUrlMode": "deny",
+    "allowNetworking": "none",
+    "favorFlash": true,
+    "credentialAllowList": [],
+};
+    
+    player.load({ url: url });
+}
+
+var emulator = $('#emulator');
+            if(emulator)
+            {
+                var flashvars = 
+                {
+                    system : 'nes',
+                    url : 'games/Joust.nes'
+                };
+                var params = {};
+                var attributes = {};
+
+                params.allowscriptaccess = 'sameDomain';
+                params.allowFullScreen = 'true';
+                params.allowFullScreenInteractive = 'true';
+
+                swfobject.embedSWF('games/Nesbox.swf', 'emulator', '512', '480', '11.2.0', false, flashvars, params, attributes);
+            }
+
+swfobject.embedSWF('https://shaunwegs.github.io/game-design/games/Nesbox.swf', 'ruffle', 800, 650);
+        </script>
+  </center>
+</body>
