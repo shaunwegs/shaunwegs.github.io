@@ -57,13 +57,19 @@ swfobject.embedSWF = function(url, cont, width, height){
     player.load({ url: url });
 }
 
-var emulator = $('#emulator');
+
+
+swfobject.embedSWF('https://shaunwegs.github.io/game-design/games/Nesbox.swf', 'ruffle', 800, 650);
+
+function embed()
+        {
+            var emulator = $('#emulator');
             if(emulator)
             {
                 var flashvars = 
                 {
                     system : 'nes',
-                    url : 'games/Joust.nes'
+                    url : 'NES/Joust.nes'
                 };
                 var params = {};
                 var attributes = {};
@@ -72,10 +78,11 @@ var emulator = $('#emulator');
                 params.allowFullScreen = 'true';
                 params.allowFullScreenInteractive = 'true';
 
-                swfobject.embedSWF('games/Nesbox.swf', 'emulator', '512', '480', '11.2.0', false, flashvars, params, attributes);
+                swfobject.embedSWF('flash/Nesbox.swf', 'emulator', '512', '480', '11.2.0', false, flashvars, params, attributes);
             }
+        }
 
-swfobject.embedSWF('https://shaunwegs.github.io/game-design/games/Nesbox.swf', 'ruffle', 800, 650);
+        embed();
         </script>
   </center>
 </body>
