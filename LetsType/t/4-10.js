@@ -5,7 +5,7 @@ let TIME_LIMIT = 180;
 let quotes_array = [
   "Botball Botball Botball",
   "You are programming an autonomous robot.",
-  "This means it moves on its on;",
+  "This means it moves on its own;",
   "there is no remote control.",
   "You are programming it in the C language.",
   "This year's theme is the Moonbase Mission.",
