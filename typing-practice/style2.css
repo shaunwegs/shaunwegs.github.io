@@ -1,0 +1,90 @@
+body {
+  background-color: #366F5A;
+  color: #345039;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: #CEF57D;
+	
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.timer, .errors,
+.accuracy, .cpm, .wpm {
+  background-color: #264B39;
+  color: #B1C385;
+  height: 60px;
+  width: 70px;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 20%;
+}
+
+.cpm, .wpm  {
+  display: none;
+}
+
+.header_text {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.curr_time, .curr_errors,
+.curr_accuracy, .curr_cpm,
+.curr_wpm {
+  font-size: 2.75rem;
+}
+
+.quote {
+  background-color: #2E3C37;
+  color: #A1A890;
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 25px;
+}
+
+.input_area {
+  background-color: #DCDDC7;
+  height: 80px;
+  width: 40%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 15px;
+  padding: 20px;
+  border: 0px;
+  box-shadow: #19301D 5px 8px 5px;
+}
+
+.incorrect_char {
+  color: #FA9A00;
+  text-decoration: underline;
+}
+
+.correct_char {
+  color: #4B6A4B;
+}
+
+.restart_btn {
+  display: none;
+  background-color: #264B39;
+  color: #B1C385;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  box-shadow: #19301D 5px 8px 5px;
+}
