@@ -21,7 +21,7 @@ let isLooping = false;
 let click;
 
 function setup() {
-  song = createAudio('assets/sound/music.mp3');
+  song = createAudio('assets/sound/moonlight_loop.mp3');
   click = loadSound('assets/sound/on-click.wav');
 
   boxMain = createDiv('<br><br><br><p><font size = "+2">a MRUU production</font></p><br>click to start');
@@ -249,14 +249,30 @@ function draw() {
 }
 
 function mousePressed(){
-  if(buttonAPressed.clicked()) {
+  if(buttonA.clicked()) {
     click.play()
    if(isLooping === false) {
     song.loop();
     isLooping = true;
     }
   }
-  else if(buttonBPressed.clicked()) {
+  else if(buttonB.clicked()) {
+    click.play()
+    if(isLooping === false) {
+     song.loop();
+     isLooping = true;
+     }
+   }
+
+   else if(buttonYes.clicked()) {
+    click.play()
+    if(isLooping === false) {
+     song.loop();
+     isLooping = true;
+     }
+   }
+
+   else if(buttonNo.clicked()) {
     click.play()
     if(isLooping === false) {
      song.loop();
