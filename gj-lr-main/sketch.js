@@ -18,11 +18,12 @@ let counting = 0;
 
 let song;
 let isLooping = false;
-let click;
+let talkKing;
+let chatter = false;
 
 function setup() {
-  song = createAudio('assets/sound/moonlight_loop.mp3');
-  click = loadSound('assets/sound/on-click.wav');
+  song = createAudio('assets/sound/moonlight-loop.mp3');
+  talkKing = loadSound('assets/sound/deep-chatter.wav');
 
   boxMain = createDiv('<br><br><br><p><font size = "+2">a MRUU production</font></p><br>click to start');
   boxMain.class("nes-container is-centered");
@@ -141,15 +142,25 @@ function draw() {
         talkLeft.html('<p>It has been a long time since I called on you, Marshal.</p>');
         buttonA.position(558, 420)
         buttonA.html('Continue')
+        if (chatter === false){
+          talkKing.play();
+          chatter = true;
+        }
+
           if (buttonAPressed == true) {
             shot = 1; // continue
             buttonAPressed = false;
+            chatter = false;
           }
       } else if (shot == 1){
         talkLeft.html('<p>The kingdom needs you. Will you listen to this old king?</p>');
         buttonA.position(-558, 420)
         buttonYes.position(558, 420)
         buttonNo.position(648, 420)
+        if (chatter === false){
+          talkKing.play();
+          chatter = true;
+        }
         if (buttonNoPressed == true) {
           buttonNoPressed = false;
           act = 9; // Game Over
@@ -249,36 +260,13 @@ function draw() {
 }
 
 function mousePressed(){
-  if(buttonA.clicked()) {
-    playSound('mySound')
+
+    playSound('mySound2')
    if(isLooping === false) {
+    song.volume(.5)
     song.loop();
     isLooping = true;
     }
-  }
-  else if(buttonB.clicked()) {
-    playSound('mySound')
-    if(isLooping === false) {
-     song.loop();
-     isLooping = true;
-     }
-   }
-
-   else if(buttonYes.clicked()) {
-    playSound('mySound')
-    if(isLooping === false) {
-     song.loop();
-     isLooping = true;
-     }
-   }
-
-   else if(buttonNo.clicked()) {
-    playSound('mySound')
-    if(isLooping === false) {
-     song.loop();
-     isLooping = true;
-     }
-   }
 }
 
 function playSound(soundobj) {
