@@ -250,14 +250,14 @@ function draw() {
 
 function mousePressed(){
   if(buttonA.clicked()) {
-    click.play()
+    playSound('mySound')
    if(isLooping === false) {
     song.loop();
     isLooping = true;
     }
   }
   else if(buttonB.clicked()) {
-    click.play()
+    playSound('mySound')
     if(isLooping === false) {
      song.loop();
      isLooping = true;
@@ -265,7 +265,7 @@ function mousePressed(){
    }
 
    else if(buttonYes.clicked()) {
-    click.play()
+    playSound('mySound')
     if(isLooping === false) {
      song.loop();
      isLooping = true;
@@ -273,10 +273,15 @@ function mousePressed(){
    }
 
    else if(buttonNo.clicked()) {
-    click.play()
+    playSound('mySound')
     if(isLooping === false) {
      song.loop();
      isLooping = true;
      }
    }
+}
+
+function playSound(soundobj) {
+  var thissound = document.getElementById(soundobj);
+  thissound.play();
 }
