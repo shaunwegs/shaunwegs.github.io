@@ -18,12 +18,15 @@ let counting = 0;
 
 let song;
 let isLooping = false;
-let talkKing;
+let talkKing, talkKing2;
+let gameOver;
 let chatter = false;
 
 function setup() {
   song = createAudio('assets/sound/moonlight-loop.mp3');
   talkKing = loadSound('assets/sound/deep-chatter.wav');
+  talkKing2 = loadSound('assets/sound/deep-chatter2.wav');
+  gameOver = loadSound('assets/sound/game-over.mp3');
 
   boxMain = createDiv('<br><br><br><p><font size = "+2">a MRUU production</font></p><br>click to start');
   boxMain.class("nes-container is-centered");
@@ -158,15 +161,17 @@ function draw() {
         buttonYes.position(558, 420)
         buttonNo.position(648, 420)
         if (chatter === false){
-          talkKing.play();
+          talkKing2.play();
           chatter = true;
         }
         if (buttonNoPressed == true) {
           buttonNoPressed = false;
+          chatter = false;
           act = 9; // Game Over
         }
         if (buttonYesPressed == true) {
           buttonYesPressed = false;
+          chatter = false;
           shot = 2; // Game Over
         }
       } else if (shot == 2){
@@ -174,8 +179,13 @@ function draw() {
         buttonA.position(558, 420)
         buttonYes.position(-538, 420)
         buttonNo.position(-628, 420)
+        if (chatter === false){
+          talkKing.play();
+          chatter = true;
+        }
         if (buttonAPressed == true) {
           shot = 3; // continue
+          chatter = false;
           buttonAPressed = false;
         }
       } else if (shot == 3){
@@ -184,8 +194,13 @@ function draw() {
         buttonYes.position(-538, 420)
         buttonNo.position(-628, 420)
         buttonB.html('Continue')
+        if (chatter === false){
+          talkKing.play();
+          chatter = true;
+        }
         if (buttonBPressed == true) {
           shot = 4; // continue
+          chatter = false;
           buttonBPressed = false;
         }
       } else if (shot == 4){
@@ -194,12 +209,18 @@ function draw() {
         buttonB.position(-558, 420)
         buttonYes.position(558, 420)
         buttonNo.position(648, 420)
+        if (chatter === false){
+          talkKing2.play();
+          chatter = true;
+        }
         if (buttonYesPressed == true) {
           buttonYesPressed = false;
+          chatter = false;
           shot = 5; // continue
         }
         if (buttonNoPressed == true) {
           buttonNoPressed = false;
+          chatter = false;
           act = 9; // Game Over
         }
       } else if (shot == 5){
@@ -208,10 +229,16 @@ function draw() {
       buttonB.position(-558, 420)
       buttonYes.position(558, 420)
       buttonNo.position(648, 420)
+      if (chatter === false){
+        talkKing.play();
+        chatter = true;
+      }
       if (buttonYesPressed == true) {
+        chatter = false;
         shot = 5; // continue
       }
       if (buttonNoPressed == true) {
+        chatter = false;
         act = 9; // Game Over
       }
     }
@@ -255,6 +282,12 @@ function draw() {
     talkLeft.position(-850, 270)
     buttonYes.position(-538, 400)
     buttonNo.position(-628, 400)
+    if (chatter === false){
+      song.stop();
+      gameOver.play();
+      chatter = true;
+    }
+
   }
 
 }
