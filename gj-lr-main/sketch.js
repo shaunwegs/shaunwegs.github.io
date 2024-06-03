@@ -115,7 +115,7 @@ function draw() {
     else if (scene == 1){
     boxMain.class("nes-container is-dark is-centered");
     boxMain.style('background-color', '#373737');
-    boxMain.html('<br><br><br><p><font size = "+2">Last Stand</font></p>');
+    boxMain.html('<br><br><br><p><font size = "+2">Last Stand</font><br><font size="-1">v. a.0.1</font></p>');
   
     img1.position(265, 280)
     img2.position(635, 205)
@@ -189,7 +189,7 @@ function draw() {
           buttonAPressed = false;
         }
       } else if (shot == 3){
-        talkLeft.html('<p>We need you to contract a defense to protect our kingdom.</p>');
+        talkLeft.html('<p>We need you to command a defense to protect our kingdom.</p>');
         buttonB.position(558, 420)
         buttonYes.position(-538, 420)
         buttonNo.position(-628, 420)
@@ -224,22 +224,28 @@ function draw() {
           act = 9; // Game Over
         }
       } else if (shot == 5){
-      talkLeft.html('<p>Thank you, Marshal.</p>');
-      buttonA.position(-558, 420)
-      buttonB.position(-558, 420)
-      buttonYes.position(558, 420)
-      buttonNo.position(648, 420)
+      talkLeft.html('<p>Thank you, Marshal.<br>What should we do first?</p>');
+      portNPC.position(72, 98)
+      portName.position(106, 304)
+      port1.position(80, 106)
+      talkLeft.position(250, 75)
+      buttonA.position(258, 225)
+      buttonA.html('Who threatens us?')
+      buttonB.position(258, 285)
+      buttonB.html('Who is at my command?')
+      buttonYes.position(-558, 420)
+      buttonNo.position(-648, 420)
       if (chatter === false){
         talkKing.play();
         chatter = true;
       }
-      if (buttonYesPressed == true) {
+      if (buttonAPressed == true) {
         chatter = false;
-        shot = 5; // continue
+        shot = 6; // learn about dark lord
       }
-      if (buttonNoPressed == true) {
+      if (buttonBPressed == true) {
         chatter = false;
-        act = 9; // Game Over
+        shot = 7; // learn about warriors
       }
     }
     }
@@ -248,7 +254,7 @@ function draw() {
   else if (act == 8){
     counting = 0;
     boxMain.style('background-color', '#373737');
-    boxMain.html('<p><font size = "+2" color="#ddd">Credits</font><br><br><font color="#ddd">UI from NES.css, by B.C.Rikko<br><br>Sound and music from Pixabay<br><br>Coded with the p5.js library<br><br>All art by me</p></font>');
+    boxMain.html('<p><font size = "+2" color="#ddd">Credits</font><br><br><font color="#ddd">UI from NES.css, by B.C.Rikko<br><br>Sound and music from Pixabay<br><br>Coded with VSC & p5.js<br><br>All art by me</p></font>');
     boxMain.position(50, 50)  
     img1.position(-847, 245)
     img2.position(-835, 153)
