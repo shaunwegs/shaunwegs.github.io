@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom right, #5533bb, #aa2288);
+  background-attachment: fixed;
+}
+canvas {
+  display: block;
+}
+
+@font-face {
+  font-family: 'Roboto Mono', monospace;
+  src: url(fonts/roboto-mono-v12-latin-regular.woff2) format('woff2'),
+       url(fonts/roboto-mono-v12-latin-regular.woff) format('woff'),
+       url(fonts/roboto-mono-v12-latin-regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+div, p {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2 {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
