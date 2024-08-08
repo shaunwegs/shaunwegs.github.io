@@ -35,8 +35,16 @@ let loadOnce = 0;
 let fontArray = ["Arial, Helvetica, sans-serif", "Verdana, sans-serif", "Tahoma, sans-serif", "Times, serif", "Garamond, serif", "Georgia, serif", "Courier, monospace"]
 let fontCount = 0
 
-function setup() {
 
+
+
+function setup() {
+  holder = createElement('iframe');
+  holder.attribute('src', 'https://www.youtube.com/embed/rB-2mkydVHA?si=fsUcFJe1tVXfxzxS');
+  holder.attribute('frameborder', '0');
+  holder.attribute('width', '840');
+  holder.attribute('height', '473');
+  holder.position(-1320, 160);
   
   createCanvas(300, 400);
   background("#333");
@@ -242,15 +250,19 @@ function draw() {
     } else if (vidLoad == 1){
     commandP.position(-560, 235)
     commandP2.position(-975, 180)
-    commandP3.position(320, 145)
+    commandP3.position(-720, 145)
     logDiv.position(-530, 165)
     imgMe.position(95,-575);
     loadVidButton.position(-1388, 625)
-              commandStats3='<table width="840" style="border:5px solid #479D89; background-color:'+ userBgColor +' cellspacing="9" cellpadding="9"><tr><td><div style="color:'+ userColor + '; font-size:'+ userSize +'px; line-height:'+ userLine +'; font-family: '+ userFont +'""><iframe width="560" height="315" src="https://www.youtube.com/embed/rB-2mkydVHA?si=XsJF91YiUHCxCu_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>Read through the content in order, then click the button to load the video for further instruction.<br></div></td></tr></table>';
+      
+    holder.position(320, 160);
     }
     
   } else if (commandExe == 1) {
     vidLoad = 0
+    holder.position(-1320, 160);
+    holder.attribute('src', ' ');
+    
     logDiv.position(330, 165)
     imgMe.position(95,-575);
     imgRight.position(1135,165);
