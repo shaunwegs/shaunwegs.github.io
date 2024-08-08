@@ -5,9 +5,6 @@ if (windowW < 1500){
   windowW = 1500
 }
 let maskBox, maskBox2, maskBox3, maskBox4, boxH
-let maskTop = 80 //make less for bigger
-let maskBot = 160 //make bigger for bigger
-let maskLeft = 190 //make bigger for left&right
 let commandP, commandP2, commandP3
 let commandStats = ""
 let commandStats2 = ""
@@ -20,6 +17,9 @@ let commandLog = "<font color='#eee'><b><u>&nbsp;...&nbsp;</u></b></font>"
 let totalSlides = 5
 let vidLoad = 0
 
+let maskTop = 80 //make less for bigger
+let maskBot = 160 //make bigger for bigger
+let maskLeft = 190 //make bigger for left&right
 let userSize = 13
 let userLine = 1.6
 let userColor = 'darkslategrey'
@@ -90,6 +90,8 @@ function setup() {
   changeFontButton.mousePressed(changeFont);
   
   voiceOverButton = createButton("Toggle Oration");
+  
+  
   maskButton = createButton("Toggle Mask");
   maskButton.mousePressed(maskToggle);
   
@@ -103,12 +105,15 @@ function setup() {
   maskTallButton.mousePressed(maskTall);
   maskShortButton.mousePressed(maskShort);
   
+  defaultButton = createButton("Reset");
+  defaultButton.mousePressed(resetSettings);
+  
   usaName.mousePressed(toggleUsa);
   usaName.position(1340, 80)
 
 
   txtColorLabel = createP("<BR><span style='color:#eee;'>&nbsp;<b>Font Color:</b>")
-  myPicker = createColorPicker('DarkSlateGrey');
+  myPicker = createColorPicker('darkslategrey');
   bgColorLabel = createP("<BR><span style='color:#eee;'>&nbsp;<b>BG Color:</b>")
   myPicker2 = createColorPicker('#eee');
   
@@ -161,6 +166,7 @@ function draw() {
   changeFontButton.position(1218, 98 * toggled)
   maskButton.position(940, 98 * toggled)
   voiceOverButton.position(1218, 132 * toggled)  
+  defaultButton.position(962, 132 * toggled)  
   
   upButton.position(1110, 34 * toggled)
   downButton.position(1050, 34 * toggled)
@@ -181,15 +187,16 @@ function draw() {
 
   
   //set values for text elements
-  commandP.html(commandStats)
-  commandP2.html(commandStats2)
-  commandP3.html(commandStats3)
-  
-  logDiv.position(610, 205)
-  logDiv.html(commandLog)
+
   logDiv.style('background-color', '#333')
-  userColor = myPicker.color();
-  userBgColor = myPicker2.color();
+  if (str(userColor) != str(myPicker.color())){
+    loadOnce = 0
+    userColor = myPicker.color();
+  }
+  if (str(userBgColor) != str(myPicker2.color())){
+    loadOnce = 0
+    userBgColor = myPicker2.color();
+  }
 
   
   fill("#333")
@@ -236,17 +243,27 @@ function draw() {
   
   if (commandExe == 0) {
     if (vidLoad == 0) {
-    commandP.position(560, 235)
-    commandP2.position(975, 380)
-    commandP3.position(320, 315)
-    loadVidButton.position(1388, 625)
+      if (loadOnce == 0){   
+          commandP.position(560, 235)
+          commandP2.position(975, 380)
+          commandP3.position(320, 315)
+          loadVidButton.position(1388, 625)
     
     commandLog = "<font color='#eee'><h3><b><u>&nbsp;Overview of Today&nbsp;</u></b></h3></font>"
-    commandStats="<table width='400' style='border:5px solid #9C27B0; background-color:"+ userBgColor +"' cellspacing='9' cellpadding='9'><tr><td><div style='color:"+ userColor + "; font-size:"+ userSize +"px; line-height:"+ userLine +"; font-family: "+ userFont +"'>&nbsp;&nbsp;As it is the beginning of the course, we'll initially just start by setting up a few things we'll use throughout the year. We'll also briefly talk about what CS and CTE are. As we move through the year, we'll regularly practice typing and build a portfolio in addition to the course's content. These will benefit you both in the course, in school, and beyond.<br><br>&nbsp;&nbsp;As we move through the year, we'll regularly reflect on our growth in relation to typing, our portfolio, and our understanding of the course content. </div></td></tr></table>";
+    commandStats="<table width='400' style='border:5px solid #9C27B0; background-color:"+ userBgColor +"' cellspacing='9' cellpadding='9'><tr><td><div style='color:"+ userColor + "; font-size:"+ userSize +"px; line-height:"+ userLine +"; font-family: "+ userFont +"'>&nbsp;&nbsp;As it is the beginning of the course, we'll initially just start by setting up a few things we'll use throughout the year. We'll also briefly talk about what CS and CTE are. As we move through the year, we'll regularly practice typing and build a portfolio in addition to the course's content. These will benefit you in the course, in school, and beyond.<br><br>&nbsp;&nbsp;Throughout the course, we'll regularly reflect on our growth in relation to typing, our portfolio, and our understanding of the course content. </div></td></tr></table>";
     
     commandStats2="<table width='400' style='border:5px solid #9C27B0; background-color:"+ userBgColor +"' cellspacing='9' cellpadding='9'><tr><td><div style='color:"+ userColor + "; font-size:"+ userSize +"px; line-height:"+ userLine +"; font-family: "+ userFont +"'>Will you have homework?<br> &nbsp;&nbsp;Probably not, but you need to be ready to work in class everyday. If you choose not to, you'll have a harder time and more likely need to work outside of class too. You're also more likely to have a lower grade. Use class time productively and you should do well.<br><br>&nbsp;&nbsp;When you're ready, click the button next to this text box to load the video. This video will talk a bit more about how content is presented on this site.</div></td></tr></table>";
     
         commandStats3="<table width='220' style='border:5px solid #479D89; background-color:"+ userBgColor +"' cellspacing='9' cellpadding='9'><tr><td><div style='color:"+ userColor + "; font-size:"+ userSize +"px; line-height:"+ userLine +"; font-family: "+ userFont +"'>Read through the content in order, then click the button to load the video for further instruction.<br></div></td></tr></table>";
+      
+        commandP.html(commandStats)
+        commandP2.html(commandStats2)
+        commandP3.html(commandStats3)
+        logDiv.html(commandLog)
+        loadOnce = 1
+  
+        logDiv.position(610, 205)
+      }
     } else if (vidLoad == 1){
     commandP.position(-560, 235)
     commandP2.position(-975, 180)
@@ -278,6 +295,12 @@ function draw() {
     
         commandStats3="<table width='280' style='border:5px solid #479D89; background-color:"+ userBgColor +"' cellspacing='9' cellpadding='9'><tr><td><div style='color:"+ userColor + "; font-size:"+ userSize +"px; line-height:"+ userLine +"; font-family: "+ userFont +"'>&nbsp;&nbsp;Please notice the Usability Features button above. Please click it and make use of it if it helps you.<br></div></td></tr></table>";
     
+        commandP.html(commandStats)
+        commandP2.html(commandStats2)
+        commandP3.html(commandStats3)
+        logDiv.html(commandLog)
+        loadOnce = 1
+    
   } else if (commandExe == 2) {
     commandP.position(320, 190)
     commandP2.position(740, 250)
@@ -289,6 +312,12 @@ function draw() {
     commandStats2="<table width='400' style='border:5px solid #9C27B0; background-color:"+ userBgColor +"' cellspacing='9' cellpadding='9'><tr><td><div style='color:"+ userColor + "; font-size:"+ userSize +"px; line-height:"+ userLine +"; font-family: "+ userFont +"'>&nbsp;&nbsp;Generally speaking, most class days you'll start with typing practice. There are lots of places you could practice your typing, however, I've created our own custom typing practice to reinforce concepts from class and let your practice typing related terms and concepts instead of random whatever.<br><br>&nbsp;&nbsp;Today, we're going to do a baseline; this isn't so much about learning to type, but instead seeing where you are, allowing us to later measure improvement and progress. We will periodically benchmark to aid with measuring our progress. <br></div></td></tr></table>";
     
         commandStats3="<table width='310' style='border:5px solid #479D89; background-color:"+ userBgColor +"' cellspacing='9' cellpadding='9'><tr><td><div style='color:"+ userColor + "; font-size:"+ userSize +"px; line-height:"+ userLine +"; font-family: "+ userFont +"'>&nbsp;&nbsp;Ready to type? <br><center><a href='https://shaunwegs.github.io/typing-practice/cs1/01-1.html' target='_blank'>Go to the typing exercise >></a></center>&nbsp;&nbsp;Right click, click Open in New Window.</div></td></tr></table>";
+    
+        commandP.html(commandStats)
+        commandP2.html(commandStats2)
+        commandP3.html(commandStats3)
+        logDiv.html(commandLog)
+        loadOnce = 1
     
   } else if (commandExe == 3) {
     
@@ -304,16 +333,36 @@ function draw() {
     
     commandStats3="<table width='280' style='border:5px solid #479D89; background-color:"+ userBgColor +"' cellspacing='9' cellpadding='9'><tr><td><div style='color:"+ userColor + "; font-size:"+ userSize +"px; line-height:"+ userLine +"; font-family: "+ userFont +"'>&nbsp;&nbsp;Ready for the video? <br><center>Watch here >> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR <br>Open in New Windor >></center></div></td></tr></table>";
     
+    commandP.html(commandStats)
+        commandP2.html(commandStats2)
+        commandP3.html(commandStats3)
+        logDiv.html(commandLog)
+        loadOnce = 1
+    
   } else if (commandExe == 4) {
     
     commandP.position(320, 190)
     commandLog = "<font color='#eee'><h3><b><u>&nbsp;What is CS?...&nbsp;</u></b></h3></font>"
     commandStats="<table width='600' style='background-color:"+ userBgColor +"' cellspacing='9' cellpadding='9'><tr><td><div style='color:"+ userColor + "; font-size:"+ userSize +"px; line-height:"+ userLine +"'>&nbsp;&nbsp;Computer science is both the study of computers, as well as their use. While Computer Science is not exclusively programming, programming is a key part of Computer Science. Programming is essentially the practice of writing instructions that a computer can carry out for you. This could be something like a program that calculates interest earned on a bank account, calculates missile trajectory for military operations, or entertains in the form of a video game on your platform of choice. <br><br>&nbsp;&nbsp;The University of Maryland states that the principal areas of study within Computer Science include artificial intelligence, computer systems and networks, security, database systems, human computer interaction, vision and graphics, numerical analysis, programming languages, software engineering, bioinformatics and theory of computing.<br><br></div></td></tr></table>";
+    
+    commandP.html(commandStats)
+        commandP2.html(commandStats2)
+        commandP3.html(commandStats3)
+        logDiv.html(commandLog)
+        loadOnce = 1
+    
+    
   }else if (commandExe == 5) {
     
     commandP.position(320, 190)
     commandLog = "<font color='#eee'><h3><b><u>&nbsp;Who is CS for?...&nbsp;</u></b></h3></font>"
     commandStats="<table width='600' style='background-color:"+ userBgColor +"' cellspacing='9' cellpadding='9'><tr><td><div style='color:"+ userColor + "; font-size:"+ userSize +"px; line-height:"+ userLine +"'>&nbsp;&nbsp;Everyone can benefit from at least some study of Computer Science, as it opens up it's own potential area of focus, or other opportunities within just about all other areas of study. Engineering is heavily dependent on Computer Science, but just about every field is now connecting with Computer Science in some capacity. Students interested in any STEM field should absolutely seriously consider serious study of Computer Science.<br><br>From MIT:<br>&nbsp;&nbsp;As technology continues to advance and become essential to nearly every facet of society there are many opportunities for you to apply your interest and skills in computer science. There’s no shortage of tech jobs in tech companies, but you can also look for similar opportunities in industries that may intersect with your other interests – healthcare, education, gaming/entertainment, government, or research just to name a few. <br><br>&nbsp;&nbsp;As you move through our CS program, you'll not only increase your knowledge and capability, but also your awareness of a variety of potential careers that you could pursue.<br><br></div></td></tr></table>";
+    
+    commandP.html(commandStats)
+        commandP2.html(commandStats2)
+        commandP3.html(commandStats3)
+        logDiv.html(commandLog)
+        loadOnce = 1
   }
   
   
@@ -346,6 +395,7 @@ function botGo() {
 }
 
 function textUp() {
+  loadOnce = 0
   userSize += 1
   if (userSize > 19){
     userSize = 19;
@@ -353,6 +403,7 @@ function textUp() {
 }
 
 function textDown() {
+  loadOnce = 0
   userSize -= 1
   if (userSize < 9){
     userSize = 9;
@@ -360,6 +411,7 @@ function textDown() {
 }
 
 function textLineUp() {
+  loadOnce = 0
   userLine += 0.1
   if (userLine > 2.7) {
     userLine = 2.7
@@ -367,6 +419,7 @@ function textLineUp() {
 }
 
 function textLineDown() {
+  loadOnce = 0
   userLine -= 0.1
   if (userLine < 0.9) {
     userLine = 0.9
@@ -388,25 +441,26 @@ function maskThin() {
 }
 
 function maskTall() {
-  maskTop -= 4
-  maskBot += 4
+  maskTop -= 6
+  maskBot += 2
   if (maskTop < 0) {
     maskTop = 0
   }
 }
 
 function maskShort() {
-  maskTop += 4
-  maskBot -= 4
-  if (maskTop > 135) {
-    maskTop = 135
+  maskTop += 6
+  maskBot -= 2
+  if (maskTop > 125) {
+    maskTop = 125
   }
-  if (maskBot < 155) {
-    maskBot = 155
+  if (maskBot < 148) {
+    maskBot = 148
   }
 }
 
 function changeFont() {
+  loadOnce = 0
   fontCount += 1;
   if (fontCount >= fontArray.length) {
     fontCount = 0;
@@ -434,6 +488,22 @@ function maskToggle() {
     maskToggled = -3
     toggled2 = -3
   }
+}
+
+function resetSettings() {
+  loadOnce = 0
+  maskTop = 80 
+  maskBot = 160 
+  maskLeft = 190 
+  userSize = 13
+  userLine = 1.6
+  myPicker = createColorPicker('DarkSlateGrey');
+  myPicker2 = createColorPicker('#eee');
+  userFont = "Arial, Helvetica, sans-serif"
+}
+
+function loadOnceGo() {
+  loadOnce = 1
 }
 
 function loadVid() {
