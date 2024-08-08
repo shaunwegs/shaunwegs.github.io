@@ -46,7 +46,7 @@ function setup() {
   holder.attribute('height', '473');
   holder.position(-1320, 160);
   
-  createCanvas(300, 400);
+  createCanvas(300, 500);
   background("#333");
   
   //Make the Grid
@@ -55,7 +55,7 @@ function setup() {
   stroke(70, 70, 150,100)
   strokeWeight(2)
   fill(0,0,0,0)
-  rect(150,200,254,354);
+  rect(150,250,254,454);
   
   //page text for user
   direcInput = createInput("Your answer here");
@@ -117,8 +117,8 @@ function setup() {
   bgColorLabel = createP("<BR><span style='color:#eee;'>&nbsp;<b>BG Color:</b>")
   myPicker2 = createColorPicker('#eee');
   
-  direcButton.position(228, 490)
-  direcInput.position(32, 490)
+  direcButton.position(228, 590)
+  direcInput.position(32, 590)
 
   createP("&nbsp;")
   
@@ -161,7 +161,7 @@ function draw() {
   maskBox4.position(boxH-maskLeft, mouseY+maskBot);
   
   
-  imgRight.position(1155,173);
+  imgRight.position(1155,158);
   imgMe.position(335,175);
   changeFontButton.position(1218, 98 * toggled)
   maskButton.position(940, 98 * toggled)
@@ -239,13 +239,13 @@ function draw() {
   text("Who is CS for?", 50, 150)
   text("Desktop Setup", 50, 170)
   text("GitHub Setup", 50, 190)
-  text(questions[commandExe], 32, 320)
+  text(questions[commandExe], 32, 420)
   
   if (commandExe == 0) {
     if (vidLoad == 0) {
       if (loadOnce == 0){   
           commandP.position(560, 235)
-          commandP2.position(975, 380)
+          commandP2.position(975, 360)
           commandP3.position(320, 315)
           loadVidButton.position(1388, 625)
     
