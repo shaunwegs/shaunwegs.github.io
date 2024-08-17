@@ -17,7 +17,7 @@ let quotes_array = [
   "Or something like that anyway...",
   "The University of Maryland says CompSci is",
   "the study of computers and computational systems.",
-  "Michigan Technological University say CS focuses on",
+  "Michigan Technological University says CS focuses on",
   "the development and testing of software and software systems.",
   "Marquette University, in Wisconsin, references",
   "edX's Master's in Data Science website, which states",
