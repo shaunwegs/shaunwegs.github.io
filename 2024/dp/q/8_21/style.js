@@ -205,7 +205,7 @@ var questions = [
 "Shelter",
 "a", "a", "b" ],
 	[
-"During what type of situation do we continue class, but keep the hallways clear and stay in the rooms?",
+"During what type of situation do we not release class, but keep the hallways clear and stay in the rooms?",
 "Hold",
 "Secure",
 "Lockdown",
