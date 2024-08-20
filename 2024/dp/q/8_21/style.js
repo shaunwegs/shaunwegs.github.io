@@ -251,7 +251,7 @@ var questions = [
 "orange",
 "yellow",
 "black",
-"a", "a", "a" ],
+"b", "b", "b" ],
 	[
 "Who manufactured the computers we use in the lab?",
 "Apple",
