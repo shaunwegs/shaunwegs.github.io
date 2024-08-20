@@ -76,6 +76,23 @@ var questions = [
 		"IT Support/Service only",
 		"Web Design & Design/Multimedia",
 		"d", "d", "d" ],
+	[
+		"If you want to continue this specific pathway, what should you take next",
+		"Computer Maintanence at Guthrie",
+		"Cyber Security at Guthrie",
+		"Computer Science at WAIS",
+		"Principles of Arts at WAIS",
+		"IB Diploma CS at WAIS",
+		"a", "a", "a" ],
+	
+		[
+		"We are a ",
+		"district charter, but still a Texas public school",
+		"both district and state charter",
+		"state charter, but not district charter",
+		"neither state not district charter",
+		"private school",
+		"a", "a", "a" ],
 		[
 		"While not listed on the SBISD CTE website, Texas says this course also supports which pathway? ",
 		"Architectural Design",
