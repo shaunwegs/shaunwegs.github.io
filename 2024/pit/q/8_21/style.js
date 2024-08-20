@@ -69,6 +69,48 @@ if (userLastName === null) {
 
 var questions = [
 	[
+		'The following type of misconduct: <br><br> "Damaging and/or destroying and/or altering district electronic devices and/or software by any method"<br><br> is what level of offence?',
+		"level 3",
+		"level 2",
+		"level 1",
+		"level 4",
+		"level 5",
+		"a", "a", "a" ],[
+		'The following type of misconduct: <br><br> "Damaging and/or destroying and/or altering district electronic devices and/or software by any method"<br><br> is what level of offence?',
+		"Serious or Persistent Misbehavior",
+		"Minor Infraction",
+		"Offenses Resulting in Placement at DAEP",
+		"Offenses Resulting in Expulsion to Harris County Juvenile Justice AEP",
+		"Disruptive Behavior",
+		"a", "a", "a" ],
+	[
+		'The following type of misconduct: <br><br> "Damaging and/or destroying and/or altering district electronic devices and/or software by any method"<br><br> is the same level of offence as...?',
+		"all are the same level",
+		"fighting",
+		"harassment",
+		"vandalism",
+		"bullying",
+		"a", "a", "a" ],
+	
+	[
+		"What are the potential consequences of a level 3 offence?",
+		"all of these are potential consequences for a level 3 offence",
+		"in-school suspension",
+		"out-of-scool suspension",
+		"DAEP",
+		"potential charges from SBISD police",
+		"a", "a", "a" ],
+	
+	[
+		'Which of the following is district policy?',
+		"all of these are district policy",
+		"Students will be accountable for proper use and care of district-provided equipment (computers, devices, etc.).",
+		"Students will understand that their school network and email accounts are owned by the District and are not private.",
+		"Technology resources are for instructional and educational purposes. Students will avoid using any technology resource in such a way that would disrupt the activities of other users.",
+		"Students will be held responsible at all times for the proper use of their account, and the District may suspend or revoke access if rules are violated.",
+		"a", "a", "a" ],
+	
+	[
 		"As per district policy, if you fail a major grade (like a test), ",
 		"you get an opportunity for one retake, but the teacher may require remediation first",
 		"there are no opportunities for retakes",
