@@ -83,7 +83,7 @@ var questions = [
 			"the two grades are averaged together, if the retake was higher than the original grade",
 			"the lower grade goes into Skyward",
 			"the two grades are averaged together, as long as you have a valid/approved reason for a retake",
-			"a", "a", "a" ],
+			"c", "c", "c" ],
 			[
 				"As per district policy, if you are caught cheating on a major grade (like a test) ",
 				"you recieve a zero, but can still request a retake",
@@ -711,7 +711,7 @@ function renderResults(){
   localStorage.setItem("pg_tota2", tot2);
   localStorage.setItem("pg_tota3", tot3);
   localStorage.setItem("pg_tota4", tot4);
-  $_("test_status").innerHTML = "<h1>DP CS, August Quiz</h1><h2>Year 1<BR>Attempt #" +vs;
+  $_("test_status").innerHTML = "<h1>DP CS, August 21 Quiz</h1><h2>Year 1<BR>Attempt #" +vs;
   $_('timeleft').innerHTML = '</h2>'; l1 = 25 - cor;
   test.innerHTML = "";
   test.innerHTML += "<h1>Results for " + userFirstName + "</h1><h3>Attempt #"+vs +" for " + userFirstName +" "+ userLastName +".<br>Screenshot & upload your results!</h3>";
