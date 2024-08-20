@@ -69,6 +69,23 @@ if (userLastName === null) {
 
 var questions = [
 	[
+		"If you want to continue this specific pathway, what should you take next",
+		"Computer Maintanence at Guthrie",
+		"Cyber Security at Guthrie",
+		"Computer Science at WAIS",
+		"Principles of Arts at WAIS",
+		"IB Diploma CS at WAIS",
+		"c", "c", "c" ],
+	
+		[
+		"We are a ",
+		"district charter, but still a Texas public school",
+		"both district and state charter",
+		"state charter, but not district charter",
+		"neither state not district charter",
+		"private school",
+		"a", "a", "a" ],
+	[
 		"In SBISD (and on the SBISD CTE website), this course is the 1st level course for which pathways? ",
 		"Progamming/Software Development & Cybersecurity",
 		"Progamming/Software Development only",
