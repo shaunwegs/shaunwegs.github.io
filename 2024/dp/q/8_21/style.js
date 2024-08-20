@@ -476,6 +476,14 @@ var questions = [
 	"Computing",
 	"Math",
 	"b", "b", "a" ],
+	[
+		"This course is part of which subject group in IB DP?",
+		"Design",
+		"Sciences",
+		"IT",
+		"Computing",
+		"Math",
+		"b", "b", "b" ],
 [
 		"This course is part of which IB programme?",
 		"IB MYP",
@@ -483,7 +491,7 @@ var questions = [
 		"IB DP",
 		"IB CP",
 		"None of these",
-		"b", "b", "a" ],
+		"b", "b", "c" ],
 		[
 				"Can you take Computer Sciences courses for IB in 11th & 12th?",
 				"Yes, for IB MYP",
