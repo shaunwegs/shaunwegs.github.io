@@ -39,11 +39,11 @@ var rigob = [0, 0, 0, 0, 0];
 var rigoc = [0, 0, 0, 0, 0];
 var rigod = [0, 0, 0, 0, 0];
 var totasNames = [
-"&nbsp; - Policy & the Room",
-"&nbsp; - Software",
-"&nbsp; - Hardware",
-"&nbsp; - History",
-"&nbsp; - Code"
+"&nbsp; - untitled category",
+"&nbsp; - untitled category",
+"&nbsp; - untitled category",
+"&nbsp; - untitled category",
+"&nbsp; - untitled category"
 ]
 
 if (vs === null) { vs = 0; }
@@ -83,7 +83,7 @@ var questions = [
 			"the two grades are averaged together, if the retake was higher than the original grade",
 			"the lower grade goes into Skyward",
 			"the two grades are averaged together, as long as you have a valid/approved reason for a retake",
-			"a", "a", "a" ],
+			"c", "c", "c" ],
 			[
 				"As per district policy, if you are caught cheating on a major grade (like a test) ",
 				"you recieve a zero, but can still request a retake",
@@ -251,7 +251,7 @@ var questions = [
 "orange",
 "yellow",
 "black",
-"a", "a", "a" ],
+"b", "b", "b" ],
 	[
 "Who manufactured the computers we use in the lab?",
 "Apple",
@@ -275,7 +275,7 @@ var questions = [
 "3",
 "4",
 "5",
-"c", "c", "b" ],
+"b", "b", "b" ],
 [
 	"What type of USB ports do we have?",
 	"A",
@@ -283,7 +283,7 @@ var questions = [
 	"C",
 	"micro",
 	"mini",
-	"a", "a", "a" ],
+	"c", "c", "c" ],
 	[
 "How much RAM do the lab computers have?",
 "256 mb ",
@@ -476,6 +476,37 @@ var questions = [
 	"Computing",
 	"Math",
 	"b", "b", "a" ],
+	[
+		"Certifications are designed and verfied by",
+		"Public Schools",
+		"Universities and Colleges",
+		"Independent Organizations",
+		"Governments",
+		"All of the Above",
+		"c", "c", "c" ],
+		[
+			"Certifications help assure potential employers that",
+			"they can legally hire you",
+			"you have passed background checks",
+			"you have met a certain level of skill and/or knowledge",
+			"you have no conflict of interest by already working with their competitors",
+			"All of the Above",
+			"c", "c", "c" ],			[
+				"In this course, you'll have the opportunity to take an entry-level certification for",
+				"Cyber Security",
+				"Java",
+				"Python",
+				"C++",
+				"All of the Above",
+				"c", "c", "c" ],
+				[
+					"Which CTE pathways in SBISD offer certifications?",
+					"Only IT & Cybersecurity",
+					"IT and Architecture",
+					"All IT & Design/Multimedia Pathways",
+					"All of them, but only if taking them for the IB CP",
+					"All CTE Pathways offer certification",
+					"e", "e", "e" ],
 [
 		"This course is part of which IB programme?",
 		"IB MYP",
@@ -500,46 +531,6 @@ var questions = [
 						"Yes, but only for IB DP",
 						"No",
 						"b", "b", "b" ],
-	[
-"You should not do extensive work in HTML & CSS for your IA because",
-"These are very small languages that can't do much",
-"These are very complicated languages that are hard to use",
-"These are not actually computer languages",
-"These are computer languages but are not programming languages",
-"These are archaic languages that don't work on most modern computers",
-"e", "e", "d" ],
-	[
-"What is the 1st Topic in the IB DP Computer Science",
-"System Fundamentals",
-"Computer Organization",
-"Networks",
-"Computational Thinking/Programming",
-"Web Science",
-"a", "a", "a" ],
-	[
-"What is the 2nd Topic in the IB DP Computer Science",
-"System Fundamentals",
-"Computer Organization",
-"Networks",
-"Computational Thinking/Programming",
-"Web Science",
-"a", "a", "b" ],
-	[
-"What is the 3rd Topic in the IB DP Computer Science",
-"System Fundamentals",
-"Computer Organization",
-"Networks",
-"Computational Thinking/Programming",
-"Web Science",
-"a", "a", "c" ],
-	[
-"What is the 4th Topic in the IB DP Computer Science",
-"System Fundamentals",
-"Computer Organization",
-"Networks",
-"Computational Thinking/Programming",
-"Web Science",
-"a", "a", "d" ],
 	[
 "The globally expansive network for carrying information between computers and computer networks is the",
 "internet",
@@ -711,7 +702,7 @@ function renderResults(){
   localStorage.setItem("pg_tota2", tot2);
   localStorage.setItem("pg_tota3", tot3);
   localStorage.setItem("pg_tota4", tot4);
-  $_("test_status").innerHTML = "<h1>DP CS, August Quiz</h1><h2>Year 1<BR>Attempt #" +vs;
+  $_("test_status").innerHTML = "<h1>CS2, August 21 Quiz</h1><h2>Attempt #" +vs;
   $_('timeleft').innerHTML = '</h2>'; l1 = 25 - cor;
   test.innerHTML = "";
   test.innerHTML += "<h1>Results for " + userFirstName + "</h1><h3>Attempt #"+vs +" for " + userFirstName +" "+ userLastName +".<br>Screenshot & upload your results!</h3>";
@@ -750,8 +741,8 @@ function noMore(){
 
 function renderQuestion() {
   var test = $_("test");
-  var ques = 20;
-  $_("test_status").innerHTML = "<h1>DP CS August Quiz</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
+  var ques = 18;
+  $_("test_status").innerHTML = "<h1>CS2 August 21 Quiz</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
   if (rscore != 0) { $_("test_status").innerHTML += '<br>Currently: ~'+(cor/rscore*100).toFixed(0)+'% correct'; }
   var question = questions[posn][0];
   var chA = questions[posn][1];
