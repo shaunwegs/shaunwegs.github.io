@@ -68,6 +68,39 @@ if (userLastName === null) {
 	localStorage.setItem('csmt_userLastName', userLastName);}
 
 var questions = [
+		[
+		"In SBISD (and on the SBISD CTE website), this course is the 1st level course for which pathways? ",
+		"Progamming/Software Development & Cybersecurity",
+		"Progamming/Software Development only",
+		"Progamming/Software Development & IT Support/Service",
+		"IT Support/Service only",
+		"Web Design & Design/Multimedia",
+		"d", "d", "d" ],
+		[
+		"While not listed on the SBISD CTE website, Texas says this course also supports which pathway? ",
+		"Architectural Design",
+		"Progamming/Software Development",
+		"Filmmaking",
+		"IT Support/Service",
+		"3D Animation",
+		"b", "b", "b" ],
+		[
+		"While not listed on the SBISD CTE website, Texas says this course also supports which pathway? ",
+		"Architectural Design",
+		"CyberSecurity",
+		"Graphic Design",
+		"IT Support/Service",
+		"Commercial Photography",
+		"b", "b", "b" ],
+	
+		[
+		"To continue this pathway, what is the intended next course in SBISD? ",
+		"Architectural Design",
+		"CyberSecurity",
+		"Graphic Design",
+		"IT Support/Service",
+		"Commercial Photography",
+		"b", "b", "b" ],
 	[
 		'The following type of misconduct: <br><br> "Damaging and/or destroying and/or altering district electronic devices and/or software by any method"<br><br> is what level of offence?',
 		"level 3",
