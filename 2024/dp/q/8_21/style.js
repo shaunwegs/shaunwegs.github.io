@@ -283,7 +283,7 @@ var questions = [
 	"C",
 	"micro",
 	"mini",
-	"a", "a", "a" ],
+	"c", "c", "c" ],
 	[
 "How much RAM do the lab computers have?",
 "256 mb ",
