@@ -93,6 +93,22 @@ var questions = [
 				"a formal apology must be made, and then you will have the opportunity to redo the work",
 				"d", "d", "d" ],
 	[
+		"Certifications are designed and verfied by",
+		"Public Schools",
+		"Universities and Colleges",
+		"Independent Organizations",
+		"Governments",
+		"All of the Above",
+		"c", "c", "c" ],
+		[
+			"Certifications help assure potential employers that",
+			"they can legally hire you",
+			"you have passed background checks",
+			"you have met a certain level of skill and/or knowledge",
+			"you have no conflict of interest by already working with their competitors",
+			"All of the Above",
+			"c", "c", "c" ],
+	[
 "As per district policy, which of the following is true inside computer labs?",
 "students may have water, in a resealable bottle/container",
 "students may have any clear beverage, in a resealable bottle/container",
