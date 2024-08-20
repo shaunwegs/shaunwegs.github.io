@@ -69,6 +69,23 @@ if (userLastName === null) {
 
 var questions = [
 	[
+		"If you want to continue this specific pathway, what should you take next",
+		"Computer Maintanence at Guthrie",
+		"Cyber Security at Guthrie",
+		"Computer Science 2 at WAIS",
+		"Principles of Arts at WAIS",
+		"IB Diploma CS at WAIS",
+		"a", "a", "a" ],
+	
+		[
+		"We are a ",
+		"district charter, but still a Texas public school",
+		"both district and state charter",
+		"state charter, but not district charter",
+		"neither state not district charter",
+		"private school",
+		"a", "a", "a" ],
+	[
 		"As per district policy, if you fail a major grade (like a test), ",
 		"you get an opportunity for one retake, but the teacher may require remediation first",
 		"there are no opportunities for retakes",
