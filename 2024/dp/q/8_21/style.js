@@ -275,7 +275,7 @@ var questions = [
 "3",
 "4",
 "5",
-"c", "c", "b" ],
+"b", "b", "b" ],
 [
 	"What type of USB ports do we have?",
 	"A",
