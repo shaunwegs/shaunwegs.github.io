@@ -69,6 +69,22 @@ if (userLastName === null) {
 
 var questions = [
 	[
+		"In SBISD (and on the SBISD CTE website), this course is the 1st level course for which pathways? ",
+		"Progamming/Software Development & Cybersecurity",
+		"Progamming/Software Development only",
+		"Progamming/Software Development & IT Support/Service",
+		"IT Support/Service only",
+		"Web Design & Design/Multimedia",
+		"a", "a", "a" ],
+		[
+		"While not listed on the SBISD CTE website, Texas says this course also supports which pathway? ",
+		"Cybersecurity",
+		"Progamming/Software Development",
+		"Filmmaking",
+		"IT Support/Service",
+		"3D Animation",
+		"d", "d", "d" ],
+	[
 		"As per district policy, if you fail a major grade (like a test), ",
 		"you get an opportunity for one retake, but the teacher may require remediation first",
 		"there are no opportunities for retakes",
