@@ -76,6 +76,14 @@ var questions = [
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
 		"c", "c", "c" ],
+				[
+		"If you wanted to pursue the CyberSecurity pathway at Guthrie, what is the pre-req?",
+		"Computer Science 1",
+		"Computer Science 2",
+		"Principles of Arts",
+		"Computer Maintanence",
+		"There is no pre-req",
+		"b", "b", "b" ],
 	
 		[
 		"We are a ",
