@@ -5,6 +5,10 @@ let TIME_LIMIT = 180;
 let quotes_array = [
   "Computer Science, a.k.a. CompSci, a.k.a. CS",
   "is the study of computational systems to achieve specific goals.",
+  "When you say Computer Science,",
+  "some people only think of programming.", 
+  "Rice University says computer science is far broader,",
+  "involving more advanced technical concepts & skills.",
   "In addition to areas like app development and software design,",
   "CS also involves data analysis, game development,",
   "artificial intelligence, cybersecurity, and even art.",
@@ -26,10 +30,6 @@ let quotes_array = [
   'ways that humans interact with technology."',
   "The University of Minnesota says computer scientists are",
   "the architects of the information society.",
-  "When you say Computer Science,",
-  "some people only think of programming.", 
-  "Rice University says computer science is far broader,",
-  "involving more advanced technical concepts & skills.",
 ];
 
 // selecting required elements
