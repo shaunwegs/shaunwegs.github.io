@@ -69,21 +69,13 @@ if (userLastName === null) {
 
 var questions = [
 	[
-		"If you want to continue the Programming & Software development pathway, what should you take next",
+		"What is the next intended course in the Programming & Software Development pathway?",
 		"Computer Maintanence at Guthrie",
 		"Cyber Security at Guthrie",
 		"Computer Science 2 at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
 		"c", "c", "c" ],
-		[
-		"If you want to pursue the CyberSecurity development pathway, what should you take next",
-		"Computer Maintanence at Guthrie",
-		"Networking at Guthrie",
-		"Computer Science 2 at WAIS",
-		"Principles of Arts at WAIS",
-		"IB Diploma CS at WAIS",
-		"b", "b", "b" ],
 	
 		[
 		"We are a ",
