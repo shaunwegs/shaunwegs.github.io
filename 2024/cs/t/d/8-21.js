@@ -3,26 +3,29 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "Computer Science, a.k.a. CompSci, a.k.a. CS",
-  "is the study of computational systems to achieve specific goals.",
-  "The University of Minnesota says computer scientists are",
-  "the architects of the information society.",
+  "When you say Computer Science,",
+  "some people only think of programming.", 
+  "Rice University says computer science is far broader,",
+  "involving more advanced technical concepts & skills.",
   "In addition to areas like app development and software design,",
   "CS also involves data analysis, game development,",
   "artificial intelligence, cybersecurity, and even art.",
-  "You can take CS as part of the IB DP or CP.",
-  "After you've completed CS and CS2 at WAIS,",
-  "you can take CyberSecurity at Guthrie.",
   "In CTE, Computer Science is part of the IT cluster,",
   "specifically the Programming & Software Development pathway,",
   "and relates to the STEM endorsement.",
+  "You can take CS as part of the IB DP or CP.",
+  "After you've completed CS and CS2 at WAIS,",
+  "you can take CyberSecurity at Guthrie.",
+  "This year, you can earn a Python certification.",
+  "Someone who specializes in Computer Science is a Computer Scientist.", 
+  "Computer Scientists may pursue opportunities in finance,",
+  "security, health care, government, education, and agriculture.",
+  "Robotics and AI can lead to jobs in automotive and medical fields.",
+  "Even our military includes computer scientists.",
   "Marquette University, in Wisconsin, states",
   '"CS is the study of computers, including computational theory,',
   "hardware and software design, algorithms, and the",
   'ways that humans interact with technology."',
-  '"The spread of computers and the Internet will put jobs in',
-  'two categories. People who tell computers what to do, and',
-   'people who are told by computers what to do." -Marc Andreessen'
 
 ];
 
