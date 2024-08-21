@@ -76,6 +76,14 @@ var questions = [
 		"IT Support/Service only",
 		"Web Design & Design/Multimedia",
 		"d", "d", "d" ],
+			[
+		"Completion of this course, with a passing grade earns you",
+		"a middle school elective credit",
+		"a high school Arts credit",
+		"a high school CTE credit",
+		"a middle school CTE credit",
+		"a middle school Tech Apps credit",
+		"c", "c", "c" ],
 	[
 		"If you want to continue this specific pathway, what should you take next",
 		"Computer Maintanence at Guthrie",
