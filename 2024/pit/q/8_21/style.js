@@ -76,6 +76,14 @@ var questions = [
 		"IT Support/Service only",
 		"Web Design & Design/Multimedia",
 		"d", "d", "d" ],
+		[
+		"The acronym CTE is short for ",
+		"Career, Technology, & Entrepreneurship",
+		"Career Training Excellence",
+		"Career Training Education",
+		"Career and Technical Education",
+		"College and Technical Excellence",
+		"d", "d", "d" ],
 			[
 		"Completion of this course, with a passing grade earns you",
 		"a middle school elective credit",
