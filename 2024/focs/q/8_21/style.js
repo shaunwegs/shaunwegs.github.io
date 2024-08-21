@@ -70,6 +70,14 @@ if (userLastName === null) {
 var questions = [
 	[
 				[
+		"What is the keyboard shortcut to take a screenshot on the mac? ",
+		"control + print screen + 3",
+		"shift + print screen",
+		"option + command + print screen",
+		"command + shift + 3",
+		"control + shift + 3",
+		"d", "d", "d" ],
+				[
 		"The acronym CTE is short for ",
 		"Career, Technology, & Entrepreneurship",
 		"Career Training Excellence",
