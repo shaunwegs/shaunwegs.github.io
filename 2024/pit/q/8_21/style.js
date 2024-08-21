@@ -133,15 +133,6 @@ var questions = [
 		"IT Support/Service",
 		"Commercial Photography",
 		"b", "b", "b" ],
-	
-		[
-		"To continue this pathway, what is the intended next course in SBISD? ",
-		"Architectural Design",
-		"CyberSecurity",
-		"Graphic Design",
-		"IT Support/Service",
-		"Commercial Photography",
-		"b", "b", "b" ],
 	[
 		'The following type of misconduct: <br><br> "Damaging and/or destroying and/or altering district electronic devices and/or software by any method"<br><br> is what level of offence?',
 		"level 3",
