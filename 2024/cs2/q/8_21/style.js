@@ -68,6 +68,31 @@ if (userLastName === null) {
 	localStorage.setItem('csmt_userLastName', userLastName);}
 
 var questions = [
+		[
+		"If you want to continue the Programming & Software development pathway, what should you take next",
+		"Computer Maintanence at Guthrie",
+		"Cyber Security at Guthrie",
+		"Computer Science 2 at WAIS",
+		"Principles of Arts at WAIS",
+		"IB Diploma CS at WAIS",
+		"e", "e", "e" ],
+		[
+		"If you want to pursue the CyberSecurity development pathway, what should you take next",
+		"Computer Maintanence at Guthrie",
+		"Networking at Guthrie",
+		"Computer Science 2 at WAIS",
+		"Principles of Arts at WAIS",
+		"IB Diploma CS at WAIS",
+		"b", "b", "b" ],
+	
+		[
+		"If you wanted to pursue the CyberSecurity development pathway, when would you take the CyberSecurity course at Guthrie?",
+		"11th grade",
+		"12th grade",
+		"10th grade",
+		"9th grade",
+		"You can take it any year",
+		"b", "b", "b" ],
 	[
 		"As per district policy, if you fail a major grade (like a test), ",
 		"you get an opportunity for one retake, but the teacher may require remediation first",
