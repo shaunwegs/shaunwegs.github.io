@@ -69,6 +69,14 @@ if (userLastName === null) {
 
 var questions = [
 	[
+				[
+		"The acronym CTE is short for ",
+		"Career, Technology, & Entrepreneurship",
+		"Career Training Excellence",
+		"Career Training Education",
+		"Career and Technical Education",
+		"College and Technical Excellence",
+		"d", "d", "d" ],
 		"If you want to continue this specific pathway, what should you take next",
 		"Computer Maintanence at Guthrie",
 		"Cyber Security at Guthrie",
