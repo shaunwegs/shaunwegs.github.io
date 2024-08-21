@@ -76,6 +76,14 @@ var questions = [
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
 		"c", "c", "c" ],
+		[
+		"Completion of this course, with a passing grade earns you",
+		"a middle school elective credit",
+		"a high school Arts credit",
+		"a high school CTE credit",
+		"a middle school CTE credit",
+		"a middle school Tech Apps credit",
+		"c", "c", "c" ],
 				[
 		"If you wanted to pursue the CyberSecurity pathway at Guthrie, what is the pre-req?",
 		"Computer Science 1",
