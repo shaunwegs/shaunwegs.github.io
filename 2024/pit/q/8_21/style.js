@@ -248,14 +248,6 @@ var questions = [
 		"they have their own special category",
 		"quizzes",
 		"a", "a", "a" ],
-		[
-			"In this class, tests are part of which grading category?",
-			"projects",
-			"minor",
-			"application",
-			"they have their own special category",
-			"projects & checkpoints",
-			"a", "a", "a" ],
 			[
 				"In this class, everyday tasks are part of which grading category?",
 				"application",
