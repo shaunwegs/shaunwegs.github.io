@@ -68,6 +68,14 @@ if (userLastName === null) {
 	localStorage.setItem('csmt_userLastName', userLastName);}
 
 var questions = [
+				[
+		"What is the keyboard shortcut to take a screenshot on the mac? ",
+		"control + print screen + 3",
+		"shift + print screen",
+		"option + command + print screen",
+		"command + shift + 3",
+		"control + shift + 3",
+		"d", "d", "d" ],
 		[
 		"In SBISD (and on the SBISD CTE website), this course is the 1st level course for which pathways? ",
 		"Progamming/Software Development & Cybersecurity",
