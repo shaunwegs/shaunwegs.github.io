@@ -516,14 +516,7 @@ var questions = [
 			"you have met a certain level of skill and/or knowledge",
 			"you have no conflict of interest by already working with their competitors",
 			"All of the Above",
-			"c", "c", "c" ],			[
-				"In this course, you'll have the opportunity to take an entry-level certification for",
-				"Cyber Security",
-				"Java",
-				"Python",
-				"C++",
-				"All of the Above",
-				"c", "c", "c" ],
+			"c", "c", "c" ],
 				[
 					"Which CTE pathways in SBISD offer certifications?",
 					"Only IT & Cybersecurity",
