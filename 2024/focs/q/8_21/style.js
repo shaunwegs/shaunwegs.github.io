@@ -68,7 +68,7 @@ if (userLastName === null) {
 	localStorage.setItem('focs0_userLastName', userLastName);}
 
 var questions = [
-	[
+	
 				[
 		"What is the keyboard shortcut to take a screenshot on the mac? ",
 		"control + print screen + 3",
