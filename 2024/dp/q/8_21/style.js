@@ -421,14 +421,14 @@ var questions = [
 		"6-8",
 		"4-8",
 		"9 & 10",
-		"b", "b", "a" ],	[
+		"a", "a", "a" ],	[
 			"IB DP is for grades",
 			"11 & 12",
 			"6-10",
 			"6-8",
 			"4-8",
 			"9 & 10",
-			"b", "b", "a" ],
+			"a", "a", "a" ],
 
 	[
 		"IB DP is an acronym for",
@@ -501,12 +501,12 @@ var questions = [
 		"Math",
 		"b", "b", "b" ],
 [
-		"This course is part of which IB programme?",
+		"This course can be taken for which IB programme?",
 		"IB MYP",
 		"IB PYP",
-		"IB DP",
+		"IB CP or DP",
 		"IB CP",
-		"None of these",
+		"IB DP",
 		"b", "b", "c" ],
 		[
 				"Can you take Computer Sciences courses for IB in 11th & 12th?",
