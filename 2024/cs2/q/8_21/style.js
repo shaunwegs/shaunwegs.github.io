@@ -374,7 +374,7 @@ var questions = [
 "Asus",
 "c", "c", "a" ],
 	[
-"What type of software is OSX?",
+"What type of software is MacOS?",
 "Creative Software",
 "AI",
 "Robot Control System",
@@ -383,7 +383,7 @@ var questions = [
 "b", "b", "d" ],
 	[
 "What operating system are we running?",
-"OSX",
+"MacOS",
 "Windows",
 "Android",
 "iOS",
