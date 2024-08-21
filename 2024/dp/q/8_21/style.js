@@ -150,7 +150,7 @@ var questions = [
 		"a", "a", "a" ],
 		[
 			"In this class, tests are part of which grading category?",
-			"projects",
+			"major",
 			"minor",
 			"application",
 			"they have their own special category",
