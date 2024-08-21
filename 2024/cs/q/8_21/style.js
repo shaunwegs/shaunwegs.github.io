@@ -68,6 +68,14 @@ if (userLastName === null) {
 	localStorage.setItem('csmt_userLastName', userLastName);}
 
 var questions = [
+			[
+		"If you wanted to pursue the CyberSecurity pathway at Guthrie, what is the pre-req?",
+		"Computer Science 1",
+		"Computer Science 2",
+		"Principles of Arts",
+		"Computer Maintanence",
+		"There is no pre-req",
+		"b", "b", "b" ],
 	[
 		"What is the next intended course in the Programming & Software Development pathway?",
 		"Computer Maintanence at Guthrie",
