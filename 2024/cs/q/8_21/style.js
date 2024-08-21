@@ -864,7 +864,7 @@ function checkA(){
      if (questions[posn][7] == "c" && timelimit > 0) { cat3++; }
      if (questions[posn][7] == "d" && timelimit > 0) { cat4++; }}
   pos++;  posn = questionOrder[pos];
-  if (pos < 18) { renderQuestion(); } else { renderResults(); }
+  if (pos < 16) { renderQuestion(); } else { renderResults(); }
 }
 
 document.addEventListener("contextmenu", function(e){
