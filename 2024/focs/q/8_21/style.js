@@ -21,9 +21,9 @@ function myTimer() {
 
 var pos = 0, posn, choice, cor = 0, rscore = 0;
 var maxtimelimit = 179, timelimit = maxtimelimit;
-var vs = localStorage.getItem('csmt_on_load_counter');
-var userFirstName = localStorage.getItem('csmt_userFirstName');
-var userLastName = localStorage.getItem('csmt_userLastName');
+var vs = localStorage.getItem('focs0_on_load_counter');
+var userFirstName = localStorage.getItem('focs0_userFirstName');
+var userLastName = localStorage.getItem('focs0_userLastName');
 var cat1 = localStorage.getItem('pg_cata1');
 var cat2 = localStorage.getItem('pg_cata2');
 var cat3 = localStorage.getItem('pg_cata3');
@@ -57,15 +57,15 @@ if (tot3 === null) { tot3 = 0; }
 if (tot4 === null) { tot4 = 0; }
 
 vs++;
-localStorage.setItem("csmt_on_load_counter", vs);
+localStorage.setItem("focs0_on_load_counter", vs);
 if (userFirstName === null) {
     var userFirstName=prompt("Please enter your given name:");
     if (userFirstName=="") { userFirstName="not entered /" }
-	localStorage.setItem('csmt_userFirstName', userFirstName);}
+	localStorage.setItem('focs0_userFirstName', userFirstName);}
 if (userLastName === null) {
     var userLastName=prompt("Please enter your family name:");
     if (userLastName=="") { userLastName="/ not entered" }
-	localStorage.setItem('csmt_userLastName', userLastName);}
+	localStorage.setItem('focs0_userLastName', userLastName);}
 
 var questions = [
 	[
