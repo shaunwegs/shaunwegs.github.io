@@ -1,0 +1,67 @@
+<head>
+  <title>Play Factory Balls</title>
+</head>
+<body>
+
+  <center>
+    <h1>The Original Factory Balls</h1>
+    Light-bot is a puzzle game that emphasizes logic and sequential reasoning. <br><br>
+    Your job is to create a design that matches the customer's order. <br>
+    Think about the process and order of steps before acting.<br>
+    Some mistakes may result in a loss of materials,<br>
+    limiting how far you can get in the game.
+    <br>
+
+    <div id='ruffle'></div>
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script>
+var swfobject = {};
+
+swfobject.embedSWF = function(url, cont, width, height){
+    var ruffle = window.RufflePlayer.newest(),
+        player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
+            width: width,
+            height: height,
+            style: 'width: ' + width + 'px; height: ' + height + 'px',
+        });
+    window.RufflePlayer.config = {
+    // Options affecting the whole page
+    "publicPath": undefined,
+    "polyfills": true,
+
+    // Options affecting files only
+    "allowScriptAccess": false, // Polyfill elements have a different default value, see the allowScriptAccess section
+    "autoplay": "auto",
+    "unmuteOverlay": "visible",
+    "backgroundColor": null,
+    "wmode": "window",
+    "letterbox": "fullscreen",
+    "warnOnUnsupportedContent": true,
+    "contextMenu": "on",
+    "showSwfDownload": false,
+    "upgradeToHttps": window.location.protocol === "https:",
+    "maxExecutionDuration": 15,
+    "logLevel": "error",
+    "base": null,
+    "menu": true,
+    "salign": "",
+    "forceAlign": false,
+    "scale": "showAll",
+    "forceScale": false,
+    "frameRate": null,
+    "quality": "high",
+    "splashScreen": true,
+    "preferredRenderer": null,
+    "openUrlMode": "deny",
+    "allowNetworking": "none",
+    "favorFlash": true,
+    "credentialAllowList": [],
+};
+    
+    player.load({ url: url });
+}
+
+swfobject.embedSWF('https://shaunwegs.github.io/2024/focs/factory-balls/fb1.swf', 'ruffle', 800, 450);
+        </script>
+  </center>
+</body>
