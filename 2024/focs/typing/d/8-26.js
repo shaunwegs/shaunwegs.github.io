@@ -12,7 +12,7 @@ let quotes_array = [
   "ddd DDD ddd DDD",
   "Left index finger should be on the f.",
   "You should be able to feel the", 
-  "little bump on the key."
+  "little bump on the key.",
   "fff FFF fff FFF",
   "The prompts start over if you run out,",
   "but keep typing until the time runs out.",
