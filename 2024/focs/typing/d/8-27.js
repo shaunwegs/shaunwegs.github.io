@@ -13,6 +13,7 @@ let quotes_array = [
   "as well as Markdown (a markup language).",
   "Markdown is a minimalistic language that",
   "is widely popular on GitHub.",
+  ".md is the file extension for a Markdown file.",
 ];
 
 // selecting required elements
