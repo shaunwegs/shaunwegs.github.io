@@ -457,6 +457,16 @@ var questions = [
 							"selection",
 							"e", "e", "e" ],
 	
+	
+							[
+							"Which of the following terms means:<br>Sometimes you want to follow the same instructions several times. This is done using a loop. There are three types of loops: For loops, while loops and repeat until loops. That’s handy as it enables you not to have to write out the same instructions multiple times.",
+							"control flow",
+							"algorithm",
+							"sequence",
+							"iteration",
+							"selection",
+							"d", "d", "d" ],
+	
 							[
 							"The structures we use to move through an algorithm are called",
 							"control flow",
