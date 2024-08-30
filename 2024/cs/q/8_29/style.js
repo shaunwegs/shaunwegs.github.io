@@ -643,7 +643,7 @@ function noMore(){
 
 function renderQuestion() {
   var test = $_("test");
-  var ques = 15;
+  var ques = 16;
   $_("test_status").innerHTML = "<h1>CompSci 1: August 30 Quiz</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
   if (rscore != 0) { $_("test_status").innerHTML += '<br>Currently: ~'+(cor/rscore*100).toFixed(0)+'% correct'; }
   var question = questions[posn][0];
@@ -756,7 +756,7 @@ function checkA(){
      if (questions[posn][7] == "c" && timelimit > 0) { cat3++; }
      if (questions[posn][7] == "d" && timelimit > 0) { cat4++; }}
   pos++;  posn = questionOrder[pos];
-  if (pos < 15) { renderQuestion(); } else { renderResults(); }
+  if (pos < 16) { renderQuestion(); } else { renderResults(); }
 }
 
 document.addEventListener("contextmenu", function(e){
