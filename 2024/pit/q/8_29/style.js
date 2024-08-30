@@ -414,7 +414,7 @@ var questions = [
 										"Oxidizer",
 										"Flammable",
 										"Compressed Contents",
-										"a", "a", "a" ],
+										"b", "b", "b" ],
 									[
 										"The pictogram shown here represents which hazard? <br><br><img src='img/Corrosive.jpg' width='150'> ",
 										"Corrosion",
@@ -434,7 +434,7 @@ var questions = [
 											[
 												"The pictogram shown here represents which hazard? <br><br><img src='img/ExclamationMark.jpg' width='150'> ",
 												"Corrosion",
-												"Moderate Hazard",
+												"Exclamation Mark",
 												"Oxidizer",
 												"Health Hazard",
 												"Compressed Contents",
