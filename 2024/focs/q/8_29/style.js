@@ -440,13 +440,22 @@ var questions = [
 							"a mathematical formula that requires computation and programming",
 							"c", "c", "c" ],
 							[
-							"Which of the following terms means:<br>follow instructions in a specific order, one line of instruction at a time from the start to the end in the specified order, until finishing the algorithm.?",
+							"Which of the following terms means:<br>follow instructions in a specific order, one line of instruction at a time from the start to the end in the specified order, until finishing the algorithm.",
 							"control flow",
 							"algorithm",
 							"sequence",
 							"iteration",
 							"selection",
 							"c", "c", "c" ],	
+	
+							[
+							"The structures we use to move through an algorithm are called",
+							"control flow",
+							"algorithm",
+							"sequence",
+							"iteration",
+							"selection",
+							"a", "a", "a" ],	
 
 ];
 
