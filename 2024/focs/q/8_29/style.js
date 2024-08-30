@@ -446,7 +446,16 @@ var questions = [
 							"sequence",
 							"iteration",
 							"selection",
-							"c", "c", "c" ],	
+							"c", "c", "c" ],
+	
+							[
+							"Which of the following terms means:<br>Sometimes part of the instructions are not always relevant, depending on the situation. So, some instructions only apply if specific conditions are met. In programming, we often do this with IF statements. e.g. If a condition is met then do one thing, else do something else.",
+							"control flow",
+							"algorithm",
+							"sequence",
+							"iteration",
+							"selection",
+							"e", "e", "e" ],
 	
 							[
 							"The structures we use to move through an algorithm are called",
