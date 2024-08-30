@@ -226,6 +226,14 @@ var questions = [
 				"C++",
 				"All of the Above",
 				"c", "c", "c" ],
+				[
+				"In this course (PIT), you'll have the opportunity to earn a professional certification for",
+				"Cyber Security",
+				"Java",
+				"Digital Literacy",
+				"C++",
+				"Microsoft Office",
+				"c", "c", "c" ],
 
 		[
 				"Can you take Computer Sciences courses for IB in 11th & 12th?",
