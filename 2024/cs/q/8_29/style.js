@@ -215,7 +215,7 @@ var questions = [
 			"Multidisciplinary",
 			"Arts & Humanities",
 			"Public Service",
-			"b", "b", "a" ],
+			"a", "a", "a" ],
 
 			[
 				"In CompSci 1, you'll have the opportunity to take an entry-level certification for",
