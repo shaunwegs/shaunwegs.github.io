@@ -376,6 +376,22 @@ var questions = [
 									"ASME",
 									"a", "a", "a" ],
 									[
+										"The pictogram shown here represents which hazard? <br><br><img src='img/Flame.jpg' width='150'> ",
+										"Corrosion",
+										"Explosive",
+										"Oxidizer",
+										"Flammable",
+										"Compressed Contents",
+										"d", "d", "d" ],
+									[
+										"The pictogram shown here represents which hazard? <br><br><img src='img/ExplodingBomb.jpg' width='150'> ",
+										"Corrosion",
+										"Explosive",
+										"Oxidizer",
+										"Flammable",
+										"Compressed Contents",
+										"a", "a", "a" ],
+									[
 										"The pictogram shown here represents which hazard? <br><br><img src='img/Corrosive.jpg' width='150'> ",
 										"Corrosion",
 										"Environmental",
@@ -391,6 +407,14 @@ var questions = [
 											"Health Hazard",
 											"Compressed Contents",
 											"b", "b", "b" ],
+											[
+												"The pictogram shown here represents which hazard? <br><br><img src='img/ExclamationMark.jpg' width='150'> ",
+												"Corrosion",
+												"Exclamation Mark",
+												"Oxidizer",
+												"Health Hazard",
+												"Compressed Contents",
+												"b", "b", "b" ],
 								[
 									"The key layout for our keyboard is... ",
 									"QWERTY",
