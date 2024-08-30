@@ -375,6 +375,23 @@ var questions = [
 									"OSHA",
 									"ASME",
 									"a", "a", "a" ],
+	[
+									"Companies not following safety regulations can be fined by? ",
+									"ANSI",
+									"ISO",
+									"JIS",
+									"OSHA",
+									"ASME",
+									"d", "d", "d" ],
+	
+	[
+									"A company repeatedly violating work safety regulations can be shut down by? ",
+									"ANSI",
+									"ISO",
+									"JIS",
+									"OSHA",
+									"ASME",
+									"d", "d", "d" ],
 									[
 										"The pictogram shown here represents which hazard? <br><br><img src='img/Oxidizer.jpg' width='150'> ",
 										"Corrosion",
