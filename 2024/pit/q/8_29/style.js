@@ -376,6 +376,14 @@ var questions = [
 									"ASME",
 									"a", "a", "a" ],
 									[
+										"The pictogram shown here represents which hazard? <br><br><img src='img/Oxidizer.jpg' width='150'> ",
+										"Corrosion",
+										"Explosive",
+										"Oxidizer",
+										"Flammable",
+										"Compressed Contents",
+										"c", "c", "c" ],
+									[
 										"The pictogram shown here represents which hazard? <br><br><img src='img/HealthHazard.jpg' width='150'> ",
 										"Corrosion",
 										"Explosive",
