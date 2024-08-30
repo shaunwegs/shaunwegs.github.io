@@ -644,7 +644,7 @@ function noMore(){
 function renderQuestion() {
   var test = $_("test");
   var ques = 15;
-  $_("test_status").innerHTML = "<h1>Fund. of CS: August 30 Quiz</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
+  $_("test_status").innerHTML = "<h1>CompSci 1: August 30 Quiz</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
   if (rscore != 0) { $_("test_status").innerHTML += '<br>Currently: ~'+(cor/rscore*100).toFixed(0)+'% correct'; }
   var question = questions[posn][0];
   var chA = questions[posn][1];
