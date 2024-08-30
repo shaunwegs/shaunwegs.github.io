@@ -474,7 +474,7 @@ var questions = [
 											"none of these",
 											"b", "b", "b" ],
 											[
-												"The acronym for the International Organization for Standardication is",
+												"The abbreviation for the International Organization for Standardication is",
 												"ION",
 												"ISO",
 												"SIO",
