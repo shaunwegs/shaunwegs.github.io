@@ -475,7 +475,7 @@ var questions = [
 											[
 												"The pictogram shown here represents which hazard? <br><br><img src='img/ExclamationMark.jpg' width='150'> ",
 												"Corrosion",
-												"Exclamation Mark",
+												"Moderate Hazard",
 												"Oxidizer",
 												"Health Hazard",
 												"Compressed Contents",
