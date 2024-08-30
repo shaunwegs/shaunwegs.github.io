@@ -68,7 +68,7 @@ if (userLastName === null) {
 	localStorage.setItem('focs1_userLastName', userLastName);}
 
 var questions = [
-	[
+	
 				[
 		"The acronym CTE is short for ",
 		"Career, Technology, & Entrepreneurship",
@@ -478,7 +478,7 @@ var questions = [
 							"selection",
 							"b", "b", "b" ],
 
-]];
+];
 
 function now() {
 
