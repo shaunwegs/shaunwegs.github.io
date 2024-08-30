@@ -400,6 +400,14 @@ var questions = [
 									"GHS",
 									"ASME",
 										"d", "d", "d" ],
+		[
+										"GHS is short for for",
+									"Globally Harmonized System of Classification and Labelling of Chemicals",
+									"General Hydrolic System",
+									"Generalized Hazardous System",
+									"Graphic Hazard Symbols",
+									"Global Hazard System",
+										"a", "a", "a" ],
 									[
 										"The pictogram shown here represents which hazard? <br><br><img src='img/Oxidizer.jpg' width='150'> ",
 										"Corrosion",
