@@ -77,6 +77,7 @@ var questions = [
 		"Career and Technical Education",
 		"College and Technical Excellence",
 		"d", "d", "d" ],
+		[
 		"If you want to continue this specific pathway, what should you take next",
 		"Computer Maintanence at Guthrie",
 		"Cyber Security at Guthrie",
