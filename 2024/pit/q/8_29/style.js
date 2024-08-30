@@ -472,6 +472,22 @@ var questions = [
 												"Health Hazard",
 												"Compressed Contents",
 												"b", "b", "b" ],
+											[
+												"How many pictograms are in the GHS  ",
+												"5",
+												"9",
+												"12",
+												"15",
+												"The number increases every 3-5 years",
+												"b", "b", "b" ],
+											[
+												"Which hazard in the GHS is not in the US required by OSHA?  ",
+												"corrosive",
+												"environmental hazard",
+												"oxidizer",
+												"compressed contents",
+												"they are all mandatory and enforced by OSHA",
+												"b", "b", "b" ],
 								[
 									"The key layout for our keyboard is... ",
 									"QWERTY",
