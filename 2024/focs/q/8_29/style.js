@@ -94,10 +94,10 @@ var questions = [
 		"c", "c", "c" ],
 				[
 		"If you wanted to pursue the CyberSecurity pathway at Guthrie, what is the pre-req?",
-		"Computer Science 1",
-		"Computer Science 2",
-		"Principles of Arts",
-		"Computer Maintanence",
+		"Only Computer Science 1",
+		"CompSci 1 & CompSci 2",
+		"Only Principles of Arts",
+		"Principles of IT & Computer Maintanence",
 		"There is no pre-req",
 		"b", "b", "b" ],
 
@@ -265,14 +265,6 @@ var questions = [
 		"Optiplex",
 		"Chromebook",
 		"c", "c", "c" ],
-		[
-			"Which web browser is NOT installed on our computers?",
-			"Chrome",
-			"Firefox",
-			"Edge",
-			"Safari",
-			"All of these are installed on our computers",
-			"c", "c", "c" ],
 		[
 			"Our lab computers run what OS?",
 			"Windows",
