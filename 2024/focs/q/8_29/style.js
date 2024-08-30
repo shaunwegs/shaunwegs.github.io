@@ -430,6 +430,14 @@ var questions = [
 							"a markup language",
 							"a node-based language",
 							"a visual programming language",
+							"c", "c", "c" ],
+							[
+							"What is an algorithm?",
+							"a system used for designing and programming computers and devices.",
+							"a type of markup language",
+							"a series of steps leading to a desired outcome",
+							"a type of programming language",
+							"a mathematical formula that requires computation and programming",
 							"c", "c", "c" ],	
 
 ];
