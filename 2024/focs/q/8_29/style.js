@@ -478,7 +478,7 @@ var questions = [
 							"selection",
 							"b", "b", "b" ],
 
-];
+]];
 
 function now() {
 
