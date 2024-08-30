@@ -484,7 +484,7 @@ var questions = [
 			"Multidisciplinary",
 			"Arts & Humanities",
 			"Public Service",
-			"b", "b", "a" ],
+			"a", "a", "a" ],
 			[
 		"If you don't meet the math/science requirements for STEM, you'll instead earn which endorsement for the CS courses?",
 		"IT",
