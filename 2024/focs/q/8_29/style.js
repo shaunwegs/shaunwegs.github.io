@@ -438,6 +438,14 @@ var questions = [
 							"a series of steps leading to a desired outcome",
 							"a type of programming language",
 							"a mathematical formula that requires computation and programming",
+							"c", "c", "c" ],
+							[
+							"Which of the following terms means:<br>follow instructions in a specific order, one line of instruction at a time from the start to the end in the specified order, until finishing the algorithm.?",
+							"control flow",
+							"algorithm",
+							"sequence",
+							"iteration",
+							"selection",
 							"c", "c", "c" ],	
 
 ];
