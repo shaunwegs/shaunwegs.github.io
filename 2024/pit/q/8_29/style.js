@@ -392,6 +392,14 @@ var questions = [
 									"OSHA",
 									"ASME",
 									"d", "d", "d" ],
+	[
+										"The pictogram shown here is an example from what system? <br><br><img src='img/Skull.jpg' width='150'> ",
+									"ANSI",
+									"ISO",
+									"JIS",
+									"GHS",
+									"ASME",
+										"d", "d", "d" ],
 									[
 										"The pictogram shown here represents which hazard? <br><br><img src='img/Oxidizer.jpg' width='150'> ",
 										"Corrosion",
