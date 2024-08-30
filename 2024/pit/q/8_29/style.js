@@ -219,7 +219,7 @@ var questions = [
 			"b", "b", "b" ],
 
 			[
-				"In CompSci 1, you'll have the opportunity to take an entry-level certification for",
+				"If you take CompSci 1 in high school, you'll have the opportunity to take an entry-level certification for",
 				"Cyber Security",
 				"Java",
 				"Python",
