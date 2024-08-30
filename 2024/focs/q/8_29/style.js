@@ -215,7 +215,7 @@ var questions = [
 			"Multidisciplinary",
 			"Arts & Humanities",
 			"Public Service",
-			"b", "b", "a" ],
+			"a", "a", "a" ],
 
 			[
 				"If you take CS1 in high school, you'll have the opportunity to take an entry-level certification for",
