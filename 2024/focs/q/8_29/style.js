@@ -299,11 +299,11 @@ var questions = [
 	"b", "b", "b" ],
 	[
 		"Which web browser is NOT installed on the lab computers?",
-		"If you upload a file into Google Drive, the file on your computer and the drive are now linked; any change will change both",
-		"If you upload a file into Google Drive, the file is a copy of what you uploaded at that time; any change will change both",
-		"Files in Google Drive can ONLY exist within Google Drive, they can NOT be downloaded",
-		"Only files created in Google Drive can be shared; a file uploaded to Google Drive can NOT be shared",
-		"When you download a shared file, whoever had access to the file in Google Drive will also have access to the file on your hard drive",
+		"Chrome",
+		"Edge",
+		"Safari",
+		"Firefox",
+		"All of these are installed",
 		"b", "b", "b" ],
 		[
 			"We started creating a portfolio in",
