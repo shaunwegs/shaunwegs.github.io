@@ -394,7 +394,7 @@ var questions = [
 									[
 										"The pictogram shown here represents which hazard? <br><br><img src='img/GasCylinder.jpg' width='150'> ",
 										"Corrosion",
-										"Explosive",
+										"Explosive ",
 										"Oxidizer",
 										"Flammable",
 										"Compressed Contents",
