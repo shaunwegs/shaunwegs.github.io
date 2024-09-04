@@ -78,6 +78,15 @@ var questions = [
 	"std main(){ ... }",
 	"c", "c", "a" ],
 
+				[
+				'What will print from the following code snippet? <br><br>for(int i = 0; i < 3; ++i)<br>{<br>printf("hello ");<br>}',
+				"hello hello hello ",
+				"hellohellohellohello",
+				"hello hello hello hello ",
+				"hello",
+				"nothing will print",
+				"a", "a", "a" ],
+
 	[
 "Who manufactured the computers we use in the lab?",
 "Apple",
