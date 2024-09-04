@@ -76,7 +76,7 @@ var questions = [
 "Sony",
 "Google",
 "Xerox",
-"c", "c", "a" ],
+"a", "a", "a" ],
 [
 	'In a simple C program, your code should all be inside of...',
 	"#include main(){ ... }",
@@ -127,7 +127,7 @@ var questions = [
 		"hello hello hello hello ",
 		"hello",
 		"nothing will print",
-		"c", "c", "a" ],
+		"c", "c", "c" ],
 		[
 			'What will print from the following code snippet? <br><br>for(int i = 0; i < 4; i)<br>{<br>printf("hello ");<br>}',
 			"hello hello hello ",
@@ -162,7 +162,7 @@ var questions = [
 			"hello hello hello hello hello",
 			"hello",
 			"hello hello hello hello ",
-			"c", "c", "a" ],
+			"c", "c", "c" ],
 
 [
 	"Hello world is often used as the first program when starting a programming language because ",
