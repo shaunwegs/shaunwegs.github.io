@@ -104,6 +104,33 @@ var questions = [
 			"c", "c", "c" ],
 
 			[
+			'What will be the output from the following code snippet? <br><br>int x = 10;<br>int y = 28;<br>if (x > y) {<br>printf("x is greater than y");<br>}<br>else {<br>printf("y is greater than x");<br>}',
+			"18 is greater than 20",
+			"20 is greater than 18",
+			"x is greater than y",
+			"nothing",
+			"y is greater than x",
+			"e", "e", "e" ],
+
+				[
+			'What will be the output from the following code snippet? <br><br>int x = 100;<br>int y = 2;<br>if (x < y) {<br>printf("x is greater than y");<br>}<br>else {<br>printf("y is greater than x");<br>}',
+			"18 is greater than 20",
+			"20 is greater than 18",
+			"x is greater than y",
+			"nothing",
+			"y is greater than x",
+			"e", "e", "e" ],
+
+					[
+			'What will be the output from the following code snippet? <br><br>int x = 10;<br>int y = 200;<br>if (x < y) {<br>printf("x is greater than y");<br>}<br>else {<br>printf("y is greater than x");<br>}',
+			"18 is greater than 20",
+			"20 is greater than 18",
+			"x is greater than y",
+			"nothing",
+			"y is greater than x",
+			"c", "c", "c" ],
+
+			[
 				'What will be the output from the following code snippet? <br><br>int x = 15;<br>int y = 25;<br>if (x > y) {<br>printf("x is greater than y");<br>}',
 				"15 is greater than 25",
 				"25 is greater than 15",
