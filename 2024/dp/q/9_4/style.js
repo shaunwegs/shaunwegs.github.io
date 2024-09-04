@@ -70,6 +70,15 @@ if (userLastName === null) {
 var questions = [
 
 	[
+	'In a simple C program, your code should all be inside of...',
+	"#include main(){ ... }",
+	"stdout(){ ... }",
+	"int main(){ ... }",
+	"loadout(){ ... }",
+	"std main(){ ... }",
+	"c", "c", "a" ],
+
+	[
 "Who manufactured the computers we use in the lab?",
 "Apple",
 "Microsoft",
