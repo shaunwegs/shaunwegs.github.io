@@ -70,24 +70,6 @@ if (userLastName === null) {
 var questions = [
 
 	[
-	'In a simple C program, your code should all be inside of...',
-	"#include main(){ ... }",
-	"stdout(){ ... }",
-	"int main(){ ... }",
-	"loadout(){ ... }",
-	"std main(){ ... }",
-	"c", "c", "a" ],
-
-				[
-				'What will print from the following code snippet? <br><br>for(int i = 0; i < 3; ++i)<br>{<br>printf("hello ");<br>}',
-				"hello hello hello ",
-				"hellohellohellohello",
-				"hello hello hello hello ",
-				"hello",
-				"nothing will print",
-				"a", "a", "a" ],
-
-	[
 "Who manufactured the computers we use in the lab?",
 "Apple",
 "Microsoft",
@@ -96,13 +78,39 @@ var questions = [
 "Xerox",
 "c", "c", "a" ],
 [
-	'The following code snippet is an example of what? <br><br>for(int i = 0; i < n; ++i)<br>{<br>printf("hello");<br>}',
-	"selection",
-	"function definition",
-	"iteration",
-	"object oriented programming",
-	"Xerox",
+	'In a simple C program, your code should all be inside of...',
+	"#include main(){ ... }",
+	"stdout(){ ... }",
+	"int main(){ ... }",
+	"loadout(){ ... }",
+	"std main(){ ... }",
 	"c", "c", "a" ],
+	[
+		'The following code snippet is an example of what? <br><br>for(int i = 0; i < n; ++i)<br>{<br>printf("hello");<br>}',
+		"selection",
+		"function definition",
+		"iteration",
+		"object oriented programming",
+		"Xerox",
+		"c", "c", "a" ],
+
+		[
+			'The following code snippet is an example of what? <br><br>int x = 20;<br>int y = 18;<br>if (x > y) {<br>printf("x is greater than y");<br>}',
+			"18 is greater than 20",
+			"20 is greater than 18",
+			"x is greater than y",
+			"nothing",
+			"y is greater than x",
+			"c", "c", "a" ],
+
+			[
+				'What will print from the following code snippet? <br><br>for(int i = 0; i < 3; ++i)<br>{<br>printf("hello ");<br>}',
+				"hello hello hello ",
+				"hellohellohellohello",
+				"hello hello hello hello ",
+				"hello",
+				"nothing will print",
+				"a", "a", "a" ],
 	[
 		'What will print from the following code snippet? <br><br>for(int i = 0; i < 4; ++i)<br>{<br>printf("hello ");<br>}',
 		"hello hello hello ",
