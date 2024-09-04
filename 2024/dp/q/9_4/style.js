@@ -111,6 +111,15 @@ var questions = [
 			"nothing will print",
 			"e", "e", "e" ],
 
+			[
+				'What will print from the following code snippet? <br><br>for(int i = 0; i > 4; i = i+2)<br>{<br>printf("hello ");<br>}',
+				"hello hello hello ",
+				"hello hello",
+				"hello hello hello hello ",
+				"hello",
+				"nothing will print",
+				"e", "e", "e" ],
+
 		[
 			'What will print from the following code snippet? <br><br>for(int i = 0; i <= 4; ++i)<br>{<br>printf("hello ");<br>}',
 			"hellohellohello ",
