@@ -95,7 +95,7 @@ var questions = [
 		"c", "c", "c" ],
 
 		[
-			'The following code snippet is an example of what? <br><br>int x = 20;<br>int y = 18;<br>if (x > y) {<br>printf("x is greater than y");<br>}',
+			'What will be the output from the following code snippet? <br><br>int x = 20;<br>int y = 18;<br>if (x > y) {<br>printf("x is greater than y");<br>}',
 			"18 is greater than 20",
 			"20 is greater than 18",
 			"x is greater than y",
@@ -104,7 +104,7 @@ var questions = [
 			"c", "c", "c" ],
 
 			[
-				'The following code snippet is an example of what? <br><br>int x = 15;<br>int y = 25;<br>if (x > y) {<br>printf("x is greater than y");<br>}',
+				'What will be the output from the following code snippet? <br><br>int x = 15;<br>int y = 25;<br>if (x > y) {<br>printf("x is greater than y");<br>}',
 				"15 is greater than 25",
 				"25 is greater than 15",
 				"x is greater than y",
@@ -113,7 +113,7 @@ var questions = [
 				"d", "d", "d" ],
 
 			[
-				'What will print from the following code snippet? <br><br>for(int i = 0; i < 3; ++i)<br>{<br>printf("hello ");<br>}',
+				'What will be the output from the following code snippet? <br><br>for(int i = 0; i < 3; ++i)<br>{<br>printf("hello ");<br>}',
 				"hello hello hello ",
 				"hellohellohellohello",
 				"hello hello hello hello ",
