@@ -84,7 +84,7 @@ var questions = [
 	"int main(){ ... }",
 	"loadout(){ ... }",
 	"std main(){ ... }",
-	"c", "c", "a" ],
+	"c", "c", "c" ],
 	[
 		'The following code snippet is an example of what? <br><br>for(int i = 0; i < n; ++i)<br>{<br>printf("hello");<br>}',
 		"selection",
@@ -92,7 +92,7 @@ var questions = [
 		"iteration",
 		"object oriented programming",
 		"Xerox",
-		"c", "c", "a" ],
+		"c", "c", "c" ],
 
 		[
 			'The following code snippet is an example of what? <br><br>int x = 20;<br>int y = 18;<br>if (x > y) {<br>printf("x is greater than y");<br>}',
@@ -101,7 +101,7 @@ var questions = [
 			"x is greater than y",
 			"nothing",
 			"y is greater than x",
-			"c", "c", "a" ],
+			"c", "c", "c" ],
 
 			[
 				'The following code snippet is an example of what? <br><br>int x = 15;<br>int y = 25;<br>if (x > y) {<br>printf("x is greater than y");<br>}',
@@ -110,7 +110,7 @@ var questions = [
 				"x is greater than y",
 				"nothing",
 				"y is greater than x",
-				"d", "d", "a" ],
+				"d", "d", "d" ],
 
 			[
 				'What will print from the following code snippet? <br><br>for(int i = 0; i < 3; ++i)<br>{<br>printf("hello ");<br>}',
