@@ -235,7 +235,7 @@ var questions = [
 "8 gb",
 "245 gb",
 "4 tb",
-"c", "c", "d" ],
+"d", "d", "d" ],
     [
 "What processor is in the lab computers?",
 "The Apple Silicon 'M1 Chip'",
@@ -243,7 +243,7 @@ var questions = [
 "Intel Core 2 Duo",
 "RISC-based PowerPC G4 by AIM partnership",
 "AMD Ryzen 3 7320C",
-"c", "c", "a" ],
+"a", "a", "a" ],
 	[
 "What's the keyboard size for our lab computers?",
 "Full Size",
@@ -259,7 +259,7 @@ var questions = [
 "AZERTY",
 "DVORAK",
 "COLEMAK",
-"c", "c", "a" ],
+"a", "a", "a" ],
 	[
 "What type of optical disc drive do we have in our computers?",
 "none",
