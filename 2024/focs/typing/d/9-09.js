@@ -8,7 +8,7 @@ let quotes_array = [
   "Your index fingers should be on the",
   "J & F keys, marked with the little bumps.",
   "JJJ FFF JJJ FFF",
-  'You middle fingers should be',
+  'Your middle fingers should be',
   "on the D & K keys",
   "DD dd DD dd",
   "KK kk KK kk",
