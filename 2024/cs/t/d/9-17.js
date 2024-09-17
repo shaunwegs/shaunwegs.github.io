@@ -13,7 +13,7 @@ let quotes_array = [
   'you might result in an overflow error.',
   'It may specifically give you an',
   'error, or you might just get a',
-  'result you don't expect.',
+  "result you don't expect.",
 ];
 
 // selecting required elements
