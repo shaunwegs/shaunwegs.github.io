@@ -12,7 +12,7 @@ let quotes_array = [
   "The most popular programs for",
   "spreadsheets are probably",
   "Google Sheets, Microsoft Excel, and",
-  'Apple Pages. We'll try Pages today.',
+  "Apple Pages. We'll try Pages today.",
 ];
 
 // selecting required elements
