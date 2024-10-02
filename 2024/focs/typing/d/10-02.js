@@ -8,7 +8,7 @@ let quotes_array = [
   'With HTML we can build',
   "webpages and websites,",
   'using different markup tags.',
-  'It's coding, but its not programming.',
+  "It's coding, but its not programming.",
   "We can use anchor tags to",
   'link pages together,',
   'image tags to display images,',
