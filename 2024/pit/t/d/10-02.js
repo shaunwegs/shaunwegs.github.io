@@ -3,19 +3,20 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "IT is an acronym for",
-  'Information Technology.',
-  'IT includes computer systems,',
-  "software, programming, data",
-  'processing, and data storage.',
-  "There's also IT Engineering,",
-  "which focuses on applying tech",
-  'to design, manage, and maintain',
-  'systems to solve problems.',
-  "Engineers in general use",
-  "knowledge in STEM to solve",
-  "problems, so IT Engineering is",
-  "a specific type of engineering.",
+  "The job market is never",
+  'a 100% sure thing.',
+  'However, despite well publicized',
+  "layoffs in the Tech Industry,",
+  'overall, tech is still strong.',
+  "In Aug. of 2024, the US Bureau",
+  "of Labor Statistics published",
+  'that careers in computing and IT',
+  'are projected to grow by 356k',
+  "jobs per year through 2033.",
+  "Additionally, the median wage",
+  "is 104k per year (May 2023),",
+  "is more than 2x the median wage",
+  "across all occupations of 48k.",
 ];
 
 // selecting required elements
