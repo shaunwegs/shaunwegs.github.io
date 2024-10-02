@@ -8,7 +8,7 @@ let quotes_array = [
   'IT includes computer systems,',
   "software, programming, data",
   'processing, and data storage.',
-  'There's also IT Engineering,',
+  "There's also IT Engineering,",
   "which focuses on applying tech",
   'to design, manage, and maintain',
   'systems to solve problems.',
