@@ -8,7 +8,7 @@ let quotes_array = [
   'The next step is to actually make the card.',
   "Don't forget, the finished card",
   'is a physical card.',
-  'You'll need to prepare a PDF',
+  "You'll need to prepare a PDF",
   'of what you want printed.',
   "Then you'll cut them out and",
   'assemble the finished card.',
