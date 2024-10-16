@@ -3,7 +3,7 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  'We've already talked about links,',
+  "We've already talked about links,",
   "aka, anchor elements. For review,",
   "the HTML for an anchor element is",
   '<a href="filename.html"> Text </a>',
