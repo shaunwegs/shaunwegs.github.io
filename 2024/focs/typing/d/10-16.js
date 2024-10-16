@@ -10,7 +10,7 @@ let quotes_array = [
   'We can make other things into links',
   'too, as long as we put them within',
   'the opening and closing tags. For',
-  'example, an image that's also a linke:',
+  "example, an image that's also a link:",
   '<a href="linkname.html">',
   '<img src="imgname.jpg" /> </a>',
   'Notice, the image is still its own',
