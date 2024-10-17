@@ -1140,10 +1140,10 @@ function renderResults(){
   localStorage.setItem("pg_tota2", tot2);
   localStorage.setItem("pg_tota3", tot3);
   localStorage.setItem("pg_tota4", tot4);
-  $_("test_status").innerHTML = "<h1>Fund. of CS, October 17th Quiz</h1><h2>Attempt #" +vs;
+  $_("test_status").innerHTML = "<h1>Fund. of CS, October 18th Quiz</h1><h2>Attempt #" +vs;
   $_('timeleft').innerHTML = '</h2>'; l1 = 25 - cor;
   test.innerHTML = "";
-  test.innerHTML += "<h1>Results for " + userFirstName + "</h1><h3>Attempt #"+vs +" for " + userFirstName +" "+ userLastName +".<br>Screenshot & upload your results!</h3>";
+  test.innerHTML += "<h1>Results for " + userFirstName + "</h1><h3>Fund. of CS, October 18th Quiz<br>Attempt #"+vs +" for " + userFirstName +" "+ userLastName +".<br>Screenshot & upload your results!</h3>";
     test.innerHTML += "<table id='render'><tr><td><p id='render1'></p><br></td><td><p id='render2'></p></td></tr></table>";
   render1.innerHTML += "<h1>Percentage Correct</h1><br>"
   render1.innerHTML += bigLet((cor/rscore*100).toFixed(0));
