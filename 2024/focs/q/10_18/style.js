@@ -537,14 +537,6 @@ var questions = [
 							"RYB",
 							"c", "c", "c" ],
 							[
-							"When working with color, hexadecimal codes are sometimes called what for short?",
-							"web palettes",
-							"color schemes",
-							"hexcodes",
-							"hex palettes",
-							"color palletes",
-							"c", "c", "c" ],
-							[
 							"We call them hexadecimal color codes because",
 							"each digit represents one of the 6 primary or secondary colors",
 							"they are used to represent hexadecimal colors",
