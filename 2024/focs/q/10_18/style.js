@@ -395,7 +395,7 @@ var questions = [
 					"You should highlight specific skills and abilities in your projects",
 					"c", "c", "c" ],
 					[
-						"If you are interested in more than one career, what's generally recommended for your professional portfolios?",
+						"If you are interested in more than one career, <BR>what's generally recommended for your professional portfolios?",
 						"Create one portfolio that shows a variety of projects related to all of your different proffesional interests",
 						"Create just one portfolio that's only focused on one interest, use this portfolio regardless of what job you are interviewing for",
 						"Create more the one portfolio; each one specficially tailored for each interest",
@@ -403,7 +403,7 @@ var questions = [
 						"Create a very generic portfolio that doesn't show any specific skills related to any specific career",
 						"c", "c", "c" ],
 						[
-							"Related to a project in your portfolio, which of the following should NOT be included?",
+							"Related to a project in your portfolio, <BR>which of the following should NOT be included?",
 							"The Problem/Goal and Solution Statements",
 							"Sketches and diagrams of the planning",
 							"All of these should be included",
@@ -412,7 +412,7 @@ var questions = [
 							"c", "c", "c" ],
 
 						[
-							"Related to a project in your portfolio, which of the following should NOT be included?",
+							"Related to a project in your portfolio, <BR>which of the following should NOT be included?",
 							"The Problem/Goal and Solution Statements",
 							"Sketches and diagrams of the planning",
 							"All of these should be included",
@@ -657,7 +657,7 @@ var questions = [
 							"appendices",
 							"b", "b", "b" ],
 							[
-							"When you go to a website, the name of the website can usually be seen at the top of the window (or on a tab if you have multiple tabs open). What does the correct tag look like?",
+							"When you go to a website, the name of the website can usually be seen at the top of the window (or on a tab if you have multiple tabs open). <BR>What does the correct tag look like?",
 							"&#60;head value='Name of Site' />",
 							"&#60;title>Name of Site&#60;/title>",
 							"&#60;title value='Name of Site'>&#60;/title>",
@@ -729,7 +729,7 @@ var questions = [
 									"&#60;img val='Name_of_Image.png'>",
 									"c", "c", "c" ],
 									[
-									"We would like to add a picture to our site. The picture is named brigadeiro.png and its located inside a subfolder called 'food'. How would we write the HTML tags to do this?",
+									"We would like to add a picture to our site. <BR>The picture is named brigadeiro.png and its located inside a subfolder called 'food'. <BR>How would we write the HTML tags to do this?",
 									"&#60;img src='food' src2='brigadeiro.png' />",
 									"&#60;img src='brigadeiro.png' />",
 									"&#60;img src='food/brigadeiro.png' />",
@@ -737,7 +737,7 @@ var questions = [
 									"&#60;img folder='food' src='brigadeiro.png' />",
 									"c", "c", "c" ],
 									[
-									"We have a website for a brazilian restaurant. For the link to the desert section, we want to use a picture of quindim instead of text. How would we write the HTML tags to do this?",
+									"We have a website for a brazilian restaurant. <BR>For the link to the desert section, we want to use a picture of quindim instead of text. <BR>How would we write the HTML tags to do this?",
 									"&#60;img src='quindim.png' href='deserts.html' />",
 									"&#60;a href='deserts.html' img-src='quindim.png' />",
 									"&#60;a href='deserts.html'>&#60;img src='quindim.png' />&#60;/a>",
@@ -745,7 +745,7 @@ var questions = [
 									"&#60;img src='quindim.png' on_click.go_to='deserts.html' />",
 									"c", "c", "c" ],
 									[
-									"We would like to add a picture to our site. The picture is named anita-malfatti.jpg and its located inside a subfolder called 'artist'. How would we write the HTML tags to do this?",
+									"We would like to add a picture to our site. <BR>The picture is named anita-malfatti.jpg and its located inside a subfolder called 'artist'. <BR>How would we write the HTML tags to do this?",
 									"&#60;img src='artist' src2='anita-malfatti.jpg' />",
 									"&#60;img src='anita-malfatti.jpg' />",
 									"&#60;img src='artist/anita-malfatti.jpg' />",
@@ -753,7 +753,7 @@ var questions = [
 									"&#60;img folder='artist' src='anita-malfatti.jpg' />",
 									"c", "c", "c" ],
 									[
-									"We would like to add a picture to our site. The picture is named jose-antunes-sobrinho.jpg. How would we write the HTML tags to do this?",
+									"We would like to add a picture to our site. <BR>The picture is named jose-antunes-sobrinho.jpg. <BR>How would we write the HTML tags to do this?",
 									"&#60;img src='jose-antunes-sobrinho.gif' />",
 									"&#60;img src='jose-antunes-sobrinho.png' />",
 									"&#60;img src='jose-antunes-sobrinho.jpg' />",
@@ -769,7 +769,7 @@ var questions = [
 									"&#60;link val='Name_of_Page' />",
 									"c", "c", "c" ],
 									[
-									"You've created a webpage which includes text both text and images. You've sent only the html file to your friend. What will happen when they load it?",
+									"You've created a webpage which includes text both text and images. <BR>You've sent only the html file to your friend. <BR>What will happen when they load it?",
 									"everything will load until the first image; it will not be able to find the image and will not load anything else",
 									"everything will load",
 									"text will load, but the images won't.",
@@ -777,7 +777,7 @@ var questions = [
 									"nothing will load",
 									"c", "c", "c" ],
 									[
-									"We can add an image to our page using the tag &#60;img src='name_of_image.jpg'/>. We specify the path for the image in the src attribute. What does the src mean?",
+									"We can add an image to our page using the tag &#60;img src='name_of_image.jpg'/>. <BR>We specify the path for the image in the src attribute. <BR>What does src mean?",
 									"src is an acronym for scaleable reloadable content",
 									"src is an acronym for synchronized reference content",
 									"src is short for source",
@@ -793,7 +793,7 @@ var questions = [
 									"&#60;link val='Name_of_Page' />",
 									"c", "c", "c" ],
 									[
-									"We have a folder with our webpage in it. Which of the following would be considered the main page?",
+									"We have a folder with our webpage in it. <BR>Which of the following would be considered the main page?",
 									"opening.html",
 									"entrance.html",
 									"index.html",
@@ -801,7 +801,7 @@ var questions = [
 									"about.html",
 									"c", "c", "c" ],
 									[
-									"We have a folder with a webpage about artist Beatriz Milhazes. The page includes javascript, html, css, images, and more. Which file would be the actual webpage?",
+									"We have a folder with a webpage about artist Beatriz Milhazes. <BR>The page includes javascript, html, css, images, and more. <BR>Which file would be the actual webpage?",
 									"milhazes.webp",
 									"style.css",
 									"milhazes.html",
@@ -809,7 +809,7 @@ var questions = [
 									"script.js",
 									"c", "c", "c" ],
 									[
-									"We have a folder with a webpage about artist Beatriz Milhazes. The page includes javascript, html, css, images, and more. Which file would probably be the image of the artist?",
+									"We have a folder with a webpage about artist Beatriz Milhazes. <BR>The page includes javascript, html, css, images, and more. <BR>Which file would probably be the image of the artist?",
 									"index.html",
 									"style.css",
 									"milhazes.html",
@@ -817,7 +817,7 @@ var questions = [
 									"script.js",
 									"d", "d", "d" ],
 									[
-									"We have a folder with a webpage about artist Beatriz Milhazes. The page includes javascript, html, css, images, and more. Which file would be the javascript?",
+									"We have a folder with a webpage about artist Beatriz Milhazes. <BR>The page includes javascript, html, css, images, and more. <BR>Which file would be the javascript?",
 									"milhazes.webp",
 									"style.css",
 									"milhazes.html",
@@ -825,7 +825,7 @@ var questions = [
 									"script.js",
 									"e", "e", "e" ],
 									[
-									"We have a folder with a webpage about artist Beatriz Milhazes. The page includes javascript, html, css, images, and more. Which file would be the css?",
+									"We have a folder with a webpage about artist Beatriz Milhazes. <BR>The page includes javascript, html, css, images, and more. <BR>Which file would be the css?",
 									"milhazes.webp",
 									"style.css",
 									"milhazes.html",
@@ -833,7 +833,7 @@ var questions = [
 									"script.js",
 									"b", "b", "b" ],
 									[
-									"We want to change the color of our webpage's background. Where would we do that?",
+									"We want to change the color of our webpage's background. <BR>Where would we do that?",
 									"You can't change the background color of a webpage.",
 									"in the table tag",
 									"in the body tag",
@@ -841,7 +841,7 @@ var questions = [
 									"in the html tag",
 									"c", "c", "c" ],
 									[
-									"We want to change the color of the default text color on our webpage. Where would we do that?",
+									"We want to change the color of the default text color on our webpage. <BR>Where would we do that?",
 									"You can't change the background color of a webpage.",
 									"in the table tag",
 									"in the body tag",
@@ -849,7 +849,15 @@ var questions = [
 									"in the html tag",
 									"c", "c", "c" ],
 									[
-									"We want to use an image for the background of our webpage. Where would we do that?",
+									"We want to use an image for the background of our webpage. <BR>Where would we do that?",
+									"You can't change the background color of a webpage.",
+									"in the table tag",
+									"in the body tag",
+									"in the head tag",
+									"in the html tag",
+									"c", "c", "c" ],
+									[
+									"The content on our page keeps loading on the left side.",
 									"You can't change the background color of a webpage.",
 									"in the table tag",
 									"in the body tag",
