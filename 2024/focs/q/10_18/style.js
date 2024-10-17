@@ -365,7 +365,7 @@ var questions = [
 [
 	"Which of the following is TRUE related to keeping files in Google Drive?",
 	"If you upload a file into Google Drive, the file on your computer and the drive are now linked; any change will change both",
-	"If you upload a file into Google Drive, the file is a copy of what you uploaded at that time; any change will change both",
+	"If you upload a file into Google Drive, the file is a copy of what you uploaded at that time; changes are not shared across both",
 	"Files in Google Drive can ONLY exist within Google Drive, they can NOT be downloaded",
 	"Only files created in Google Drive can be shared; a file uploaded to Google Drive can NOT be shared",
 	"When you download a shared file, whoever had access to the file in Google Drive will also have access to the file on your hard drive",
@@ -769,7 +769,7 @@ var questions = [
 									"&#60;link val='Name_of_Page' />",
 									"c", "c", "c" ],
 									[
-									"You've created a webpage which includes text both text and images. <BR>You've sent only the html file to your friend. <BR>What will happen when they load it?",
+									"You've created a webpage which includes both text and images. <BR>You've sent only the html file to your friend. <BR>What can you probably expect to happen when they load it?",
 									"everything will load until the first image; it will not be able to find the image and will not load anything else",
 									"everything will load",
 									"text will load, but the images won't.",
@@ -1016,6 +1016,30 @@ var questions = [
 									"Listing Interface",
 									"List Interpreter",
 									"c", "c", "c" ],
+									[
+									"The tags &#60;OL>, &#60;UL>, and &#60;LI> all relate to what HTML element?",
+									"Text",
+									"Tables",
+									"Lists",
+									"Images",
+									"Links",
+									"c", "c", "c" ],
+									[
+									"The tags &#60;b>, &#60;u>, and &#60;i> all relate to what HTML element?",
+									"Text",
+									"Tables",
+									"Lists",
+									"Images",
+									"Links",
+									"a", "a", "a" ],
+									[
+									"The tags &#60;tr> and &#60;td> are both related to what HTML element?",
+									"Text",
+									"Tables",
+									"Lists",
+									"Images",
+									"Links",
+									"b", "b", "b" ],
 
 ];
 
