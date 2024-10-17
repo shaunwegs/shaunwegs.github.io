@@ -976,6 +976,46 @@ var questions = [
 									"&#60;font='underline'>this text&#60;/underline>",
 									"&#60;ul>this text&#60;/ul>",
 									"c", "c", "c" ],
+									[
+									"If we want to make an ordered list, what tags should we use?",
+									"Start the list with an &#60;ol> tag. Use an &#60;li> tag for each item. Close the list element with an &#60;/ol> tag.",
+									"Start the list with an &#60;ul> tag. Use an &#60;li> tag for each item. Close the list element with an &#60;/ul> tag.",
+									"Start the list with a &#60;list> tag. Use an &#60;ol> tag for each item. Close the list element with a &#60;/list> tag.",
+									"Start the list with a &#60;list> tag. Use an &#60;ul> tag for each item. Close the list element with a &#60;/list> tag.",
+									"Start the list with a &#60;list style='ordered'> tag. Use an &#60;ul> tag for each item. Close the list element with a &#60;/list> tag.",
+									"a", "a", "a" ],
+									[
+									"If we want to make an unordered list, what tags should we use?",
+									"Start the list with an &#60;ol> tag. Use an &#60;li> tag for each item. Close the list element with an &#60;/ol> tag.",
+									"Start the list with an &#60;ul> tag. Use an &#60;li> tag for each item. Close the list element with an &#60;/ul> tag.",
+									"Start the list with a &#60;list> tag. Use an &#60;ol> tag for each item. Close the list element with a &#60;/list> tag.",
+									"Start the list with a &#60;list> tag. Use an &#60;ul> tag for each item. Close the list element with a &#60;/list> tag.",
+									"Start the list with a &#60;list style='unordered'> tag. Use an &#60;ul> tag for each item. Close the list element with a &#60;/list> tag.",
+									"b", "b", "b" ],
+									[
+									"When we create a list, we can use an &#60;OL> tag.<br>What does OL stand for?",
+									"Optimal List",
+									"Official List",
+									"Ordered List",
+									"Organized List",
+									"Orchestrated List",
+									"c", "c", "c" ],
+									[
+									"When we create a list, we can use an &#60;UL> tag.<br>What does UL stand for?",
+									"Ultimate List",
+									"Unofficial List",
+									"Unordered List",
+									"Unorganized List",
+									"Unorchestrated List",
+									"c", "c", "c" ],
+									[
+									"When we create a list, we can use an &#60;LI> tag.<br>What does LI stand for?",
+									"List",
+									"List Interface",
+									"List Item",
+									"Listing Interface",
+									"List Interpreter",
+									"c", "c", "c" ],
 
 ];
 
