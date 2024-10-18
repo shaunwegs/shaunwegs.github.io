@@ -766,7 +766,7 @@ var questions = [
 																	"February",
 																	"a", "a", "a" ],
 															[
-																"In the image shown here, what is currently selected?<br><img src='img/03.png'>",
+																"In the image shown here, what is currently selected?<br><img src='img/03.png' width='400'>",
 																"a chart",
 																"a table",
 																"a cell",
@@ -774,7 +774,7 @@ var questions = [
 																"a row",
 																"c", "c", "c" ],
 															[
-																"In the image shown here, what is currently selected?<br><img src='img/02.png'>",
+																"In the image shown here, what is currently selected?<br><img src='img/02.png' width='400'>",
 																"a chart",
 																"a table",
 																"a cell",
@@ -782,7 +782,7 @@ var questions = [
 																"a row",
 																"e", "e", "e" ],
 															[
-																"In the image shown here, what is currently selected?<br><img src='img/01.png'>",
+																"In the image shown here, what is currently selected?<br><img src='img/01.png' width='400'>",
 																"a chart",
 																"a table",
 																"a cell",
