@@ -146,6 +146,25 @@ var questions = [
 		"d", "d", "d" ],
 	
 		[
+		"If you drag an image into an Apple Works document, and it has a background and you dont want it to, try adjusting what setting?",
+		"position",
+		"saturation",
+		"exposure",
+		"alpha",
+		"mask",
+		"d", "d", "d" ],
+
+	
+		[
+		"If you drag an image into an Apple Works document, but you want to crop it so less of the image is showing, try adjusting what setting?",
+		"position",
+		"saturation",
+		"exposure",
+		"alpha",
+		"mask",
+		"e", "e", "e" ],
+	
+		[
 		"If your working in a software programming, and the text extends beyond the screen or text area, you may be able to adjust this using what setting? ",
 		"text offset",
 		"shift adjustment",
