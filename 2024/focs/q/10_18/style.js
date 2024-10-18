@@ -555,7 +555,7 @@ var questions = [
 						"mrd",
 						"c", "c", "c" ],	
 						[
-							"The abbreviation and file extension for html is",
+							"The file extension for html is",
 							"hyper",
 							"page",
 							"html",
