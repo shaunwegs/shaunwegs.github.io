@@ -742,7 +742,7 @@ var questions = [
 															"Pages",
 															"d", "d", "d" ],
 															[
-																"In the image shown here, which cell is the selected data contained in?<br><img src='img/03.png'>",
+																"In the image shown here, which cell is the selected data contained in?<br><img src='img/03.png' width='400'>",
 																"7",
 																"D",
 																"D7",
@@ -750,7 +750,7 @@ var questions = [
 																"February",
 																"c", "c", "c" ],
 																[
-																	"In the image shown here, which column is the selected data contained in?<br><img src='img/03.png'>",
+																	"In the image shown here, which column is the selected data contained in?<br><img src='img/03.png' width='400'>",
 																	"7",
 																	"D",
 																	"D7",
@@ -758,7 +758,7 @@ var questions = [
 																	"Manual - Bicycles",
 																	"b", "b", "b" ],
 																[
-																	"In the image shown here, which row is the selected data contained in?<br><img src='img/03.png'>",
+																	"In the image shown here, which row is the selected data contained in?<br><img src='img/03.png' width='400'>",
 																	"7",
 																	"D",
 																	"D7",
