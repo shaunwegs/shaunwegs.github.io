@@ -400,14 +400,6 @@ var questions = [
 									"OSHA",
 									"ASME",
 									"d", "d", "d" ],
-	[
-										"The pictogram shown here is an example from what system? <br><br><img src='img/Skull.jpg' width='150'> ",
-									"ANSI",
-									"ISO",
-									"JIS",
-									"GHS",
-									"ASME",
-										"d", "d", "d" ],
 		[
 										"GHS is short for for",
 									"Globally Harmonized System of Classification and Labelling of Chemicals",
