@@ -290,6 +290,14 @@ var questions = [
 	"Trick question, they are all core languages of the web",
 	"d", "d", "d" ],
 	[
+	"Which of the following is not considered a computer language?",
+	"Javascript",
+	"CSS",
+	"HTML",
+	"Trick question, none of them are computer languages",
+	"Trick question, they are all computer languages",
+	"e", "e", "e" ],
+	[
 	"Which of web language might someone call 'the builder'?",
 	"Javascript",
 	"CSS",
@@ -648,14 +656,6 @@ var questions = [
 							"#FFFF00",
 							"#00FFFF",
 							"b", "b", "b" ],
-							[
-							"What is the hexadecimal value for green?",
-							"#F0000F",
-							"#000F00",
-							"#FF0000",
-							"#00F000",
-							"#00FF00",
-							"e", "e", "e" ],
 							[
 							"What is the hexadecimal value for yellow?",
 							"#0000FF",
