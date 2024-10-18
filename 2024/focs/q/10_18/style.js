@@ -953,7 +953,7 @@ var questions = [
 									"It doesn't mean anything, you just have to remember it.",
 									"c", "c", "c" ],
 									[
-									"Look at <b><strong>this text<strong></b>. See how it's bolded?<br>What simple HTML tags could we do that with?",
+									"Look at <b><strong><span>this text</span><strong></b>. See how it's bolded?<br>What simple HTML tags could we do that with?",
 									"&#60;text style='bold'>this text&#60;/text>",
 									"&#60;bold>this text&#60;/bold>",
 									"&#60;b>this text&#60;/b>",
