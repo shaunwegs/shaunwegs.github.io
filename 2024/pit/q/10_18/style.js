@@ -77,6 +77,14 @@ var questions = [
 		"Yes, an IB MYP Student (grades 6-10)",
 		"No, IB begins in 10th grade with Personal Project",
 		"d", "d", "d" ],
+	[
+		"In Apple Work software (Pages/Keynote/Numbers), how do you save a file as a PDF? ",
+		"at the top left of the app, click download, then Download as PDF",
+		"at the top right of the app, click share, then Save as > PDF",
+		"In the overhead menu, go to Share, then Export as > PDF",
+		"In the overhead menu, go to File, then Export to > PDF",
+		"In the overhead menu, go to File, then Save as, in the save window, change the format to PDF",
+		"d", "d", "d" ],
 	
 	[
 		"On a mac, the keyboard short-cut for save is ",
