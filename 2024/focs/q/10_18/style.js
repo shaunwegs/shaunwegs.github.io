@@ -953,7 +953,7 @@ var questions = [
 									"It doesn't mean anything, you just have to remember it.",
 									"c", "c", "c" ],
 									[
-									"Look at <b>this text</b>. See how it's bolded?<br>What simple HTML ags could we do that with?",
+									"Look at <b>this text</b>. See how it's bolded?<br>What simple HTML tags could we do that with?",
 									"&#60;text style='bold'>this text&#60;/text>",
 									"&#60;bold>this text&#60;/bold>",
 									"&#60;b>this text&#60;/b>",
@@ -961,7 +961,7 @@ var questions = [
 									"You can't, you have to use CSS",
 									"c", "c", "c" ],
 									[
-									"Look at <i>this text</i>. See how it's italicized?<br>What simple HTML ags could we do that with?",
+									"Look at <i>this text</i>. See how it's italicized?<br>What simple HTML tags could we do that with?",
 									"&#60;text style='italic'>this text&#60;/text>",
 									"&#60;italic>this text&#60;/italic>",
 									"&#60;i>this text&#60;/i>",
@@ -969,7 +969,7 @@ var questions = [
 									"You can't, you have to use CSS",
 									"c", "c", "c" ],
 									[
-									"Look at <u>this text</u>. See how it's underlined?<br>What simple HTML ags could we do that with?",
+									"Look at <u>this text</u>. See how it's underlined?<br>What simple HTML tags could we do that with?",
 									"&#60;text style='underline'>this text&#60;/underline>",
 									"&#60;underline>this text&#60;/underline>",
 									"&#60;u>this text&#60;/u>",
