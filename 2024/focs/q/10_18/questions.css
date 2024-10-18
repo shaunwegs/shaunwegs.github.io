@@ -78,7 +78,7 @@ td {
 
 .atkinson-hyperlegible-regular {
     font-family: "Atkinson Hyperlegible", sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     font-style: normal;
   }
   
@@ -90,7 +90,7 @@ td {
   
   .atkinson-hyperlegible-regular-italic {
     font-family: "Atkinson Hyperlegible", sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     font-style: italic;
   }
   
@@ -99,3 +99,4 @@ td {
     font-weight: 700;
     font-style: italic;
   }
+  

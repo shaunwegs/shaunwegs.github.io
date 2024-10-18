@@ -953,7 +953,7 @@ var questions = [
 									"It doesn't mean anything, you just have to remember it.",
 									"c", "c", "c" ],
 									[
-									"Look at <b>this text</b>. See how it's bolded?<br>What simple HTML tags could we do that with?",
+									"Look at <b><em>this text</em></b>. See how it's bolded?<br>What simple HTML tags could we do that with?",
 									"&#60;text style='bold'>this text&#60;/text>",
 									"&#60;bold>this text&#60;/bold>",
 									"&#60;b>this text&#60;/b>",
@@ -1308,7 +1308,7 @@ function noMore(){
 function renderQuestion() {
   var test = $_("test");
   var ques = 16;  // Question Count
-  $_("test_status").innerHTML = "<h1>Fund. of CS: Oct. 17th Quiz</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
+  $_("test_status").innerHTML = "<h1>Fund. of CS: August 29 Quiz</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
   if (rscore != 0) { $_("test_status").innerHTML += '<br>Currently: ~'+(cor/rscore*100).toFixed(0)+'% correct'; }
   var question = questions[posn][0];
   var chA = questions[posn][1];
