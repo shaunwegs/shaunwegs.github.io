@@ -1088,6 +1088,22 @@ var questions = [
 											"4",
 											"5",
 											"a", "a", "a" ],
+										[
+											"Look at the example HTML below.<br>&#60;table><br>&#60;tr><br>&#60;td>&#60;/td>&#60;td>&#60;/td>&#60;td>&#60;/td><br>&#60;/tr><br>&#60;/table><br>How many rows will this table have?",
+											"2",
+											"3",
+											"1",
+											"4",
+											"5",
+											"c", "c", "c" ],
+											[
+												"Look at the example HTML below.<br>&#60;table><br>&#60;tr><br>&#60;td>&#60;/td>&#60;td>&#60;/td>&#60;td>&#60;/td>&#60;td>&#60;/td><br>&#60;/tr><br>&#60;/table><br>How many columns will this table have?",
+												"2",
+												"3",
+												"1",
+												"4",
+												"5",
+												"d", "d", "d" ],
 
 ];
 
