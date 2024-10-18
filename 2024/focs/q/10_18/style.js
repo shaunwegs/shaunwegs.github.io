@@ -76,6 +76,24 @@ var questions = [
 		"Yes, an IB MYP Student (grades 6-10)",
 		"No, IB begins in 10th grade with Personal Project",
 		"d", "d", "d" ],
+
+		[
+							"Generally speaking, the goal of a professional portfolio is to",
+							"Chronologically log all of your work for a specific class",
+							"Document all of your finished projects over time",
+							"Help you get a job, internship, or acceptance into a university program",
+							"Convey your personal beliefs and feelings to potential employers",
+							"Replicate your resume in a nicer and more comprehensive form",
+							"c", "c", "c" ],
+
+	[
+							"Generally speaking, your professional portfolio should focus on?",
+							"showing that you have learned about all major subject areas in school",
+							"Documenting all of your finished projects over time",
+							"on the area you want to work in or study",
+							"Conveying your personal beliefs and feelings to potential employers",
+							"Replicating your resume in a nicer and more comprehensive form",
+							"c", "c", "c" ],
 				[
 		"The acronym CTE is short for ",
 		"Career, Technology, & Entrepreneurship",
