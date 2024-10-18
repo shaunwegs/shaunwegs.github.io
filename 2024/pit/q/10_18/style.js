@@ -1088,7 +1088,7 @@ function noMore(){
 
 function renderQuestion() {
   var test = $_("test");
-  var ques = 16; // question count
+  var ques = 17; // question count
   $_("test_status").innerHTML = "<h1>PIT: Oct. 18th Quiz</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
   if (rscore != 0) { $_("test_status").innerHTML += '<br>Currently: ~'+(cor/rscore*100).toFixed(0)+'% correct'; }
   var question = questions[posn][0];
@@ -1201,7 +1201,7 @@ function checkA(){
      if (questions[posn][7] == "c" && timelimit > 0) { cat3++; }
      if (questions[posn][7] == "d" && timelimit > 0) { cat4++; }}
   pos++;  posn = questionOrder[pos];
-  if (pos < 16) { renderQuestion(); } else { renderResults(); } // question count
+  if (pos < 17) { renderQuestion(); } else { renderResults(); } // question count
 }
 
 document.addEventListener("contextmenu", function(e){
