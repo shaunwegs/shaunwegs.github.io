@@ -1104,6 +1104,14 @@ var questions = [
 												"4",
 												"5",
 												"d", "d", "d" ],
+											[
+												"Majority of sites in the 90s and early 00s had layouts designed with... ?",
+												"frames",
+												"javascript",
+												"css",
+												"tables",
+												"divs",
+												"d", "d", "d" ],
 
 ];
 
