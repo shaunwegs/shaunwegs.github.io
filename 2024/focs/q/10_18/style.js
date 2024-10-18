@@ -737,7 +737,7 @@ var questions = [
 									"&#60;img folder='food' src='brigadeiro.png' />",
 									"c", "c", "c" ],
 									[
-									"We have a website for a brazilian restaurant. <BR>For the link to the desert section, we want to use a picture of quindim instead of text. <BR>How would we write the HTML tags to do this?",
+									"We have a website for a Brazilian restaurant. For the link to the desert section, we want to use a picture of quindim instead of text. <BR>How would we write the HTML tags to do this?",
 									"&#60;img src='quindim.png' href='deserts.html' />",
 									"&#60;a href='deserts.html' img-src='quindim.png' />",
 									"&#60;a href='deserts.html'>&#60;img src='quindim.png' />&#60;/a>",
@@ -793,7 +793,7 @@ var questions = [
 									"&#60;link val='Name_of_Page' />",
 									"c", "c", "c" ],
 									[
-									"We have a folder with our webpage in it. <BR>Which of the following would be considered the main page?",
+									"We have a folder with our website in it. <BR>Which of the following would be considered the main page?",
 									"opening.html",
 									"entrance.html",
 									"index.html",
@@ -937,7 +937,7 @@ var questions = [
 									"Javascript",
 									"c", "c", "c" ],
 									[
-									"You can create empty space using &#60;BR> tags.<br>What is the actual name of this element?",
+									"You can create empty lines using &#60;BR> tags.<br>What is the actual name of this element?",
 									"Browser Return",
 									"Break",
 									"Line Break",
@@ -1048,6 +1048,46 @@ var questions = [
 									"Text Reference",
 									"Tabulated Resource",
 									"c", "c", "c" ],
+									[
+									"When we create a table, we can use &#60;TD> tags.<br>What does TD stand for?",
+									"Tabulated Documentation",
+									"Table Document",
+									"Table Data",
+									"Text Data",
+									"Text DocType",
+									"c", "c", "c" ],
+									[
+									"To create a table, what tag do we start with?",
+									"&#60;table>",
+									"&#60;table begin>",
+									"&#60;td>",
+									"&#60;tr>",
+									"&#60;tabulate>",
+									"a", "a", "a" ],
+									[
+									"When working with tables, all TD tags should be nested inside what tags?",
+									"&#60;tr> tags",
+									"&#60;row> tags",
+									"&#60;tabulation> tags",
+									"&#60;data> tags",
+									"&#60;list> tags",
+									"a", "a", "a" ],
+									[
+										"Look at the example HTML below.<br>&#60;table><br>&#60;tr><br>&#60;td>&#60;/td>&#60;td>&#60;/td>&#60;td>&#60;/td><br>&#60;/tr><br>&#60;tr><br>&#60;td>&#60;/td>&#60;td>&#60;/td>&#60;td>&#60;/td><br>&#60;/tr><br>&#60;/table><br>How many columns will this table have?",
+										"3",
+										"2",
+										"1",
+										"4",
+										"5",
+										"a", "a", "a" ],
+										[
+											"Look at the example HTML below.<br>&#60;table><br>&#60;tr><br>&#60;td>&#60;/td>&#60;td>&#60;/td>&#60;td>&#60;/td><br>&#60;/tr><br>&#60;tr><br>&#60;td>&#60;/td>&#60;td>&#60;/td>&#60;td>&#60;/td><br>&#60;/tr><br>&#60;/table><br>How many rows will this table have?",
+											"2",
+											"3",
+											"1",
+											"4",
+											"5",
+											"a", "a", "a" ],
 
 ];
 
