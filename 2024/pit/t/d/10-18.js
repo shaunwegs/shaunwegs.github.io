@@ -11,7 +11,7 @@ let quotes_array = [
   "you want to do with your future.",
   "Don't try to show everything in a",
   'portfolio, figure out what you want',
-  'to study or dofor a job, and focus',
+  'to study or do for a job, and focus',
   "on showing related work and skills",
   'through projects on your portfolio.',
   "Portfolios are never 'done'; like a",
