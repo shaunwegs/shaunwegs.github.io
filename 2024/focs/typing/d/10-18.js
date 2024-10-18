@@ -6,7 +6,7 @@ let quotes_array = [
   "The focus of a professional portfolio",
   "should be to help you get a job or",
   "acceptance to an internship or",
-  "unviersity program. Your portfolio",
+  "university program. Your portfolio",
   'should focus specifically on what',
   "you want to do. Don't try to show",
   'everything in a portfolio, figure',
