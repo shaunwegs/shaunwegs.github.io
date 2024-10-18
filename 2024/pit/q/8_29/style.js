@@ -68,7 +68,14 @@ if (userLastName === null) {
 	localStorage.setItem('pit2_userLastName', userLastName);}
 
 var questions = [
-	
+		[
+		"Are you an IB student? ",
+		"No, only our 11th and 12th grade students are IB",
+		"No, but I can choose IB CP or DP for 11th & 12th",
+		"No, but I can choose IB CP in 11th, or IB DP in 12th",
+		"Yes, an IB MYP Student (grades 6-10)",
+		"No, IB begins in 10th grade with Personal Project",
+		"d", "d", "d" ],
 				[
 		"The acronym CTE is short for ",
 		"Career, Technology, & Entrepreneurship",
