@@ -16,7 +16,7 @@ let quotes_array = [
   "or 'artist' language of the web.",
   "It's not a programming language though.",
   'The programming language of the web',
-  "is Javascript; the 'wizard' langauge.",
+  "is Javascript; the 'wizard' language.",
 
 ];
 
