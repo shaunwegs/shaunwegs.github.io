@@ -4,7 +4,7 @@ let TIME_LIMIT = 180;
 // define quotes to be used
 let quotes_array = [
   "CSS is a core language of",
-  "the web; it's an acronym for ",
+  "the web; it's an acronym for",
   "Cascading Style Sheets.",
   "With CSS, we can customize a",
   'single element, or a whole website.',
