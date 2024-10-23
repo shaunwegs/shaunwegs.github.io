@@ -8,7 +8,7 @@ let quotes_array = [
   "how a webpage or website will look.",
   "Originally, we created the content of the site",
   'and how it looked with just the HTML.',
-  "CSS was designed to seperate content and design.",
+  "CSS was designed to separate content and design.",
   "This does add extra complexity, but",
   'it does have its benefits too.',
   'Once you start working with external CSS,',
