@@ -6,7 +6,7 @@ let quotes_array = [
   "Have you figured out what you want to create",
   "for your ePet project yet? It's ok if not...",
   "but you'll want to soon. We'll move to",
-  "block-based progrmaming soon, and at the",
+  "block-based programming soon, and at the",
   'same time, start focusing more on the project.',
   "You'll need to decide what the pet will be,",
   "what sort of behaviors it'll have,",
