@@ -12,7 +12,7 @@ let quotes_array = [
   "what sort of behaviors it'll have,",
   "and how the user will interact with it.",
   "We'll also talk some about graphics",
-  'and designing the user's experience.',
+  "and designing the user's experience.",
   "We'll use what we've learned about HTML",
   "& CSS to create a website for our ePet.",
 
