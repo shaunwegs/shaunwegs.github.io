@@ -174,7 +174,15 @@ var questions = [
 					"Any point where red, green and blue values sum above 100.",
 					"b", "b", "b" ],
 					[
-						"Below is a diagram of the CIE color space. <img src='img/fan.png' width='400' /> Where is pure blue on this diagram?",
+						"Below is a diagram of the CIE color space. <br><img src='img/fan2.png' width='400' /> <br> Where are the pure colors on this diagram?",
+						"Just along the straight edge.",
+						"Along the edges",
+						"Just along the curved edge.",
+						"Along a line passing through the middle of the diagram.",
+						"All colors are pure colors",
+						"b", "b", "b" ],
+					[
+						"Below is a diagram of the CIE color space.  <br><img src='img/fan.png' width='400' /> <br> Where is pure blue on this diagram?",
 						"A only",
 						"C only",
 						"B & C",
@@ -182,7 +190,7 @@ var questions = [
 						"B only",
 						"b", "b", "b" ],
 					[
-						"Below is a slice through the HSL cylinder where lightness is 50%. <img src='img/circ.png' width='400' /> What color does (0 degrees, 100%, 50%) represent in the HSL system?",
+						"Below is a slice through the HSL cylinder where lightness is 50%.  <br><img src='img/circ.png' width='400' />  <br>What color does (0 degrees, 100%, 50%) represent in the HSL system?",
 						"white",
 						"red",
 						"cyan",
@@ -190,7 +198,7 @@ var questions = [
 						"grey",
 						"b", "b", "b" ],
 						[
-							"Below is a slice through the HSL cylinder where lightness is 50%. <img src='img/circ.png' width='400' /> What color does (240 degrees, 0%, 50%) represent in the HSL system?",
+							"Below is a slice through the HSL cylinder where lightness is 50%.  <br><img src='img/circ.png' width='400' />  <br>What color does (240 degrees, 0%, 50%) represent in the HSL system?",
 							"white",
 							"blue",
 							"cyan",
