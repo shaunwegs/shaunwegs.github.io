@@ -1,0 +1,60 @@
+body {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    background-color: #fff;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    border: #a49ea7 4px solid;
+    border-radius:5px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #616968;
+    color: #fff;
+    font-weight: 900;
+    margin: 0 2px 0 2px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+div { 
+    width:90%;
+    margin:auto;
+    padding: 0 0 0 0;
+    border:0px solid;
+}
+
+.atkinson-hyperlegible-regular {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .atkinson-hyperlegible-bold {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .atkinson-hyperlegible-regular-italic {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .atkinson-hyperlegible-bold-italic {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
