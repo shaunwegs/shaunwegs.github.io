@@ -174,6 +174,14 @@ var questions = [
 					"Any point where red, green and blue values sum above 100.",
 					"b", "b", "b" ],
 					[
+						"Below is a diagram of the CIE color space. <img src='img/fan.png' width='400' /> Where is pure blue on this diagram?",
+						"A only",
+						"C only",
+						"B & C",
+						"A & B",
+						"B only",
+						"b", "b", "b" ],
+					[
 						"Below is a slice through the HSL cylinder where lightness is 50%. <img src='img/circ.png' width='400' /> What color does (0 degrees, 100%, 50%) represent in the HSL system?",
 						"white",
 						"red",
