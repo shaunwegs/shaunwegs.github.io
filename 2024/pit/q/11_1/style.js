@@ -233,6 +233,14 @@ var questions = [
 	"orange and cyan",
 	"b", "b", "b" ],
 	[
+		"The HSL cylinder is a way to represent colors in three dimensions. Each color is defined by three properties: hue, saturation and lightness. How do each of the properties vary in the cylinder?<br>",
+		"<br> Hue > from inside to outside <br> Saturation > from top to bottom <br> Lightness > around the cylinder <br>",
+		"<br> Saturation > from inside to outside <br> Lightness > from top to bottom <br> Hue > around the cylinder <br>",
+		"<br> Lightness > from inside to outside <br> Saturation > from top to bottom <br> Hue > around the cylinder <br>",
+		"<br> Saturation > from inside to outside <br> Hue > from top to bottom <br> Lightness > around the cylinder <br>",
+		"<br> Hue > from inside to outside <br> Lightness > from top to bottom <br> Saturation > around the cylinder <br>",
+		"b", "b", "b" ],
+	[
 		"What part of the HSL cylinder is white?",
 		"Just the center of the top face",
 		"The whole of the top face.",
