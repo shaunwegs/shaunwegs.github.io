@@ -174,6 +174,14 @@ var questions = [
 					"Any point where red, green and blue values sum above 100.",
 					"b", "b", "b" ],
 					[
+						"Below is a diagram of the CIE color space. <br><img src='img/fan3.png' width='400' /> <br> Which point represents the color you get when you mix equal intensities of color A and color B?",
+						"C",
+						"D",
+						"E",
+						"D or E depending on saturation",
+						"A & B can't be mixed",
+						"b", "b", "b" ],
+					[
 						"Below is a diagram of the CIE color space. <br><img src='img/fan2.png' width='400' /> <br> Where are the pure colors on this diagram?",
 						"Just along the straight edge.",
 						"Along the edges",
