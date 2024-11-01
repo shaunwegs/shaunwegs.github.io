@@ -191,7 +191,7 @@ var questions = [
 							"e", "e", "e" ],
 
 						[
-							"Below is a slice through the HSL cylinder where lightness is 50%. <img src='img/circ.png' width='400' /> What color does (125 degrees, 50%, 0%) represent in the HSL system?",
+							"Below is a slice through the HSL cylinder where lightness is 50%. <br><img src='img/circ.png' width='400' /><br> What color does (125 degrees, 50%, 0%) represent in the HSL system?",
 							"white",
 							"blue",
 							"cyan",
@@ -200,7 +200,7 @@ var questions = [
 							"d", "d", "d" ],
 
 							[
-								"Below is a slice through the HSL cylinder where lightness is 50%. <img src='img/circ.png' width='400' /> If the colors calues are (60 degrees, 90%, 70%), then the color is a _________ and ___________ __________ ?",
+								"Below is a slice through the HSL cylinder where lightness is 50%. <br><img src='img/circ.png' width='400' /><br> If the colors calues are (60 degrees, 90%, 70%), then the color is a _________ and ___________ __________ ?",
 								"light and dull green",
 								"dark and dull cyan",
 								"dark and dull red",
