@@ -21,7 +21,7 @@ function myTimer() {
 
 var pos = 0, posn, choice, cor = 0, rscore = 0;
 var maxtimelimit = 179, timelimit = maxtimelimit;
-var vs = localStorage.getItem('focs1_on_load_counter');
+var vs = localStorage.getItem('pitcol_on_load_counter');
 var userFirstName = localStorage.getItem('focs1_userFirstName');
 var userLastName = localStorage.getItem('focs1_userLastName');
 var cat1 = localStorage.getItem('pg_cata1');
@@ -57,7 +57,7 @@ if (tot3 === null) { tot3 = 0; }
 if (tot4 === null) { tot4 = 0; }
 
 vs++;
-localStorage.setItem("focs1_on_load_counter", vs);
+localStorage.setItem("pitcol_on_load_counter", vs);
 if (userFirstName === null) {
     var userFirstName=prompt("Please enter your given name:");
     if (userFirstName=="") { userFirstName="not entered /" }
@@ -113,14 +113,14 @@ var questions = [
 		[
 		"A laser is a light source that generates coherent light. This means it can emit light of a very pure color, with a very narrow range of wavelengths. Which of the following is the spectrum of a laser? ",
 		"<img src='img/graph.png' width='400' />",
-		"<img src='img/graph.png5' width='400' />",
-		"<img src='img/graph.png6' width='400' />",
+		"<img src='img/graph5.png' width='400' />",
+		"<img src='img/graph6.png' width='400' />",
 		"<img src='img/graph3.png' width='400' />",
 		"<img src='img/graph4.png' width='400' />",
 		"d", "d", "d" ],
 	
 	[
-"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey.png'/ width='400'><br> If the maximum value a color can have is 100, what color is represented by the coordinates (100, 0, 0)?",
+"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey.png' width='400' /><br> If the maximum value a color can have is 100, what color is represented by the coordinates (100, 0, 0)?",
 "Red",
 "Grey",
 "Green",
@@ -130,7 +130,7 @@ var questions = [
 
 
 [
-	"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey2.png'/ width='400'><br> If the maximum value a color can have is 100, what color is represented by the coordinates (0, 0, 0)?",
+	"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey2.png' width='400' /><br> If the maximum value a color can have is 100, what color is represented by the coordinates (0, 0, 0)?",
 	"Black",
 	"Grey",
 	"Green",
@@ -139,7 +139,7 @@ var questions = [
 	"a", "a", "a" ],
 
 	[
-		"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey3.png'/ width='400'><br> If the maximum value a color can have is 100, what color is represented by the coordinates (100, 100, 100)?",
+		"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey3.png' width='400' /><br> If the maximum value a color can have is 100, what color is represented by the coordinates (100, 100, 100)?",
 		"Black",
 		"Grey",
 		"Green",
@@ -148,7 +148,7 @@ var questions = [
 		"e", "e", "e" ],
 
 		[
-			"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey4.png'/ width='400'><br> Yellow is defined as an equal mix of red and green. If the length of the cube is 100, what are the coordinates of the yellow corner of the cube?",
+			"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey4.png' width='400' /><br> Yellow is defined as an equal mix of red and green. If the length of the cube is 100, what are the coordinates of the yellow corner of the cube?",
 			"0, 0, 100",
 			"100, 0, 100",
 			"0, 100, 100",
@@ -157,7 +157,7 @@ var questions = [
 			"e", "e", "e" ],
 
 			[
-				"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey4.png'/ width='400'><br> Magenta is defined as an equal mix of red and Blue. If the length of the cube is 100, what are the coordinates of the magenta corner of the cube?",
+				"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey4.png' width='400' /><br> Magenta is defined as an equal mix of red and Blue. If the length of the cube is 100, what are the coordinates of the magenta corner of the cube?",
 				"0, 0, 100",
 				"100, 0, 100",
 				"0, 100, 100",
@@ -166,7 +166,7 @@ var questions = [
 				"b", "b", "b" ],
 
 				[
-					"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey4.png'/ width='400'><br>If the maximum value a color can have is 100, where will you find shades of grey?",
+					"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey4.png' width='400' /><br>If the maximum value a color can have is 100, where will you find shades of grey?",
 					"Any point where red, green and blue values sum to 100.",
 					"Any point where red, green and blue values are equal.",
 					"Any point where either the red, green or blue value is equal to 100.",
@@ -391,10 +391,10 @@ function renderResults(){
   localStorage.setItem("pg_tota2", tot2);
   localStorage.setItem("pg_tota3", tot3);
   localStorage.setItem("pg_tota4", tot4);
-  $_("test_status").innerHTML = "<h1>Fund. of CS, October 18th Quiz</h1><h2>Attempt #" +vs;
+  $_("test_status").innerHTML = "<h1>Mini Color Quiz</h1><h2>Attempt #" +vs;
   $_('timeleft').innerHTML = '</h2>'; l1 = 25 - cor;
   test.innerHTML = "";
-  test.innerHTML += "<h1>Results for " + userFirstName + "</h1><h3>Fund. of CS, October 18th Quiz<br>Attempt #"+vs +" for " + userFirstName +" "+ userLastName +".<br>Screenshot & upload your results!</h3>";
+  test.innerHTML += "<h1>Results for " + userFirstName + "</h1><h3>Mini Color Quiz<br>Attempt #"+vs +" for " + userFirstName +" "+ userLastName +".<br>Screenshot & upload your results!</h3>";
     test.innerHTML += "<table id='render'><tr><td><p id='render1'></p><br></td><td><p id='render2'></p></td></tr></table>";
   render1.innerHTML += "<h1>Percentage Correct</h1><br>"
   render1.innerHTML += bigLet((cor/rscore*100).toFixed(0));
@@ -431,7 +431,7 @@ function noMore(){
 function renderQuestion() {
   var test = $_("test");
   var ques = 12;  // Question Count
-  $_("test_status").innerHTML = "<h1>Fund. of CS: August 29 Quiz</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
+  $_("test_status").innerHTML = "<h1>Mini Color Quiz</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
   if (rscore != 0) { $_("test_status").innerHTML += '<br>Currently: ~'+(cor/rscore*100).toFixed(0)+'% correct'; }
   var question = questions[posn][0];
   var chA = questions[posn][1];
