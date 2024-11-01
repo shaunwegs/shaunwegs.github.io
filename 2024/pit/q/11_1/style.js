@@ -120,7 +120,7 @@ var questions = [
 		"d", "d", "d" ],
 	
 	[
-"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey.png' width='400' /><br> If the maximum value a color can have is 100, what color is represented by the coordinates (100, 0, 0)?",
+"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='img/cubey.png' width='400' /><br> If the maximum value a color can have is 100, what color is represented by the coordinates (100, 0, 0)?",
 "Red",
 "Grey",
 "Green",
@@ -130,7 +130,7 @@ var questions = [
 
 
 [
-	"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey2.png' width='400' /><br> If the maximum value a color can have is 100, what color is represented by the coordinates (0, 0, 0)?",
+	"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='img/cubey2.png' width='400' /><br> If the maximum value a color can have is 100, what color is represented by the coordinates (0, 0, 0)?",
 	"Black",
 	"Grey",
 	"Green",
@@ -139,7 +139,7 @@ var questions = [
 	"a", "a", "a" ],
 
 	[
-		"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey3.png' width='400' /><br> If the maximum value a color can have is 100, what color is represented by the coordinates (100, 100, 100)?",
+		"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='img/cubey3.png' width='400' /><br> If the maximum value a color can have is 100, what color is represented by the coordinates (100, 100, 100)?",
 		"Black",
 		"Grey",
 		"Green",
@@ -148,7 +148,7 @@ var questions = [
 		"e", "e", "e" ],
 
 		[
-			"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey4.png' width='400' /><br> Yellow is defined as an equal mix of red and green. If the length of the cube is 100, what are the coordinates of the yellow corner of the cube?",
+			"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='img/cubey4.png' width='400' /><br> Yellow is defined as an equal mix of red and green. If the length of the cube is 100, what are the coordinates of the yellow corner of the cube?",
 			"0, 0, 100",
 			"100, 0, 100",
 			"0, 100, 100",
@@ -157,7 +157,7 @@ var questions = [
 			"e", "e", "e" ],
 
 			[
-				"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey4.png' width='400' /><br> Magenta is defined as an equal mix of red and Blue. If the length of the cube is 100, what are the coordinates of the magenta corner of the cube?",
+				"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='img/cubey4.png' width='400' /><br> Magenta is defined as an equal mix of red and Blue. If the length of the cube is 100, what are the coordinates of the magenta corner of the cube?",
 				"0, 0, 100",
 				"100, 0, 100",
 				"0, 100, 100",
@@ -166,13 +166,21 @@ var questions = [
 				"b", "b", "b" ],
 
 				[
-					"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='cubey4.png' width='400' /><br>If the maximum value a color can have is 100, where will you find shades of grey?",
+					"We can represent all visible colors on a cube, where red increases along the X axis, green along the Y axis and blue along the Z. <br><img src='img/cubey4.png' width='400' /><br>If the maximum value a color can have is 100, where will you find shades of grey?",
 					"Any point where red, green and blue values sum to 100.",
 					"Any point where red, green and blue values are equal.",
 					"Any point where either the red, green or blue value is equal to 100.",
 					"Any point where red, green and blue values sum below 100.",
 					"Any point where red, green and blue values sum above 100.",
 					"b", "b", "b" ],
+					[
+						"Below is a slice through the HSL cylinder where lightness is 50%. <img src='img/circ.png' width='400' /> What color does (0, 100%, 50%) represent in the HSL system?",
+						"yellow and blue",
+						"green is a primary color, we can't make it by mixing",
+						"yellow and cyan",
+						"yellow and purple",
+						"orange and cyan",
+						"b", "b", "b" ],
 
 
 [
@@ -226,6 +234,14 @@ var questions = [
 						"red and purple",
 						"blue and red",
 						"e", "e", "e" ],	
+						[
+							"Related to screens and tech, what is the most common color model?",
+							"HSL",
+							"CIE XYZ",
+							"RYB",
+							"CMYK",
+							"RGB",
+							"e", "e", "e" ],
 
 
 ];
