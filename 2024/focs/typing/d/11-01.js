@@ -3,16 +3,17 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "Algorithm: a sequence of steps to meet a goal",
-  "Program: an algorithm written for a computer",
-  "Control Flow: controlling and adjusting the",
-  "order in which instructions are followed;",
-  "the three most basic types are sequence,",
-  "iteration, and selection",
-  "Sequence: completing steps in a specific order",
-  "Iteration: repeating part of the algorithms",
-  "Selection: performing a step only is a",
-  'specific condition is fulfilled',
+  "Snap! is a block-based programming environment.",
+  "Snap! is associated with UC Berkeley.",
+  "Snap's mascot is based on Gobo, a character",
+  "from Scratch, another BBP environment.",
+  "Gobo is a blob-like alien.",
+  "You've probably used Scratch before- it's",
+  "very similar to Snap! Snap! is actually based",
+  "on Scratch. Scratch is associated with MIT.",
+  'One aspect of Snap! that you may consider',
+  'checking out in the future, it that they have',
+  'an annual conference that you can participate in.',
 ];
 
 // selecting required elements
