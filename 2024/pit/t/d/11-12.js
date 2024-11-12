@@ -6,12 +6,15 @@ let quotes_array = [
   "UV mapping is the 3D modeling process of",
   "projecting a 3D model's surface to a 2D",
   "image for texture mapping. The letters",
-  '"U" and "V" denote the axes of the 2D texture',
+  '"U" and "V" refer to the axes of the 2D texture',
   'because "X", "Y", and "Z" are already used to',
-  "denote the axes of the 3D object in model space,",
-  'while "W" (in addition to XYZ) is used in',
-  "calculating quaternion rotations, a common",
-  "operation in computer graphics.",
+  "refer to the axes of the 3D object in model space.",
+  "UV texturing allows polygons that make up a 3D",
+  "object to be painted with color (and other surface",
+  "attributes) from an ordinary image. The image is",
+  "called a UV texture map. The UV mapping process",
+  "involves assigning pixels in the image to surface",
+  "mappings on the polygon."
   
   
 ];
