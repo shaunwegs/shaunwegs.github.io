@@ -14,7 +14,11 @@ let quotes_array = [
   "attributes) from an ordinary image. The image is",
   "called a UV texture map. The UV mapping process",
   "involves assigning pixels in the image to surface",
-  "mappings on the polygon."
+  "mappings on the polygon.",
+  "At some point in time, you've probably learned",
+  "about how to convert the 3D surface of a sphere",
+  "and/or a cube onto a flat 2d surface.",
+  "That's the whole concept of a UV map.",
   
   
 ];
