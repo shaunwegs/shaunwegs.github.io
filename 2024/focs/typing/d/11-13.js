@@ -3,9 +3,16 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "Tamagotchi meaning 'Egg Watch' in English,",
-  "is a brand of handheld digital pets that",
-  "was created in Japan by Akihiro Yokoi of WiZ ",
+  "In the industrial design field of human–computer",
+  "interaction, a user interface (UI) is the focus",
+  "on interactions between humans and machines.",
+  "The goal of UI design is to produce an interface",
+  "that makes it easy, efficient, and enjoyable",
+  "to use or operate the product.",
+  "User experience design (aka UX design, UXD, UED,",
+  "or XD) defines and designs the experience a use",
+  "would go through when interacting with a company,"
+  "its services, and/or its products.",
   "and Aki Maita of Bandai. It was released by",
   "Bandai on November 23, 1996 in Japan and in",
   "the United States on May 1, 1997, quickly",
