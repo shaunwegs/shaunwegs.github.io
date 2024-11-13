@@ -13,17 +13,13 @@ let quotes_array = [
   "or XD) defines and designs the experience a use",
   "would go through when interacting with a company,"
   "its services, and/or its products.",
-  "and Aki Maita of Bandai. It was released by",
-  "Bandai on November 23, 1996 in Japan and in",
-  "the United States on May 1, 1997, quickly",
-  "becoming one of the biggest toy fads of the",
-  "late 1990s and the early 2000s.",
-  "As of June 2023, over 91 million units have",
-  "been sold worldwide.",
-  "Most Tamagotchi are housed in a small egg-shaped",
-  "handheld video game with an interface consisting",
-  "of three buttons, with the Tamagotchi Pix adding",
-  "a shutter on the top to activate the camera.",
+  "User experience design is a user centered design",
+  "approach which encompasses all aspects of a user's",
+  "perceived experience with a product or website,",
+  "such as its usability, usefulness, desirability,",
+  "brand perception, and overall performance. ",
+  "This differs from user interface design, which",
+  "focuses only on designing interfaces.",
 
 ];
 
