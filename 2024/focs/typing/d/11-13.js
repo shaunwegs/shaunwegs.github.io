@@ -11,7 +11,7 @@ let quotes_array = [
   "If you are interested in any STEM careers,",
   "especially tech or engineering, this is a good",
   "pathway to continue- with Computer Science 1",
-  "next year in 9th grade."
+  "next year in 9th grade.",
   "If you're interested in CyberSecurity,",
   "you'd also take Computer Science 1 next year.",
   "Even if you aren't interested in STEM,",
