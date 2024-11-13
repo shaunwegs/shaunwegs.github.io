@@ -3,8 +3,8 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "In the industrial design field of human–computer",
-  "interaction, a user interface (UI) is the focus",
+  "As you move into High School, Texas wants you to have",
+  "a plan; and at some point you'll need to declare it.",
   "on interactions between humans and machines.",
   "The goal of UI design is to produce an interface",
   "that makes it easy, efficient, and enjoyable",
