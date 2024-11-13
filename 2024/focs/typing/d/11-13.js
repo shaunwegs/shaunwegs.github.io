@@ -15,6 +15,8 @@ let quotes_array = [
   "Computer Science is one of the rare areas that",
   "is considered both academically challenging for",
   "colleges and universities and career-related.",
+  "Government and military also looks",
+  "favorably on Computer Science courses.",
   "If you're interested in CyberSecurity,",
   "you'd also take Computer Science 1 next year.",
   "Even if you aren't interested in STEM,",
