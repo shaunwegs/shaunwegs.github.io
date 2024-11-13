@@ -5,7 +5,7 @@ let TIME_LIMIT = 180;
 let quotes_array = [
   "Tamagotchi meaning 'Egg Watch' in English,",
   "is a brand of handheld digital pets that",
-  "was created in Japan by Akihiro Yokoi of WiZ ",
+  "was created in Japan by Akihiro Yokoi of WiZ",
   "and Aki Maita of Bandai. It was released by",
   "Bandai on November 23, 1996 in Japan and in",
   "the United States on May 1, 1997, quickly",
