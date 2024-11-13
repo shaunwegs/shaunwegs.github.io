@@ -23,8 +23,8 @@ let quotes_array = [
   "computer science can still be useful-",
   "it's not just engineering and tech anymore,",
   "it's in art, science, farming, banking, and is",
-  "being explored in more areas like writing and",
-  "music production now too.",
+  "being explored in more areas like writing, fashion,",
+  "law, and music production.",
 
 ];
 
