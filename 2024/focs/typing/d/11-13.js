@@ -5,21 +5,21 @@ let TIME_LIMIT = 180;
 let quotes_array = [
   "As you move into High School, Texas wants you to have",
   "a plan; and at some point you'll need to declare it.",
-  "on interactions between humans and machines.",
-  "The goal of UI design is to produce an interface",
-  "that makes it easy, efficient, and enjoyable",
-  "to use or operate the product.",
-  "User experience design (aka UX design, UXD, UED,",
-  "or XD) defines and designs the experience a use",
-  "would go through when interacting with a company,"
-  "its services, and/or its products.",
-  "User experience design is a user centered design",
-  "approach which encompasses all aspects of a user's",
-  "perceived experience with a product or website,",
-  "such as its usability, usefulness, desirability,",
-  "brand perception, and overall performance. ",
-  "This differs from user interface design, which",
-  "focuses only on designing interfaces.",
+  "You will need to choose an endorsement.",
+  "These typically come from your electives.",
+  "This course contributes to the STEM endorsement.",
+  "If you are interested in any STEM careers,",
+  "especially tech or engineering, this is a good",
+  "pathway to continue- with Computer Science 1",
+  "next year in 9th grade."
+  "If you're interested in CyberSecurity,",
+  "you'd also take Computer Science 1 next year.",
+  "Even if you aren't interested in STEM,",
+  "computer science can still be useful-",
+  "it's not just engineering and tech anymore,",
+  "it's in art, science, farming, banking, and is",
+  "being explored in more areas like writing and",
+  "music production now too.",
 
 ];
 
