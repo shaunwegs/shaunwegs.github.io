@@ -16,7 +16,7 @@ let quotes_array = [
   "This course also supports the Computer",
   "Science pathway, so consider it too.",
   "If you're interested in Cyber Security,",
-  "that also begins with Computer Science,"
+  "that also begins with Computer Science,",
   "although IT is related to it.",
   "If you're interested more in stuff like",
   "Photoshop & Blender, then you'd want to",
