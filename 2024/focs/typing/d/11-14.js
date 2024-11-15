@@ -11,7 +11,7 @@ let quotes_array = [
   "to use or operate the product.",
   "User experience design (aka UX design, UXD, UED,",
   "or XD) defines and designs the experience a use",
-  "would go through when interacting with a company,"
+  "would go through when interacting with a company,",
   "its services, and/or its products.",
   "User experience design is a user centered design",
   "approach which encompasses all aspects of a user's",
