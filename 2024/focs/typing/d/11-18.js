@@ -3,21 +3,20 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "An FSM (aka finite state machine) is a concept",
-  "that describes how an object or character can",
-  "move between specific states when specific",
-  "conditions are met.",
-  "FSMs are used in many fields, including",
-  "artificial intelligence, mathematics, games,",
-  "and linguistics. They are also a fundamental",
-  "part of digital design.",
-  "An FSM can only be in one of a finite number",
-  "of states at any given time.",
-  "FSMs transition between states based on the",
-  "current state and the values of the inputs.",
-  "Some examples of FSMs include video game",
-  "controllers, turnstiles, elevators, traffic",
-  "lights, vending machines, and alarm clocks.",
+  "To create your own FSM, first you need to decide",
+  "on what states your program will switch between.",
+  "These states will guide your pogram's behavior.",
+  "You will need to think about and decide",
+  "what behaviors are activated by the state.",
+  "It may be worth remembering the example",
+  "from Pacman; how the ghosts go back and",
+  "forth between the chase and flee states.",
+  "Keep track of which state is currently",
+  "active is typically done with a variable.",
+  "We will use a variable to keep track of ours,",
+  "at least for the example made in class.",
+  "When you create your own ePet, you can make",
+  "your own decisions about how to make it.",
 ];
 
 // selecting required elements
