@@ -5,7 +5,7 @@ let TIME_LIMIT = 180;
 let quotes_array = [
   "To create your own FSM, first you need to decide",
   "on what states your program will switch between.",
-  "These states will guide your pogram's behavior.",
+  "These states will guide your program's behavior.",
   "You will need to think about and decide",
   "what behaviors are activated by the state.",
   "It may be worth remembering the example",
