@@ -3,20 +3,19 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "To create your own FSM, first you need to decide",
-  "on what states your program will switch between.",
-  "These states will guide your program's behavior.",
-  "You will need to think about and decide",
-  "what behaviors are activated by the state.",
-  "It may be worth remembering the example",
-  "from Pacman; how the ghosts go back and",
-  "forth between the chase and flee states.",
-  "Keep track of which state is currently",
-  "active is typically done with a variable.",
-  "We will use a variable to keep track of ours,",
-  "at least for the example made in class.",
-  "When you create your own ePet, you can make",
-  "your own decisions about how to make it.",
+  "Petz is a series of single-player video games",
+  "dating back to 1995, in which the player can",
+  "adopt, raise, care for and breed their own virtual",
+  "pets. Developed by PF.Magic, original Petz (Dogz and",
+  "Catz) has sold over 1.5 million copies worldwide.",
+  "The original Petz games — Dogz: Your Computer Pet",
+  "and Catz: Your Computer Pet — were developed by",
+  "PF.Magic, released in 1995 and 1996 respectively.",
+  "They reused the graphics engine used in the game Ballz.",
+  "After earning revenues of $8 million in 1997,",
+  "PF.Magic was acquired by The Learning Company's",
+  "Mindscape division for $15.8 million in 1998.",
+  
 ];
 
 // selecting required elements
