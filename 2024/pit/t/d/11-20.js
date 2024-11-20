@@ -9,14 +9,10 @@ let quotes_array = [
   "What sort of skills and knowledge",
   "will you need for the career you hope",
   "related to your future career goals?",
-  "If so, your project could potentially",
-  "be a portfolio piece.",
-  "If you haven't thought about it,",
-  "then reconsider your ideas for the",
-  "project, and consider a project",
-  "that could be a portfolio piece",
-  "related to what you want to do",
-  "in your future.",
+  "As you have choice in your project,",
+  "this project should be able to show",
+  "skills and knowledge related to",
+  "your future career goals.",
 
 ];
 
