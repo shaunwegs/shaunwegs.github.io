@@ -13,7 +13,7 @@ let quotes_array = [
   "this project should be able to show",
   "skills and knowledge related to",
   "your future career goals.",
-  "This is your focus for today.",
+  "This is our focus for today.",
 
 ];
 
