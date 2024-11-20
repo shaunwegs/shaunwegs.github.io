@@ -3,11 +3,11 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "You have a lot of choice in what you",
-  "do for our semester's end project.",
-  "Have you added anything to your",
-  "portfolio this semester? Probably not.",
-  "Could you come up with a project idea",
+  "No matter what you choose for your",
+  "project, there are skills and knowledge",
+  "that you'll need to have and use.",
+  "What sort of skills and knowledge",
+  "will you need for the career you hope",
   "related to your future career goals?",
   "If so, your project could potentially",
   "be a portfolio piece.",
