@@ -8,13 +8,16 @@ let quotes_array = [
   "adopt, raise, care for and breed their own virtual",
   "pets. Developed by PF.Magic, original Petz (Dogz and",
   "Catz) has sold over 1.5 million copies worldwide.",
-  "The original Petz games — Dogz: Your Computer Pet",
-  "and Catz: Your Computer Pet — were developed by",
+  "The original Petz games - Dogz: Your Computer Pet",
+  "and Catz: Your Computer Pet - were developed by",
   "PF.Magic, released in 1995 and 1996 respectively.",
   "They reused the graphics engine used in the game Ballz.",
   "After earning revenues of $8 million in 1997,",
   "PF.Magic was acquired by The Learning Company's",
   "Mindscape division for $15.8 million in 1998.",
+  "Ubisoft would publish Catz 5 and Dogz 5, in 2002,",
+  "as the last games following the original style,",
+  "before putting franchise on hold for three years.",
   
 ];
 
