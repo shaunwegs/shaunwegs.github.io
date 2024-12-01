@@ -232,7 +232,7 @@ var questions = [
 			"Mu Alpha Theta",
 			"Science National Honor Society",
 			"National Honor Society",
-			"b", "b", "a" ],
+			"a", "a", "a" ],
 			[
 			"This course is part of which Texas HS Endorsement?",
 			"STEM",
@@ -240,7 +240,7 @@ var questions = [
 			"Multidisciplinary",
 			"Arts & Humanities",
 			"Public Service",
-			"b", "b", "a" ],
+			"a", "a", "a" ],
 
 			[
 				"If you take CS1 in high school, you'll have the opportunity to take an entry-level certification for",
@@ -1381,7 +1381,7 @@ function noMore(){
 
 function renderQuestion() {
   var test = $_("test");
-  var ques = 17;  // Question Count
+  var ques = 30;  // Question Count
   $_("test_status").innerHTML = "<h1>Fund. of CS: October 18th Quiz</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
   if (rscore != 0) { $_("test_status").innerHTML += '<br>Currently: ~'+(cor/rscore*100).toFixed(0)+'% correct'; }
   var question = questions[posn][0];
@@ -1494,7 +1494,7 @@ function checkA(){
      if (questions[posn][7] == "c" && timelimit > 0) { cat3++; }
      if (questions[posn][7] == "d" && timelimit > 0) { cat4++; }}
   pos++;  posn = questionOrder[pos];
-  if (pos < 17) { renderQuestion(); } else { renderResults(); }  // Question Count
+  if (pos < 30) { renderQuestion(); } else { renderResults(); }  // Question Count
 }
 
 document.addEventListener("contextmenu", function(e){
