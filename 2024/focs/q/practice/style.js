@@ -1127,6 +1127,22 @@ var questions = [
 									"&#60;DIV>",
 									"&#60;H1>",
 									"c", "c", "c" ],
+	[
+									"A tag that begins with &#60;A HREF= will create",
+									"a hyperlink",
+									"an image",
+									"a horizontal rule",
+									"a header",
+									"a link to an external CSS file",
+									"a", "a", "a" ],
+	[
+									"A tag that opens a heading element.",
+									"&#60;HE>",
+									"&#60;IMG>",
+									"&#60;HEAD>",
+									"&#60;DIV>",
+									"&#60;H1>",
+									"e", "e", "e" ],
 									[
 									"You can create empty lines using &#60;BR> tags.<br>What is the actual name of this element?",
 									"Browser Return",
