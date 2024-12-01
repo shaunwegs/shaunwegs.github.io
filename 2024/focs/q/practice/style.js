@@ -1118,6 +1118,15 @@ var questions = [
 									"CSS",
 									"Javascript",
 									"c", "c", "c" ],
+	
+									[
+									"A self closing tag that creates a line break which ends the current line of text.",
+									"&#60;A>",
+									"&#60;LB>",
+									"&#60;BR>",
+									"&#60;DIV>",
+									"&#60;H1>",
+									"c", "c", "c" ],
 									[
 									"You can create empty lines using &#60;BR> tags.<br>What is the actual name of this element?",
 									"Browser Return",
