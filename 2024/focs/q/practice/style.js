@@ -111,6 +111,14 @@ var questions = [
 							"opening and closing style tags",
 							"opening and closing table tags",
 							"a", "a", "a" ],
+	[
+							"Using internal CSS on your webpage is typically done between which HTML tags?",
+							"opening and closing head tags",
+							"opening and closing body tags",
+							"opening and closing div tags",
+							"opening and closing style tags",
+							"opening and closing table tags",
+							"d", "d", "d" ],
 		[
 		"If you want to continue this specific pathway, what should you take next",
 		"Computer Maintanence at Guthrie",
