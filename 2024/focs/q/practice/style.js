@@ -163,6 +163,15 @@ var questions = [
 "IT Support & Services",
 "a", "a", "a" ],
 
+		[
+"CTE pathways are organized into clusters. <BR> Which cluster is this class part of?",
+"Information Technology",
+"Graphic Design & Multimedia Arts",
+"Digital Communications",
+"Engineering",
+"STEM",
+"a", "a", "a" ],
+
 	[
 "How can you use the secondary click on the lab computers?",
 "hold ctrl + click",
@@ -348,12 +357,12 @@ var questions = [
 "Trick question, none of these are markup languages",
 "c", "c", "c" ],
 [
-"Which of the following is a markup language?",
+"The content of a website is predominantly written in which language?",
 "Javascript",
 "CSS",
 "HTML",
-"Trick question, all of these are markup languages",
-"Trick question, none of these are markup languages",
+"Trick question, all of these are used together to create the content",
+"Trick question, none of these are used to create the content",
 "c", "c", "c" ],
 [
 "Which of the following is a styling language?",
