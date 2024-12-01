@@ -686,6 +686,52 @@ var questions = [
 							"a node-based language",
 							"a visual programming language",
 							"c", "c", "c" ],
+	
+							[
+							"Which of the following terms means:<br>follow instructions in a specific order, one line of instruction at a time from the start to the end in the specified order, until finishing the algorithm.",
+							"control flow",
+							"algorithm",
+							"sequence",
+							"iteration",
+							"selection",
+							"c", "c", "c" ],
+	
+							[
+							"Which of the following terms means:<br>Sometimes part of the instructions are not always relevant, depending on the situation. So, some instructions only apply if specific conditions are met. In programming, we often do this with IF statements. e.g. If a condition is met then do one thing, else do something else.",
+							"control flow",
+							"algorithm",
+							"sequence",
+							"iteration",
+							"selection",
+							"e", "e", "e" ],
+	
+	
+							[
+							"Which of the following terms means:<br>Sometimes you want to follow the same instructions several times. This is done using a loop. There are three types of loops: For loops, while loops and repeat until loops. That’s handy as it enables you not to have to write out the same instructions multiple times.",
+							"control flow",
+							"algorithm",
+							"sequence",
+							"iteration",
+							"selection",
+							"d", "d", "d" ],
+	
+							[
+							"The structures we use to move through an algorithm are called",
+							"control flow",
+							"algorithm",
+							"sequence",
+							"iteration",
+							"selection",
+							"a", "a", "a" ],	
+	
+							[
+							"Which of the following is not one of the basic control flow structures?",
+							"All of these basic control flow structures",
+							"algorithm",
+							"sequence",
+							"iteration",
+							"selection",
+							"b", "b", "b" ],
 							[
 							"What is an algorithm?",
 							"a system used for designing and programming computers and devices.",
