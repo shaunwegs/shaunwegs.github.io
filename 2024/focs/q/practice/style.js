@@ -68,6 +68,14 @@ if (userLastName === null) {
 	localStorage.setItem('focs2_userLastName', userLastName);}
 
 var questions = [
+		[
+		"If the code below is run, what will be said?<br><img src='img/snap1.png'> ",
+		"Here's some fruit.<br>Have a nice day.<br><br>",
+		"Here's some fruit.<br><br>",
+		"Have a nice day.<br><br>",
+		"You can't have any.<br>Have a nice day.<br><br>",
+		"You can't have any.<br><br>",
+		"a", "a", "a" ],
 	[
 		"UI is an acronym commonly meaning... ? ",
 		"Unexpected Input",
