@@ -85,12 +85,12 @@ var questions = [
 		"66",
 		"a", "a", "a" ],
 		[
-		"If the code below is run, what will be said?<br><img src='img/snap3.png' width='400'> ",
-		"Here's some fruit.<br>Have a nice day.<br><br>",
-		"Here's some fruit.<br><br>",
-		"Have a nice day.<br><br>",
-		"You can't have any.<br>Have a nice day.<br><br>",
-		"You can't have any.<br><br>",
+		"The code shown here will do what?<br><img src='img/snap3.png' width='400'> ",
+		"Draw a hexagon",
+		"Draw 6 triangles",
+		"Draw 6 dots exactly 100 pixels apart.",
+		"Draw 6 circles",
+		"nothing, it has an error in the code",
 		"a", "a", "a" ],
 	[
 		"UI is an acronym commonly meaning... ? ",
