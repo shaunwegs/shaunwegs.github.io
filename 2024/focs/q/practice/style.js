@@ -76,6 +76,22 @@ var questions = [
 		"You can't have any.<br>Have a nice day.<br><br>",
 		"You can't have any.<br><br>",
 		"a", "a", "a" ],
+		[
+		"If the code below, which is the variable?<br><img src='img/snap2.png' width='400'> ",
+		"score",
+		"0",
+		"Sprite2",
+		"-172",
+		"66",
+		"a", "a", "a" ],
+		[
+		"If the code below is run, what will be said?<br><img src='img/snap3.png' width='400'> ",
+		"Here's some fruit.<br>Have a nice day.<br><br>",
+		"Here's some fruit.<br><br>",
+		"Have a nice day.<br><br>",
+		"You can't have any.<br>Have a nice day.<br><br>",
+		"You can't have any.<br><br>",
+		"a", "a", "a" ],
 	[
 		"UI is an acronym commonly meaning... ? ",
 		"Unexpected Input",
