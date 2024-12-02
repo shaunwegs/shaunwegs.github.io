@@ -69,7 +69,7 @@ if (userLastName === null) {
 
 var questions = [
 		[
-		"If the code below is run, what will be said?<br><img src='img/snap1.png'> ",
+		"If the code below is run, what will be said?<br><img src='img/snap1.png' width='400'> ",
 		"Here's some fruit.<br>Have a nice day.<br><br>",
 		"Here's some fruit.<br><br>",
 		"Have a nice day.<br><br>",
