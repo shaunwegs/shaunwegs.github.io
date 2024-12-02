@@ -69,6 +69,23 @@ if (userLastName === null) {
 
 var questions = [
 	[
+		"UI is an acronym commonly meaning... ? ",
+		"Unexpected Input",
+		"Undeterminable Input",
+		"User Input",
+		"User Interface",
+		"Unknown Interpolation",
+		"d", "d", "d" ],
+	
+	[
+		"How do we typically shorten User Experience? ",
+		"UE",
+		"UsExp",
+		"UeX",
+		"UX",
+		"UEp",
+		"d", "d", "d" ],
+	[
 		"Are you an IB student? ",
 		"No, only our 11th and 12th grade students are IB",
 		"No, but I can choose IB CP or DP for 11th & 12th",
