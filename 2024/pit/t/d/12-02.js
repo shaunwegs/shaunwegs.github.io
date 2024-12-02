@@ -10,8 +10,8 @@ let quotes_array = [
 "each day. If you finish early, then you need",
 "to make your project bigger.",
 "Choosing to finish early is choosing to have",
-"a lower grade for you project and",
-"project work time."
+"a lower grade for youy project and",
+"project work time grades."
 
 ];
 
