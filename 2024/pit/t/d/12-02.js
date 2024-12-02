@@ -3,23 +3,15 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "MVP, aka Minimum Viable Product,",
-  "is the most basic format of a product/",
-  "project that still meets the requirements.",
-  "You should first aim to make your MVP,",
-  "then you should work on improvements.",
-  "Each time you make improvements to your",
-  "project, your goal should be to have a",
-  "project that could be called finished if",
-  "you suddenly had no time left.",
-  "Creating an MVP is a form of risk",
-  "it focuses on developing a project/product",
-  "that meets the requirements ASAP.",
-  "Then, you focus your remaining time and",
-  "resources on making it better, but",
-  "worst case scenario, if something goes",
-  "wrong, you at least have a base form",
-  "that meets the requirements.",
+"Today, you should be starting your project.",
+"First, I want you to plan out this week & next.",
+"Keep in mind, finals are after that.",
+"During these weeks, you should be working",
+"each day. If you finish early, then you need",
+"to make your project bigger.",
+"Choosing to finish early is choosing to have",
+"a lower grade for you project and",
+"project work time."
 
 ];
 
