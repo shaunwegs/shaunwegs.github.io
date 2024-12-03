@@ -281,22 +281,6 @@ var questions = [
 		"IT Support/Service only",
 		"Web Design & Design/Multimedia",
 		"d", "d", "d" ],
-		[
-		"While not listed on the SBISD CTE website, Texas says this course also supports which pathway? ",
-		"Cybersecurity",
-		"Photography",
-		"Filmmaking",
-		"IT Support/Service",
-		"3D Animation",
-		"a", "a", "a" ],
-		[
-		"While not listed on the SBISD CTE website, Texas says this course also supports which pathway? ",
-		"Photography",
-		"Progamming/Software Development",
-		"Filmmaking",
-		"IT Support/Service",
-		"3D Animation",
-		"b", "b", "b" ],
 	
 	[
 "As per district policy, which of the following is true inside computer labs?",
@@ -391,11 +375,37 @@ var questions = [
 
 				[
 			"This course is part of which CTE Cluster?",
-			"STEM",
+			"Arts, Audio Visual Technology and Communications",
 			"Information Technology",
-			"Multidisciplinary",
-			"Arts & Humanities",
-			"Public Service",
+			"Business, Marketing, and Finance",
+			"Manufacturing",
+			"Architecture and Construction",
+			"b", "b", "b" ],
+
+	[
+			"In SBISD, this course officially starts which pathways?",
+			"Digital Marketing",
+			"Information Technology Support and Services",
+			"Business, Marketing, and Finance",
+			"Accounting and Financial Services",
+			"Culinary Arts",
+			"b", "b", "b" ],
+
+		[
+			"According to the state of Texas, which pathway does this course support in addition to IT?",
+			"Entrepreneurship",
+			"Programming and Software Development",
+			"Business, Marketing, and Finance",
+			"Architectural Drafting and Design",
+			"Graphic Design and Interactive Media",
+			"b", "b", "b" ],
+	[
+			"According to the state of Texas, which pathway does this course support in addition to IT?",
+			"Accounting and Financial Services",
+			"Cyber Security",
+			"Business, Marketing, and Finance",
+			"Architectural Drafting and Design",
+			"Digital Marketing",
 			"b", "b", "b" ],
 
 			[
@@ -455,6 +465,23 @@ var questions = [
 		"Optiplex",
 		"Chromebook",
 		"c", "c", "c" ],
+		[
+		"The computers checked out to the students from the district are... ?",
+		"ToughBooks",
+		"MacBooks",
+		"iMacs",
+		"Surfaces",
+		"Chromebooks",
+		"e", "e", "e" ],
+	
+		[
+		"The chromebooks checked out to the students from the district are manufactured by... ?",
+	"Microsoft",
+	"Sony",
+	"Apple",
+	"Dell",
+	"Google",
+	"d", "d", "d" ],
 		[
 			"Our lab computers run what OS?",
 			"Windows",
