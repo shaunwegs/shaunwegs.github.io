@@ -68,7 +68,22 @@ if (userLastName === null) {
 	localStorage.setItem('pit3_userLastName', userLastName);}
 
 var questions = [
-	
+	[
+		"Which key on the keyboard do you use to capitalize multiple letters?",
+		"Fn",
+		"Command",
+		"Control",
+		"Options",
+		"Caps lock",
+		"e", "e", "e" ],
+	[
+		"Which key on the keyboard do you use to capitalize one letter while typing an essay?",
+		"Shift",
+		"Command",
+		"Control",
+		"Options",
+		"Fn",
+		"a", "a", "a" ],
 		[
 		"What are the homekeys that your fingers should rest on for general purpose typing?",
 		"ASDF and JKL and the SPACEBAR",
