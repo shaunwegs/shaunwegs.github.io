@@ -76,6 +76,14 @@ var questions = [
 		"You get a rainbow.",
 		"You get a grey light.",
 		"c", "c", "c" ],
+			[
+		"A fairly common alternative to the RGB color selector is the... ?",
+		"RYB color selector",
+		"CMYK color selector",
+		"HSL color selector",
+		"YIQ color selector",
+		"RWY color selector",
+		"c", "c", "c" ],
 	[
 		"In the RGB color model, how do we make red?",
 		"cyan and magenta",
@@ -135,7 +143,14 @@ var questions = [
 	"yellow and purple",
 	"orange and cyan",
 	"b", "b", "b" ],
-	
+		[
+	"Related to colors on the computer, where are the three 'primary' colors? (choose multiple)",
+	"red, green, and blue",
+	"red, yellow, and blue",
+	"cyan, magenta, and yellow",
+	"blue, yellow, and magenta",
+	"cyan, green, and red",
+	"a", "a", "a" ],
 	
 				[
 		"Are you an IB student? ",
