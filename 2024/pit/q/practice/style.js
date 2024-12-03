@@ -522,6 +522,14 @@ var questions = [
 				"3rd Quarter",
 				"4th Quarter",
 				"c", "c", "c" ],
+			[
+				"If you want to collaborate with someone on a Google Form, what should you do?",
+				"Email them the URL at the top of the screen",
+				"Email them the URL for the form preview",
+				"Give them edit rights in the share menu",
+				"Give them view rights in the share menu",
+				"Give them comment rights in the share menu",
+				"c", "c", "c" ],
 [
 	"Which of the following is TRUE related to keeping files in Google Drive?",
 	"If you upload a file into Google Drive, the file on your computer and the drive are now linked; any change will change both",
@@ -794,6 +802,33 @@ var questions = [
 										"d", "d", "d" ],
 
 									[
+										"Which of the following applications is not owned by Apple? ",
+										"Pages",
+										"Sheets",
+										"Keynote",
+										"Siri",
+										"Numbers",
+										"b", "b", "b" ],
+
+									[
+										"Which of the following applications is not owned by Google? ",
+										"Pages",
+										"Slides",
+										"Sheets",
+										"Docs",
+										"Drive",
+										"a", "a", "a" ],
+
+									[
+										"Which of the following applications is not owned by Microsoft? ",
+										"Docs",
+										"Word",
+										"Excel",
+										"Powerpoint",
+										"Windows",
+										"a", "a", "a" ],
+
+									[
 										"If you need to create a document of mostly text, and only have access to Microsoft Office, what program should you typically use? ",
 										"Docs",
 										"Slides",
@@ -868,6 +903,14 @@ var questions = [
 												"Numbers",
 												"Keynote",
 												"d", "d", "d" ],
+												[
+													"Which program would you typically graph data in? ",
+													"wordprocessing software",
+													"browser software",
+													"spreadsheet software",
+													"presentation software",
+													"database software",
+													"c", "c", "c" ],
 												[
 													"What is the Microsoft equivalent to Google Sheets? ",
 													"Docs",
