@@ -70,6 +70,109 @@ if (userLastName === null) {
 var questions = [
 	
 				[
+		"Are you an IB student? ",
+		"No, only our 11th and 12th grade students are IB",
+		"No, but I can choose IB CP or DP for 11th & 12th",
+		"No, but I can choose IB CP in 11th, or IB DP in 12th",
+		"Yes, an IB MYP Student (grades 6-10)",
+		"No, IB begins in 10th grade with Personal Project",
+		"d", "d", "d" ],
+	[
+		"In Apple Work software (Pages/Keynote/Numbers), how do you save a file as a PDF? ",
+		"at the top left of the app, click download, then Download as PDF",
+		"at the top right of the app, click share, then Save as > PDF",
+		"In the overhead menu, go to Share, then Export as > PDF",
+		"In the overhead menu, go to File, then Export to > PDF",
+		"In the overhead menu, go to File, then Save as, in the save window, change the format to PDF",
+		"d", "d", "d" ],
+	
+	[
+		"On a mac, the keyboard short-cut for save is ",
+		"shift + control + s",
+		"shift + s",
+		"option + s",
+		"command + s",
+		"control + s",
+		"d", "d", "d" ],
+	
+	[
+		"On a mac, the keyboard short-cut for undo is ",
+		"shift + option + u",
+		"option + u",
+		"command + u",
+		"command + z",
+		"control + z",
+		"d", "d", "d" ],
+		[
+		"On a mac, the keyboard short-cut for find is ",
+		"shift + control + f",
+		"shift + f",
+		"option + f",
+		"command + f",
+		"control + f",
+		"d", "d", "d" ],
+		[
+		"On windows or on a chromebook, the keyboard short-cut for save is ",
+		"shift + control + s",
+		"shift + s",
+		"option + s",
+		"command + s",
+		"control + s",
+		"e", "e", "e" ],
+	
+	[
+		"On windows or on a chromebook, the keyboard short-cut for undo is ",
+		"shift + option + u",
+		"option + u",
+		"command + u",
+		"command + z",
+		"control + z",
+		"e", "e", "e" ],
+		[
+		"On windows or on a chromebook, the keyboard short-cut for find is ",
+		"shift + control + f",
+		"shift + f",
+		"option + f",
+		"command + f",
+		"control + f",
+		"e", "e", "e" ],
+		[
+		"If you drag an image into a document of text, and your text jumps around strangely to fit around it, you can adjust this with what setting? ",
+		"text offset",
+		"shift adjustment",
+		"styles",
+		"text wrap / wrap text",
+		"alignment",
+		"d", "d", "d" ],
+	
+		[
+		"If you drag an image into an Apple Works document, and it has a background and you dont want it to, try adjusting what setting?",
+		"position",
+		"saturation",
+		"exposure",
+		"alpha",
+		"mask",
+		"d", "d", "d" ],
+
+	
+		[
+		"If you drag an image into an Apple Works document, but you want to crop it so less of the image is showing, try adjusting what setting?",
+		"position",
+		"saturation",
+		"exposure",
+		"alpha",
+		"mask",
+		"e", "e", "e" ],
+	
+		[
+		"If your working in a software programming, and the text extends beyond the screen or text area, you may be able to adjust this using what setting? ",
+		"text offset",
+		"shift adjustment",
+		"styles",
+		"word wrap",
+		"alignment",
+		"d", "d", "d" ],
+	[
 		"The acronym CTE is short for ",
 		"Career, Technology, & Entrepreneurship",
 		"Career Training Excellence",
@@ -347,6 +450,25 @@ var questions = [
 							"All of these should be included",
 							"Images from the finished product",
 							"Emphasis on relevant skills/abilities you want to showcase/feature",
+							"c", "c", "c" ],
+	
+
+	[
+							"Generally speaking, the goal of a professional portfolio is to",
+							"Chronologically log all of your work for a specific class",
+							"Document all of your finished projects over time",
+							"Help you get a job, internship, or acceptance into a university program",
+							"Convey your personal beliefs and feelings to potential employers",
+							"Replicate your resume in a nicer and more comprehensive form",
+							"c", "c", "c" ],
+
+	[
+							"Generally speaking, your professional portfolio should focus on?",
+							"showing that you have learned about all major subject areas in school",
+							"Documenting all of your finished projects over time",
+							"on the area you want to work in or study",
+							"Conveying your personal beliefs and feelings to potential employers",
+							"Replicating your resume in a nicer and more comprehensive form",
 							"c", "c", "c" ],
 
 						[
@@ -742,7 +864,7 @@ var questions = [
 															"Pages",
 															"d", "d", "d" ],
 															[
-																"In the image shown here, which cell is the selected data contained in?<br><img src='img/03.png'>",
+																"In the image shown here, which cell is the selected data contained in?<br><img src='img/03.png' width='400'>",
 																"7",
 																"D",
 																"D7",
@@ -750,7 +872,7 @@ var questions = [
 																"February",
 																"c", "c", "c" ],
 																[
-																	"In the image shown here, which column is the selected data contained in?<br><img src='img/03.png'>",
+																	"In the image shown here, which column is the selected data contained in?<br><img src='img/03.png' width='400'>",
 																	"7",
 																	"D",
 																	"D7",
@@ -758,7 +880,7 @@ var questions = [
 																	"Manual - Bicycles",
 																	"b", "b", "b" ],
 																[
-																	"In the image shown here, which row is the selected data contained in?<br><img src='img/03.png'>",
+																	"In the image shown here, which row is the selected data contained in?<br><img src='img/03.png' width='400'>",
 																	"7",
 																	"D",
 																	"D7",
@@ -766,7 +888,7 @@ var questions = [
 																	"February",
 																	"a", "a", "a" ],
 															[
-																"In the image shown here, what is currently selected?<br><img src='img/03.png'>",
+																"In the image shown here, what is currently selected?<br><img src='img/03.png' width='400'>",
 																"a chart",
 																"a table",
 																"a cell",
@@ -774,7 +896,7 @@ var questions = [
 																"a row",
 																"c", "c", "c" ],
 															[
-																"In the image shown here, what is currently selected?<br><img src='img/02.png'>",
+																"In the image shown here, what is currently selected?<br><img src='img/02.png' width='400'>",
 																"a chart",
 																"a table",
 																"a cell",
@@ -782,7 +904,7 @@ var questions = [
 																"a row",
 																"e", "e", "e" ],
 															[
-																"In the image shown here, what is currently selected?<br><img src='img/01.png'>",
+																"In the image shown here, what is currently selected?<br><img src='img/01.png' width='400'>",
 																"a chart",
 																"a table",
 																"a cell",
@@ -1041,7 +1163,7 @@ function renderResults(){
   localStorage.setItem("pg_tota2", tot2);
   localStorage.setItem("pg_tota3", tot3);
   localStorage.setItem("pg_tota4", tot4);
-  $_("test_status").innerHTML = "<h1>PIT, Oct. 18th Quiz</h1><h2>Attempt #" +vs;
+  $_("test_status").innerHTML = "<h1>PIT, Practice Winter Final</h1><h2>Attempt #" +vs;
   $_('timeleft').innerHTML = '</h2>'; l1 = 25 - cor;
   test.innerHTML = "";
   test.innerHTML += "<h1>Results for " + userFirstName + "</h1><h3>Attempt #"+vs +" for " + userFirstName +" "+ userLastName +".<br>Screenshot & upload your results!</h3>";
@@ -1080,8 +1202,8 @@ function noMore(){
 
 function renderQuestion() {
   var test = $_("test");
-  var ques = 16; // question count
-  $_("test_status").innerHTML = "<h1>PIT: Oct. 18th Quiz</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
+  var ques = 30; // question count
+  $_("test_status").innerHTML = "<h1>PIT: Practice Winter Final</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
   if (rscore != 0) { $_("test_status").innerHTML += '<br>Currently: ~'+(cor/rscore*100).toFixed(0)+'% correct'; }
   var question = questions[posn][0];
   var chA = questions[posn][1];
@@ -1193,7 +1315,7 @@ function checkA(){
      if (questions[posn][7] == "c" && timelimit > 0) { cat3++; }
      if (questions[posn][7] == "d" && timelimit > 0) { cat4++; }}
   pos++;  posn = questionOrder[pos];
-  if (pos < 16) { renderQuestion(); } else { renderResults(); } // question count
+  if (pos < 30) { renderQuestion(); } else { renderResults(); } // question count
 }
 
 document.addEventListener("contextmenu", function(e){
