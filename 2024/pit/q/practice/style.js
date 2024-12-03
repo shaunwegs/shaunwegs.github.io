@@ -389,6 +389,15 @@ var questions = [
 			"Public Service",
 			"b", "b", "b" ],
 
+				[
+			"This course is part of which CTE Cluster?",
+			"STEM",
+			"Information Technology",
+			"Multidisciplinary",
+			"Arts & Humanities",
+			"Public Service",
+			"b", "b", "b" ],
+
 			[
 				"If you take CompSci 1 in high school, you'll have the opportunity to take an entry-level certification for",
 				"Cyber Security",
