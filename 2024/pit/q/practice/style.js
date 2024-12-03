@@ -68,7 +68,14 @@ if (userLastName === null) {
 	localStorage.setItem('pit3_userLastName', userLastName);}
 
 var questions = [
-	
+	[
+		"Which type of software would you use to type a research paper?",
+		"word processor",
+		"spreadsheet software",
+		"presentation software",
+		"database",
+		"browser",
+		"a", "a", "a" ],
 		[
 		"Which of the following is a font?",
 		"Papyrus",
@@ -1074,6 +1081,30 @@ var questions = [
 														"Adobe",
 														"Apple",
 														"d", "d", "d" ],
+														[
+															"In a spreadsheet, cells... ?",
+															"are the individual boxes to hold data",
+															"are horizontal sets of cells",
+															"are special sets of cells where the vertical and horizontal values match",
+															"are vertical sets of cells",
+															"are sets of cells that include a formula",
+															"a", "a", "a" ],
+														[
+															"In a spreadsheet, rows... ?",
+															"are the individual boxes to hold data",
+															"are horizontal sets of cells",
+															"are special sets of cells where the vertical and horizontal values match",
+															"are vertical sets of cells",
+															"are sets of cells that include a formula",
+															"b", "b", "b" ],
+														[
+															"In a spreadsheet, columns... ?",
+															"are the individual boxes to hold data",
+															"are horizontal sets of cells",
+															"are special sets of cells where the vertical and horizontal values match",
+															"are vertical sets of cells",
+															"are sets of cells that include a formula",
+															"d", "d", "d" ],
 														[
 															"When uploading a finished document online, to print or to share with others, what's typically the best format to use?",
 															"Odf",
