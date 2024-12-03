@@ -68,6 +68,39 @@ if (userLastName === null) {
 	localStorage.setItem('pit3_userLastName', userLastName);}
 
 var questions = [
+	
+		[
+		"Which of the following is a font?",
+		"Papyrus",
+		"Italics",
+		"Firefox",
+		"Google Slides",
+		"Linux",
+		"a", "a", "a" ],
+		[
+		"Which of the following is a font?",
+		"Comic Sans",
+		"Bold",
+		"Chrome",
+		"Google Sheets",
+		"Windows",
+		"a", "a", "a" ],
+		[
+		"Which of the following is a font?",
+		"Times New Roman",
+		"Italics",
+		"Safari",
+		"Google Docs",
+		"macOS",
+		"a", "a", "a" ],
+		[
+		"Which data type would you use in a spreadsheet to make the number 1 appear as $1.00?",
+		"Currency",
+		"Text",
+		"Date",
+		"Boolean",
+		"Number",
+		"a", "a", "a" ],
 	[
 		"Which key on the keyboard do you use to capitalize multiple letters?",
 		"Fn",
