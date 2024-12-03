@@ -68,6 +68,74 @@ if (userLastName === null) {
 	localStorage.setItem('pit3_userLastName', userLastName);}
 
 var questions = [
+		[
+		"What happens if you combine equal intensities of light with all different wavelengths?",
+		"You get a gray-brown light.",
+		"The waves cancel each other out to give no light.",
+		"You get white light.",
+		"You get a rainbow.",
+		"You get a grey light.",
+		"c", "c", "c" ],
+	[
+		"In the RGB color model, how do we make red?",
+		"cyan and magenta",
+		"red is a primary color, we can't make it by mixing",
+		"yellow and magenta",
+		"yellow and purple",
+		"orange and cyan",
+		"b", "b", "b" ],
+
+		[
+			"In the RGB color model, how do we make blue?",
+			"cyan and magenta",
+			"blue is a primary color, we can't make it by mixing",
+			"yellow and magenta",
+			"yellow and purple",
+			"orange and cyan",
+			"b", "b", "b" ],
+
+			[
+				"In the RGB color model, how do we make yellow?",
+				"green and blue",
+				"yellow is a primary color, we can't make it by mixing",
+				"red and green",
+				"green and magenta",
+				"orange and cyan",
+				"c", "c", "c" ],
+				[
+					"In the RGB color model, how do we make cyan?",
+					"blue and magenta",
+					"cyan is a primary color, we can't make it by mixing",
+					"yellow and magenta",
+					"yellow and purple",
+					"blue and green",
+					"e", "e", "e" ],
+			
+					[
+						"In the RGB color model, how do we make magenta?",
+						"cyan and red",
+						"magenta is a primary color, we can't make it by mixing",
+						"blue and orange",
+						"red and purple",
+						"blue and red",
+						"e", "e", "e" ],	
+						[
+							"Related to screens and tech, what is the most common color model?",
+							"HSL",
+							"CIE XYZ",
+							"RYB",
+							"CMYK",
+							"RGB",
+							"e", "e", "e" ],
+	[
+	"In the RGB color model, how do we make green?",
+	"yellow and blue",
+	"green is a primary color, we can't make it by mixing",
+	"yellow and cyan",
+	"yellow and purple",
+	"orange and cyan",
+	"b", "b", "b" ],
+	
 	
 				[
 		"Are you an IB student? ",
