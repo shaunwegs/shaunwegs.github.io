@@ -68,6 +68,15 @@ if (userLastName === null) {
 	localStorage.setItem('pit3_userLastName', userLastName);}
 
 var questions = [
+	
+		[
+		"What are the homekeys that your fingers should rest on for general purpose typing?",
+		"ASDF and JKL and the SPACEBAR",
+		"AWSD and ←↑→ and SPACEBAR",
+		"CONTROL ASD and HJK SHIFT and SPACEBAR",
+		"QWER and UIOP and SPACEBAR",
+		"ZXCV and NM<> and SPACEBAR",
+		"a", "a", "a" ],
 		[
 		"What happens if you combine equal intensities of light with all different wavelengths?",
 		"You get a gray-brown light.",
