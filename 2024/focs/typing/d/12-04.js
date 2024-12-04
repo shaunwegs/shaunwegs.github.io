@@ -14,6 +14,8 @@ let quotes_array = [
   'grade, and each 9 weeks is 43%.',
   'Together, if resulting in a 70% or higher for',
   "the semester, then you'll earn credit.",
+  "9 weeks grades are broken down into chunks too.",
+  "20% projects/tests, 30% quizzes, & 50% daily work.",
   'The semester grades will lock over winter break.',
   "There isn't a lot of time remaining.",
 
