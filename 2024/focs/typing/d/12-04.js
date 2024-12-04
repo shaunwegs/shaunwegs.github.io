@@ -3,19 +3,13 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "Let's talk a bit about grades.",
   "Grades are intended to reflect the skills",
   "and knowledge you've gained in a course.",
-  'These are assessed through the work you submit.',
   'If above a 70, you earn credit for the course.',
   "This is reflected on your transcript that's sent",
   'when requested by a college, scholarship, military, etc.',
-  '',
-  '<a href="linkname.html">',
-  '<img src="imgname.jpg" /> </a>',
-  'Notice, the image is still its own',
-  'tag, it is just contained inside',
-  'of the anchor/link tags.',
+  'Your semester grade is what determines whether',
+  'you recieve credit for the course or not.',
 
 ];
 
