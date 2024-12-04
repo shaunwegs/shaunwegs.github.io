@@ -6,12 +6,14 @@ let quotes_array = [
   "Grades are intended to reflect the skills",
   "and knowledge you've gained in a course.",
   'If above a 70, you earn credit for the course.',
-  "This is reflected on your transcript that's sent",
+  "This is reported on your transcript that's sent",
   'when requested by a college, scholarship, military, etc.',
   'Your semester grade is what determines whether',
   'you recieve credit for the course or not.',
   'The semester final is worth 14% of the semester',
-  'grade, and each 9 weeks is 43%.'
+  'grade, and each 9 weeks is 43%.',
+  'Together, if resulting in a 70% or higher for',
+  "the semester, then you'll earn credit.",
 
 ];
 
