@@ -10,6 +10,8 @@ let quotes_array = [
   'when requested by a college, scholarship, military, etc.',
   'Your semester grade is what determines whether',
   'you recieve credit for the course or not.',
+  'The semester final is worth 14% of the semester',
+  'grade, and each 9 weeks is 43%.'
 
 ];
 
