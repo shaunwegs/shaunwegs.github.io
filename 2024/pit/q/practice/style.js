@@ -208,7 +208,7 @@ var questions = [
 	"orange and cyan",
 	"b", "b", "b" ],
 		[
-	"Related to colors on the computer, where are the three 'primary' colors? (choose multiple)",
+	"Related to colors on the computer, where are the three 'primary' colors?",
 	"red, green, and blue",
 	"red, yellow, and blue",
 	"cyan, magenta, and yellow",
