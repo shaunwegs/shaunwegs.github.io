@@ -805,7 +805,7 @@ var questions = [
 							"A sequence",
 							"a conditional",
 							"control flow",
-							"b", "b", "b" ],
+							"d", "d", "d" ],
 							[
 							"Iteration is also known as...",
 							"a selection.",
