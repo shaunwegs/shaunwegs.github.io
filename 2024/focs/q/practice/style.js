@@ -1289,7 +1289,7 @@ var questions = [
 									"a link to an external CSS file",
 									"a", "a", "a" ],
 	[
-									"A tag that opens a heading element.",
+									"A tag that opens a header element.",
 									"&#60;HE>",
 									"&#60;IMG>",
 									"&#60;HEAD>",
