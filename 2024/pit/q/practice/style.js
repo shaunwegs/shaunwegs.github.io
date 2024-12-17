@@ -2,7 +2,7 @@ var myVar;
 function startTimer() {
   myVar = setInterval(function(){myTimer()},1000);
   timelimit = maxtimelimit;
-}
+
 
 function myTimer() {
   if (timelimit > 0) {
