@@ -3,17 +3,18 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "Do you remember what HTML stands for?",
-  'Hypertext Markup Language.',
-  'With HTML we can build',
-  "webpages and websites,",
-  'using different markup tags.',
-  "It's coding, but its not programming.",
-  "We can use anchor tags to",
-  'link pages together,',
-  'image tags to display images,',
-  "tables to organize data, and",
-  "tons of other things too.",
+  "Karel the Robot is a common task",
+  'in beginner programming classes.',
+  'Prof. Richard Pattis created it as part',
+  "of his courses at Stanford University.",
+  'Karel is named after Karel Capek, a',
+  "Czech writer who introduced the modern",
+  "use of the word robot in his play R.U.R.",
+  'We can program Karel to move around a',
+  'an environment, represented as a grid.',
+  "There are set commands that Karel knows;",
+  "move(); turnLeft(); turnRight();",
+  "putBeeper(); and pickBeeper();",
 ];
 
 // selecting required elements
