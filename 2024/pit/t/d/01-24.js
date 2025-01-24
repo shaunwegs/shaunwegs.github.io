@@ -12,11 +12,14 @@ let quotes_array = [
   "4ish science credits,",
   '3 social studies credits,',
   '2 LOTE credits,',
-  "openings per year through 2033.",
-  "Additionally, the median wage",
-  "is 104k per year (May 2023),",
-  "is more than 2x the median wage",
-  "across all occupations of 48k.",
+  "1 Fine Arts credit,",
+  "1 PE credit, and",
+  "7ish Elective credits.",
+  "You're also required to",
+  "pursue and endorsement;",
+  "STEM, Business & Industry,",
+  "Public Service, Arts & Humanities,",
+  "or Multidisciplinary.",
 ];
 
 // selecting required elements
