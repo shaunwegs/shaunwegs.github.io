@@ -3,20 +3,22 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "What is Javascript?",
-  'Javascript is the programming language',
-  'of the web; the wizard of our 3 amigos.',
-  "Is it related to Java?",
-  'No, it was just named after it',
-  "because Java was popular at the time.",
-  "With Javascript, we can make",
-  'interactive and dynamic websites.',
-  'Are we going to do that?',
-  "No, not yet- but later on.",
-  "We can also use libraries like p5.js",
-  "to make art and games with JavaScript.",
-  'Are we going to do that?',
-  "Also no, but also later on.",
+  "What is p5.js?",
+  'P5.js is a javascript library, meaning',
+  'it is additional code written for javascript',
+  "that we don't have to write ourselves.",
+  "It's still javascript, but it makes things",
+  "easier because we are building on top of",
+  "work willingly provided by other people.",
+  "It's designed specifically with artists,",
+  'designers, and learners in mind.',
+  "We can use it to draw shapes;",
+  "for example, we can draw a rectangle",
+  "using the rect() function.",
+  'Inside the parentheses, we include',
+  "arguments which tell the computer",
+  "where to draw the rectangle as well",
+  "as its how large to make it.",
 ];
 
 // selecting required elements
