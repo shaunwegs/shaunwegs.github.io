@@ -3,23 +3,20 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "Different states have different",
-  'high school diploma requirements.',
-  'What about Texas?',
-  "To graduate, you need...",
-  '4 english credits,',
-  "4ish math credits,",
-  "4ish science credits,",
-  '3 social studies credits,',
-  '2 LOTE credits,',
-  "1 Fine Arts credit,",
-  "1 PE credit, and",
-  "7ish Elective credits.",
-  "You're also required to",
-  "pursue and endorsement;",
-  "STEM, Business & Industry,",
-  "Public Service, Arts & Humanities,",
-  "or Multidisciplinary.",
+  "Microsoft's MakeCode is a block-based",
+  "programming environment, developed by.",
+  "and hosted by Microsoft.",
+  "MakeCode is similar to other BBP",
+  "coding environments, like Scratch.",
+  "Unlike Scratch, MakeCode regularly",
+  "features and hosts game jams. A game jam",
+  "is basically a competition to make a game.",
+  "There are usually certain requirements,",
+  'like using a specific software and/or',
+  'including a specific theme or topic.',
+  "If you're interested in Game Design as",
+  'a potential career, then you should try',
+  'to participate in a few game jams.',
 ];
 
 // selecting required elements
