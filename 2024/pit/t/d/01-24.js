@@ -16,7 +16,7 @@ let quotes_array = [
   "1 PE credit, and",
   "7ish Elective credits.",
   "You're also required to",
-  "pursue and endorsement;",
+  "pursue an endorsement;",
   "STEM, Business & Industry,",
   "Public Service, Arts & Humanities,",
   "or Multidisciplinary.",
