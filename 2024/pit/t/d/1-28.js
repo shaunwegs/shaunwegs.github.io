@@ -12,11 +12,11 @@ let quotes_array = [
   "features and hosts game jams. A game jam",
   "is basically a competition to make a game.",
   "There are usually certain requirements,",
-  'like using a specific software and/or',
-  'including a specific theme or topic.',
+  "like using a specific software and/or",
+  "including a specific theme or topic.",
   "If you're interested in Game Design as",
-  'a potential career, then you should try',
-  'to participate in a few game jams.',
+  "a potential career, then you should try",
+  "to participate in a few game jams.",
 ];
 
 // selecting required elements
