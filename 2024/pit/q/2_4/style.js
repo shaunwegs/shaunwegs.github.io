@@ -112,6 +112,33 @@ var questions = [
 						"red and purple",
 						"blue and red",
 						"e", "e", "e" ],
+	
+			
+					[
+						"In the color code #ae0691, which of the primary colors has the higest value?",
+						"white",
+						"yellow",
+						"blue",
+						"green",
+						"red",
+						"e", "e", "e" ],
+
+	[
+						"In the color code #720691, which of the primary colors has the higest value?",
+						"white",
+						"yellow",
+						"blue",
+						"green",
+						"red",
+						"c", "c", "c" ],
+	[
+						"In the color code #99b091, which of the primary colors has the higest value?",
+						"white",
+						"yellow",
+						"blue",
+						"green",
+						"red",
+						"d", "d", "d" ],
 
 [
 	"In the RGB color model, how do we make green?",
