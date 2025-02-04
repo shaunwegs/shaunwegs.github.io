@@ -211,14 +211,7 @@ var questions = [
 							"Conveying your personal beliefs and feelings to potential employers",
 							"Replicating your resume in a nicer and more comprehensive form",
 							"c", "c", "c" ],
-		[
-		"Are you an IB student? ",
-		"No, only our 11th and 12th grade students are IB",
-		"No, but I can choose IB CP or DP for 11th & 12th",
-		"No, but I can choose IB CP in 11th, or IB DP in 12th",
-		"Yes, an IB MYP Student (grades 6-10)",
-		"No, IB begins in 10th grade with Personal Project",
-		"d", "d", "d" ],
+
 		[
 		"In SBISD (and on the SBISD CTE website), this course is the 1st level course for which pathways? ",
 		"Progamming/Software Development & Cybersecurity",
@@ -341,14 +334,6 @@ var questions = [
 "Engineering",
 "IT Support & Services",
 "e", "e", "e" ],
-	[
-			"IB MYP is an acronym for",
-			"International Baccalaureate Middle Years Programme",
-			"International Baccalaureate Multi-Year Programme",
-			"International Baccalaureate Multi-Year Process",
-			"International Baccalaureate Multi-Yield Program",
-			"International Baccalaureate Modular Youth Program",
-			"b", "b", "a" ],
 
 	[
 		"IB MYP is for grades",
@@ -420,14 +405,7 @@ var questions = [
 	"Computing",
 	"Math",
 	"b", "b", "a" ],
-[
-		"This course is part of which IB programme?",
-		"IB MYP",
-		"IB PYP",
-		"IB DP",
-		"IB CP",
-		"None of these",
-		"b", "b", "a" ],
+
 		[
 				"Can you take Computer Sciences courses for IB in 11th & 12th?",
 				"Yes, for IB MYP",
