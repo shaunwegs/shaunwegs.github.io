@@ -802,7 +802,7 @@ var questions = [
 									"&#60;color='#00F'>Green Text&#60;/color>",
 									"c", "c", "c" ],
 									[
-									"We have a website with some text that should be green. How could we use HTML to make it blue?",
+									"We have a website with some text that should be blue. How could we use HTML to make it blue?",
 									"&#60;font color='#FFFF00'>Blue Text&#60;/font>",
 									"&#60;font style='#FF00FF'>Blue Text&#60;/font>",
 									"&#60;font color='#0000FF'>Blue Text&#60;/font>",
