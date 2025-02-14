@@ -15,7 +15,7 @@ let quotes_array = [
   "active is typically done with a variable.",
   "We will use a variable to keep track of ours,",
   "at least for the example made in class.",
-  "When you create your own ePet, you can make",
+  "When you create your own program, you can make",
   "your own decisions about how to make it.",
 ];
 
