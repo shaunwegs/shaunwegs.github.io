@@ -3,18 +3,24 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "In HTML, and most tech-related things,",
-  'we create colors by mixing light,',
-  "specifically red, green, and blue.",
-  "With HTML, we often represent",
-  "these values with 'hex codes'.",
-  'For example, red is #ff0000,',
-  "and green is #00ff00.",
-  "We can mix them too;",
-  "for example, yellow is #ffff00,",
-  "and magenta is #ff00ff.",
-  "We can make just about any color",
-  "if we understand how to mix them.",
+  "In relation to color, and color models,",
+  "we've mostly discussed the hexadecimal",
+  "system. This is one color model, and",
+  "there are others too. The Red - Yellow -",
+  "Blue system you probably learned in",
+  'elementary school is a color model too.',
+  "Color models are ways we think about",
+  "and discuss colors in which we can",
+  "then work with and manipulate them.",
+  "In P5.js, we've also discussed the",
+  "RGB color model. When we print things,",
+  "we use the CMYK color model; Cyan,",
+  "Magenta, Yellow, and Key black.",
+  "RGB & hexadecimal are basically",
+  "the same, one just uses a 16-base",
+  "numbering system, and the other",
+  "a 10-base numbering system.",
+  "We'll talk more about these later.",
 ];
 
 // selecting required elements
