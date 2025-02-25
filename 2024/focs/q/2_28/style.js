@@ -68,7 +68,59 @@ if (userLastName === null) {
 	localStorage.setItem('focs_userLastName', userLastName);}
 
 var questions = [
-
+[
+		"In a hexadecimal color value, a is equivalent to what value in a base-10 system?",
+		"9",
+		"10",
+		"1",
+		"0",
+		"15",
+		"b", "b", "b" ],
+	[
+		"In a hexadecimal color value, b is equivalent to what value in a base-10 system?",
+		"9",
+		"10",
+		"2",
+		"11",
+		"15",
+		"d", "d", "d" ],
+	
+	[
+		"In a hexadecimal color value, c is equivalent to what value in a base-10 system?",
+		"9",
+		"10",
+		"3",
+		"12",
+		"15",
+		"d", "d", "d" ],
+	
+	
+	[
+		"In a hexadecimal color value, d is equivalent to what value in a base-10 system?",
+		"4",
+		"10",
+		"3",
+		"13",
+		"15",
+		"d", "d", "d" ],
+		[
+		"In a hexadecimal color value, e is equivalent to what value in a base-10 system?",
+		"4",
+		"5",
+		"3",
+		"14",
+		"15",
+		"d", "d", "d" ],
+	
+		[
+		"In a hexadecimal color value, f is equivalent to what value in a base-10 system?",
+		"4",
+		"5",
+		"3",
+		"14",
+		"15",
+		"e", "e", "e" ],
+	
 [
 		"In the RGB color model, how do we make red?",
 		"cyan and magenta",
