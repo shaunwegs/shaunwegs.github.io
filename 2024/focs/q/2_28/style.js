@@ -186,7 +186,7 @@ var questions = [
 
 			
 					[
-						"In a hexadecimal color code, the first pair of values represent?",
+						"In a hexadecimal color code, the first pair of values represents?",
 						"white",
 						"yellow",
 						"green",
@@ -194,7 +194,7 @@ var questions = [
 						"red",
 						"e", "e", "e" ],
 [
-						"In a hexadecimal color code, the middle pair of values represent?",
+						"In a hexadecimal color code, the middle pair of values represents?",
 						"white",
 						"yellow",
 						"green",
@@ -202,7 +202,7 @@ var questions = [
 						"red",
 						"c", "c", "c" ],
 [
-						"In a hexadecimal color code, the last pair of values represent?",
+						"In a hexadecimal color code, the last pair of values represents?",
 						"white",
 						"yellow",
 						"green",
@@ -211,7 +211,7 @@ var questions = [
 						"d", "d", "d" ],
 
 [
-						"In an RGB color code, the first values represent?",
+						"In an RGB color code, the first values represents?",
 						"white",
 						"yellow",
 						"green",
@@ -219,7 +219,7 @@ var questions = [
 						"red",
 						"e", "e", "e" ],
 [
-						"In an RGB color code, the middle value represent?",
+						"In an RGB color code, the middle value represents?",
 						"white",
 						"yellow",
 						"green",
@@ -227,7 +227,7 @@ var questions = [
 						"red",
 						"c", "c", "c" ],
 [
-						"In an RGB color code, the last value represent?",
+						"In an RGB color code, the last value represents?",
 						"white",
 						"yellow",
 						"green",
