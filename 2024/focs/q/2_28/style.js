@@ -443,7 +443,7 @@ var questions = [
 	[
 		"What is the pre-req for CyberSecurity @ Guthrie?",
 		"Computer Maintenance at Guthrie",
-		"Cyber Security at Guthrie",
+		"Principles of IT at WAIS",
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
