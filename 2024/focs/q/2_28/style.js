@@ -20,7 +20,7 @@ function myTimer() {
 }
 
 var pos = 0, posn, choice, cor = 0, rscore = 0;
-var maxtimelimit = 179, timelimit = maxtimelimit;
+var maxtimelimit = 119, timelimit = maxtimelimit;
 var vs = localStorage.getItem('focs_feb_on_load_counter');
 var userFirstName = localStorage.getItem('focs_userFirstName');
 var userLastName = localStorage.getItem('focs_userLastName');
