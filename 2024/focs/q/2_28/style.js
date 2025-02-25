@@ -68,6 +68,33 @@ if (userLastName === null) {
 	localStorage.setItem('focs_userLastName', userLastName);}
 
 var questions = [
+	
+[
+		"What is the range of a single digit in the hexadecimal sytem if we convert it to a decimal value?",
+		"1-10",
+		"1-15",
+		"1-16",
+		"0-15",
+		"0-9",
+		"d", "d", "d" ],
+	
+[
+		"What is the range of a single digit in the hexadecimal sytem?",
+		"1-A",
+		"A-F",
+		"1-F",
+		"0-F",
+		"0-9",
+		"d", "d", "d" ],
+	
+[
+		"What is the lowest value in the hexadecimal number system?",
+		"a",
+		"10",
+		"1",
+		"0",
+		"none of these are correct",
+		"d", "d", "d" ],
 [
 		"In a hexadecimal color value, a is equivalent to what value in a base-10 system?",
 		"9",
