@@ -13,6 +13,9 @@ let quotes_array = [
   "A sequence is just following",
   "a series of steps",
   'in a specific order.',
+  'Everytime you create a program',
+  'you are creating an Algorithm',
+  'that the computer will follow.',
 ];
 
 // selecting required elements
