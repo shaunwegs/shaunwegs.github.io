@@ -1080,7 +1080,9 @@ function renderResults(){
   $_('timeleft').innerHTML = '</h2>'; l1 = 25 - cor;
   test.innerHTML = "";
   test.innerHTML += "<h1>Results for " + userFirstName + "</h1>";
-    test.innerHTML += "<table id='render'><tr><td><p id='render1'></p><br></td><td><br><p id='render2'></p></td></tr></table>";
+  test.innerHTML += now();
+  test.innerHTML += attemptid();
+    test.innerHTML += "<table id='render'><tr><td valign="top"><p id='render1'></p><br></td><td><br><p id='render2'></p></td></tr></table>";
   render1.innerHTML += "<h1>Percentage Correct</h1><br>"
   render1.innerHTML += bigLet((cor/rscore*100).toFixed(0));
   render1.innerHTML += "<br><br>"
@@ -1091,8 +1093,7 @@ function renderResults(){
   render2.innerHTML += "<span>" + showNum(corrs[2]) + showOf() + showNum(totas[2]) + "</span><span>" + totasNames[2] + "</span><br>";
   render2.innerHTML += "<span>" + showNum(corrs[3]) + showOf() + showNum(totas[3]) + "</span><span>" + totasNames[3] + "</span><br>";
   render2.innerHTML += "<span>" + showNum(corrs[4]) + showOf() + showNum(totas[4]) + "</span><span>" + totasNames[4] + "</span><br>";
-  test.innerHTML += now();
-  test.innerHTML += attemptid();
+
   if (vs < 500) {
      test.innerHTML += '<button onclick="location.reload()">Re-test</a> ';
   } else if (vs === 500) {
