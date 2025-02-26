@@ -1078,9 +1078,8 @@ function renderResults(){
   localStorage.setItem("pg_tota4", tot4);
   $_("test_status").innerHTML = "<h1>Fundamentals of CS, Q3 - Colors+ Quiz</h1><h2>Attempt #" +vs;
   $_('timeleft').innerHTML = '</h2>'; l1 = 25 - cor;
-  test.innerHTML = "";
-    test.innerHTML += "<table id='render' cellpadding='10'><tr><td valign='top'><p id='render1'></p></td><td><p id='render2'></p></td></tr></table>";
-    test.innerHTML += "<h1>Results for " + userFirstName + "</h1>";
+   test.innerHTML = "";
+  test.innerHTML += "<h1>Results for " + userFirstName + "</h1>";
   test.innerHTML += now();
   test.innerHTML += attemptid();
     test.innerHTML += "<table id='render'><tr><td valign='top'><p id='render1'></p><br></td><td><p id='render2'></p></td></tr></table>";
