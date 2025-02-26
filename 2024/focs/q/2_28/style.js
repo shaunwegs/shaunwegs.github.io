@@ -1082,7 +1082,7 @@ function renderResults(){
     test.innerHTML += "<table id='render' cellpadding='10'><tr><td valign='top'><p id='render1'></p></td><td><p id='render2'></p></td></tr></table>";
   render1.innerHTML += "<h1>Results for <br><br><br>" + userFirstName + "</h1><br>;
 
-  render2.innerHTML += "<br><h1>Total Score</h1><br>"
+  render2.innerHTML += "<br><h1>Overall Score</h1><br>"
   render2.innerHTML += bigLet((cor/rscore*100).toFixed(0));
   render2.innerHTML += "<br><br>"
   render2.innerHTML += now();
