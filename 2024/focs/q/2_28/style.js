@@ -1082,7 +1082,7 @@ function renderResults(){
   test.innerHTML += "<h1>Results for " + userFirstName + "</h1>";
   test.innerHTML += now();
   test.innerHTML += attemptid();
-    test.innerHTML += "<table id='render'><tr><td valign="top"><p id='render1'></p><br></td><td><br><p id='render2'></p></td></tr></table>";
+    test.innerHTML += "<table id='render'><tr><td valign='top'><p id='render1'></p><br></td><td><br><p id='render2'></p></td></tr></table>";
   render1.innerHTML += "<h1>Percentage Correct</h1><br>"
   render1.innerHTML += bigLet((cor/rscore*100).toFixed(0));
   render1.innerHTML += "<br><br>"
