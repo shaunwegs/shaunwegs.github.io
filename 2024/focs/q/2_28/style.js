@@ -1080,7 +1080,7 @@ function renderResults(){
   $_('timeleft').innerHTML = '</h2>'; l1 = 25 - cor;
   test.innerHTML = "";
     test.innerHTML += "<table id='render' cellpadding='10'><tr><td valign='top'><p id='render1'></p></td><td><p id='render2'></p></td></tr></table>";
-  render1.innerHTML += "<h1>Results for " + userFirstName + "</h1><br><br><br>";
+  render1.innerHTML += "<h1>Results for <br>" + userFirstName + "</h1><br><br><br>";
   render1.innerHTML += now();
   render1.innerHTML += attemptid();
   render1.innerHTML += "<br><h1>Percentage Correct</h1><br>"
