@@ -1079,8 +1079,8 @@ function renderResults(){
   $_("test_status").innerHTML = "<h1>Fundamentals of CS, Q3 - Colors+ Quiz</h1><h2>Attempt #" +vs;
   $_('timeleft').innerHTML = '</h2>'; l1 = 25 - cor;
   test.innerHTML = "";
-    test.innerHTML += "<table id='render'><tr><td valign='top'><p id='render1'></p></td><td><p id='render2'></p></td></tr></table>";
-  render1.innerHTML += "<h1>Results for " + userFirstName + "</h1>";
+    test.innerHTML += "<table id='render' cellpadding='10'><tr><td valign='top'><p id='render1'></p></td><td><p id='render2'></p></td></tr></table>";
+  render1.innerHTML += "<h1>Results for " + userFirstName + "</h1><br><br><br>";
   render1.innerHTML += now();
   render1.innerHTML += attemptid();
   render1.innerHTML += "<br><h1>Percentage Correct</h1><br>"
@@ -1093,7 +1093,7 @@ function renderResults(){
   render2.innerHTML += "<span>" + showNum(corrs[2]) + showOf() + showNum(totas[2]) + "</span><span>" + totasNames[2] + "</span><br>";
   render2.innerHTML += "<span>" + showNum(corrs[3]) + showOf() + showNum(totas[3]) + "</span><span>" + totasNames[3] + "</span><br>";
   render2.innerHTML += "<span>" + showNum(corrs[4]) + showOf() + showNum(totas[4]) + "</span><span>" + totasNames[4] + "</span><br>";
-  render2.innerHTML += "<h3>Attempt #"+vs +" for " + userFirstName +" "+ userLastName +".<br>Screenshot & upload your results!</h3>"
+  render2.innerHTML += "<h1>Attempt #"+vs +" for " + userFirstName +" "+ userLastName +".</h1><h3>Screenshot & upload your results!</h3>"
 
   if (vs < 500) {
      test.innerHTML += '<button onclick="location.reload()">Re-test</a> ';
