@@ -18,8 +18,8 @@ let quotes_array = [
   "The maximum value in hexadecial is FF.",
   "FF, if converted to a base-10 decimal",
   "value would be the equivalent of 255.",
-  "They're the same numbers,"
-  "just represented differently."
+  "They're the same numbers,",
+  "just represented differently.",
 ];
 
 // selecting required elements
