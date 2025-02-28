@@ -68,7 +68,39 @@ if (userLastName === null) {
 	localStorage.setItem('focs_userLastName', userLastName);}
 
 var questions = [
+	[
+		"If you want to study digital arts and media, like 3D Modeling or Graphic Design or Photoshop, what should you take next year?",
+		"Architecture",
+		"Cyber Security",
+		"Entrepreneurship",
+		"Computer Science",
+		"Principles of Arts",
+		"e", "e", "e" ],
+	[
+		"If you interested in the Cyber Security pathway, what should you take next year?",
+		"Architecture",
+		"Cyber Security",
+		"Entrepreneurship",
+		"Computer Science",
+		"Principles of Arts",
+		"d", "d", "d" ],
+	[
+		"If you want to earn a Python programming certification, what should you take next year?",
+		"Architecture",
+		"Cyber Security",
+		"Entrepreneurship",
+		"Computer Science",
+		"Principles of Arts",
+		"d", "d", "d" ],
 	
+	[
+		"If you continue Computer Science next year, you'll have the opportunity to earn a certification in...",
+		"Hardware Repair & Maintanence",
+		"Cyber Security",
+		"HTML",
+		"Python",
+		"Photoshop",
+		"d", "d", "d" ],
 [
 		"What is the range of a single digit in the hexadecimal sytem if we convert it to a decimal value?",
 		"1-10",
