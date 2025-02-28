@@ -18,7 +18,7 @@ let quotes_array = [
   "digit can go from 0-9.",
   "In hexadecimal, we represent this as",
   "#FFFF00",
-  "This is a base 15 system, where each",
+  "This is a base 16 system, where each",
   "digit can go from 0-F.",
   "F, if converted to a base-10 decimal",
   "value would be the equivalent of 15.",
