@@ -10,7 +10,7 @@ let quotes_array = [
   "different numbering system.",
   "RGB is a base 10 system, where each",
   "digit can go from 0-9.",
-  "Hexadecimal is a base 15 system, where",
+  "Hexadecimal is a base 16 system, where",
   "each digit can go from 0-F.",
   "F, if converted to a base-10 decimal",
   "value would be the equivalent of 15.",
