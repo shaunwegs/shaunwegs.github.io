@@ -547,7 +547,7 @@ var questions = [
 							"a conditional",
 							"iteration",
 							"a sequence",
-							"defining an object",
+							"requesting information from the user",
 							"a finite state machine",
 							"c", "c", "c" ],
 
