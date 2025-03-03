@@ -547,7 +547,7 @@ var questions = [
 							"a conditional",
 							"iteration",
 							"a sequence",
-							"requesting information from the user",
+							"defining an object",
 							"a finite state machine",
 							"c", "c", "c" ],
 
@@ -717,6 +717,68 @@ var questions = [
 							"7",
 							"9",
 							"d", "d", "d" ],
+
+
+
+
+							[
+							"What will be displayed on screen if this program is run?<br><img src='img/21.png' width='300'><br>",
+							"5",
+							"10",
+							"3",
+							"15",
+							"13",
+							"b", "b", "b" ],
+
+
+
+
+							[
+							"What will be displayed on screen if this program is run?<br><img src='img/22.png' width='300'><br>",
+							"-2",
+							"10",
+							"3",
+							"12",
+							"15",
+							"d", "d", "d" ],
+
+
+
+
+							[
+							"What will be displayed on screen if this program is run?<br><img src='img/23.png' width='300'><br>",
+							"0",
+							"10",
+							"25",
+							"20",
+							"15",
+							"d", "d", "d" ],
+
+
+
+
+							[
+							"What will be displayed on screen if this program is run?<br><img src='img/24.png' width='300'><br>",
+							"0",
+							"10",
+							"20",
+							"Nothing, because there is an error in the program",
+							"25",
+							"d", "d", "d" ],
+
+
+
+
+
+
+							[
+							"What will be displayed on screen if this program is run?<br><img src='img/25.png' width='300'><br>",
+							"0",
+							"10",
+							"15",
+							"Nothing, because there is an error in the program",
+							"-5",
+							"b", "b", "b" ],
 ];
 
 function now() {
