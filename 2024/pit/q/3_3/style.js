@@ -501,26 +501,6 @@ var questions = [
 							"control flow",
 							"c", "c", "c" ],
 
-
-							[
-							"The code snippet below shows what?<br><img src='img/02.png' width='200'><br>",
-							"a conditional",
-							"iteration",
-							"a variable",
-							"defining an object",
-							"a finite state machine",
-							"a", "a", "a" ],
-
-
-							[
-							"The code snippet below shows what?<br><img src='img/03.png' width='200'><br>",
-							"a conditional",
-							"iteration",
-							"a variable",
-							"defining an object",
-							"a finite state machine",
-							"b", "b", "b" ],
-
 [
 							"The code snippet below shows what?<br><img src='img/02.png' width='200'><br>",
 							"selection",
@@ -548,7 +528,7 @@ var questions = [
 							"iteration",
 							"a sequence",
 							"defining an object",
-							"a finite state machine",
+							"an infinite loop",
 							"c", "c", "c" ],
 
 
