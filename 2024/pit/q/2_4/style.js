@@ -39,11 +39,11 @@ var rigob = [0, 0, 0, 0, 0];
 var rigoc = [0, 0, 0, 0, 0];
 var rigod = [0, 0, 0, 0, 0];
 var totasNames = [
-"&nbsp; - untitled category",
-"&nbsp; - untitled category",
-"&nbsp; - untitled category",
-"&nbsp; - untitled category",
-"&nbsp; - untitled category"
+"&nbsp; - CTE Specifics",
+"&nbsp; - WAIS & SBISD",
+"&nbsp; - Color Concepts",
+"&nbsp; - Hexadecimals",
+"&nbsp; - Others"
 ]
 
 if (vs === null) { vs = 0; }
