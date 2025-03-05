@@ -953,7 +953,7 @@ function renderResults(){
   render1.innerHTML += "<br><br>"
   render2.innerHTML += "<br><h3>Attempt #"+vs +" for " + userFirstName +" "+ userLastName +"<br> for March Programming Quiz."
   render2.innerHTML += now();
-  render2.innerHTML += "<h3>Screenshot & upload your results!</h3><h1>Categories</h1>"
+  render2.innerHTML += "Screenshot & upload your results!<h1>Categories</h1>"
   render2.innerHTML += "<br>Correct Answers:<br>"
   render2.innerHTML += "<span>" + showNum(corrs[0]) + showOf() + showNum(totas[0]) + "</span><span>" + totasNames[0] + "</span><br>";
   render2.innerHTML += "<span>" + showNum(corrs[1]) + showOf() + showNum(totas[1]) + "</span><span>" + totasNames[1] + "</span><br>";
