@@ -228,7 +228,7 @@ var questions = [
 							"Help you get a job, internship, or acceptance into a university program",
 							"Convey your personal beliefs and feelings to potential employers",
 							"Replicate your resume in a nicer and more comprehensive form",
-							"c", "c", "c" ],
+							"e", "b", "c" ],
 
 	[
 							"Generally speaking, your professional portfolio should focus on?",
@@ -237,7 +237,7 @@ var questions = [
 							"on the area you want to work in or study",
 							"Conveying your personal beliefs and feelings to potential employers",
 							"Replicating your resume in a nicer and more comprehensive form",
-							"c", "c", "c" ],
+							"e", "a", "c" ],
 
 		[
 		"In SBISD (and on the SBISD CTE website), this course is the 1st level course for which pathways? ",
