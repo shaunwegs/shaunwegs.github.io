@@ -39,11 +39,11 @@ var rigob = [0, 0, 0, 0, 0];
 var rigoc = [0, 0, 0, 0, 0];
 var rigod = [0, 0, 0, 0, 0];
 var totasNames = [
-"&nbsp; - untitled category",
-"&nbsp; - untitled category",
-"&nbsp; - untitled category",
-"&nbsp; - untitled category",
-"&nbsp; - untitled category"
+"&nbsp; - ",
+"&nbsp; - ",
+"&nbsp; - ",
+"&nbsp; - ",
+"&nbsp; - "
 ]
 
 if (vs === null) { vs = 0; }
@@ -948,7 +948,7 @@ function renderResults(){
   test.innerHTML += now();
   test.innerHTML += attemptid();
     test.innerHTML += "<table id='render'><tr><td valign='top'><p id='render1'></p><br></td><td><p id='render2'></p></td></tr></table>";
-  render1.innerHTML += "<br><h1>Percentage Correct</h1><br>"
+  render1.innerHTML += "<br><h1>% Correct</h1><br>"
   render1.innerHTML += bigLet((cor/rscore*100).toFixed(0));
   render1.innerHTML += "<br><br>"
   render2.innerHTML += "<br><h3>Attempt #"+vs +" for " + userFirstName +" "+ userLastName +"<br> for March Programming Quiz.<br>Screenshot & upload your results!</h3><br><br><h1>Categories</h1>"
