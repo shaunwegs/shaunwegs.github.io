@@ -76,7 +76,7 @@ var questions = [
 		"yellow and magenta",
 		"yellow and purple",
 		"orange and cyan",
-		"b", "b", "b" ],
+		"c", "a", "b" ],
 
 		[
 			"In the RGB color model, how do we make blue?",
@@ -85,7 +85,7 @@ var questions = [
 			"yellow and magenta",
 			"yellow and purple",
 			"orange and cyan",
-			"b", "b", "b" ],
+			"c", "d", "b" ],
 
 			[
 				"In the RGB color model, how do we make yellow?",
@@ -94,7 +94,7 @@ var questions = [
 				"red and green",
 				"green and magenta",
 				"orange and cyan",
-				"c", "c", "c" ],
+				"c", "a", "c" ],
 				[
 					"In the RGB color model, how do we make cyan?",
 					"blue and magenta",
@@ -102,7 +102,7 @@ var questions = [
 					"yellow and magenta",
 					"yellow and purple",
 					"blue and green",
-					"e", "e", "e" ],
+					"c", "b", "e" ],
 			
 					[
 						"In the RGB color model, how do we make magenta?",
@@ -111,7 +111,7 @@ var questions = [
 						"blue and orange",
 						"red and purple",
 						"blue and red",
-						"e", "e", "e" ],
+						"c", "a", "e" ],
 	
 			
 					[
@@ -121,7 +121,7 @@ var questions = [
 						"blue",
 						"green",
 						"red",
-						"e", "e", "e" ],
+						"c", "b", "e" ],
 
 	[
 						"In the color code #720691, which of the primary colors has the higest value?",
@@ -130,7 +130,7 @@ var questions = [
 						"blue",
 						"green",
 						"red",
-						"c", "c", "c" ],
+						"c", "a", "c" ],
 	[
 						"In the color code #99b091, which of the primary colors has the higest value?",
 						"white",
@@ -138,7 +138,7 @@ var questions = [
 						"blue",
 						"green",
 						"red",
-						"d", "d", "d" ],
+						"c", "e", "d" ],
 
 [
 	"In the RGB color model, how do we make green?",
@@ -147,7 +147,7 @@ var questions = [
 	"yellow and cyan",
 	"yellow and purple",
 	"orange and cyan",
-	"b", "b", "b" ],
+	"c", "a", "b" ],
 		[
 	"Related to colors on the computer, where are the three 'primary' colors?",
 	"red, green, and blue",
@@ -155,7 +155,7 @@ var questions = [
 	"cyan, magenta, and yellow",
 	"blue, yellow, and magenta",
 	"cyan, green, and red",
-	"a", "a", "a" ],
+	"c", "b", "a" ],
 
 			
 					[
@@ -165,7 +165,7 @@ var questions = [
 						"green",
 						"blue",
 						"red",
-						"e", "e", "e" ],
+						"c", "b", "e" ],
 [
 						"In a hexadecimal color code, the middle pair of values represent?",
 						"white",
@@ -173,7 +173,7 @@ var questions = [
 						"green",
 						"blue",
 						"red",
-						"c", "c", "c" ],
+						"c", "a", "c" ],
 [
 						"In a hexadecimal color code, the last pair of values represent?",
 						"white",
@@ -181,7 +181,7 @@ var questions = [
 						"green",
 						"blue",
 						"red",
-						"d", "d", "d" ],
+						"c", "a", "d" ],
 
 
 
@@ -192,7 +192,7 @@ var questions = [
 							"3d modeling",
 							"programming",
 							"architecture",
-							"d", "d", "d" ],
+							"a", "e", "d" ],
 
 
 [
@@ -202,7 +202,7 @@ var questions = [
 							"3d modeling",
 							"programming",
 							"cosmetology",
-							"d", "d", "d" ],
+							"a", "b", "d" ],
 
 [
 							"Generally speaking, in addition to math and science courses, if you were interested in a career in engineering, which of the following areas of study would be the most beneficial related to your desired career...",
@@ -211,7 +211,7 @@ var questions = [
 							"physical education",
 							"3D modeling",
 							"culinary",
-							"d", "d", "d" ],
+							"a", "c", "d" ],
 [
 							"Generally speaking, in addition to math and science courses, if you were interested in a career in engineering, which of the following areas of study would be the most beneficial related to your desired career...",
 							"digital art",
@@ -219,7 +219,7 @@ var questions = [
 							"music",
 							"programming",
 							"architecture",
-							"d", "d", "d" ],
+							"a", "b", "d" ],
 
 		[
 							"Generally speaking, the goal of a professional portfolio is to",
