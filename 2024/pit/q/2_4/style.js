@@ -41,8 +41,8 @@ var rigod = [0, 0, 0, 0, 0];
 var totasNames = [
 "&nbsp; - CTE Specifics",
 "&nbsp; - WAIS & SBISD",
-"&nbsp; - Color Concepts",
-"&nbsp; - Hexadecimals",
+"&nbsp; - Colors & the Web",
+"&nbsp; - HTML & Code",
 "&nbsp; - Others"
 ]
 
