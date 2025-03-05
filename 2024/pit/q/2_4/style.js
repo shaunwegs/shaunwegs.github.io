@@ -1061,7 +1061,7 @@ function renderResults(){
   render1.innerHTML += "<br><br>"
   render2.innerHTML += "<br><h3>Attempt #"+vs +" for " + userFirstName +" "+ userLastName +"."
   render2.innerHTML += now();
-  render2.innerHTML += "<br>Screenshot & upload your results!</h3><br><br><h1>Categories</h1>"
+  render2.innerHTML += "<h3><br>Screenshot & upload your results!</h3><br><br><h1>Categories</h1>"
   render2.innerHTML += "<br>Correct Answers:<br>"
   render2.innerHTML += "<span>" + showNum(corrs[0]) + showOf() + showNum(totas[0]) + "</span><span>" + totasNames[0] + "</span><br>";
   render2.innerHTML += "<span>" + showNum(corrs[1]) + showOf() + showNum(totas[1]) + "</span><span>" + totasNames[1] + "</span><br>";
