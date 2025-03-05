@@ -43,7 +43,7 @@ var totasNames = [
 "&nbsp; - WAIS & SBISD",
 "&nbsp; - Terms & Concepts",
 "&nbsp; - Application",
-"&nbsp; - other"
+"&nbsp; - Future Planning"
 ]
 
 if (vs === null) { vs = 0; }
@@ -80,7 +80,7 @@ var questions = [
 							"3d modeling",
 							"programming",
 							"architecture",
-							"d", "d", "d" ],
+							"e", "c", "d" ],
 
 
 [
@@ -90,7 +90,7 @@ var questions = [
 							"3d modeling",
 							"programming",
 							"cosmetology",
-							"d", "d", "d" ],
+							"e", "a", "d" ],
 
 [
 							"Generally speaking, in addition to math and science courses, if you were interested in a career in engineering, which of the following areas of study would be the most beneficial related to your desired career...",
@@ -99,7 +99,7 @@ var questions = [
 							"physical education",
 							"3D modeling",
 							"culinary",
-							"d", "d", "d" ],
+							"e", "c", "d" ],
 [
 							"Generally speaking, in addition to math and science courses, if you were interested in a career in engineering, which of the following areas of study would be the most beneficial related to your desired career...",
 							"digital art",
@@ -107,7 +107,7 @@ var questions = [
 							"music",
 							"programming",
 							"architecture",
-							"d", "d", "d" ],
+							"e", "b", "d" ],
 
 		[
 							"Generally speaking, the goal of a professional portfolio is to",
@@ -116,7 +116,7 @@ var questions = [
 							"Help you get a job, internship, or acceptance into a university program",
 							"Convey your personal beliefs and feelings to potential employers",
 							"Replicate your resume in a nicer and more comprehensive form",
-							"c", "c", "c" ],
+							"e", "a", "c" ],
 
 	[
 							"Generally speaking, your professional portfolio should focus on?",
@@ -125,7 +125,7 @@ var questions = [
 							"on the area you want to work in or study",
 							"Conveying your personal beliefs and feelings to potential employers",
 							"Replicating your resume in a nicer and more comprehensive form",
-							"c", "c", "c" ],
+							"e", "d", "c" ],
 
 		[
 		"In SBISD (and on the SBISD CTE website), this course is the 1st level course for which pathways? ",
@@ -134,7 +134,7 @@ var questions = [
 		"Programming/Software Development & IT Support/Service",
 		"IT Support/Service only",
 		"Web Design & Design/Multimedia",
-		"d", "d", "d" ],
+		"b", "a", "d" ],
 		[
 		"The acronym CTE is short for ",
 		"Career, Technology, & Entrepreneurship",
@@ -142,7 +142,7 @@ var questions = [
 		"Career Training Education",
 		"Career and Technical Education",
 		"College and Technical Excellence",
-		"d", "d", "d" ],
+		"a", "c", "d" ],
 			[
 		"Completion of this course, with a passing grade earns you",
 		"a middle school elective credit",
@@ -150,7 +150,7 @@ var questions = [
 		"a high school CTE credit",
 		"a middle school CTE credit",
 		"a middle school Tech Apps credit",
-		"c", "c", "c" ],
+		"b", "a", "c" ],
 	[
 		"If you want to continue this specific pathway, what should you take next",
 		"Computer Maintenance at Guthrie",
@@ -158,7 +158,7 @@ var questions = [
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
-		"a", "a", "a" ],
+		"a", "c", "a" ],
 
 	[
 		"If you want to learn Photoshop, 3D modeling, or Video Editing, what should you take next?",
@@ -167,7 +167,7 @@ var questions = [
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
-		"d", "d", "d" ],
+		"a", "b", "d" ],
 
 	[
 		"What is the pre-req for 3D Modeling & Animation @ Guthrie?",
@@ -176,7 +176,7 @@ var questions = [
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
-		"d", "d", "d" ],
+		"b", "c", "d" ],
 
 	[
 		"What is the pre-req for Photography @ Guthrie?",
@@ -185,7 +185,7 @@ var questions = [
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
-		"d", "d", "d" ],
+		"b", "a", "d" ],
 
 	[
 		"What is the pre-req for Video Production @ Guthrie?",
@@ -194,7 +194,7 @@ var questions = [
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
-		"d", "d", "d" ],
+		"b", "c", "d" ],
 
 	[
 		"What is the pre-req for Graphic Design @ Guthrie?",
@@ -203,7 +203,7 @@ var questions = [
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
-		"d", "d", "d" ],
+		"b", "d", "d" ],
 
 	[
 		"What is the pre-req for CyberSecurity @ Guthrie?",
@@ -212,7 +212,7 @@ var questions = [
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
-		"c", "c", "c" ],
+		"b", "d", "c" ],
 	
 		[
 		"We are a ",
@@ -221,7 +221,7 @@ var questions = [
 		"state charter, but not district charter",
 		"neither state not district charter",
 		"private school",
-		"a", "a", "a" ],
+		"b", "c", "a" ],
 
 		[
 		"While not listed on the SBISD CTE website, Texas says this course also supports which pathway? ",
@@ -230,7 +230,7 @@ var questions = [
 		"Filmmaking",
 		"IT Support/Service",
 		"3D Animation",
-		"b", "b", "b" ],
+		"a", "c", "b" ],
 
 		[
 		"While not listed on the SBISD CTE website, Texas says this course also supports which pathway? ",
@@ -239,7 +239,7 @@ var questions = [
 		"Graphic Design",
 		"IT Support/Service",
 		"Commercial Photography",
-		"b", "b", "b" ],
+		"a", "d", "b" ],
 
 
 
@@ -250,7 +250,7 @@ var questions = [
 "Digital Communications",
 "Engineering",
 "IT Support & Services",
-"e", "e", "e" ],
+"a", "b", "e" ],
 
 
 
@@ -262,7 +262,7 @@ var questions = [
 			"Mu Alpha Theta",
 			"Science National Honor Society",
 			"National Honor Society",
-			"b", "b", "a" ],
+			"b", "c", "a" ],
 			[
 			"This course is part of which Texas HS Endorsement?",
 			"STEM",
@@ -270,7 +270,7 @@ var questions = [
 			"Multidisciplinary",
 			"Arts & Humanities",
 			"Public Service",
-			"b", "b", "b" ],
+			"a", "d", "b" ],
 
 		[
 				"Can you take Computer Sciences courses for IB in 11th & 12th?",
@@ -279,7 +279,7 @@ var questions = [
 				"Yes, but only for IB DP",
 				"Yes, but only for IB CP",
 				"No",
-				"b", "b", "b" ],
+				"b", "a", "b" ],
 		[
 						"Can you take Cyber Security, Computer Maintenance, or other Guthrie courses for IB in 11th & 12th?",
 						"Yes, for IB MYP",
@@ -287,7 +287,7 @@ var questions = [
 						"Yes, for both IB CP & DP",
 						"Yes, but only for IB DP",
 						"No",
-						"b", "b", "b" ],
+						"b", "d", "b" ],
 	
 			[
 				"Which of the following is NOT true about professional portfolios?",
@@ -296,7 +296,7 @@ var questions = [
 				"Portfolios must include personal details about your faith and beliefs",
 				"Projects on your portfolio should show some of the progress and planning",
 				"You should highlight specific skills and abilities in your projects",
-				"c", "c", "c" ],
+				"d", "a", "c" ],
 				[
 					"Which of the following is NOT true about professional portfolios?",
 					"The selection of projects on your portfolio should relate to what you want to do",
@@ -304,7 +304,7 @@ var questions = [
 					"Portfolios should be a comprehensive collection of all of your work",
 					"Projects on your portfolio should show some of the progress and planning",
 					"You should highlight specific skills and abilities in your projects",
-					"c", "c", "c" ],
+					"d", "b", "c" ],
 					[
 						"If you are interested in more than one career, <BR>what's generally recommended for your professional portfolios?",
 						"Create one portfolio that shows a variety of projects related to all of your different professional interests",
@@ -312,7 +312,7 @@ var questions = [
 						"Create more the one portfolio; each one specifically tailored for each interest",
 						"Don't create a portfolio; if you have more than one interest then its better not to have a portfolio",
 						"Create a very generic portfolio that doesn't show any specific skills related to any specific career",
-						"c", "c", "c" ],
+						"d", "d", "c" ],
 						[
 							"Related to a project in your portfolio, <BR>which of the following should NOT be included?",
 							"The Problem/Goal and Solution Statements",
@@ -320,7 +320,7 @@ var questions = [
 							"All of these should be included",
 							"Images from the finished product",
 							"Emphasis on relevant skills/abilities you want to showcase/feature",
-							"c", "c", "c" ],
+							"d", "a", "c" ],
 
 						[
 							"Related to a project in your portfolio, <BR>which of the following should NOT be included?",
@@ -329,7 +329,7 @@ var questions = [
 							"All of these should be included",
 							"Images from the finished product",
 							"Emphasis on relevant skills/abilities you want to showcase/feature",
-							"c", "c", "c" ],
+							"d", "d", "c" ],
 
 					[
 		"If you want to study digital arts and media, like 3D Modeling or Graphic Design or Photoshop, what should you take next year?",
@@ -338,7 +338,7 @@ var questions = [
 		"Entrepreneurship",
 		"Computer Science",
 		"Principles of Arts",
-		"e", "e", "e" ],
+		"b", "c", "e" ],
 	[
 		"If you interested in the Cyber Security pathway, what should you take next year?",
 		"Architecture",
@@ -346,7 +346,7 @@ var questions = [
 		"Entrepreneurship",
 		"Computer Science",
 		"Principles of Arts",
-		"d", "d", "d" ],
+		"b", "a", "d" ],
 	[
 		"If you want to earn a Python programming certification, what should you take next year?",
 		"Architecture",
@@ -354,7 +354,7 @@ var questions = [
 		"Entrepreneurship",
 		"Computer Science",
 		"Principles of Arts",
-		"d", "d", "d" ],
+		"b", "c", "d" ],
 
 [
 							"Which of the following terms means:<br>follow instructions in a specific order, one line of instruction at a time from the start to the end in the specified order, until finishing the algorithm.",
@@ -363,7 +363,7 @@ var questions = [
 							"sequence",
 							"iteration",
 							"selection",
-							"c", "c", "c" ],
+							"c", "d", "c" ],
 	
 							[
 							"Which of the following terms means:<br>Sometimes part of the instructions are not always relevant, depending on the situation. So, some instructions only apply if specific conditions are met. In programming, we often do this with IF statements. e.g. If a condition is met then do one thing, else do something else.",
@@ -372,7 +372,7 @@ var questions = [
 							"sequence",
 							"iteration",
 							"selection",
-							"e", "e", "e" ],
+							"c", "a", "e" ],
 	
 	
 							[
@@ -382,7 +382,7 @@ var questions = [
 							"sequence",
 							"iteration",
 							"selection",
-							"d", "d", "d" ],
+							"c", "a", "d" ],
 	
 							[
 							"The structures we use to move through an algorithm are called",
@@ -391,7 +391,7 @@ var questions = [
 							"sequence",
 							"iteration",
 							"selection",
-							"a", "a", "a" ],	
+							"c", "d", "a" ],	
 	
 							[
 							"Which of the following is not one of the basic control flow structures?",
@@ -400,7 +400,7 @@ var questions = [
 							"sequence",
 							"iteration",
 							"selection",
-							"b", "b", "b" ],
+							"c", "a", "b" ],
 	[
 							"Selection is also known as...",
 							"an iteration.",
@@ -408,7 +408,7 @@ var questions = [
 							"A sequence",
 							"a conditional",
 							"control flow",
-							"d", "d", "d" ],
+							"c", "d", "d" ],
 							[
 							"Iteration is also known as...",
 							"a selection.",
@@ -416,7 +416,7 @@ var questions = [
 							"A sequence",
 							"a conditional",
 							"control flow",
-							"b", "b", "b" ],
+							"c", "a", "b" ],
 	
 							[
 							"What is selection?",
@@ -425,7 +425,7 @@ var questions = [
 							"A set of procedures or directions to accomplish a task",
 							"a computer program",
 							"Part of a program that only runs if a certain condition is met",
-							"e", "e", "e" ],
+							"c", "e", "e" ],
 							[
 							"What is iteration?",
 							"a system used for designing and programming computers and devices.",
@@ -433,7 +433,7 @@ var questions = [
 							"A set of procedures or directions to accomplish a task",
 							"a computer program",
 							"Part of a program that only runs if a certain condition is met",
-							"b", "b", "b" ],
+							"c", "e", "b" ],
 							[
 							"What is an algorithm?",
 							"a system used for designing and programming computers and devices.",
@@ -441,7 +441,7 @@ var questions = [
 							"A set of procedures or directions to accomplish a task",
 							"a computer program",
 							"Part of a program that only runs if a certain condition is met",
-							"c", "c", "c" ],
+							"c", "b", "c" ],
 							[
 							"What is an algorithm?",
 							"a system used for designing and programming computers and devices.",
@@ -449,7 +449,7 @@ var questions = [
 							"a series of steps leading to a desired outcome",
 							"a type of programming language",
 							"a mathematical formula that requires computation and programming",
-							"c", "c", "c" ],
+							"c", "a", "c" ],
 
 							[
 							"A value that can change while a program is running is called a... ?",
@@ -458,7 +458,7 @@ var questions = [
 							"variable",
 							"algorithm",
 							"control flow",
-							"c", "c", "c" ],
+							"c", "d", "c" ],
 
 							[
 							"If we want to store a value in our program, like say to keep track of a player's score or remaining lives, we can do this using a... ?",
@@ -467,7 +467,7 @@ var questions = [
 							"variable",
 							"algorithm",
 							"control flow",
-							"c", "c", "c" ],
+							"c", "e", "c" ],
 
 
 
@@ -478,7 +478,7 @@ var questions = [
 							"variable",
 							"algorithm",
 							"control flow",
-							"b", "b", "b" ],
+							"c", "a", "b" ],
 
 
 
@@ -489,7 +489,7 @@ var questions = [
 							"variable",
 							"algorithm",
 							"control flow",
-							"a", "a", "a" ],
+							"c", "d", "a" ],
 
 
 							[
@@ -499,7 +499,7 @@ var questions = [
 							"a variable",
 							"defining an object",
 							"control flow",
-							"c", "c", "c" ],
+							"d", "a", "c" ],
 
 [
 							"The code snippet below shows what?<br><img src='img/02.png' width='200'><br>",
@@ -508,7 +508,7 @@ var questions = [
 							"a variable",
 							"defining an object",
 							"a finite state machine",
-							"a", "a", "a" ],
+							"d", "b", "a" ],
 
 
 							[
@@ -518,7 +518,7 @@ var questions = [
 							"a variable",
 							"defining an object",
 							"a finite state machine",
-							"b", "b", "b" ],
+							"d", "a", "b" ],
 
 [
 							"The code snippet below shows what?<br><img src='img/02.png' width='200'><br>",
@@ -527,7 +527,7 @@ var questions = [
 							"a variable",
 							"defining an object",
 							"a finite state machine",
-							"a", "a", "a" ],
+							"d", "d", "a" ],
 
 
 							[
@@ -537,7 +537,7 @@ var questions = [
 							"a variable",
 							"defining an object",
 							"a finite state machine",
-							"b", "b", "b" ],
+							"d", "e", "b" ],
 
 
 
@@ -548,7 +548,7 @@ var questions = [
 							"a sequence",
 							"defining an object",
 							"an infinite loop",
-							"c", "c", "c" ],
+							"d", "b", "c" ],
 
 
 
@@ -559,7 +559,7 @@ var questions = [
 							"nothing will appear to happen",
 							"the game won't work due to a bug/error",
 							"none of these",
-							"c", "c", "c" ],
+							"d", "e", "c" ],
 
 
 
@@ -570,7 +570,7 @@ var questions = [
 							"nothing will appear to happen",
 							"the game won't work due to a bug/error",
 							"none of these",
-							"c", "c", "c" ],
+							"d", "a", "c" ],
 
 
 							[
@@ -580,7 +580,7 @@ var questions = [
 							"nothing will appear to happen",
 							"the game won't work due to a bug/error",
 							"none of these",
-							"b", "b", "b" ],
+							"d", "e", "b" ],
 
 
 
@@ -592,7 +592,7 @@ var questions = [
 							"nothing will appear to happen",
 							"the game won't work due to a bug/error",
 							"none of these",
-							"c", "c", "c" ],
+							"d", "a", "c" ],
 
 
 							[
@@ -602,7 +602,7 @@ var questions = [
 							"nothing will appear to happen",
 							"the game won't work due to a bug/error",
 							"none of these",
-							"d", "d", "d" ],
+							"d", "c", "d" ],
 
 
 
@@ -613,7 +613,7 @@ var questions = [
 							"nothing will appear to happen",
 							"the game won't work due to a bug/error",
 							"none of these",
-							"a", "a", "a" ],
+							"d", "e", "a" ],
 
 
 							[
@@ -623,7 +623,7 @@ var questions = [
 							"nothing will appear to happen",
 							"the game won't work due to a bug/error",
 							"none of these",
-							"c", "c", "c" ],
+							"d", "a", "c" ],
 
 
 							[
@@ -633,7 +633,7 @@ var questions = [
 							"nothing will appear to happen",
 							"the game won't work due to a bug/error",
 							"none of these",
-							"b", "b", "b" ],
+							"d", "c", "b" ],
 
 
 
@@ -644,7 +644,7 @@ var questions = [
 							"3",
 							"4",
 							"nothing will display, there's an error/bug",
-							"c", "c", "c" ],
+							"d", "e", "c" ],
 
 
 
@@ -655,7 +655,7 @@ var questions = [
 							"4",
 							"6",
 							"10",
-							"d", "d", "d" ],
+							"d", "a", "d" ],
 
 
 							[
@@ -665,7 +665,7 @@ var questions = [
 							"nothing will appear to happen",
 							"the game won't work due to a bug/error",
 							"none of these",
-							"a", "a", "a" ],
+							"d", "b", "a" ],
 
 
 							[
@@ -675,7 +675,7 @@ var questions = [
 							"nothing will appear to happen",
 							"the game won't work due to a bug/error",
 							"none of these",
-							"b", "b", "b" ],
+							"d", "a", "b" ],
 
 							[
 							"What will happen if this program is run?<br><img src='img/17.png' width='300'><br>",
@@ -684,7 +684,7 @@ var questions = [
 							"nothing will appear to happen",
 							"the game won't work due to a bug/error",
 							"none of these",
-							"d", "d", "d" ],
+							"d", "b", "d" ],
 
 
 
@@ -695,7 +695,7 @@ var questions = [
 							"nothing will appear to happen",
 							"the game won't work due to a bug/error",
 							"none of these",
-							"b", "b", "b" ],
+							"d", "a", "b" ],
 
 
 							[
@@ -705,7 +705,7 @@ var questions = [
 							"-5",
 							"21",
 							"20",
-							"d", "d", "d" ],
+							"d", "b", "d" ],
 
 
 							[
@@ -715,7 +715,7 @@ var questions = [
 							"5",
 							"7",
 							"9",
-							"d", "d", "d" ],
+							"d", "a", "d" ],
 
 
 
@@ -727,7 +727,7 @@ var questions = [
 							"3",
 							"15",
 							"13",
-							"b", "b", "b" ],
+							"d", "c", "b" ],
 
 
 
@@ -739,7 +739,7 @@ var questions = [
 							"3",
 							"12",
 							"15",
-							"d", "d", "d" ],
+							"d", "e", "d" ],
 
 
 
@@ -751,7 +751,7 @@ var questions = [
 							"25",
 							"20",
 							"15",
-							"d", "d", "d" ],
+							"d", "a", "d" ],
 
 
 
@@ -763,7 +763,7 @@ var questions = [
 							"20",
 							"Nothing, because there is an error in the program",
 							"25",
-							"d", "d", "d" ],
+							"d", "c", "d" ],
 
 
 
@@ -777,7 +777,7 @@ var questions = [
 							"15",
 							"Nothing, because there is an error in the program",
 							"-5",
-							"b", "b", "b" ],
+							"d", "e", "b" ],
 ];
 
 function now() {
