@@ -246,7 +246,7 @@ var questions = [
 		"Progamming/Software Development & IT Support/Service",
 		"IT Support/Service only",
 		"Web Design & Design/Multimedia",
-		"d", "d", "d" ],
+		"b", "a", "d" ],
 		[
 		"The acronym CTE is short for ",
 		"Career, Technology, & Entrepreneurship",
@@ -254,7 +254,7 @@ var questions = [
 		"Career Training Education",
 		"Career and Technical Education",
 		"College and Technical Excellence",
-		"d", "d", "d" ],
+		"a", "e", "d" ],
 			[
 		"Completion of this course, with a passing grade earns you",
 		"a middle school elective credit",
@@ -262,7 +262,7 @@ var questions = [
 		"a high school CTE credit",
 		"a middle school CTE credit",
 		"a middle school Tech Apps credit",
-		"c", "c", "c" ],
+		"a", "e", "c" ],
 	[
 		"If you want to continue this specific pathway, what should you take next",
 		"Computer Maintenance at Guthrie",
@@ -270,7 +270,7 @@ var questions = [
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
-		"a", "a", "a" ],
+		"b", "c", "a" ],
 
 	[
 		"If you want to learn Photoshop, 3D modeling, or Video Editing, what should you take next?",
@@ -279,7 +279,7 @@ var questions = [
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
-		"d", "d", "d" ],
+		"b", "a", "d" ],
 
 	[
 		"What is the pre-req for 3D Modeling & Animation @ Guthrie?",
@@ -288,7 +288,7 @@ var questions = [
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
-		"d", "d", "d" ],
+		"b", "d", "d" ],
 
 	[
 		"What is the pre-req for Photography @ Guthrie?",
@@ -297,7 +297,7 @@ var questions = [
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
-		"d", "d", "d" ],
+		"b", "e", "d" ],
 
 	[
 		"What is the pre-req for Video Production @ Guthrie?",
@@ -306,7 +306,7 @@ var questions = [
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
-		"d", "d", "d" ],
+		"b", "c", "d" ],
 
 	[
 		"What is the pre-req for Graphic Design @ Guthrie?",
@@ -315,7 +315,7 @@ var questions = [
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
-		"d", "d", "d" ],
+		"b", "a", "d" ],
 
 	[
 		"What is the pre-req for CyberSecurity @ Guthrie?",
@@ -324,7 +324,7 @@ var questions = [
 		"Computer Science at WAIS",
 		"Principles of Arts at WAIS",
 		"IB Diploma CS at WAIS",
-		"c", "c", "c" ],
+		"b", "d", "c" ],
 	
 		[
 		"We are a ",
@@ -333,7 +333,7 @@ var questions = [
 		"state charter, but not district charter",
 		"neither state not district charter",
 		"private school",
-		"a", "a", "a" ],
+		"b", "c", "a" ],
 
 		[
 		"While not listed on the SBISD CTE website, Texas says this course also supports which pathway? ",
@@ -342,7 +342,7 @@ var questions = [
 		"Filmmaking",
 		"IT Support/Service",
 		"3D Animation",
-		"b", "b", "b" ],
+		"a", "d", "b" ],
 
 		[
 		"While not listed on the SBISD CTE website, Texas says this course also supports which pathway? ",
@@ -351,7 +351,7 @@ var questions = [
 		"Graphic Design",
 		"IT Support/Service",
 		"Commercial Photography",
-		"b", "b", "b" ],
+		"a", "c", "b" ],
 
 	[
 "This course is part of which CTE pathway",
@@ -360,7 +360,7 @@ var questions = [
 "Digital Communications",
 "Engineering",
 "IT Support & Services",
-"e", "e", "e" ],
+"a", "c", "e" ],
 
 	[
 		"IB MYP is for grades",
@@ -369,7 +369,7 @@ var questions = [
 		"4-8",
 		"9 & 10",
 		"11 & 12",
-		"b", "b", "a" ],
+		"b", "c", "a" ],
 
 	[
 		"IB CP is for grades",
@@ -378,14 +378,14 @@ var questions = [
 		"6-8",
 		"4-8",
 		"9 & 10",
-		"b", "b", "a" ],	[
+		"b", "d", "a" ],	[
 			"IB DP is for grades",
 			"11 & 12",
 			"6-10",
 			"6-8",
 			"4-8",
 			"9 & 10",
-			"b", "b", "a" ],
+			"b", "c", "a" ],
 
 	[
 		"IB DP is an acronym for",
@@ -394,7 +394,7 @@ var questions = [
 		"International Baccalaureate Diagnostic Process",
 		"International Baccalaureate Design Program",
 		"International Baccalaureate Dynamic Program",
-		"b", "b", "a" ],
+		"d", "e", "a" ],
 		[
 				"IB CP is an acronym for",
 				"International Baccalaureate Career-related Programme",
@@ -402,7 +402,7 @@ var questions = [
 				"International Baccalaureate Competency Process",
 				"International Baccalaureate Capstone Project",
 				"International Baccalaureate Certificate Programme",
-				"b", "b", "a" ],
+				"d", "a", "a" ],
 
 
 
@@ -415,7 +415,7 @@ var questions = [
 			"Mu Alpha Theta",
 			"Science National Honor Society",
 			"National Honor Society",
-			"b", "b", "a" ],
+			"d", "b", "a" ],
 			[
 			"This course is part of which Texas HS Endorsement?",
 			"STEM",
@@ -423,7 +423,7 @@ var questions = [
 			"Multidisciplinary",
 			"Arts & Humanities",
 			"Public Service",
-			"b", "b", "b" ],
+			"a", "c", "b" ],
 [
 	"This course is part of which subject group in IB MYP?",
 	"Design",
@@ -431,7 +431,7 @@ var questions = [
 	"IT",
 	"Computing",
 	"Math",
-	"b", "b", "a" ],
+	"d", "c", "a" ],
 
 		[
 				"Can you take Computer Sciences courses for IB in 11th & 12th?",
@@ -440,7 +440,7 @@ var questions = [
 				"Yes, but only for IB DP",
 				"Yes, but only for IB CP",
 				"No",
-				"b", "b", "b" ],
+				"b", "a", "b" ],
 		[
 						"Can you take Cyber Security, Computer Maintenance, or other Guthrie courses for IB in 11th & 12th?",
 						"Yes, for IB MYP",
@@ -448,7 +448,7 @@ var questions = [
 						"Yes, for both IB CP & DP",
 						"Yes, but only for IB DP",
 						"No",
-						"b", "b", "b" ],
+						"b", "d", "b" ],
 	[
 "While most modern websites and webpages use multiple languages, you could build a site using only",
 "Javascript",
@@ -456,7 +456,7 @@ var questions = [
 "HTML",
 "Rust",
 "Trick question, you have to use multiple languages to create a website/webpage",
-"c", "c", "c" ],	
+"d", "e", "c" ],	
 
 		[
 			"What do the letters in the acronym HTML stand for?",
@@ -465,7 +465,7 @@ var questions = [
 			"HyperText Markup Language",
 			"Holographic Technology Machine Language",
 			"Hashing Terminal Machine Language",
-			"c", "c", "c" ],
+			"d", "a", "c" ],
 	
 		[
 			"In the acronym HTML, what does the H stand for?",
