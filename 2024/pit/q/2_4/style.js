@@ -474,7 +474,7 @@ var questions = [
 			"Hyper",
 			"Holographic",
 			"Hashing",
-			"c", "c", "c" ],
+			"d", "e", "c" ],
 		[
 			"In the acronym HTML, what does the T stand for?",
 			"Terminal",
@@ -482,7 +482,7 @@ var questions = [
 			"Text",
 			"Typogaphic",
 			"Tele",
-			"c", "c", "c" ],
+			"d", "b", "c" ],
 		[
 			"In the acronym HTML, what does the M stand for?",
 			"Machine",
@@ -490,7 +490,7 @@ var questions = [
 			"Markup",
 			"Material",
 			"Multi-processing",
-			"c", "c", "c" ],
+			"d", "a", "c" ],
 		[
 			"In the acronym HTML, what does the L stand for?",
 			"Leading",
@@ -498,7 +498,7 @@ var questions = [
 			"Language",
 			"Log",
 			"Link",
-			"c", "c", "c" ],
+			"d", "b", "c" ],
 			[
 				"Which of the following is NOT true about professional portfolios?",
 				"The selection of projects on your portfolio should relate to what you want to do",
@@ -506,7 +506,7 @@ var questions = [
 				"Portfolios must include personal details about your faith and beliefs",
 				"Projects on your portfolio should show some of the progress and planning",
 				"You should highlight specific skills and abilities in your projects",
-				"c", "c", "c" ],
+				"e", "a", "c" ],
 				[
 					"Which of the following is NOT true about professional portfolios?",
 					"The selection of projects on your portfolio should relate to what you want to do",
@@ -514,7 +514,7 @@ var questions = [
 					"Portfolios should be a comprehensive collection of all of your work",
 					"Projects on your portfolio should show some of the progress and planning",
 					"You should highlight specific skills and abilities in your projects",
-					"c", "c", "c" ],
+					"e", "b", "c" ],
 					[
 						"If you are interested in more than one career, <BR>what's generally recommended for your professional portfolios?",
 						"Create one portfolio that shows a variety of projects related to all of your different professional interests",
@@ -522,7 +522,7 @@ var questions = [
 						"Create more the one portfolio; each one specifically tailored for each interest",
 						"Don't create a portfolio; if you have more than one interest then its better not to have a portfolio",
 						"Create a very generic portfolio that doesn't show any specific skills related to any specific career",
-						"c", "c", "c" ],
+						"e", "a", "c" ],
 						[
 							"Related to a project in your portfolio, <BR>which of the following should NOT be included?",
 							"The Problem/Goal and Solution Statements",
@@ -530,7 +530,7 @@ var questions = [
 							"All of these should be included",
 							"Images from the finished product",
 							"Emphasis on relevant skills/abilities you want to showcase/feature",
-							"c", "c", "c" ],
+							"e", "b", "c" ],
 
 						[
 							"Related to a project in your portfolio, <BR>which of the following should NOT be included?",
@@ -539,7 +539,7 @@ var questions = [
 							"All of these should be included",
 							"Images from the finished product",
 							"Emphasis on relevant skills/abilities you want to showcase/feature",
-							"c", "c", "c" ],
+							"e", "a", "c" ],
 
 					[
 						"Which software are we using to write and edit HTML code?",
@@ -548,7 +548,7 @@ var questions = [
 						"Visual Studio Code",
 						"Xcode",
 						"Webstorm",
-						"c", "c", "c" ],	
+						"d", "a", "c" ],	
 					[
 						"VS Code is made by which company?",
 						"Dell",
@@ -556,15 +556,8 @@ var questions = [
 						"Microsoft",
 						"Apple",
 						"Google",
-						"c", "c", "c" ],
-					[
-						"The abbreviation and file extension for markdown is",
-						"mkn",
-						"mkd",
-						"md",
-						"mdn",
-						"mrd",
-						"c", "c", "c" ],	
+						"e", "a", "c" ],
+					[	
 						[
 							"The file extension for html is",
 							"hyper",
@@ -572,14 +565,14 @@ var questions = [
 							"html",
 							"ht",
 							"web",
-							"c", "c", "c" ],[
+							"d", "e", "c" ],[
 							"To create an image, use which type of tag?",
 							"a link tag",
 							"a font tag",
 							"an anchor tag",
 							"an image tag",
 							"a text tag",
-							"d", "d", "d" ],
+							"d", "b", "d" ],
 							[
 							"To add colors with basic HTML, we use?",
 							"js scripts",
@@ -587,7 +580,7 @@ var questions = [
 							"hexidecimal codes",
 							"a color tag",
 							"css code",
-							"c", "c", "c" ],
+							"d", "a", "c" ],
 							[
 							"Hexadecimal uses what color system?",
 							"js scripts",
@@ -595,7 +588,7 @@ var questions = [
 							"RGB",
 							"CMYK",
 							"RYB",
-							"c", "c", "c" ],
+							"c", "d", "c" ],
 							[
 							"We call them hexadecimal color codes because",
 							"each digit represents one of the 6 primary or secondary colors",
@@ -603,7 +596,7 @@ var questions = [
 							"each digit can represent 16 different values",
 							"the color code has 6 digits",
 							"there are 16 different main sections of the hexadecimal color space",
-							"c", "c", "c" ],
+							"c", "a", "c" ],
 							[
 							"What is the hexadecimal value for white?",
 							"#F0F0F0",
@@ -611,7 +604,7 @@ var questions = [
 							"#FF0000",
 							"#000000",
 							"#FFFFFF",
-							"e", "e", "e" ],
+							"c", "b", "e" ],
 							[
 							"What is the hexadecimal value for black?",
 							"#F0F0F0",
@@ -619,7 +612,7 @@ var questions = [
 							"#FF0000",
 							"#000000",
 							"#FFFFFF",
-							"d", "d", "d" ],
+							"c", "a", "d" ],
 							[
 							"What is the hexadecimal value for red?",
 							"#0000FF",
@@ -627,7 +620,7 @@ var questions = [
 							"#FF0000",
 							"#FFFF00",
 							"#00FFFF",
-							"c", "c", "c" ],
+							"c", "d", "c" ],
 							[
 							"What is the hexadecimal value for red?",
 							"#F0000F",
@@ -635,7 +628,7 @@ var questions = [
 							"#FF0000",
 							"#F00000",
 							"#0000FF",
-							"c", "c", "c" ],
+							"c", "a", "c" ],
 							[
 							"What is the hexadecimal value for blue?",
 							"#0000FF",
@@ -643,7 +636,7 @@ var questions = [
 							"#FF0000",
 							"#FFFF00",
 							"#00FFFF",
-							"a", "a", "a" ],
+							"c", "b", "a" ],
 							[
 							"What is the hexadecimal value for blue?",
 							"#F0000F",
@@ -651,7 +644,7 @@ var questions = [
 							"#FF0000",
 							"#00000F",
 							"#0000FF",
-							"e", "e", "e" ],
+							"c", "d", "e" ],
 							[
 							"What is the hexadecimal value for green?",
 							"#0000FF",
@@ -659,7 +652,7 @@ var questions = [
 							"#FF0000",
 							"#FFFF00",
 							"#00FFFF",
-							"b", "b", "b" ],
+							"c", "a", "b" ],
 							[
 							"What is the hexadecimal value for yellow?",
 							"#0000FF",
@@ -667,7 +660,7 @@ var questions = [
 							"#FF0000",
 							"#FFFF00",
 							"#00FFFF",
-							"d", "d", "d" ],
+							"c", "e", "d" ],
 							[
 							"What is the hexadecimal value for cyan?",
 							"#0000FF",
@@ -675,7 +668,7 @@ var questions = [
 							"#FF0000",
 							"#FFFF00",
 							"#00FFFF",
-							"e", "e", "e" ],
+							"c", "a", "e" ],
 							[
 							"What is the hexadecimal value for magenta?",
 							"#FF00FF",
@@ -683,7 +676,7 @@ var questions = [
 							"#FF0000",
 							"#FFFF00",
 							"#00FFFF",
-							"a", "a", "a" ],
+							"c", "b", "a" ],
 							[
 							"An HTML document is typically composed of what sections?",
 							"head and body",
@@ -691,7 +684,7 @@ var questions = [
 							"opening, main, closing",
 							"header, body, and footer",
 							"main and appendices",
-							"a", "a", "a" ],
+							"d", "c", "a" ],
 							[
 							"In an HTML document, most content should be contained in the...",
 							"body",
@@ -699,7 +692,7 @@ var questions = [
 							"main",
 							"header",
 							"appendices",
-							"a", "a", "a" ],
+							"d", "b", "a" ],
 							[
 							"In an HTML document, where should you put the title tag?",
 							"body",
@@ -707,7 +700,7 @@ var questions = [
 							"main",
 							"header",
 							"appendices",
-							"b", "b", "b" ],
+							"d", "e", "b" ],
 							[
 							"When you go to a website, the name of the website can usually be seen at the top of the window (or on a tab if you have multiple tabs open). <BR>What does the correct tag look like?",
 							"&#60;head value='Name of Site' />",
@@ -715,7 +708,7 @@ var questions = [
 							"&#60;title value='Name of Site'>&#60;/title>",
 							"&#60;header>Name of Site&#60;/header>",
 							"&#60;head>Name of Site&#60;/head>",
-							"b", "b", "b" ],
+							"d", "c", "b" ],
 [
 									"To add a png image to our site, what does the correct tag look like?",
 									"&#60;graphic> Name_of_Image.png &#60;/graphic>",
@@ -723,7 +716,7 @@ var questions = [
 									"&#60;img src='Name_of_Image.png' />",
 									"&#60;pic='Name_of_Image.png'>",
 									"&#60;png val='Name_of_Image' />",
-									"c", "c", "c" ],
+									"d", "a", "c" ],
 [
 									"We would like to add a picture to our site. <BR>The picture is named jose-antunes-sobrinho.jpg. <BR>How would we write the HTML tags to do this?",
 									"&#60;img src='jose-antunes-sobrinho.gif' />",
@@ -731,7 +724,7 @@ var questions = [
 									"&#60;img src='jose-antunes-sobrinho.jpg' />",
 									"&#60;img src='jose-antunes-sobrinho.webp' />",
 									"All of these will work.",
-									"c", "c", "c" ],
+									"d", "e", "c" ],
 
 									[
 									"You've created a webpage which includes both text and images. <BR>You've sent only the html file to your friend. <BR>What can you probably expect to happen when they load it?",
@@ -740,7 +733,7 @@ var questions = [
 									"text will load, but the images won't.",
 									"images will load, but the text won't.",
 									"nothing will load",
-									"c", "c", "c" ],
+									"d", "a", "c" ],
 									[
 									"We can add an image to our page using the tag &#60;img src='name_of_image.jpg'/>. <BR>We specify the path for the image in the src attribute. <BR>What does src mean?",
 									"src is an acronym for scaleable reloadable content",
@@ -748,7 +741,7 @@ var questions = [
 									"src is short for source",
 									"src doesn't actually mean anything, you just have to remember it",
 									"src is an acronym for system resource/content",
-									"c", "c", "c" ],
+									"d", "e", "c" ],
 
 									[
 									"We want to change the color of our webpage's background. <BR>Where would we do that?",
@@ -757,7 +750,7 @@ var questions = [
 									"in the body tag",
 									"in the head tag",
 									"in the html tag",
-									"c", "c", "c" ],
+									"d", "b", "c" ],
 
 									[
 									"We want to use an image for the background of our webpage. <BR>Where would we do that?",
@@ -766,7 +759,7 @@ var questions = [
 									"in the body tag",
 									"in the head tag",
 									"in the html tag",
-									"c", "c", "c" ],
+									"d", "a", "c" ],
 									[
 									"We have an image on our webpage, but it's too big. <BR>What's a quick way to fix it?",
 									"Reload the page to see if it loads smaller.",
@@ -774,7 +767,7 @@ var questions = [
 									"add a width or height attribute in the img tag.",
 									"add a size attribute in the img tag.",
 									"use javascript to resize it",
-									"c", "c", "c" ],
+									"d", "b", "c" ],
 									[
 									"The content on our page keeps loading on the left side.<br>How can we get it to load in the middle instead?",
 									"You can't change where things load on a webpage without CSS.",
@@ -782,7 +775,7 @@ var questions = [
 									"wrap the content in &#60;center> and &#60;/center> tags",
 									"wrap the content in &#60;middle> and &#60;/middle> tags",
 									"in the body tag, add the align='middle' attribute.",
-									"c", "c", "c" ],
+									"d", "a", "c" ],
 
 
 									[
@@ -792,7 +785,7 @@ var questions = [
 									"&#60;font color='#00FF00'>Red Text&#60;/font>",
 									"&#60;text style='#FF00FF'>Red Text&#60;/text>",
 									"&#60;color='#F00'>Red Text&#60;/color>",
-									"a", "a", "a" ],
+									"d", "e", "a" ],
 									[
 									"We have a website with some text that should be green. How could we use HTML to make it green?",
 									"&#60;font color='#FFFF00'>Green Text&#60;/font>",
@@ -800,7 +793,7 @@ var questions = [
 									"&#60;font color='#00FF00'>Green Text&#60;/font>",
 									"&#60;text style='#00FFFF'>Green Text&#60;/text>",
 									"&#60;color='#00F'>Green Text&#60;/color>",
-									"c", "c", "c" ],
+									"d", "b", "c" ],
 									[
 									"We have a website with some text that should be blue. How could we use HTML to make it blue?",
 									"&#60;font color='#FFFF00'>Blue Text&#60;/font>",
@@ -808,7 +801,7 @@ var questions = [
 									"&#60;font color='#0000FF'>Blue Text&#60;/font>",
 									"&#60;text style='#0000FF'>Blue Text&#60;/text>",
 									"&#60;color='#0F0'>Blue Text&#60;/color>",
-									"c", "c", "c" ],
+									"d", "a", "c" ],
 									[
 									"We would like to organize data and information on a website. What should we use for this?",
 									"BR Tags",
@@ -816,7 +809,7 @@ var questions = [
 									"Tables",
 									"CSS",
 									"Javascript",
-									"c", "c", "c" ],
+									"d", "a", "c" ],
 
 
 									[
@@ -826,7 +819,7 @@ var questions = [
 									"Lists",
 									"Images",
 									"Links",
-									"b", "b", "b" ],
+									"d", "a", "b" ],
 									[
 									"When we create a table, we can use &#60;TR> tags.<br>What does TR stand for?",
 									"Tabulated Reference",
@@ -834,7 +827,7 @@ var questions = [
 									"Table Row",
 									"Text Reference",
 									"Tabulated Resource",
-									"c", "c", "c" ],
+									"d", "e", "c" ],
 									[
 									"When we create a table, we can use &#60;TD> tags.<br>What does TD stand for?",
 									"Tabulated Documentation",
@@ -842,7 +835,7 @@ var questions = [
 									"Table Data",
 									"Text Data",
 									"Text DocType",
-									"c", "c", "c" ],
+									"d", "e", "c" ],
 									[
 									"To create a table, what tag do we start with?",
 									"&#60;table>",
@@ -850,7 +843,7 @@ var questions = [
 									"&#60;td>",
 									"&#60;tr>",
 									"&#60;tabulate>",
-									"a", "a", "a" ],
+									"d", "b", "a" ],
 									[
 									"When working with tables, all TD tags should be nested inside what tags?",
 									"&#60;tr> tags",
@@ -858,7 +851,7 @@ var questions = [
 									"&#60;tabulation> tags",
 									"&#60;data> tags",
 									"&#60;list> tags",
-									"a", "a", "a" ],
+									"d", "c", "a" ],
 									[
 										"Look at the example HTML below.<br>&#60;table><br>&#60;tr><br>&#60;td>&#60;/td>&#60;td>&#60;/td>&#60;td>&#60;/td><br>&#60;/tr><br>&#60;tr><br>&#60;td>&#60;/td>&#60;td>&#60;/td>&#60;td>&#60;/td><br>&#60;/tr><br>&#60;/table><br>How many columns will this table have?",
 										"3",
@@ -866,7 +859,7 @@ var questions = [
 										"1",
 										"4",
 										"5",
-										"a", "a", "a" ],
+										"d", "b", "a" ],
 										[
 											"Look at the example HTML below.<br>&#60;table><br>&#60;tr><br>&#60;td>&#60;/td>&#60;td>&#60;/td>&#60;td>&#60;/td><br>&#60;/tr><br>&#60;tr><br>&#60;td>&#60;/td>&#60;td>&#60;/td>&#60;td>&#60;/td><br>&#60;/tr><br>&#60;/table><br>How many rows will this table have?",
 											"2",
@@ -874,7 +867,7 @@ var questions = [
 											"1",
 											"4",
 											"5",
-											"a", "a", "a" ],
+											"d", "c", "a" ],
 										[
 											"Look at the example HTML below.<br>&#60;table><br>&#60;tr><br>&#60;td>&#60;/td>&#60;td>&#60;/td>&#60;td>&#60;/td><br>&#60;/tr><br>&#60;/table><br>How many rows will this table have?",
 											"2",
@@ -882,7 +875,7 @@ var questions = [
 											"1",
 											"4",
 											"5",
-											"c", "c", "c" ],
+											"d", "b", "c" ],
 											[
 												"Look at the example HTML below.<br>&#60;table><br>&#60;tr><br>&#60;td>&#60;/td>&#60;td>&#60;/td>&#60;td>&#60;/td>&#60;td>&#60;/td><br>&#60;/tr><br>&#60;/table><br>How many columns will this table have?",
 												"2",
@@ -890,7 +883,7 @@ var questions = [
 												"1",
 												"4",
 												"5",
-												"d", "d", "d" ],
+												"d", "a", "d" ],
 
 
 ];
