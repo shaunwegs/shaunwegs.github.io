@@ -1,3 +1,4 @@
+
 var myVar;
 function startTimer() {
   myVar = setInterval(function(){myTimer()},1000);
@@ -557,7 +558,7 @@ var questions = [
 						"Apple",
 						"Google",
 						"e", "a", "c" ],
-					[	
+						
 						[
 							"The file extension for html is",
 							"hyper",
