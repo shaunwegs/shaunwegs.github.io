@@ -39,11 +39,11 @@ var rigob = [0, 0, 0, 0, 0];
 var rigoc = [0, 0, 0, 0, 0];
 var rigod = [0, 0, 0, 0, 0];
 var totasNames = [
-"&nbsp; - ",
-"&nbsp; - ",
-"&nbsp; - ",
-"&nbsp; - ",
-"&nbsp; - "
+"&nbsp; - CTE Specifics",
+"&nbsp; - WAIS & SBISD",
+"&nbsp; - Terms & Concepts",
+"&nbsp; - Application",
+"&nbsp; - other"
 ]
 
 if (vs === null) { vs = 0; }
