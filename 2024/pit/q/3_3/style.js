@@ -807,7 +807,7 @@ function attemptid() {
   var lI = new Date();
   var il = [ lI.getMonth(), lI.getDate()+11];
   var i1 = [ lI.getHours()+12, lI.getMinutes()+13];
-  return "<br>Attempt ID: " +il.join("") +i1.join("") + idSum() +l1 +(vs + cor);
+  return "<br>Attempt ID: " +il.join("") + idSum() +l1 +String(totas[0]) +String(totas[1]) +String(totas[2]) +String(vs + cor);
 }
 
 var questionOrder = [];
