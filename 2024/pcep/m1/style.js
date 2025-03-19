@@ -412,85 +412,53 @@ var questions = [
               "comment(write here)",
               "b", "a", "b", "90" ],
 
-							['What will be the output if the follow line of code is run?<blockquote><i>print("hello")</i></blockquote>',
-							'("hello")',
-							"hello",
-							'"hello"',
+							["What will be the output if the follow line of code is run?<blockquote><i>print(5 + 3 ** 2)</i></blockquote>",
+							"16",
+							"14",
+							"11",
+							"64",
 							"the code will produce an error",
-							"the code will try to print whatever is contained in a variable called hello",
 							"c", "b", "b", "90" ],
 
-							['What will be the output if the follow line of code is run?<blockquote><i>print(hello)</i></blockquote>',
-							'("hello")',
-							"hello",
-							'"hello"',
+							["What will be the output if the follow line of code is run?<blockquote><i>print(5 + 3 * 2)</i></blockquote>",
+							"16",
+							"14",
+							"11",
+							"64",
 							"the code will produce an error",
-							"the code will try to print whatever is contained in a variable called hello",
-							"c", "b", "e", "90" ],
+							"c", "b", "c", "90" ],
 
-              ["What will be the output if the follow line of code is run?<blockquote><i>print('hello')</i></blockquote>",
-							"('hello')",
-							"hello",
-							"'hello'",
-							"the code will produce an error",
-							"the code will try to print whatever is contained in a variable called hello",
-							"c", "b", "b", "90" ],
+              ["What will be the output if the follow line of code is run?<blockquote><i>print(5 + 5 x 2)</i></blockquote>",
+                "15",
+                "20",
+                "30",
+                "27",
+                "the code will produce an error",
+                "c", "b", "e", "90" ],
 
-              ["What will be the output if the follow line of code is run?<blockquote><i>prin('hello')</i></blockquote>",
-							"('hello')",
-							"hello",
-							"'hello'",
-							"the code will produce an error",
-							"the code will try to print whatever is contained in a variable called hello",
-							"c", "b", "d", "90" ],
+                ["What will be the output if the follow line of code is run?<blockquote><i>print(5 x 2)</i></blockquote>",
+                  "3",
+                  "25",
+                  "7",
+                  "10",
+                  "the code will produce an error",
+                  "c", "a", "e", "90" ],
 
-              ["What will be the output if the follow line of code is run?<blockquote><i>prin(hello)</i></blockquote>",
-							"('hello')",
-							"hello",
-							"'hello'",
-							"the code will produce an error",
-							"the code will try to print whatever is contained in a variable called hello",
-							"c", "b", "d", "90" ],
+                  ["What will be the output if the follow line of code is run?<blockquote><i>print(5 * 2)</i></blockquote>",
+                    "3",
+                    "25",
+                    "7",
+                    "10",
+                    "the code will produce an error",
+                    "c", "a", "d", "90" ],
 
-              ["What will be the output if the follow line of code is run?<blockquote><i>prin('hello' + 'world')</i></blockquote>",
-							"('helloworld')",
-							"hello world",
-							"'hello world'",
-							"the code will produce an error",
-							"('hello world')",
-							"c", "b", "d", "90" ],
-
-	["What will be the output if the follow line of code is run?<blockquote><i>print('hello' + 'world')</i></blockquote>",
-							"helloworld",
-							"hello world",
-							"'hello world'",
-							"the code will produce an error",
-							"'helloworld'",
-							"c", "b", "a", "90" ],
-	
-		["What will be the output if the follow line of code is run?<blockquote><i>print('hello' + ' ' + 'world')</i></blockquote>",
-							"helloworld",
-							"hello world",
-							"'hello world'",
-							"the code will produce an error",
-							"'helloworld'",
-							"c", "b", "b", "90" ],
-
-			["What will be the output if the follow line of code is run?<blockquote><i>print('hello' - 'llo')</i></blockquote>",
-							"hellollo",
-							"he",
-							"('he')",
-							"the code will produce an error",
-							"'he'",
-							"c", "b", "d", "90" ],
-
-	["What will be the output if the follow line of code is run?<blockquote><i>prin('hello' - 'llo')</i></blockquote>",
-							"hellollo",
-							"he",
-							"('he')",
-							"the code will produce an error",
-							"'he'",
-							"c", "b", "d", "90" ],
+                    ["What will be the output if the follow line of code is run?<blockquote><i>print(5 ** 2)</i></blockquote>",
+                      "3",
+                      "25",
+                      "7",
+                      "10",
+                      "the code will produce an error",
+                      "c", "a", "b", "90" ],
 
 
 ];
@@ -656,7 +624,7 @@ function renderResults(){
   localStorage.setItem("pg_tota2", tot2);
   localStorage.setItem("pg_tota3", tot3);
   localStorage.setItem("pg_tota4", tot4);
-  $_("test_status").innerHTML = "<h1>Python PCEP Module 1 Practice</h1><h2>Attempt #" +vs;
+  $_("test_status").innerHTML = "<h1>Principles of IT, March Quiz</h1><h2>Attempt #" +vs;
   $_('timeleft').innerHTML = '</h2>'; l1 = 25 - cor;
   test.innerHTML = "";
   document.getElementById('test_status').style.width = '70%';
@@ -709,7 +677,7 @@ function noMore(){
 
 function renderQuestion() {
   var test = $_("test");
-  $_("test_status").innerHTML = "<h1>Python PCEP Module 1 Practice</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
+  $_("test_status").innerHTML = "<h1>Principles of IT: March Quiz</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
   if (rscore != 0) { $_("test_status").innerHTML += '<br>Currently: ~'+(cor/rscore*100).toFixed(0)+'% correct'; }
   var question = questions[posn][0];
   var chA = questions[posn][1];
