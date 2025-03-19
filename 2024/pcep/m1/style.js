@@ -457,7 +457,7 @@ var questions = [
 							"hello world",
 							"'hello world'",
 							"the code will produce an error",
-							"('hello world')",,
+							"('hello world')",
 							"c", "b", "d", "90" ],
 
 	["What will be the output if the follow line of code is run?<blockquote><i>print('hello' + 'world')</i></blockquote>",
@@ -465,7 +465,7 @@ var questions = [
 							"hello world",
 							"'hello world'",
 							"the code will produce an error",
-							"'helloworld'",,
+							"'helloworld'",
 							"c", "b", "a", "90" ],
 	
 		["What will be the output if the follow line of code is run?<blockquote><i>print('hello' + ' ' + 'world')</i></blockquote>",
@@ -473,7 +473,7 @@ var questions = [
 							"hello world",
 							"'hello world'",
 							"the code will produce an error",
-							"'helloworld'",,
+							"'helloworld'",
 							"c", "b", "b", "90" ],
 
 			["What will be the output if the follow line of code is run?<blockquote><i>print('hello' - 'llo')</i></blockquote>",
@@ -481,7 +481,7 @@ var questions = [
 							"he",
 							"('he')",
 							"the code will produce an error",
-							"'he'",,
+							"'he'",
 							"c", "b", "d", "90" ],
 
 	["What will be the output if the follow line of code is run?<blockquote><i>prin('hello' - 'llo')</i></blockquote>",
@@ -489,32 +489,8 @@ var questions = [
 							"he",
 							"('he')",
 							"the code will produce an error",
-							"'he'",,
+							"'he'",
 							"c", "b", "d", "90" ],
-
-                ["What will be the output if the follow line of code is run?<blockquote><i>print(5 x 2)</i></blockquote>",
-                  "3",
-                  "25",
-                  "7",
-                  "10",
-                  "the code will produce an error",
-                  "c", "a", "e", "90" ],
-
-                  ["What will be the output if the follow line of code is run?<blockquote><i>print(5 * 2)</i></blockquote>",
-                    "3",
-                    "25",
-                    "7",
-                    "10",
-                    "the code will produce an error",
-                    "c", "a", "d", "90" ],
-
-                    ["What will be the output if the follow line of code is run?<blockquote><i>print(5 ** 2)</i></blockquote>",
-                      "3",
-                      "25",
-                      "7",
-                      "10",
-                      "the code will produce an error",
-                      "c", "a", "b", "90" ],
 
 
 ];
