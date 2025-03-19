@@ -164,7 +164,7 @@ var questions = [
                 "CPython",
                 "PyCharm",
                 "PyLearn",
-                "a", "c", "b", "90" ],
+                "a", "c", "c", "90" ],
 
             ["What is IDLE?",
               "an IDE specifically designed for Python",
