@@ -46,8 +46,8 @@ var rigot = [0, 0, 0, 0, 0];
 var totasNames = [
 "About Python - &nbsp;",
 "About Programming - &nbsp;",
-"Math with Code - &nbsp;",
 "Coding Examples - &nbsp;",
+"not used - &nbsp;",
 ]
 var rigosNames = [
   "&nbsp; - Low",
@@ -110,7 +110,7 @@ var questions = [
       ".p",
       "a", "a", "d", "90" ],
 
-      ["What of the following files would be a python file?",
+      ["Which of the following files would be a python file?",
         "main.p3",
         "main.pyth",
         "main.python",
@@ -213,6 +213,14 @@ var questions = [
                 "a library used for generating multi-dimensional lists",
                 "a computer program that changes source code into machine code before it can be run",
                 "b", "a", "c", "90" ],
+
+                ["Binary code is...",
+                  "hexadecimal code sent over networks",
+                  "a sequence of ASCII characters used to encrypt data",
+                  "a sequence of bits used to encode machine instructions",
+                  "a special type of code designed specifically for wifi connectivity",
+                  "a type of encryption used during World War 1",
+                  "b", "a", "c", "90" ],
 
               ["A compiler is...",
                 "a command line tool used for debugging python",
@@ -372,6 +380,22 @@ var questions = [
                       "lexis",
                       "b", "b", "e", "90" ],
 
+                      ["In order to run a .py file, you need... ",
+                        "IDLE",
+                        "an online, networked system/computer",
+                        "a system that includes a graphics card",
+                        "a python compiler (or a cloud IDE)",
+                        "a python interpretter installed (or a cloud IDE)",
+                        "b", "b", "e", "90" ],
+
+                      ["Why would you implement PEP-8, or equivalent standards and recommendations, when programming?",
+                        "reduces memory usage",
+                        "ensures code can be used on multiple machines or devices",
+                        "Ensures compatibility with other programming languages",
+                        "Improves code performance",
+                        "conforming to standards like PEP-8 improves readability and maintainability",
+                        "b", "b", "e", "90" ],
+
                       ["Which term matches the following definition?<blockquote><i>a set of meaningful words in a specific language, which could be a natural or artificial language</i></blockquote>",
                         "an instruction list",
                         "lexicon",
@@ -468,6 +492,22 @@ var questions = [
 							"'helloworld'",
 							"c", "b", "a", "90" ],
 	
+              ["What will be the output if the follow line of code is run?<blockquote><i>'''<br>my first program<br>'''<br>print('hello world')</i></blockquote>",
+                        "hello world",
+                        "hello world<br>'''<br>my first program<br>'''",
+                        "'hello world'",
+                        "the code will produce an error",
+                        "'''<br>my first program<br>'''<br>'hello'",
+                        "c", "b", "b", "90" ],
+	
+              ["What will be the output if the follow line of code is run?<blockquote><i>print('hello') #add user name later</i></blockquote>",
+                        "hello #add user name later",
+                        "hello",
+                        "'hello add user name later'",
+                        "the code will produce an error",
+                        "'hello' #add user name later",
+                        "c", "b", "b", "90" ],
+	
 		["What will be the output if the follow line of code is run?<blockquote><i>print('hello' + ' ' + 'world')</i></blockquote>",
 							"helloworld",
 							"hello world",
@@ -516,13 +556,53 @@ var questions = [
 							'the words should be encapsulated with double quotes',
 							"c", "b", "c", "90" ],
 
-	["What will be the output if the follow line of code is run?<blockquote><i>prin('hello' - 'llo')</i></blockquote>",
+	["What will be the output if the following line of code is run?<blockquote><i>prin('hello' - 'llo')</i></blockquote>",
 							"hellollo",
 							"he",
 							"('he')",
 							"the code will produce an error",
 							"'he'",
 							"c", "b", "d", "90" ],
+              
+              ["If we wanted to print Hello World using a single print command, across two lines as shown below, which of the following would produce that result?<blockquote><i>Hello<br>World</i></blockquote>",
+                "print('Hello &#92;nWorld')",
+                "print(Hello &#92;nWorld)",
+                "print('Hello &#92;&#92;World')",
+                'print("Hello &#92;&#92;World")',
+                'print("Hello &#92;World")',
+                "c", "b", "a", "90" ],
+
+              ["What will be the output if the following line of code is run?<blockquote><i>print('Hello &#92;nWorld')</i></blockquote>",
+                          "Hello<br>World",
+                          "'Hello<br>World'",
+                          "('Hello &#92;nWorld')",
+                          "'Hello &#92;nWorld'",
+                          "Hello &#92;nWorld",
+                          "c", "b", "a", "90" ],
+
+                          ["What will be the output if the following line of code is run?<blockquote><i>print('Hello /nWorld')</i></blockquote>",
+                                      "Hello<br>World",
+                                      "'Hello<br>World'",
+                                      "('Hello /nWorld')",
+                                      "'Hello /nWorld'",
+                                      "Hello /nWorld",
+                                      "c", "b", "e", "90" ],
+
+                          ["What will be the output if the following line of code is run?<blockquote><i>print('Hello &#92;&#92;World')</i></blockquote>",
+                                      "Hello<br>World",
+                                      "'Hello<br>World'",
+                                      "('Hello &#92; World')",
+                                      "'Hello &#92;&#92;World'",
+                                      "Hello &#92;World",
+                                      "c", "b", "e", "90" ],
+
+                                      ["What will be the output if the following line of code is run?<blockquote><i>print('&#92;&#92;Hello &#92;&#92;World&#92;')</i></blockquote>",
+                                                  "&#92;<br>Hello&#92;<br>World",
+                                                  "<br>Hello<br>World",
+                                                  "The program wouldn't run due to an error",
+                                                  "'&#92;&#92;Hello &#92;&#92;World&#92;'",
+                                                  "&#92;Hello &#92;World",
+                                                  "c", "b", "c", "90" ],
 
 
 ];
