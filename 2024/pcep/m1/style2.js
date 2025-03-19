@@ -572,45 +572,7 @@ var questions = [
 							"'he'",
 							"c", "b", "d", "90" ],
               
-              ["If we wanted to print Hello World using a single print command, across two lines as shown below, which of the following would produce that result?<blockquote><i>Hello<br>World</i></blockquote>",
-                "print('Hello &#92;nWorld')",
-                "print(Hello &#92;nWorld)",
-                "print('Hello &#92;&#92;World')",
-                'print("Hello &#92;&#92;World")',
-                'print("Hello &#92;World")',
-                "c", "b", "a", "90" ],
-
-              ["What will be the output if the following line of code is run?<blockquote><i>print('Hello &#92;nWorld')</i></blockquote>",
-                          "Hello<br>World",
-                          "'Hello<br>World'",
-                          "('Hello &#92;nWorld')",
-                          "'Hello &#92;nWorld'",
-                          "Hello &#92;nWorld",
-                          "c", "b", "a", "90" ],
-
-                          ["What will be the output if the following line of code is run?<blockquote><i>print('Hello /nWorld')</i></blockquote>",
-                                      "Hello<br>World",
-                                      "'Hello<br>World'",
-                                      "('Hello /nWorld')",
-                                      "'Hello /nWorld'",
-                                      "Hello /nWorld",
-                                      "c", "b", "e", "90" ],
-
-                          ["What will be the output if the following line of code is run?<blockquote><i>print('Hello &#92;&#92;World')</i></blockquote>",
-                                      "Hello<br>World",
-                                      "'Hello<br>World'",
-                                      "('Hello &#92; World')",
-                                      "'Hello &#92;&#92;World'",
-                                      "Hello &#92;World",
-                                      "c", "b", "e", "90" ],
-
-                                      ["What will be the output if the following line of code is run?<blockquote><i>print('&#92;&#92;Hello &#92;&#92;World&#92;')</i></blockquote>",
-                                                  "&#92;<br>Hello&#92;<br>World",
-                                                  "<br>Hello<br>World",
-                                                  "The program wouldn't run due to an error",
-                                                  "'&#92;&#92;Hello &#92;&#92;World&#92;'",
-                                                  "&#92;Hello &#92;World",
-                                                  "c", "b", "c", "90" ],
+             
 
 
 ];
