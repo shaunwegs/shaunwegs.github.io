@@ -503,12 +503,12 @@ var questions = [
 							"c", "b", "a", "90" ],
 	
               ["What will be the output if the follow line of code is run?<blockquote><i>'''<br>my first program<br>'''<br>print('hello world')</i></blockquote>",
-                        "hello world",
-                        "hello world<br>'''<br>my first program<br>'''",
-                        "'hello world'",
-                        "the code will produce an error",
-                        "'''<br>my first program<br>'''<br>'hello'",
-                        "c", "b", "b", "90" ],
+                        "hello world<br>",
+                        "hello world<br>'''<br>my first program<br>'''<br>",
+                        "'hello world'<br>",
+                        "the code will produce an error<br>",
+                        "'''<br>my first program<br>'''<br>'hello'<br>",
+                        "c", "b", "a", "90" ],
 	
               ["What will be the output if the follow line of code is run?<blockquote><i>print('hello') #add user name later</i></blockquote>",
                         "hello #add user name later",
