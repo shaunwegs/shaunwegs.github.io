@@ -192,6 +192,14 @@ var questions = [
         "The program will throw an error",
         "c", "b", "d", "150" ], 
 
+        ["What will be the output if the following code snippet is run?<blockquote><i>print(3**2)<br>print(3.**2)<br>print(3**2.)<br>print(3.0**2.0)<br></i></blockquote>",
+          "the program will throw an error",
+          "9.0<br>9.0<br>9.0<br>9.0<br>",
+          "9<br>9<br>9<br>9<br>",
+          "9<br>9<br>9<br>9.0<br>",
+          "9<br>9.0<br>9.0<br>9.0<br>",
+          "c", "b", "e", "150" ],  
+
         ["What will be the output if the following code snippet is run?<blockquote><i>x = 2<br>y = 3<br>x *= y + 5<br><br>print(x)</i></blockquote>",
           "8",
           "16.0",
