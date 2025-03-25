@@ -182,7 +182,15 @@ var questions = [
             "&#60;class 'str'>",
             "&#60;class 'tuple'>",
             "&#60;class 'int'>",
-            "d", "b", "d", "150" ],    
+            "d", "b", "d", "150" ],       
+
+      ["What will be the output if the following code snippet is run and the user enters 4.0?<blockquote><i>avg_rating = int(input('please provide your rating: '))<br>avg_rating *= 4<br><br>print(avg_rating)</i></blockquote>",
+        "4444",
+        "16",
+        "16.0",
+        "4.04.04.04.0",
+        "The program will throw an error",
+        "c", "b", "c", "150" ], 
 
       ["What will be the output if the following code snippet is run and the user enters 4.0?<blockquote><i>avg_rating = input('please provide your rating: ')<br>avg_rating *= 4<br><br>print(avg_rating)</i></blockquote>",
         "4444",
