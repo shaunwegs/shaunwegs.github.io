@@ -24,7 +24,7 @@ function myTimer() {
 var ques = 25;
 var pos = 0, posn, choice, cor = 0, rscore = 0;
 var maxtimelimit = 179, timelimit = maxtimelimit;
-var vs = localStorage.getItem('cs1_m1_on_load_counter');
+var vs = localStorage.getItem('cs1_m2_on_load_counter');
 var userFirstName = localStorage.getItem('cs1_userFirstName');
 var userLastName = localStorage.getItem('cs1_userLastName');
 var cat1 = localStorage.getItem('pg_cata1');
@@ -66,7 +66,7 @@ if (tot3 === null) { tot3 = 0; }
 if (tot4 === null) { tot4 = 0; }
 
 vs++;
-localStorage.setItem("cs1_m1_on_load_counter", vs);
+localStorage.setItem("cs1_m2_on_load_counter", vs);
 if (userFirstName === null) {
     var userFirstName=prompt("Please enter your given name:");
     if (userFirstName=="") { userFirstName="not entered /" }
