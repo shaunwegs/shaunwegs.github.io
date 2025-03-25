@@ -140,7 +140,33 @@ var questions = [
       "its connection with existing variables",
       "its position within the argument list",
       "the data type",
-      "d", "b", "a", "90" ],      
+      "d", "b", "a", "90" ],           
+
+              
+
+      ["What will be the output if the following code snippet is run and the user enters 'ok'?<blockquote><i>avg_rating = int(input('please provide your rating: '))<br>avg_rating *= 4<br><br>print(avg_rating)</i></blockquote>",
+        "ok",
+        "okokokok",
+        "ooookkkk",
+        "the program will ask again until a valid response is provided",
+        "The program will throw an error",
+        "c", "b", "e", "150" ],  
+
+      ["What will be the output if the following code snippet is run and the user enters 4.0?<blockquote><i>avg_rating = input('please provide your rating: ')<br>avg_rating *= 4<br><br>print(average_rating)</i></blockquote>",
+        "4444",
+        "16",
+        "16.0",
+        "4.04.04.04.0",
+        "The program will throw an error",
+        "c", "b", "e", "150" ],        
+
+      ["What will be the output if the following code snippet is run and the user enters 4.0?<blockquote><i>avg_rating = input('please provide your rating: ')<br>avg_rating *= 4<br><br>print(avg_rating)</i></blockquote>",
+        "4444",
+        "16",
+        "16.0",
+        "4.04.04.04.0",
+        "The program will throw an error",
+        "c", "b", "d", "150" ], 
 
       ["What will be the output if the following code snippet is run?<blockquote><i>myVar = 3 ** 3<br>myVar += 2<br><br>print(myVar)</i></blockquote>",
         "11",
@@ -446,6 +472,16 @@ var questions = [
           "bool",
           "the code will produce an error",
           "d", "b", "a", "90" ],
+
+
+
+          ["What followinging line of code<blockquote><i>print(.1 + .1 + .1)</i></blockquote>produced the value 0.30000000000000004 instead of 0.3. Why?",
+            "Numbers are less accurate when less than 1",
+            "0.1 should be used due to the inaccuracy of .1",
+            "Floating point numbers are not 100% accurate and have limited precision",
+            "The proper addition operator for floats is ++, these inaccuracies are pervasive when using +",
+            "This is common on legacy systems; this doesn't happen on modern operating systems",
+            "a", "b", "c", "90" ],
 
           ["What will be the output of the followinging code?<blockquote><i>print(2 + 3 + 4.)</i></blockquote>",
             "9",
