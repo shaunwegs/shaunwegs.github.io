@@ -144,7 +144,7 @@ var questions = [
 
       ["What will be the output if the following code snippet is run?<blockquote><i>myVar = 3 ** 3<br>myVar += 2<br><br>print(myVar)</i></blockquote>",
         "11",
-        "29,
+        "29",
         "11.0",
         "54",
         "29.0",
