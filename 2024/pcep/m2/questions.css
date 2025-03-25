@@ -1,0 +1,104 @@
+body {
+
+    background-color: #746daa;
+	background-image: url("blue-bg.jpg");
+    color: #fff;
+}
+
+h1 {
+    color: #F7CD54;
+    font-size: 30px;
+    line-height: 10%;
+    font-variant: normal;
+	text-shadow:
+	 2px 0px 0 #406FAD,  
+     0px -2px 0 #406FAD,
+    -2px -2px 0 #406FAD,  
+     2px -2px 0 #406FAD,
+    -2px 2px 0 #406FAD,
+     2px 2px 0 #406FAD,
+    -3px 3px 0 #263C6B,
+    -4px 4px 0 #263C6B,
+    -5px 3px 0 #263C6B,
+    -5px 0px 0 #263C6B;;
+	 
+}
+
+h2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 110%;
+    font-variant: small-caps;
+}
+
+button {
+    border: #406FAD 3px solid;
+    border-radius:5px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #263C6B;
+    color: #F7CD54;
+    font-weight: 900;
+    margin: 0 2px 0 2px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+div { 
+    width:70%;
+    margin:auto;
+    padding: 0 0 0 0;
+    font-weight: bold;
+}
+div#test { 
+    background-color: #eff0df;
+	background-image: url("bg.jpg");
+    border:6px solid #a6a298;
+    border-radius:10px;
+    color: #3e3b3b;
+    box-shadow: -3px 3px 3px #3a313e;
+    padding: 10px 15px 30px 30px;
+    line-height: 1.6;
+}
+
+div#test2 { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #444038;
+    border:6px solid #a6a298;
+    border-radius:10px;
+    color: #ffffee;
+    box-shadow: -3px 3px 3px #3a313e;
+    padding: 10px 15px 30px 30px;
+    width:50%;
+}
+
+label {
+    line-height: 1.7;
+    display: block; /* add this */
+    padding: 0px;
+    Margin-bottom: 20px;}
+
+div#test3 { 
+    width:85%;
+}
+
+span   { 
+	display: table-cell; 
+	text-align: left;
+	vertical-align: middle;
+}
+
+#render {
+    border-collapse: separate;
+    border-spacing: 35px 0px;
+}
+
+td {
+  border-collapse: collapse;
+}

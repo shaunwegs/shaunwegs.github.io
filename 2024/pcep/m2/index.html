@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+<title>CS1: PCEP Module 2</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open Sans"/>
+<link type='text/css' rel='stylesheet' href='wrapper.css'/>
+<script language="javascript">
+
+function Disable_Control_C() {
+var keystroke = String.fromCharCode(event.keyCode).toLowerCase();
+
+if (event.ctrlKey && (keystroke == 'c' || keystroke == 'v')) {
+alert("let's see");
+event.returnValue = false; // disable Ctrl+C
+}
+}
+
+</script>
+</head>
+<body style="margin:0px;padding:0px;overflow:hidden" onkeydown="javascript:Disable_Control_C()"
+    oncontextmenu="return false;" oncopy="return false" oncut="return false" onpaste="return false">
+<div id="output">
+<iframe src="test.html" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%"></iframe></div>
+
+<script type="text/javascript">
+            var element = new Image;
+            var dtO = false;
+
+			function errorCode1() {
+			alert('PC LOAD LETTER');
+			}
+			function errorCode2() {
+  			alert('ABORT, FAIL, RETRY?');
+			}
+
+            element.__defineGetter__("id", function() {
+                dtO = true;
+            });
+            setInterval(function() {
+                dtO = false;
+                console.log(element);
+				if (dtO == true) {
+				 document.getElementById('output').innerHTML = "";
+                 setTimeout(errorCode1, 2000)
+				 setTimeout(errorCode2, 5000)
+				}
+
+            }, 1000);
+        </script>
+</body>
+
+</body>
+</html>
