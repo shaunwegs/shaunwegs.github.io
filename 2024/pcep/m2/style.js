@@ -1112,7 +1112,7 @@ function renderResults(){
   localStorage.setItem("pg_tota2", tot2);
   localStorage.setItem("pg_tota3", tot3);
   localStorage.setItem("pg_tota4", tot4);
-  $_("test_status").innerHTML = "<h1>Python PCEP Module 1 Practice</h1><h2>Attempt #" +vs;
+  $_("test_status").innerHTML = "<h1>Python PCEP Module 2 Practice</h1><h2>Attempt #" +vs;
   $_('timeleft').innerHTML = '</h2>'; l1 = 25 - cor;
   test.innerHTML = "";
   document.getElementById('test_status').style.width = '70%';
@@ -1165,7 +1165,7 @@ function noMore(){
 
 function renderQuestion() {
   var test = $_("test");
-  $_("test_status").innerHTML = "<h1>Python PCEP Module 1 Practice</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
+  $_("test_status").innerHTML = "<h1>Python PCEP Module 2 Practice</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
   if (rscore != 0) { $_("test_status").innerHTML += '<br>Currently: ~'+(cor/rscore*100).toFixed(0)+'% correct'; }
   var question = questions[posn][0];
   var chA = questions[posn][1];
