@@ -3,7 +3,7 @@ let TIME_LIMIT = 180;
 
 // define quotes to be used
 let quotes_array = [
-  "When writing CSS internally or externally,",
+  "When styling HTML elements with CSS,",
   "we first specify the element to target,",
   "such as h1 tags or p tags,",
   "then we list the properties we'd like",
