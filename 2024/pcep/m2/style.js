@@ -278,9 +278,17 @@ var questions = [
           "5",
           "222",
           "the code will produce an error",
-          "c", "b", "b", "150" ],   
+          "c", "b", "b", "150" ],     
 
     ["What will be the output if the following code snippet is run?<blockquote><i>x = y = z = 2<br><br>print(width, height, depth, sep='1')</i></blockquote>",
+      "2 2 2",
+      "21212",
+      "x1y1z",
+      "1",
+      "the code will produce an error",
+      "c", "b", "e", "150" ],  
+
+    ["What will be the output if the following code snippet is run?<blockquote><i>width = height = depth = 2<br><br>print(width, height, depth, sep='1')</i></blockquote>",
       "2 2 2",
       "21212",
       "x1y1z",
