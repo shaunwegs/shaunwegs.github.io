@@ -344,13 +344,22 @@ var questions = [
       "the code will produce an error",
       "c", "b", "c", "210" ], 
 
-    ["What will be the output if the following code snippet is run with the user inputs 12 & 5 respectively?<blockquote><i>x = int(input())<br>y = int(input())<br><br>x = x % y<br>x = x % y<br><br>print(x)</i></blockquote>",
+	
+    ["What will be the output if the following code snippet is run with the user inputs 3 & 5 respectively?<blockquote><i>x = int(input())<br>y = int(input())<br><br>x = x % y<br><br>print(x)</i></blockquote>",
       "1",
       "2",
       "3",
       "4",
       "the code will produce an error",
-      "c", "b", "b", "210" ], 
+      "c", "b", "c", "210" ], 
+
+    ["What will be the output if the following code snippet is run with the user inputs 14 & 5 respectively?<blockquote><i>x = int(input())<br>y = int(input())<br><br>x = x % y<br>x = x % y<br><br>print(x)</i></blockquote>",
+      "1",
+      "2",
+      "3",
+      "4",
+      "the code will produce an error",
+      "c", "b", "d", "210" ], 
 
     ["What will be the output if the following code snippet is run with the user inputs 10 & 5 respectively?<blockquote><i>x = input()<br>y = int(input())<br><br>x = x % y<br>x = x % y<br><br>print(y)</i></blockquote>",
       "1",
