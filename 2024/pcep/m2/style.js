@@ -950,7 +950,7 @@ var questions = [
               "1",
               "9",
               "the code will produce an error",
-              "a", "a", "a", "90" ],
+              "a", "a", "d", "90" ],
 
               ["What will be the output if the following line of code is run?<blockquote><i>print(3 ** 2 ** 1)</i></blockquote>",
                 "27",
