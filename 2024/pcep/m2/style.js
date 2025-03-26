@@ -975,7 +975,7 @@ var questions = [
                 "1",
                 "9",
                 "the code will produce an error",
-                "a", "a", "a", "120" ],
+                "a", "a", "d", "120" ],
 
         ["What will be the output if the following line of code is run?<blockquote><i>print(5 - 2.0)</i></blockquote>",
           "3",
