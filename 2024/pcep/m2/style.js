@@ -312,7 +312,7 @@ var questions = [
       "the code will produce an error",
       "c", "b", "a", "150" ],  
 
-    ["What will be the output if the following code snippet is run with the user inputs 12 & 5 respectively?<blockquote><i>x = 1<br>y = 2<br><br>z = x<br>x = y<br>y = z<br><br>print(x, y)</i></blockquote>",
+    ["What will be the output if the following code snippet is run with the user inputs 12 & 5 respectively?<blockquote><i>input('Provide an integer')<br>input('Provide another integer')<br>x = 1<br>y = 2<br><br>z = x<br>x = y<br>y = z<br><br>print(x, y)</i></blockquote>",
       "1 2",
       "2 1",
       "1 1",
