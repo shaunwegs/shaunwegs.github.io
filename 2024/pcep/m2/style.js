@@ -168,7 +168,7 @@ var questions = [
           "&#60;class 'int'>",
           "d", "a", "d", "150" ],                 
 
-          ["What will be the output if the following code snippet is run?<blockquote><i>my_num1 = 1.1<br>my_num2 = 1.1,<br><br>print(type(my_num1))<br>print(type(my_num2))</i></blockquote>",
+          ["What will be the output if the following code snippet is run?<blockquote><i>my_num1 = 1.1,<br>my_num2 = 1.1<br><br>print(type(my_num1))<br>print(type(my_num2))</i></blockquote>",
             "the program will throw an error",
             "&#60;class 'tuple'><br>&#60;class 'tuple'><br>",
             "&#60;class 'int'><br>&#60;class 'int'><br>",
