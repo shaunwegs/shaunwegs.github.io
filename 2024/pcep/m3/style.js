@@ -78,6 +78,14 @@ if (userLastName === null) {
 
 var questions = [
 
+  ["In relation to the code snippet below... which is true?<blockquote><i>nums = []<br>vals = nums<br></i></blockquote>",
+    "this will cause an error",
+    "nums is longer than vals",
+    "vals is longer than nums",
+    "nums and vals are the same length",
+    "nums and vals are both empty lists",
+    "c", "b", "d", "150" ],  
+
   ["The second assignment...<blockquote><i>vals = [1, 2, 3]<br>vals[0], vals[1] = vals[1], vals[2]<br></i></blockquote>",
     "will cause an error",
     "doesn't change the list's length",
