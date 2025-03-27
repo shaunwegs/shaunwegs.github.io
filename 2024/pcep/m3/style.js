@@ -86,6 +86,14 @@ var questions = [
     "||",
     "c", "b", "c", "150" ], 
 
+    ["In relation to the code snippet below... what will print?<blockquote><i>my_list = [1 for i in range(3, 5)]<br>print(my_list)</i></blockquote>",
+      "[1, 1]",
+      "[1, 1, 1]",
+      "[3, 4]",
+      "[3, 4, 5]",
+      "Nothing, the code will produce an error",
+      "c", "b", "a", "150" ], 
+
   ["In relation to the code snippet below... what will print?<blockquote><i>my_list = [0 for i in range(0, 3)]<br>print(my_list)</i></blockquote>",
     "[0, 0, 0]",
     "[0, 0, 0, 0]",
