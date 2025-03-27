@@ -86,6 +86,22 @@ var questions = [
     "||",
     "c", "b", "c", "150" ], 
 
+    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 0<br>while i &lt; 9:<br>&nbsp;&nbsp;&nbsp;&nbsp; i += 2<br>&nbsp;&nbsp;&nbsp;&nbsp; if i % 3 == 0: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "c", "c", "b", "210" ], 
+
+    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 0<br>while i &lt; 9:<br>&nbsp;&nbsp;&nbsp;&nbsp; i += 2<br>&nbsp;&nbsp;&nbsp;&nbsp; if i % 3 == 0: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; continue<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "c", "c", "e", "210" ], 
+
 
     ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 6<br>while i &lt; 15:<br>&nbsp;&nbsp;&nbsp;&nbsp; i += 3<br>&nbsp;&nbsp;&nbsp;&nbsp; if i % 6 == 0: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; continue<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
       "0",
