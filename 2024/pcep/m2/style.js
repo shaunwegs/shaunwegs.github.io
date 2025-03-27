@@ -273,9 +273,9 @@ var questions = [
         "c", "b", "b", "150" ],  
 
         ["What will be the output if the following code snippet is run?<blockquote><i>a = b = '2'<br><br>print(a + b)</i></blockquote>",
-          "2 3",
-          "23",
-          "5",
+          "2 2",
+          "22",
+          "4",
           "222",
           "the code will produce an error",
           "c", "b", "b", "150" ],     
