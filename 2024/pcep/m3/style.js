@@ -94,6 +94,14 @@ var questions = [
       "[3, 0, 1]",
       "d", "b", "e", "160" ], 
 
+      ["If we run the code snippet below, what will be printed?<blockquote><i>my_vals = [0, 1, 2]<br>my_vals.insert(0, 3)<br>del my_vals[2]<br>print(my_vals)<br></i></blockquote>",
+        "[3, 0, 2]",
+        "[3, 0, 1, 2]",
+        "[3, 1, 2]",
+        "[1, 2]",
+        "[1, 2, 3]",
+        "d", "b", "a", "160" ], 
+
     ["If we run the code snippet below, what will be printed?<blockquote><i>my_vals = [0, 1, 2]<br>my_vals.insert(0, 3)<br>del my_vals[1]<br>print(my_vals)<br></i></blockquote>",
       "[0, 1, 2]",
       "[3, 0, 1, 2]",
