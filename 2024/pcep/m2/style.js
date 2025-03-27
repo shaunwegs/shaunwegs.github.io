@@ -171,10 +171,10 @@ var questions = [
           ["What will be the output if the following code snippet is run?<blockquote><i>my_num1 = 1.1,<br>my_num2 = 1.1<br><br>print(type(my_num1))<br>print(type(my_num2))</i></blockquote>",
             "the program will throw an error",
             "&#60;class 'tuple'><br>&#60;class 'tuple'><br>",
-            "&#60;class 'int'><br>&#60;class 'int'><br>",
+            "&#60;class 'float'><br>&#60;class 'float'><br>",
             "&#60;class 'int'><br>&#60;class 'tuple'><br>",
-            "&#60;class 'tuple'><br>&#60;class 'int'><br>",
-            "d", "b", "d", "150" ],            
+            "&#60;class 'tuple'><br>&#60;class 'float'><br>",
+            "d", "b", "e", "150" ],            
 
           ["What will be the output if the following code snippet is run?<blockquote><i>my_num = 1.1,<br><br>print(type(my_num))</i></blockquote>",
             "the program will throw an error",
