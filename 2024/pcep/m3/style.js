@@ -46,7 +46,7 @@ var rigot = [0, 0, 0, 0, 0];
 var totasNames = [
 "Basics - &nbsp;",
 "Loops - &nbsp;",
-"Conditionals - &nbsp;",
+"Ifs & Bools - &nbsp;",
 "Other - &nbsp;",
 ]
 var rigosNames = [
@@ -92,7 +92,15 @@ var questions = [
       "2",
       "3",
       "4",
-      "c", "c", "b", "210" ], 
+      "b", "c", "b", "210" ], 
+
+    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 0<br>while i &lt; 9:<br>&nbsp;&nbsp;&nbsp;&nbsp; i += 2<br>&nbsp;&nbsp;&nbsp;&nbsp; if i % 3 == 0: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "b", "c", "b", "210" ], 
 
     ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 0<br>while i &lt; 9:<br>&nbsp;&nbsp;&nbsp;&nbsp; i += 2<br>&nbsp;&nbsp;&nbsp;&nbsp; if i % 3 == 0: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; continue<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
       "0",
@@ -100,7 +108,7 @@ var questions = [
       "2",
       "3",
       "4",
-      "c", "c", "e", "210" ], 
+      "b", "c", "e", "210" ], 
 
 
     ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 6<br>while i &lt; 15:<br>&nbsp;&nbsp;&nbsp;&nbsp; i += 3<br>&nbsp;&nbsp;&nbsp;&nbsp; if i % 6 == 0: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; continue<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
@@ -109,7 +117,7 @@ var questions = [
       "2",
       "3",
       "4",
-      "c", "c", "c", "210" ], 
+      "b", "c", "c", "210" ], 
 
     ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 2<br>while i &lt; 5:<br>&nbsp;&nbsp;&nbsp;&nbsp; i += 1<br>&nbsp;&nbsp;&nbsp;&nbsp; if i % 2 == 0: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; continue<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
       "0",
@@ -117,7 +125,7 @@ var questions = [
       "2",
       "3",
       "4",
-      "c", "c", "c", "210" ], 
+      "b", "c", "c", "210" ], 
 
     ["In relation to the code snippet below... what will print?<blockquote><i>my_list = [0, 1, 2, 3]<br>x = 1<br>for i in my_list:<br>&nbsp;&nbsp;&nbsp;&nbsp;x = i<br>print(x)<br></i></blockquote>",
       "0",
@@ -125,7 +133,7 @@ var questions = [
       "3",
       "0 0 0 0",
       "nothing will print",
-      "c", "b", "c", "150" ], 
+      "b", "b", "c", "150" ], 
 
     ["In relation to the code snippet below... what will print?<blockquote><i>my_list = [0, 1, 2, 3]<br>x = 1<br>for i in my_list:<br>&nbsp;&nbsp;&nbsp;&nbsp;x = i<br>&nbsp;&nbsp;&nbsp;&nbsp;print(x)<br></i></blockquote>",
       "0",
@@ -133,7 +141,7 @@ var questions = [
       "3",
       "0 0 0 0",
       "nothing will print",
-      "c", "b", "b", "150" ], 
+      "b", "b", "b", "150" ], 
 
     ["In relation to the code snippet below... what will print?<blockquote><i>my_list = [0, 1, 2, 3]<br>x = 1<br>for i in my_list:<br>&nbsp;&nbsp;&nbsp;&nbsp;x *= i<br>&nbsp;&nbsp;&nbsp;&nbsp;print(x)<br></i></blockquote>",
       "0",
@@ -141,7 +149,7 @@ var questions = [
       "6",
       "0 0 0 0",
       "nothing will print",
-      "c", "b", "d", "150" ], 
+      "b", "b", "d", "150" ], 
 
     ["In relation to the code snippet below... what will print?<blockquote><i>my_list = [0, 1, 2, 3]<br>x = 1<br>for i in my_list:<br>&nbsp;&nbsp;&nbsp;&nbsp;x *= i<br></i></blockquote>",
       "0",
@@ -149,7 +157,7 @@ var questions = [
       "6",
       "0 0 0 0",
       "nothing will print",
-      "c", "b", "e", "150" ], 
+      "b", "b", "e", "150" ], 
 
     ["In relation to the code snippet below... what will print?<blockquote><i>my_list = [0, 1, 2, 3]<br>x = 1<br>for i in my_list:<br>&nbsp;&nbsp;&nbsp;&nbsp;x *= i<br>print(x)<br></i></blockquote>",
       "0",
@@ -157,7 +165,7 @@ var questions = [
       "6",
       "0 0 0 0",
       "nothing will print",
-      "c", "b", "a", "150" ], 
+      "b", "b", "a", "150" ], 
 
     ["In relation to the code snippet below... what will print?<blockquote><i>my_list = [i for i in range(-2, 2)]<br></i></blockquote>",
       "[-2, -1, 0, 1]",
@@ -165,7 +173,7 @@ var questions = [
       "[-2, -1, 0, 1, 2]",
       "[i, i, i]",
       "nothing will print",
-      "c", "b", "a", "150" ], 
+      "b", "b", "a", "150" ], 
 
     ["In relation to the code snippet below... what will print?<blockquote><i>my_list = [i for i in range(-2, 2)]<br>print(my_list)</i></blockquote>",
       "[-2, -1, 0, 1]",
@@ -173,7 +181,7 @@ var questions = [
       "[-2, -1, 0, 1, 2]",
       "[i, i, i]",
       "[i, i, i, i]",
-      "c", "b", "a", "150" ], 
+      "b", "b", "a", "150" ], 
 
     ["In relation to the code snippet below... what will print?<blockquote><i>my_list = [i for i in range(-2, 2)]<br>print(my_list)</i></blockquote>",
       "[-2, -1, 0, 1]",
@@ -181,7 +189,7 @@ var questions = [
       "[-2, -1, 0, 1, 2]",
       "[i, i, i]",
       "i, i, i, i",
-      "c", "b", "a", "150" ], 
+      "b", "b", "a", "150" ], 
 
     ["In relation to the code snippet below... what will print?<blockquote><i>my_list = [1 for i in range(3, 5)]<br>print(my_list)</i></blockquote>",
       "[1, 1]",
@@ -189,7 +197,7 @@ var questions = [
       "[3, 4]",
       "[3, 4, 5]",
       "Nothing, the code will produce an error",
-      "c", "b", "a", "150" ], 
+      "b", "b", "a", "150" ], 
 
   ["In relation to the code snippet below... what will print?<blockquote><i>my_list = [0 for i in range(0, 3)]<br>print(my_list)</i></blockquote>",
     "[0, 0, 0]",
@@ -197,7 +205,7 @@ var questions = [
     "[1, 2, 3]",
     "[0, 1, 2]",
     "[0, 1, 2, 3]",
-    "c", "b", "a", "150" ], 
+    "b", "b", "a", "150" ], 
 
   ["In relation to the code snippet below... which is true?<blockquote><i>nums = []<br>vals = nums[:]<br>vals.append(1)</i></blockquote>",
     "this will cause an error",
@@ -205,7 +213,7 @@ var questions = [
     "vals is longer than nums",
     "nums and vals are the same length",
     "nums and vals are both empty lists",
-    "c", "b", "c", "150" ],  
+    "d", "b", "c", "150" ],  
 
   ["In relation to the code snippet below... which is true?<blockquote><i>nums = []<br>vals = nums<br>vals.append(1)</i></blockquote>",
     "this will cause an error",
@@ -213,7 +221,7 @@ var questions = [
     "vals is longer than nums",
     "nums and vals are the same length",
     "nums and vals are both empty lists",
-    "c", "b", "d", "150" ],  
+    "d", "b", "d", "150" ],  
 
   ["The second assignment...<blockquote><i>vals = [1, 2, 3]<br>vals[0], vals[1] = vals[1], vals[2]<br></i></blockquote>",
     "will cause an error",
@@ -221,7 +229,7 @@ var questions = [
     "shortens the list",
     "extends the list",
     "duplicates the list",
-    "c", "b", "b", "150" ],  
+    "d", "b", "b", "150" ],  
 
   ["What operator is used to check if two values are equal?",
     "==",
