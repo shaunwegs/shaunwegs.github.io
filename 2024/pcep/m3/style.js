@@ -86,7 +86,7 @@ var questions = [
     "||",
     "c", "b", "c", "150" ], 
 
-    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 1<br>while i =&lt; 1:<br>&nbsp;&nbsp;&nbsp;&nbsp; i = i << 1<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
+    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 1<br>while i =&lt; 1:<br>&nbsp;&nbsp;&nbsp;&nbsp; i = i &lt;&lt; 1<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
       "0",
       "1",
       "2",
@@ -94,7 +94,7 @@ var questions = [
       "the snippet will cause an error",
       "b", "b", "e", "210" ],     
       
-      ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 0<br>while i &lt;= 1:<br>&nbsp;&nbsp;&nbsp;&nbsp; i = i << 1<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
+      ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 0<br>while i &lt;= 1:<br>&nbsp;&nbsp;&nbsp;&nbsp; i = i &lt;&lt; 1<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
         "0",
         "1",
         "2",
@@ -102,7 +102,7 @@ var questions = [
         "the code will be stuck in an endless loop",
         "b", "b", "e", "210" ], 
 
-    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 1<br>while i &lt;= 1:<br>&nbsp;&nbsp;&nbsp;&nbsp; i = i << 1<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
+    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 1<br>while i &lt;= 1:<br>&nbsp;&nbsp;&nbsp;&nbsp; i = i &lt;&lt; 1<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
       "0",
       "1",
       "2",
@@ -110,7 +110,7 @@ var questions = [
       "the snippet will cause an error",
       "b", "b", "b", "210" ], 
 
-    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 1<br>while i &lt; 1:<br>&nbsp;&nbsp;&nbsp;&nbsp; i = i << 1<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
+    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 1<br>while i &lt; 1:<br>&nbsp;&nbsp;&nbsp;&nbsp; i = i &lt;&lt; 1<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
       "0",
       "1",
       "2",
@@ -118,7 +118,7 @@ var questions = [
       "the snippet will cause an error",
       "b", "b", "a", "210" ], 
 
-    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 1<br>while i &lt; 9:<br>&nbsp;&nbsp;&nbsp;&nbsp; i = i << 1<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
+    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 1<br>while i &lt; 9:<br>&nbsp;&nbsp;&nbsp;&nbsp; i = i &lt;&lt; 1<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
       "0",
       "1",
       "2",
@@ -126,7 +126,7 @@ var questions = [
       "4",
       "b", "b", "e", "210" ], 
 
-    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 1<br>while i &lt; 8:<br>&nbsp;&nbsp;&nbsp;&nbsp; i = i << 1<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
+    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 1<br>while i &lt; 8:<br>&nbsp;&nbsp;&nbsp;&nbsp; i = i &lt;&lt; 1<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
       "0",
       "1",
       "2",
@@ -134,7 +134,7 @@ var questions = [
       "4",
       "b", "b", "d", "210" ], 
 
-    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 1<br>while i &lt; 4:<br>&nbsp;&nbsp;&nbsp;&nbsp; i = i << 1<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
+    ["If we run the code snippet below, how many a's will be printed?<blockquote><i>i = 1<br>while i &lt; 4:<br>&nbsp;&nbsp;&nbsp;&nbsp; i = i &lt;&lt; 1<br>&nbsp;&nbsp;&nbsp;&nbsp; print('a')<br></i></blockquote>",
       "0",
       "1",
       "2",
