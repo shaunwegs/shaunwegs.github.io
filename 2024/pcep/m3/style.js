@@ -86,6 +86,22 @@ var questions = [
     "||",
     "c", "b", "c", "150" ], 
 
+    ["If we run the code snippet below, what will be printed?<blockquote><i>my_vals = [0, 1, 2, 3]<br>my_vals.insert(0, 3)<br>del my_vals[-1]<br>print(sum(my_vals))<br></i></blockquote>",
+      "7",
+      "6",
+      "10",
+      "5",
+      "8",
+      "d", "b", "e", "160" ], 
+
+    ["If we run the code snippet below, what will be printed?<blockquote><i>my_vals = [0, 1, 2]<br>my_vals.insert(0, 3)<br>del my_vals[-1]<br>print(sum(my_vals))<br></i></blockquote>",
+      "7",
+      "6",
+      "3",
+      "5",
+      "4",
+      "d", "b", "e", "160" ], 
+
     ["If we run the code snippet below, what will be printed?<blockquote><i>my_vals = [0, 1, 2]<br>my_vals.insert(0, 3)<br>del my_vals[-1]<br>print(my_vals)<br></i></blockquote>",
       "[0, 1, 2]",
       "[3, 0, 1, 2]",
