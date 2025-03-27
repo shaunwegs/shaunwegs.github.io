@@ -78,6 +78,22 @@ if (userLastName === null) {
 
 var questions = [
 
+  ["In python, a list is denoted using which characters?",
+    "()",
+    "{}",
+    "[]",
+    "''",
+    "||",
+    "c", "b", "c", "150" ], 
+
+  ["In relation to the code snippet below... which is true?<blockquote><i>nums = []<br>vals = nums[:]<br>vals.append(1)</i></blockquote>",
+    "this will cause an error",
+    "nums is longer than vals",
+    "vals is longer than nums",
+    "nums and vals are the same length",
+    "nums and vals are both empty lists",
+    "c", "b", "c", "150" ], 
+
   ["In relation to the code snippet below... which is true?<blockquote><i>nums = []<br>vals = nums[:]<br>vals.append(1)</i></blockquote>",
     "this will cause an error",
     "nums is longer than vals",
