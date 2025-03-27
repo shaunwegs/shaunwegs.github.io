@@ -554,7 +554,7 @@ var questions = [
         "the code will produce an error",
         "a", "b", "a", "90" ], 
     
-        ["What type of data will be printed if the follosing code is run?<blockquote><i>print(('5' + '4') * 3)</i></blockquote>",
+        ["What type of data will be printed if the following code is run?<blockquote><i>print(('5' + '4') * 3)</i></blockquote>",
           "string",
           "int",
           "float",
@@ -580,7 +580,7 @@ var questions = [
             "1",
             "a", "b", "c", "90" ],
 
-          ["What type of data will be printed if the follosing code is run?<blockquote><i>print(2 + 3 + 4.)</i></blockquote>",
+          ["What type of data will be printed if the following code is run?<blockquote><i>print(2 + 3 + 4.)</i></blockquote>",
             "string",
             "int",
             "float",
@@ -588,7 +588,7 @@ var questions = [
             "the code will produce an error",
             "d", "b", "c", "90" ],
     
-        ["What type of data will be printed if the follosing code is run?<blockquote><i>print('5' + '4')</i></blockquote>",
+        ["What type of data will be printed if the following code is run?<blockquote><i>print('5' + '4')</i></blockquote>",
           "string",
           "int",
           "float",
@@ -598,7 +598,7 @@ var questions = [
 
 
     
-        ["What type of data will be printed if the follosing code is run?<blockquote><i>print(5 + 4)</i></blockquote>",
+        ["What type of data will be printed if the following code is run?<blockquote><i>print(5 + 4)</i></blockquote>",
           "string",
           "int",
           "float",
@@ -608,7 +608,7 @@ var questions = [
 
 
     
-        ["What type of data will be printed if the follosing code is run?<blockquote><i>print('5' + 4)</i></blockquote>",
+        ["What type of data will be printed if the following code is run?<blockquote><i>print('5' + 4)</i></blockquote>",
           "string",
           "int",
           "float",
