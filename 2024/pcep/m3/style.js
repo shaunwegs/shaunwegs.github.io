@@ -78,6 +78,14 @@ if (userLastName === null) {
 
 var questions = [
 
+  ["The second assignment...<blockquote><i>vals = [1, 2, 3]<br>vals[0], vals[1] = vals[1], vals[2]<br></i></blockquote>",
+    "will cause an error",
+    "doesn't change the list's length",
+    "shortens the list",
+    "extends the list",
+    "duplicates the list",
+    "c", "b", "b", "150" ],  
+
   ["What operator is used to check if two values are equal?",
     "==",
     "=",
