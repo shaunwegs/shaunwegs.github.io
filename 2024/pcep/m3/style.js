@@ -78,13 +78,29 @@ if (userLastName === null) {
 
 var questions = [
 
+  ["Take a look at the code snippet below, then choose which statement is true.<blockquote><i>my_nums = [0, 1, 2]<br>vals = my_nums[:]<br>del vals[1:2]</i></blockquote>",
+    "my_nums and vals refer to the same data",
+    "my_nums is a list and vals is a dictionary",
+    "both my_nums and vals are dictionaries",
+    "the data in my_nums is duplicated, then stored in vals",
+    "vals is longer than my_nums",
+    "d", "b", "d", "150" ],  
+
+  ["Take a look at the code snippet below, then choose which statement is true.<blockquote><i>my_nums = [0, 1, 2]<br>vals = my_nums<br>del vals[1:2]</i></blockquote>",
+    "my_nums and vals refer to the same data",
+    "my_nums is a list and vals is a dictionary",
+    "both my_nums and vals are dictionaries",
+    "the data in my_nums is duplicated, then stored in vals",
+    "nums is longer than vals",
+    "d", "b", "a", "150" ],  
+
   ["In python, a list is denoted using which characters?",
     "()",
     "{}",
     "[]",
     "''",
     "||",
-    "c", "b", "c", "150" ],         
+    "d", "b", "c", "150" ],         
     
     ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [0, 1, 2]<br>for i in range(len(my_list)):<br>&nbsp;&nbsp;&nbsp;&nbsp;my_list.insert(my_list[i], 1) *= 2<br>&nbsp;&nbsp;&nbsp;&nbsp;print(my_list[i])<br></i></blockquote>",
       "<br>0<br>1<br>2<br>",
