@@ -142,6 +142,14 @@ var questions = [
       "[7]",
       "b", "a", "e", "240" ],  
     
+      ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [5, 6, 7, 8, 9]<br>print(my_list[-2:])<br></i></blockquote>",
+        "[-8]",
+        "[8, 9]",
+        "[-7]",
+        "the code will produce an error",
+        "[-7, -8, -9]",
+        "b", "b", "b", "240" ],  
+    
       ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [5, 6, 7, 8, 9]<br>print(my_list[:-2])<br></i></blockquote>",
         "[-6]",
         "[5, 6, 7]",
