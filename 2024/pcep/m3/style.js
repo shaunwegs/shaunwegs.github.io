@@ -116,7 +116,39 @@ var questions = [
     "[]",
     "''",
     "||",
-    "d", "b", "c", "150" ],   
+    "d", "b", "c", "150" ],  
+
+    ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [5, 6, 7, 8, 9]<br>print(my_list[-4:3])<br></i></blockquote>",
+      "[7]",
+      "[6, 7]",
+      "[6, 7, 8]",
+      "[7, 8]",
+      "the code will produce an error",
+      "d", "a", "b", "240" ],  
+    
+    ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [5, 6, 7, 8, 9]<br>print(my_list[-3:3])<br></i></blockquote>",
+      "[7]",
+      "[6, 7]",
+      "[6, 7, 8]",
+      "[7, 8]",
+      "the code will produce an error",
+      "d", "a", "a", "240" ], 
+    
+    ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [5, 6, 7, 8, 9]<br>print(my_list[-3:-2])<br></i></blockquote>",
+      "[7]",
+      "[6, 7]",
+      "[6, 7, 8]",
+      "[7, 8]",
+      "the code will produce an error",
+      "d", "a", "a", "240" ], 
+    
+    ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [5, 6, 7, 8, 9]<br>print(my_list[2:3])<br></i></blockquote>",
+      "[7]",
+      "[6, 7]",
+      "[6, 7, 8]",
+      "[7, 8]",
+      "the code will produce an error",
+      "d", "a", "a", "240" ],  
     
     ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [5, 6, 7, 8, 9]<br>print(my_list[:])<br></i></blockquote>",
       "[5]",
@@ -124,7 +156,7 @@ var questions = [
       "[5, 6, 7, 8, 9]",
       "[5, 9]",
       "the code will produce an error",
-      "b", "a", "c", "240" ],  
+      "d", "a", "c", "240" ],  
 
       ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [5, 6, 7, 8, 9]<br>print(my_list[-2])<br></i></blockquote>",
         "[-6]",
@@ -132,7 +164,7 @@ var questions = [
         "the code will produce an error",
         "[-10, -12, -14, -16, -18]",
         "[-7]",
-        "b", "b", "b", "240" ],  
+        "d", "b", "b", "240" ],  
     
     ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [5, 6, 7, 8, 9]<br>print(my_list[2])<br></i></blockquote>",
       "[6]",
@@ -140,7 +172,7 @@ var questions = [
       "[5, 6, 7, 8, 9] [5, 6, 7, 8, 9]",
       "[10, 12, 14, 16, 18]",
       "[7]",
-      "b", "a", "e", "240" ],  
+      "d", "a", "e", "240" ],  
     
       ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [5, 6, 7, 8, 9]<br>print(my_list[-2:])<br></i></blockquote>",
         "[-8]",
@@ -148,7 +180,7 @@ var questions = [
         "[-7]",
         "the code will produce an error",
         "[-7, -8, -9]",
-        "b", "b", "b", "240" ],  
+        "d", "b", "b", "240" ],  
     
       ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [5, 6, 7, 8, 9]<br>print(my_list[:-2])<br></i></blockquote>",
         "[-6]",
@@ -156,7 +188,7 @@ var questions = [
         "[-7]",
         "the code will produce an error",
         "[-5, -6]",
-        "b", "b", "b", "240" ],   
+        "d", "b", "b", "240" ],   
 
       ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [5, 6, 7, 8, 9]<br>print(my_list[:2])<br></i></blockquote>",
         "[6]",
@@ -164,7 +196,7 @@ var questions = [
         "[5]",
         "the code will produce an error",
         "[5, 6]",
-        "b", "b", "e", "240" ],   
+        "d", "b", "e", "240" ],   
     
     ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [5, 6, 7, 8, 9]<br>print(my_list[2:])<br></i></blockquote>",
       "[6]",
@@ -172,7 +204,7 @@ var questions = [
       "[7, 8, 9]",
       "the code will produce an error",
       "[6, 7, 8, 9]",
-      "b", "b", "c", "240" ],     
+      "d", "b", "c", "240" ],     
     
     ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [0, 1, 2]<br>for i in range(len(my_list)):<br>&nbsp;&nbsp;&nbsp;&nbsp;my_list.insert(my_list[i], 1) *= 2<br>&nbsp;&nbsp;&nbsp;&nbsp;print(my_list[i])<br></i></blockquote>",
       "<br>0<br>1<br>2<br>",
