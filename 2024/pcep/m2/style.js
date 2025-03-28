@@ -222,7 +222,7 @@ var questions = [
         "11.0",
         "54",
         "29.0",
-        "c", "b", "e", "150" ],    
+        "c", "b", "b", "150" ],    
 
         ["What will be the output if the following code snippet is run?<blockquote><i>1st_name = 'John'<br>2nd_name = 'Jacob'<br>3rd_name = 'Jingleheimer'<br>4th_name = 'Schmidt'<br>print(1st_name, 1st_name, 1st_name, 1st_name, sep='*')</i></blockquote>",
           "John*John*John*John",
