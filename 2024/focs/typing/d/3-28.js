@@ -9,6 +9,9 @@ let quotes_array = [
   "quite... unusual and comedic.",
   "There are a few CYOA titles that",
   "I find really entertaining.",
+  "I haven't read them, but the",
+  "titles I find entertaining include:",
+  "You are a Shark,",
   
 ];
 
