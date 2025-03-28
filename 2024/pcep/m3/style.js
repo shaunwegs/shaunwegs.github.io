@@ -84,7 +84,15 @@ var questions = [
     "[]",
     "''",
     "||",
-    "c", "b", "c", "150" ],       
+    "c", "b", "c", "150" ],        
+    
+    ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [6, 8, 10]<br>for i in range(len(my_list)):<br>&nbsp;&nbsp;&nbsp;&nbsp;my_list.insert(i, i*2)<br>print(my_list)<br></i></blockquote>",
+      "<br>6<br>8<br>10<br>6<br>8<br>10<br>",
+      "<br>0<br>2<br>4<br>",
+      "<br>0<br>2<br>4<br>6<br>8<br>10<br>",
+      "the code will produce an error",
+      "<br>0<br>1<br>2<br>6<br>8<br>10<br>",
+      "b", "a", "c", "210" ],       
     
     ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [3, 4, 5]<br>for i in range(len(my_list)):<br>&nbsp;&nbsp;&nbsp;&nbsp;my_list.insert(i, i)<br>print(my_list)<br></i></blockquote>",
       "<br>1<br>2<br>3<br>3<br>4<br>5<br>",
