@@ -11,7 +11,7 @@ let quotes_array = [
   "I find really entertaining.",
   "I haven't read them, but the",
   "titles I find entertaining include:",
-  "Surf Monkey, Tatoo of Death,",
+  "Surf Monkey, Tattoo of Death,",
   "The Computer Take Over,",
   "Vampire Invaders, Space Vampire,",
   "and You are a Shark.",
