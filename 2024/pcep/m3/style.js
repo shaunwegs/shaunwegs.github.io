@@ -86,6 +86,22 @@ var questions = [
     "||",
     "c", "b", "c", "150" ],         
     
+    ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [0, 1, 2]<br>for i in range(len(my_list)):<br>&nbsp;&nbsp;&nbsp;&nbsp;my_list.insert(my_list[i], 1) *= 2<br>&nbsp;&nbsp;&nbsp;&nbsp;print(my_list[i])<br></i></blockquote>",
+      "<br>0<br>1<br>2<br>",
+      "<br>1<br>1<br>1<br>",
+      "<br>0<br>1<br>2<br>3<br>4<br>5<br>",
+      "the code will produce an error",
+      "the code will be caught in an endless loop",
+      "b", "b", "b", "240" ],       
+    
+    ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [0, 1, 2]<br>for i in range(len(my_list)):<br>&nbsp;&nbsp;&nbsp;&nbsp;my_list.insert(my_list[i], 1) *= 2<br>print(my_list)<br></i></blockquote>",
+      "[1, 0, 1, 2, 2, 2]",
+      "[1, 1, 1, 0, 1, 2]",
+      "[1, 0, 1, 1, 2, 2]",
+      "the code will produce an error",
+      "[0, 1, 1, 2, 2, 3]",
+      "b", "c", "a", "240" ],            
+    
     ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [0, 1, 2]<br>for i in range(len(my_list)):<br>&nbsp;&nbsp;&nbsp;&nbsp;my_list[i] *= 2<br>print(my_list)<br></i></blockquote>",
       "[6, 8, 10, 6, 8, 10]",
       "[0, 2, 4]",
