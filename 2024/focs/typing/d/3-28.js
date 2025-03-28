@@ -11,7 +11,8 @@ let quotes_array = [
   "I find really entertaining.",
   "I haven't read them, but the",
   "titles I find entertaining include:",
-  "You are an Alien",
+  "You are an Alien,",
+  "The Computer Take Over,",
   "and You are a Shark.",
   "Which do you find entertaining?",
   
