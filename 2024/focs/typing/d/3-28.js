@@ -12,6 +12,7 @@ let quotes_array = [
   "I haven't read them, but the",
   "titles I find entertaining include:",
   "You are a Shark,",
+  "Which do you find entertaining?",
   
 ];
 
