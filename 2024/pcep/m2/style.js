@@ -184,7 +184,7 @@ var questions = [
             "&#60;class 'int'>",
             "d", "b", "d", "150" ],       
 
-      ["What will be the output if the following code snippet is run and the user enters 4.0?<blockquote><i>avg_rating = int(input('please provide your rating: '))<br>avg_rating *= 4<br><br>print(avg_rating)</i></blockquote>",
+      ["What will be the output if the following code snippet is run and the user enters 4.0?<blockquote><i>avg_rating = float(input('please provide your rating: '))<br>avg_rating *= 4<br><br>print(avg_rating)</i></blockquote>",
         "4444",
         "16",
         "16.0",
