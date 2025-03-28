@@ -92,7 +92,7 @@ var questions = [
       "<br>0<br>1<br>2<br>3<br>4<br>5<br>",
       "the code will produce an error",
       "<br>6<br>",
-      "b", "a", "c", "160" ],  
+      "b", "a", "c", "210" ],  
     
     ["If we run the code snippet below, what will be printed?<blockquote><i>my_list = [6, 7, 8]<br>for i in range(len(my_list)):<br>&nbsp;&nbsp;&nbsp;&nbsp;print(my_list[len(my_list)-1])<br></i></blockquote>",
       "<br>6<br>7<br>8<br>",
