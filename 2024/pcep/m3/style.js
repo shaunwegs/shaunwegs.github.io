@@ -118,7 +118,7 @@ var questions = [
     "||",
     "d", "b", "c", "150" ],  
 
-    ["Which of the following will be true about the output at the code's completion?<blockquote><i>x = 7<br>y = 7<br>my_result = x > y or x != y<br></i></blockquote>",
+    ["What will output after the code's completion?<blockquote><i>x = 7<br>y = 7<br>my_result = x > y or x != y<br></i></blockquote>",
       "True",
       "False",
       "False false",
@@ -126,7 +126,27 @@ var questions = [
       "the code will produce an error",
       "a", "a", "b", "240" ], 
 
-    ["Which of the following will be true about the output at the code's completion?<blockquote><i>x = 10<br>y = -10<br>my_result = x > y or x != y<br></i></blockquote>",
+
+
+
+
+      ["What will output after the code's completion?<blockquote><i>my_list = [5, 4, 3, 2]<br>print(my_list[my_list[-2]])<br></i></blockquote>",
+        "3",
+        "4",
+        "2",
+        "5",
+        "the code will produce an error",
+        "a", "b", "c", "240" ], 
+
+    ["What will output after the code's completion?<blockquote><i>my_list = [5, 4, 3, 2]<br>print(my_list[my_list[-1]])<br></i></blockquote>",
+      "3",
+      "4",
+      "2",
+      "5",
+      "the code will produce an error",
+      "a", "b", "a", "240" ], 
+
+    ["What will output after the code's completion?<blockquote><i>x = 10<br>y = -10<br>my_result = x > y or x != y<br></i></blockquote>",
       "True",
       "False",
       "True True",
@@ -134,7 +154,7 @@ var questions = [
       "the code will produce an error",
       "a", "a", "a", "240" ], 
 
-    ["Which of the following will be true about the output at the code's completion?<blockquote><i>x = 3<br>y = -3<br>my_result = x > y and x != y<br></i></blockquote>",
+    ["What will output after the code's completion?<blockquote><i>x = 3<br>y = -3<br>my_result = x > y and x != y<br></i></blockquote>",
       "True",
       "False",
       "True True",
@@ -142,7 +162,7 @@ var questions = [
       "the code will produce an error",
       "a", "a", "b", "240" ], 
 
-    ["Which of the following will be true about the output at the code's completion?<blockquote><i>x = 5<br>y = -5<br>my_result = x > y and y != x<br></i></blockquote>",
+    ["What will output after the code's completion?<blockquote><i>x = 5<br>y = -5<br>my_result = x > y and y != x<br></i></blockquote>",
       "True",
       "False",
       "True True",
