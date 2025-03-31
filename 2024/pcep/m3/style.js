@@ -118,13 +118,21 @@ var questions = [
     "||",
     "d", "b", "c", "150" ],  
 
+    ["What will output after the code's completion?<blockquote><i>my_list = [1, 2, 3]<br>list_2 = []<br>for i in my_list:<br>&nbsp;&nbsp;&nbsp;&nbsp; list_2.insert(0, i)<br>print(list_2)</i></blockquote>",
+      "[1, 2, 3]",
+      "[3, 2, 1]",
+      "[0, 0, 0]",
+      "[1, 1, 1]",
+      "the code will produce an error",
+      "b", "b", "b", "200" ], 
+
     ["What will output after the code's completion?<blockquote><i>x = 7<br>y = 7<br>my_result = x > y or x != y<br></i></blockquote>",
       "True",
       "False",
       "False false",
       "7 != 7",
       "the code will produce an error",
-      "a", "a", "b", "200" ], 
+      "c", "a", "b", "200" ], 
 
       ["What will output after the code's completion?<blockquote><i>my_list = [1, 'avocado toast', 3.99, 0]<br>print(my_list[my_list[2]])<br></i></blockquote>",
         "avocado toast",
