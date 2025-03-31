@@ -118,6 +118,14 @@ var questions = [
     "||",
     "d", "b", "c", "150" ],  
 
+    ["What will output after the code's completion?<blockquote><i>i = -1<br>while i &lt;= 3:<br>&nbsp;&nbsp;&nbsp;&nbsp; i += 2<br>print('a')</i></blockquote>",
+      "1",
+      "2",
+      "3",
+      "4",
+      "the code will produce an error",
+      "b", "b", "c", "200" ], 
+
     ["What will output after the code's completion?<blockquote><i>my_list = [1, 2, 3]<br>list_2 = []<br>for i in my_list:<br>&nbsp;&nbsp;&nbsp;&nbsp; list_2.insert(0, i)<br>print(list_2)</i></blockquote>",
       "[1, 2, 3]",
       "[3, 2, 1]",
