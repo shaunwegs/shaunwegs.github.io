@@ -21,7 +21,7 @@ function myTimer() {
   timelimit--;
 }
 
-var ques = 25;
+var ques = 18;
 var pos = 0, posn, choice, cor = 0, rscore = 0;
 var maxtimelimit = 179, timelimit = maxtimelimit;
 var vs = localStorage.getItem('cs1_m2_on_load_counter');
@@ -1302,7 +1302,7 @@ function renderResults(){
   localStorage.setItem("pg_tota3", tot3);
   localStorage.setItem("pg_tota4", tot4);
   $_("test_status").innerHTML = "<h1>Python PCEP Module 2 Practice</h1><h2>Attempt #" +vs;
-  $_('timeleft').innerHTML = '</h2>'; l1 = 25 - cor;
+  $_('timeleft').innerHTML = '</h2>'; l1 = ques - cor;
   test.innerHTML = "";
   document.getElementById('test_status').style.width = '70%';
   document.getElementById('test').style.width = '70%';
