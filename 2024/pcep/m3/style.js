@@ -118,6 +118,24 @@ var questions = [
     "||",
     "d", "b", "c", "150" ],  
 
+
+
+    ["What will output after the code's completion?<blockquote><i>my_list = [[i+j for i in range(3)] for j in range(3)]<br>sum = 0<br><br>for i in range(3):<br>&nbsp;&nbsp;&nbsp;&nbsp; sum += my_list[i][i]<br><br>print(sum)</i></blockquote>",
+      "6",
+      "0",
+      "3",
+      "-6",
+      "the code will produce an error",
+      "b", "b", "a", "200" ], 
+
+    ["What will output after the code's completion?<blockquote><i>my_list = [[i-j for i in range(3)] for j in range(3)]<br>sum = 0<br><br>for i in range(3):<br>&nbsp;&nbsp;&nbsp;&nbsp; sum += my_list[i][i]<br><br>print(sum)</i></blockquote>",
+      "6",
+      "0",
+      "3",
+      "-6",
+      "the code will produce an error",
+      "b", "b", "b", "200" ], 
+
     ["What will output after the code's completion?<blockquote><i>my_list = [[i-j for i in range(3)] for j in range(3)]<br>print('a')</i></blockquote>",
       "[[0, 1, 2], [1, 2, 3], [2, 3, 4]]",
       "[[0, 1, 2], [-1, 0, 1], [-2, -1, 0]]",
@@ -125,9 +143,6 @@ var questions = [
       "[0, 0, 0], [0, 0, 0], [0, 0, 0]]",
       "the code will produce an error",
       "b", "b", "b", "200" ], 
-
-
-
 
     ["What will output after the code's completion?<blockquote><i>my_list = [[i+j for i in range(3)] for j in range(3)]<br>print('a')</i></blockquote>",
       "[[0, 1, 2], [1, 2, 3], [2, 3, 4]]",
