@@ -118,6 +118,22 @@ var questions = [
     "||",
     "d", "b", "c", "150" ],  
 
+    ["Which of the following will be true about the output at the code's completion?<blockquote><i>my_list = [0, 1, 2]<br>my_list[0], my_list[2] = my_list[2], my_list[0] <br>print(my_list)<br></i></blockquote>",
+      "The list will be reversed",
+      "the list will be shortened",
+      "the list does not change",
+      "the list is extended",
+      "the code will produce an error",
+      "a", "a", "a", "240" ], 
+
+    ["If we run the code snippet below, what will print at the code's completion?<blockquote><i>my_list = [0, 1, 2]<br>my_list[0], my_list[2] = my_list[2], my_list[0] <br>print(my_list)<br></i></blockquote>",
+      "[2, 1, 0]",
+      "[0, 1, 0]",
+      "[0, 1, 2]",
+      "[2, 1, 2]",
+      "the code will produce an error",
+      "a", "a", "a", "240" ], 
+
     ["If we run the code snippet below, what will print at the code's completion?<blockquote><i>y = 1<br>for i in range(0, 5):<br>&nbsp;&nbsp;&nbsp;&nbsp; y += 1<br>&nbsp;&nbsp;&nbsp;&nbsp; if i == 4:<br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; break<br>else:<br>&nbsp;&nbsp;&nbsp;&nbsp; print(y)<br></i></blockquote>",
       "4",
       "5",
