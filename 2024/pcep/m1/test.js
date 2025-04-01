@@ -20,6 +20,7 @@ function myTimer() {
   timelimit--;
 }
 
+var ques = 15;
 var pos = 0, posn, choice, cor = 0, rscore = 0;
 var maxtimelimit = 179, timelimit = maxtimelimit;
 var vs = localStorage.getItem('pit_feb_on_load_counter');
@@ -1051,7 +1052,7 @@ function renderResults(){
   localStorage.setItem("pg_tota3", tot3);
   localStorage.setItem("pg_tota4", tot4);
   $_("test_status").innerHTML = "<h1>Principles of IT, February Test</h1><h2>Attempt #" +vs;
-  $_('timeleft').innerHTML = '</h2>'; l1 = 25 - cor;
+  $_('timeleft').innerHTML = '</h2>'; l1 = ques - cor;
   test.innerHTML = "";
   test.innerHTML += "<h1>Results for " + userFirstName + "</h1>";
   test.innerHTML += now();
@@ -1093,7 +1094,7 @@ function noMore(){
 
 function renderQuestion() {
   var test = $_("test");
-  var ques = 25;
+  var ques = ques;
   $_("test_status").innerHTML = "<h1>Principles of IT: February Test</h1><h2>- Student: "+userFirstName + " " + userLastName+"<br> - Attempt #"+window.vs +" - Q: "+(pos+1)+"/"+ques+"</h2>";
   if (rscore != 0) { $_("test_status").innerHTML += '<br>Currently: ~'+(cor/rscore*100).toFixed(0)+'% correct'; }
   var question = questions[posn][0];
