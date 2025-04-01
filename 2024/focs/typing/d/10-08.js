@@ -4,7 +4,7 @@ let TIME_LIMIT = 180;
 // define quotes to be used
 let quotes_array = [
   "When we talk about connecting two pages",
-  'through text you can link on,',
+  'through text you can click on,',
   'we typically call it a link.',
   "However, when we write the HTML to do",
   'this, we call it an anchor element.',
