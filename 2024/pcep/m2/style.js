@@ -391,7 +391,7 @@ var questions = [
     "6",
     "24242424",
     "the code will produce an error",
-    "c", "b", "d", "150" ], 
+    "c", "b", "e", "150" ], 
 
   ["What will be the output if the following code snippet is run with the user inputs 3 & 4 respectively?<blockquote><i>x = input()<br>y = int(input())<br>print(x * y)</i></blockquote>",
     "34",
