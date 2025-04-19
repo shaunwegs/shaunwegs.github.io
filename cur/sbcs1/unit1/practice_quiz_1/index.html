@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+<title>Python Unit 1 Practice</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open Sans"/>
+<link type='text/css' rel='stylesheet' href='wrapper.css'/>
+<script language="javascript">
+
+function Disable_Control_C() {
+var keystroke = String.fromCharCode(event.keyCode).toLowerCase();
+
+if (event.ctrlKey && (keystroke == 'c' || keystroke == 'v')) {
+alert("let's see");
+event.returnValue = false; // disable Ctrl+C
+}
+}
+
+</script>
+
+<body style="margin:0px;padding:0px" onkeydown="javascript:Disable_Control_C()"
+    oncontextmenu="return false;" oncopy="return false" oncut="return false" onpaste="return false">
+
+
+<link type='text/css' rel='stylesheet' href='style.css'/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open Sans"/>
+<script language="javascript">
+
+function Disable_Control_C() {
+var keystroke = String.fromCharCode(event.keyCode).toLowerCase();
+
+if (event.ctrlKey && (keystroke == 'c' || keystroke == 'v')) {
+alert("let's see");
+event.returnValue = false; // disable Ctrl+C
+}
+}
+
+</script>
+
+
+<div width="400">
+ <h2 id="test_status">Please enter your name</h2>
+ <h3 id="timeleft">Your name will be printed on your results</h3>
+</div><br>
+<div id="test2"></div><br><br><div id="test"></div><br><br><div id="test5"></div><div id="test4"></div><br><br>
+
+<img src="01.png" width="0">
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script><script type='text/javascript' src='sketch.js'></script>
+
+
+
+
+<script type="text/javascript">
+            var element = new Image;
+            var dtO = false;
+
+			function errorCode1() {
+			alert('PC LOAD LETTER');
+			}
+			function errorCode2() {
+  			alert('ABORT, FAIL, RETRY?');
+			}
+
+            element.__defineGetter__("id", function() {
+                dtO = true;
+            });
+            setInterval(function() {
+                dtO = false;
+                console.log(element);
+				if (dtO == true) {
+				 document.getElementById('output').innerHTML = "";
+                 setTimeout(errorCode1, 2000)
+				 setTimeout(errorCode2, 5000)
+				}
+
+            }, 1000);
+        </script>
+</body>
+
+</body>
+</html>
