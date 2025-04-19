@@ -23,7 +23,7 @@ function myTimer() {
   timelimit--;
 }
 
-var ques = 25;
+var ques = 20;
 var pos = 0, posn, choice, cor = 0, rscore = 0;
 var maxtimelimit = 179, timelimit = maxtimelimit;
 var vs = localStorage.getItem('cs1_m1_on_load_counter');
