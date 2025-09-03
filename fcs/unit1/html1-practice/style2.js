@@ -480,7 +480,7 @@ var questions = [
           "#fa0",
           "#00f",
           "#0fa",
-          "d", "c", "d", "90" ],
+          "d", "c", "c", "90" ],
           
           ["Which of the following is NOT a primary color of light?",
           "#ff00ff",
@@ -568,7 +568,7 @@ var questions = [
           "#ffaa00",
           "#0000ff",
           "#00ffaa",
-          "d", "c", "d", "90" ],
+          "d", "c", "c", "90" ],
           
 
         ["The color code #000 would be equivalent to which of the following?",
