@@ -617,7 +617,7 @@ var questions = [
           "#ffaa00",
           "#0000ff",
           "#00ffaa",
-          "d", "c", "d", "90" ],
+          "d", "c", "c", "90" ],
           
         ["The symbols we use to open and close HTML tags, for example &lt; and &gt; are called what?",
           "square brackets",
