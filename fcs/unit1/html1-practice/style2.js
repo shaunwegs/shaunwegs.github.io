@@ -933,7 +933,7 @@ function renderResults(){
   render1.innerHTML += "<br><h1>% Correct</h1><br>"
   render1.innerHTML += bigLet((cor/rscore*100).toFixed(0));
   render1.innerHTML += "<br><br>"
-  render2.innerHTML += "<br><br><br><br><br><br><h3>Attempt #"+vs +" for " + userFirstName +" "+ userLastName +"<br> for March Programming Quiz.</h3><br><h1>Categories</h1>"
+  render2.innerHTML += "<br><br><br><br><br><br><h3>Attempt #"+vs +" for " + userFirstName +" "+ userLastName +"<br> for HTML Test 1 Practice.</h3><br><h1>Categories</h1>"
   render2.innerHTML += "<span>" + totasNames[0] + "</span><span>" + showNum(corrs[0]) + showOf() + showNum(totas[0]) + "</span><br>";
   render2.innerHTML += "<span>" + totasNames[1] + "</span><span>" + showNum(corrs[1]) + showOf() + showNum(totas[1]) + "</span><br>";
   render2.innerHTML += "<span>" + totasNames[2] + "</span><span>" + showNum(corrs[2]) + showOf() + showNum(totas[2]) + "</span><br>";
