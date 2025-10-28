@@ -26,7 +26,7 @@ body {
     <br>
     <p><a href="lightbot1.html">Play Light-Bot 1</a> .|. <a href="lightbotdemo.html">Play the New Light-Bot Demo</a></p> 
     <div id='container'>
-      <div id='details'></div>
+      <div class='details' id='details'></div>
     <div id='ruffle'></div></div>
         <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
         <script>
@@ -78,5 +78,60 @@ swfobject.embedSWF = function(url, cont, width, height){
 
 swfobject.embedSWF('https://shaunwegs.github.io/lightbot/lightbot2.swf', 'ruffle', 800, 450);
         </script>
+
+    <script>
+
+var userFirstName = localStorage.getItem('focs_userFirstName');
+
+if (userFirstName === "not entered") {
+    var userFirstName=prompt("Please enter your full name:");
+    if (userFirstName=="") { userFirstName="not entered" }
+ localStorage.setItem('focs_userFirstName', userFirstName);}
+  
+if (userFirstName === null) {
+    var userFirstName=prompt("Please enter your full name:");
+    if (userFirstName=="") { userFirstName="not entered" }
+ localStorage.setItem('focs_userFirstName', userFirstName);}
+ 
+if (userFirstName === "null") {
+    var userFirstName=prompt("Please enter your full name:");
+    if (userFirstName=="") { userFirstName="not entered" }
+ localStorage.setItem('focs_userFirstName', userFirstName);}
+ 
+if (userFirstName === "not entered") {
+    var userFirstName=prompt("Please enter your full name:");
+    if (userFirstName=="") { userFirstName="not entered" }
+ localStorage.setItem('focs_userFirstName', userFirstName);}
+
+
+
+ function now() {
+        
+          var now = new Date();
+        
+          var date = [ now.getMonth() + 1, now.getDate(), now.getFullYear() ];
+        
+          var time = [ now.getHours(), now.getMinutes(), now.getSeconds() ];
+        
+          var suffix = ( time[0] < 12 ) ? "AM" : "PM";
+        
+          time[0] = ( time[0] < 12 ) ? time[0] : time[0] - 12;
+        
+          time[0] = time[0] || 12;
+        
+          for ( var i = 1; i < 3; i++ ) {
+            if ( time[i] < 10 ) {
+              time[i] = "0" + time[i];
+            }
+          }
+        
+          return "Loaded at " +time.join(":") + " " + suffix + " on " + date.join("/");
+        }
+
+
+  details.innerHTML = "Student Name: " + userFirstName +"<br>";
+  details.innerHTML += now();
+
+    </script>
   </center>
 </body>
