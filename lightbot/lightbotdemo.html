@@ -1,5 +1,22 @@
 <head>
   <title>Play Light-Bot</title>
+  <style>
+body {
+  background-color:#f2f2f2;
+}
+#container {
+  padding: 10px;
+  width:810px;
+  height:485px;
+  background-color:#FFFFFF;
+  border:5px solid #58c;
+  border-style: dashed;
+}
+#details {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 10px;
+}
+</style>
 </head>
 <body>
 
@@ -9,7 +26,9 @@
     It was also used as an activity for Hour of Code.
     <br>
     <p><a href="lightbot1.html">Play Light-Bot 1</a> .|. <a href="lightbot2.html">Play Light-Bot 2</a> </p> 
-    <div id='ruffle'></div>
+        <div id='container'>
+      <div class='details' id='details'></div>
+    <div id='ruffle'></div></div>
         <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
         <script>
 var swfobject = {};
@@ -60,5 +79,59 @@ swfobject.embedSWF = function(url, cont, width, height){
 
 swfobject.embedSWF('https://shaunwegs.github.io/lightbot/lightbotdemo.swf', 'ruffle', 800, 450);
         </script>
+<script>
+
+var userFirstName = localStorage.getItem('focs_userFirstName');
+
+if (userFirstName === "not entered") {
+    var userFirstName=prompt("Please enter your full name:");
+    if (userFirstName=="") { userFirstName="not entered" }
+ localStorage.setItem('focs_userFirstName', userFirstName);}
+  
+if (userFirstName === null) {
+    var userFirstName=prompt("Please enter your full name:");
+    if (userFirstName=="") { userFirstName="not entered" }
+ localStorage.setItem('focs_userFirstName', userFirstName);}
+ 
+if (userFirstName === "null") {
+    var userFirstName=prompt("Please enter your full name:");
+    if (userFirstName=="") { userFirstName="not entered" }
+ localStorage.setItem('focs_userFirstName', userFirstName);}
+ 
+if (userFirstName === "not entered") {
+    var userFirstName=prompt("Please enter your full name:");
+    if (userFirstName=="") { userFirstName="not entered" }
+ localStorage.setItem('focs_userFirstName', userFirstName);}
+
+
+
+ function now() {
+        
+          var now = new Date();
+        
+          var date = [ now.getMonth() + 1, now.getDate(), now.getFullYear() ];
+        
+          var time = [ now.getHours(), now.getMinutes(), now.getSeconds() ];
+        
+          var suffix = ( time[0] < 12 ) ? "AM" : "PM";
+        
+          time[0] = ( time[0] < 12 ) ? time[0] : time[0] - 12;
+        
+          time[0] = time[0] || 12;
+        
+          for ( var i = 1; i < 3; i++ ) {
+            if ( time[i] < 10 ) {
+              time[i] = "0" + time[i];
+            }
+          }
+        
+          return "Loaded at " +time.join(":") + " " + suffix + " on " + date.join("/");
+        }
+
+
+  details.innerHTML = "Student Name: " + userFirstName +"<br>";
+  details.innerHTML += now();
+
+    </script>
   </center>
 </body>
