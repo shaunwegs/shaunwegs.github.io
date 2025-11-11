@@ -1,0 +1,388 @@
+.block {
+  position: absolute;
+  background-size: cover; /*contain*/
+  background-repeat: no-repeat;
+  transition-property: top, left;
+  transition-duration: 0.1s;
+  transition-delay:0;
+}
+body {
+  padding: 1vw;
+  padding-top: 5px;
+  position: relative;
+  height:80%;
+  overflow: hidden;
+}
+#gamebody {
+  height:100%;
+  background-color: black;
+  position: relative;
+}
+.gameword {
+  font-size: 2.2vh;
+  color: #999;
+  font-family: system-ui;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  word-break: break-all;
+  line-height: 0.8;
+}
+.gameword.active{
+  color: white;
+}
+.gameword.action {
+  border-radius: 4px;
+  background-color: rgb(82, 53, 39);
+}
+.gameword.action.active{
+  background-color: brown;
+}
+.particle {
+  position: absolute;
+  font-size:2.0vw;
+  font-weight:700;
+  font-family: sans-serif;
+  pointer-events: none;
+}
+.baba{
+  background-image: url("img/baba.png"); 
+}
+.baba.r { background-position-y: 0px; }
+.baba.l { background-position-y: 34%; }
+.baba.u { background-position-y: 69%; }
+.baba.d { background-position-y: 103%; }
+.keke.r { background-image: url("img/keker.png") }
+.keke.l { background-image: url("img/kekel.png") }
+.keke.u { background-image: url("img/kekeu.png") }
+.keke.d { background-image: url("img/keked.png") }
+.bolt.r { background-image: url("img/boltr.png") }
+.bolt.l { background-image: url("img/boltr.png") }
+.bolt.u { background-image: url("img/boltd.png") }
+.bolt.d { background-image: url("img/boltd.png") }
+.belt{
+  background-image: url("img/belt.png"); 
+}
+.belt.r { background-position-y: 0px; }
+.belt.l { background-position-y: 34%; }
+.belt.u { background-position-y: 69%; }
+.belt.d { background-position-y: 100%; }
+.ghost{
+  background-image: url("img/ghost.png"); 
+}
+.ghost.r { background-position-y: 0px; }
+.ghost.l { background-position-y: 34%; }
+.ghost.u { background-position-y: 67%; }
+.ghost.d { background-position-y: 100%; }
+.wall {
+  background-image: url("img/wall.png")
+}
+.fungus {
+  background-image: url("img/mushroom.png")
+}
+.fire {
+  background-image: url("img/fire.png")
+}
+.rose {
+  background-image: url("img/rose.png")
+}
+.red {
+  filter: invert(30%) sepia(88%) saturate(7376%) hue-rotate(355deg) brightness(106%) contrast(122%);
+}
+.blue {
+  filter: invert(10%) sepia(100%) saturate(5499%) hue-rotate(246deg) brightness(98%) contrast(150%);
+}
+.rock {
+  background-image: url("img/rock.png")
+}
+.flag {
+  background-image: url("img/flag.png")
+}
+.water {
+  background-image: url("img/water.png")
+}
+.skull {
+  background-image: url("img/skulld.png")
+}
+.lava {
+  background-image: url("img/lava.png")
+}
+.grass {
+  background-image: url("img/grass.png")
+}
+.jelly {
+  background-image: url("img/jelly.png")
+}
+.crab {
+  background-image: url("img/crab.png")
+}
+.star {
+  background-image: url("img/star.png")
+}
+.moon {
+  background-image: url("img/moon.png")
+}
+.love {
+  background-image: url("img/love.png")
+}
+.door {
+  background-image: url("img/door.png")
+}
+.key {
+  background-image: url("img/key.png")
+}
+.box {
+  background-image: url("img/box.png")
+}
+.tree {
+  background-image: url("img/tree.png")
+}
+.ice {
+  background-image: url("img/ice.png")
+}
+.flower {
+  background-image: url("img/flower.png")
+}
+.gameword.babaword {
+  color: pink;
+  font-size:3.2vh;
+}
+.gameword.wallword {
+  color: #667;
+}
+.gameword.levelword {
+  color: rgb(108, 3, 129);
+}
+.gameword.fireword {
+  color: #a50;
+}
+.gameword.flagword {
+  color: yellow;
+}
+.gameword.rockword {
+  color: brown;
+}
+.gameword.kekeword {
+  color: orange;
+}
+.gameword.waterword {
+  color: #66F;
+}
+.gameword.fungusword {
+  color: #AA0;
+}
+.gameword.defeatword {
+  background-color:#600;
+}
+.gameword.skullword {
+  color:#900;
+}
+.gameword.lavaword {
+  color:#F70;
+}
+.gameword.grassword {
+  color:#4F8;
+  font-size:2.4vh;
+}
+.gameword.jellyword {
+  color:#46D;
+}
+.gameword.crabword {
+  color:#F66;
+}
+.gameword.starword {
+  color:#DD6;
+}
+.gameword.moonword {
+  color:#DD6;
+}
+.gameword.loveword {
+  color:#FDD;
+}
+.gameword.doorword {
+  color:#830;
+  font-size:2.8vh;
+}
+.gameword.boxword {
+  color:#830;
+}
+.gameword.keyword {
+  color:#FF9;
+}
+.gameword.notword {
+  color: red;
+}
+.gameword.roseword {
+  color: #B00;
+}
+.gameword.violetword {
+  color: #55B;
+}
+.gameword.boltword {
+  color: #FFB;
+}
+.gameword.treeword {
+  color: #090;
+}
+.gameword.beltword {
+  color: #44D;
+}
+.gameword.flowerword {
+  color: #49D;
+}
+.gameword.groupword {
+  color: #1AA;
+}
+.gameword.lonelyword {
+  color: rgb(204, 75, 0);
+}
+.gameword.ghostword {
+  color: rgb(158, 67, 180);
+}
+.gameword.iceword {
+  color:rgb(42, 144, 202);
+}
+button.selected {
+  background-color: #99F;
+}
+.block.selected {
+  outline: 1px solid #99F;
+}
+.tier {
+  position:absolute;
+  pointer-events: none;
+  background-color: white;
+  opacity: 0.05;
+}
+.controlInfo {
+  pointer-events: none;
+  position:absolute;
+  margin-top: -30px;
+  margin-left: 130px;
+  color: black;
+  z-index:1;
+}
+.gridline {
+  pointer-events: none;
+  position:absolute;
+  outline:1px solid #222;
+}
+#ruleUI {
+  height: 100px;
+  overflow-y: scroll;
+  display: inline-block;
+}
+#mobileControls {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  
+  #mobileControls {
+    display: inline-block;
+    position:relative;
+    top:100px;
+  }
+  #mobileControls span {
+    display: inline-block;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid #555;
+    font-size: 12vw;
+    margin:5px;
+  }
+  .ctlup { top: -15vw;left: 15vw; }
+  .ctlright { left: 30vw; }
+  .ctldown { top: 15vw;left: 15vw; }
+  .ctlz { left: 45vw; }
+  .ctlspace { left: 60vw; }
+  #ruleUI {
+    display: none;
+  }
+
+  .modal span img {
+    width: 20vw;
+  }
+}
+.float {
+  animation-name: floatAnim;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+/* Add Animation */
+@keyframes floatAnim {
+    0% {
+        margin-top: 0px;
+    }
+    50% {
+      margin-top: -10px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+.modal {
+  position: absolute;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-delay: 0;
+  z-index: 1000;
+  top: 25px;
+  left: 25px;
+  width: calc(100% - 80px);
+  height: calc(100% - 50px);
+  background-color: white;
+  box-shadow: 20px 20px 20px 2px black;
+  opacity: 0;
+  border: 3px solid #cc0e62;
+  padding-left: 30px;
+  overflow-y: au
+}
+.modal img {
+  width: 200px;
+}
+.modal span {
+  display: inline-block;
+  cursor: pointer;
+}
+.modal span:hover {
+  outline: 2px solid blue;
+}
+.close {
+    color: #666;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-family: sans-serif;
+}
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+#modaltext{
+    padding: 20px;
+    font-size: 20px;
+}
+.loading {
+  display: none;
+  position:absolute;
+  top:0;
+  left:0;
+  display:flex;
+  width:100%;
+  height:100%;
+  background-color:white;
+  opacity: 0.6;
+  z-index:100;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size:30px;
+}
