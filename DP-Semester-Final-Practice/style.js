@@ -78,6 +78,14 @@ var questions = [
 "the origin of the internet was a multi-faceted solution that related to all of these",
 "d", "d", "d" ],
 	[
+"Where does SQL run?",
+"On the user's computer",
+"on the web server",
+"between the web server and the user's computer",
+"SQL is not a programming language, so there is nothing to 'run'",
+"It depends if its front-end or back-end",
+"b", "b", "b" ],
+	[
 "Which term best matches the following definition?<br><br><i>unique identifier or name</i>",
 "HTTP",
 "URI/URL",
