@@ -566,22 +566,6 @@ var questions = [
 "Shelter",
 "a", "a", "b" ],
 	[
-"Where do we exit during a fire drill?",
-"through the MS arches",
-"through the US arches",
-"through the Japanese Garden",
-"to the south parking lot",
-"to the north parking lot",
-"a", "a", "a" ],
-	[
-"What color are the bathroom passes?",
-"magenta",
-"green",
-"orange",
-"yellow",
-"black",
-"a", "a", "a" ],
-	[
 "Who manufactured the computers we use in the lab?",
 "Apple",
 "Microsoft",
