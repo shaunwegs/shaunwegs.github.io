@@ -86,6 +86,14 @@ var questions = [
 "It depends if its front-end or back-end",
 "b", "b", "b" ],
 	[
+"Where does PHP run?",
+"On the user's computer",
+"on the web server",
+"between the web server and the user's computer",
+"PHP is not a programming language, so there is nothing to 'run'",
+"It depends if its front-end or back-end",
+"b", "b", "b" ],
+	[
 "Which term best matches the following definition?<br><br><i>unique identifier or name</i>",
 "HTTP",
 "URI/URL",
