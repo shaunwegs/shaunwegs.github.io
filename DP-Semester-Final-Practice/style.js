@@ -78,6 +78,14 @@ var questions = [
 "the origin of the internet was a multi-faceted solution that related to all of these",
 "d", "d", "d" ],
 	[
+"Where does JavaScript run?",
+"On the user's computer",
+"on the web server",
+"between the web server and the user's computer",
+"JavaScript is not a programming language, so there is nothing to 'run'",
+"It runs on both the front-end and the back-end then uses a handshake protocol to verify the result",
+"b", "b", "a" ],
+	[
 "Where does SQL run?",
 "On the user's computer",
 "on the web server",
