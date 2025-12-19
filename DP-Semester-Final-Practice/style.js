@@ -1015,7 +1015,7 @@ var questions = [
 "new version of Python that allows creating webpages/websites",
 "b", "b", "a" ],
 	[
-"The first industrial revolution was drive by",
+"The first industrial revolution was driven by",
 "steam power and the steam engine",
 "computers and the internet",
 "mechanical standardization",
