@@ -1,0 +1,481 @@
+<style>
+body {
+  background-color: #303030;
+  color: #c5cEc3;
+  text-align: center;
+}
+
+a:link {
+  color: #7bf2ff;
+}
+
+a:visited {
+  color: #6cd4df;
+}
+
+a:hover {
+  color: #9FFBF7;
+}
+
+a:active {
+  color: #FFFFFF;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+
+#heading {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: #c5cEc3;
+	
+}
+#heading2 {
+  margin-bottom: 0px;
+  font-size: 2rem;
+  color: #c5cEc3;
+	
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.timer, .errors,
+.accuracy, .cpm, .wpm {
+  background-color: #453f3f;
+  color: #B5BEB3;
+  height: 60px;
+  width: 130px;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 20%;
+}
+
+.cpm, .wpm  {
+  display: none;
+}
+
+.header_text {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.curr_time, .curr_errors,
+.curr_accuracy, .curr_cpm,
+.curr_wpm {
+  font-size: 2.75rem;
+}
+
+#quote {
+  background-color: #3E3e3e;
+  color: #C0D6D8;
+  font-size: 1.7rem;
+  margin: 10px 10px 0px 10px;
+  padding: 20px 25px 10px 25px;
+}
+
+#quote2 {
+  background-color: #3E3e3e;
+  color: #90A6A8;
+  font-size: 1.4rem;
+  margin: 0px 10px 0px 10px;
+  padding: 10px 25px 4px 25px;
+}
+
+#quote3 {
+  background-color: #3E3e3e;
+  color: #90A6A8;
+  font-size: 1.4rem;
+  margin: 0px 10px 20px 10px;
+  padding: 4px 25px 20px 25px;
+}
+
+.input_area {
+  background-color: #C7DBDD;
+  height: 160px;
+  width: 110%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 15px;
+  padding: 20px;
+  border: 0px;
+  box-shadow: #191A30 5px 8px 5px;
+}
+
+.incorrect_char {
+  color: #FA00DF;
+  text-decoration: underline;
+}
+
+.correct_char {
+  color: #577070;
+}
+
+.restart_btn {
+  display: none;
+  background-color: #26464B;
+  color: #B1C385;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  box-shadow: #192130 5px 8px 5px;
+}
+</style>
+<br>
+<div class="container">
+<div id="heading2"><img src="https://codehs.com/uploads/82e2594b0810874d62e27b2d76b61c0d" height="35"> Coding Practice <img src="https://codehs.com/uploads/a28be02568bd3c9d4ef9da0334c4f536" height="35">️</div>
+<div id="heading">place holder</div>
+<p></p><br>
+    <img src="https://codehs.com/uploads/ab1bbaca29442f3ca57bc05b41164ed2" width="0"><br>
+    <div class="header">
+      <div class="wpm">
+        <div class="header_text">WPM</div>
+        <div class="curr_wpm">100</div>
+      </div>
+      <div class="cpm">
+        <div class="header_text">CPM</div>
+        <div class="curr_cpm">100</div>
+      </div></div>
+      <div class="header">
+      <div class="errors">
+        <div class="header_text">Errors</div>
+        <div class="curr_errors">0</div>
+      </div>
+      <div class="timer">
+        <div class="header_text">Time</div>
+        <div class="curr_time">180s</div>
+      </div><br>
+      <div class="accuracy">
+        <div class="header_text">% Accuracy</div>
+        <div class="curr_accuracy">100</div>
+      </div>
+    </div>
+	  <p></p>    
+	  <div class="container2">
+	  <div class="details" id="details"></div>
+    <div id="quote">In the Coding Practices,</div>
+    <div id="quote2">press spacebar where ~ is shown,</div>
+    <div id="quote3">and press enter where ¬ is shown.</div>
+    <textarea class="input_area" placeholder="click here to start typing..." oninput="processCurrentText()"
+      onfocus="startGame()"></textarea>
+	  <p></p>
+    <button class="restart_btn" onclick="resetValues()">Restart</button>
+    </div>
+  </div>
+
+<script>
+// define the time limit
+let TIME_LIMIT = 180;
+
+let activityName = "Benchmark";
+
+heading.innerHTML = activityName;
+
+// define quotes to be used
+let quotes_array = [
+"contents of example-sketch.html¬",
+  "<!DOCTYPE html>¬",
+  "  <head>¬",
+  "    <meta charset='UTF-8'>¬",
+  "    <title>Example Sketch</title>¬",
+  "    <link rel='stylesheet' href='style.css'>¬",
+  "    <script src='p5.js'><$script>¬",
+  "  </head>¬",
+  "  <body>¬",
+  "    <script>¬",
+  "      function setup(){¬",
+  '        background("#ccc");¬',
+  '        fill("#fff");¬',
+  "        ellipse(50, 50, 80, 80);¬",
+  "      }¬",
+  "    <$script>¬",
+  "  </body>¬",
+  "</html>¬",
+
+];
+
+var userFirstName = localStorage.getItem('focs_userFirstName');
+
+if (userFirstName === "not entered") {
+    var userFirstName=prompt("Please enter your full name:");
+    if (userFirstName=="") { userFirstName="not entered" }
+ localStorage.setItem('focs_userFirstName', userFirstName);}
+  
+if (userFirstName === null) {
+    var userFirstName=prompt("Please enter your full name:");
+    if (userFirstName=="") { userFirstName="not entered" }
+ localStorage.setItem('focs_userFirstName', userFirstName);}
+ 
+if (userFirstName === "null") {
+    var userFirstName=prompt("Please enter your full name:");
+    if (userFirstName=="") { userFirstName="not entered" }
+ localStorage.setItem('focs_userFirstName', userFirstName);}
+ 
+if (userFirstName === "not entered") {
+    var userFirstName=prompt("Please enter your full name:");
+    if (userFirstName=="") { userFirstName="not entered" }
+ localStorage.setItem('focs_userFirstName', userFirstName);}
+
+// selecting required elements
+let timer_text = document.querySelector(".curr_time");
+let accuracy_text = document.querySelector(".curr_accuracy");
+let error_text = document.querySelector(".curr_errors");
+let cpm_text = document.querySelector(".curr_cpm");
+let wpm_text = document.querySelector(".curr_wpm");
+let quote_text = document.querySelector("#quote");
+let quote_text2 = document.querySelector("#quote2");
+let quote_text3 = document.querySelector("#quote3");
+let input_area = document.querySelector(".input_area");
+let restart_btn = document.querySelector(".restart_btn");
+let cpm_group = document.querySelector(".cpm");
+let wpm_group = document.querySelector(".wpm");
+let error_group = document.querySelector(".errors");
+let accuracy_group = document.querySelector(".accuracy");
+
+let timeLeft = TIME_LIMIT;
+let timeElapsed = 0;
+let total_errors = 0;
+let errors = 0;
+let accuracy = 0;
+let characterTyped = 0;
+let current_quote = "";
+let quoteNo = 0;
+let timer = null;
+
+function updateQuote() {
+  quote_text.textContent = null;
+  current_quote = quotes_array[quoteNo];
+  quote_text2.textContent = quotes_array[quoteNo+1]
+  quote_text3.textContent = quotes_array[quoteNo+2]
+  
+  if (quoteNo+3 > quotes_array.length){
+    quote_text3.textContent = quotes_array[0]
+  }
+  if (quoteNo+2 > quotes_array.length){
+    quote_text2.textContent = quotes_array[0]
+    quote_text3.textContent = quotes_array[1]
+  }
+
+  // separate each character and make an element 
+  // out of each of them to individually style them
+  current_quote.split('').forEach(char => {
+    const charSpan = document.createElement('span')
+
+    charSpan.innerText = char;
+
+    quote_text.appendChild(charSpan)
+
+  })
+
+  // roll over to the first quote
+  if (quoteNo < quotes_array.length - 1)
+    quoteNo++;
+  else
+    quoteNo = 0;
+}
+
+function processCurrentText() {
+
+  // get current input text and split it
+  curr_input = input_area.value;
+  curr_input_array = curr_input.split('');
+
+  // increment total characters typed
+  characterTyped++;
+
+  errors = 0;
+
+  quoteSpanArray = quote_text.querySelectorAll('span');
+  quoteSpanArray.forEach((char, index) => {
+    let typedChar = curr_input_array[index]
+
+    // characters not currently typed
+if (char.innerText == '~') {
+      if (typedChar == ' ') {
+        char.classList.add('correct_char');
+        char.classList.remove('incorrect_char');
+      } else{
+        char.classList.add('incorrect_char');
+        char.classList.remove('correct_char');
+      }
+      
+      // incorrect characters
+    }
+    else if (char.innerText == '¬') {
+
+    document.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        char.classList.add('correct_char');
+        char.classList.remove('incorrect_char');
+      } else{
+        char.classList.add('incorrect_char');
+        char.classList.remove('correct_char');
+      }
+})
+
+}
+    
+    else if (typedChar == null) {
+      char.classList.remove('correct_char');
+      char.classList.remove('incorrect_char');
+
+      // correct characters
+    } else if (typedChar === char.innerText) {
+      char.classList.add('correct_char');
+      char.classList.remove('incorrect_char');
+
+      // incorrect characters
+    } else {
+      char.classList.add('incorrect_char');
+      char.classList.remove('correct_char');
+
+      // increment number of errors
+      errors++;
+    }
+  });
+
+  // display the number of errors
+  error_text.textContent = total_errors + errors;
+
+  // update accuracy text
+  let correctCharacters = (characterTyped - (total_errors + errors));
+  let accuracyVal = ((correctCharacters / characterTyped) * 100);
+  accuracy_text.textContent = Math.round(accuracyVal);
+
+  // if current text is completely typed
+  // irrespective of errors
+  if (curr_input.length == current_quote.length) {
+    updateQuote();
+
+    // update total errors
+    total_errors += errors;
+
+    // clear the input area
+    input_area.value = "";
+  }
+
+  let text = document.getElementById("quote").innerHTML; 
+
+    document.getElementById("quote").innerHTML = text.replace("<span> </span>", "<span><font size='-1'>~</font></span>").replace("<span>$</span>", "<span>/</span>");
+
+  
+
+
+
+}
+
+function updateTimer() {
+  if (timeLeft > 0) {
+    // decrease the current time left
+    timeLeft--;
+
+    // increase the time elapsed
+    timeElapsed++;
+
+    // update the timer text
+    timer_text.textContent = timeLeft + "s";
+  }
+  else {
+    // finish the game
+    finishGame();
+  }
+}
+
+ function now() {
+        
+          var now = new Date();
+        
+          var date = [ now.getMonth() + 1, now.getDate(), now.getFullYear() ];
+        
+          var time = [ now.getHours(), now.getMinutes(), now.getSeconds() ];
+        
+          var suffix = ( time[0] < 12 ) ? "AM" : "PM";
+        
+          time[0] = ( time[0] < 12 ) ? time[0] : time[0] - 12;
+        
+          time[0] = time[0] || 12;
+        
+          for ( var i = 1; i < 3; i++ ) {
+            if ( time[i] < 10 ) {
+              time[i] = "0" + time[i];
+            }
+          }
+        
+          return "Taken at " +time.join(":") + " " + suffix + " on " + date.join("/");
+        }
+
+function finishGame() {
+  // stop the timer
+  clearInterval(timer);
+  
+  details.innerHTML = "Student Name: " + userFirstName +"<br>";
+  details.innerHTML += activityName +"<br>";
+  details.innerHTML += now() + "<br><br>";
+
+  // disable the input area
+  input_area.disabled = true;
+
+
+  // display restart button
+  restart_btn.style.display = "block";
+
+  // calculate cpm and wpm
+  cpm = Math.round(((characterTyped / timeElapsed) * 60));
+  wpm = Math.round((((characterTyped / 5) / timeElapsed) * 60));
+
+  // update cpm and wpm text
+  cpm_text.textContent = cpm;
+  wpm_text.textContent = wpm;
+
+  // display the cpm and wpm
+  cpm_group.style.display = "block";
+  wpm_group.style.display = "block";
+}
+
+
+function startGame() {
+
+  resetValues();
+  updateQuote();
+
+  // clear old and start a new timer
+  clearInterval(timer);
+  timer = setInterval(updateTimer, 1000);
+}
+
+function resetValues() {
+  timeLeft = TIME_LIMIT;
+  timeElapsed = 0;
+  errors = 0;
+  total_errors = 0;
+  accuracy = 0;
+  characterTyped = 0;
+  quoteNo = 0;
+  input_area.disabled = false;
+
+  input_area.value = "";
+  quote_text.textContent = 'Click on the area below to start the game.';
+  accuracy_text.textContent = 100;
+  timer_text.textContent = timeLeft + 's';
+  error_text.textContent = 0;
+  restart_btn.style.display = "none";
+  cpm_group.style.display = "none";
+  wpm_group.style.display = "none";
+}
+
+
+
+</script>
