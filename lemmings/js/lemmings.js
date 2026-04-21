@@ -8177,6 +8177,14 @@ var Lemmings;
                 }
                 /// update and load level
                 this.changeHtmlText(this.elementLevelNumber, (this.levelIndex + 1).toString());
+
+                // 👇 ADD THIS BLOCK
+                const bannedLevels = [15]; // level 16
+                while (bannedLevels.includes(this.levelIndex)) {
+                    this.levelIndex++;
+                }
+                
+                // 👇 existing code
                 this.loadLevel().then(() => {
                     this.inMoveToLevel = false;
                 });
