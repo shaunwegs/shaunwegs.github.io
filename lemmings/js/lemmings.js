@@ -8179,7 +8179,7 @@ var Lemmings;
                 this.changeHtmlText(this.elementLevelNumber, (this.levelIndex + 1).toString());
 
                 // 👇 ADD THIS BLOCK
-                const bannedLevels = [15]; // level 16
+                const bannedLevels = [15, 20]; // blocked levels
                 while (bannedLevels.includes(this.levelIndex)) {
                     this.levelIndex++;
                 }
